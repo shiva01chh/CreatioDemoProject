@@ -1,0 +1,8 @@
+define('%AppCode%_Detail', [], function () {
+	return {
+		entitySchemaName: '%EntitySchemaName%',
+		details: /**SCHEMA_DETAILS*/ {} /**SCHEMA_DETAILS*/,
+		diff: /**SCHEMA_DIFF*/ [] /**SCHEMA_DIFF*/,
+		methods: {},
+	};
+});

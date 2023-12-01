@@ -1,0 +1,65 @@
+﻿html[dir="rtl"] #ForecastModuleContainer div [class*='grid-cols-'] {
+  padding-left: inherit;
+}
+#ForecastModuleContainer {
+  margin-top: 16px;
+}
+#ForecastModuleContainer div [class*='grid-cols-'] {
+  word-wrap: normal;
+  padding-left: 32px;
+}
+.button-margin {
+  margin-left: 10px;
+}
+.button-options {
+  float: left;
+}
+.configuration-grid-action-button {
+  display: inline-block;
+  position: absolute;
+  padding: 0 !important;
+  height: 23px;
+  margin-left: 10px !important;
+  margin-top: 7px;
+  margin-right: 7px;
+  bottom: 4px;
+}
+.configuration-grid-action-button .t-btn-image {
+  width: 16px;
+  height: 16px;
+  margin-top: 3px;
+}
+.configuration-grid-action-button .t-btn-menu {
+  display: none;
+}
+.rows-captions-wrap .grid-row-controls {
+  float: left;
+  display: inline-block;
+}
+.actions-button-margin-right {
+  margin-left: 0.65em;
+}
+.forecast-button-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+.forecast-button-container .right-tools-buttons-container-wrapClass {
+  display: inline-block;
+  float: left;
+  position: relative;
+  z-index: 1;
+}
+.forecast-button-container .left-tools-buttons-container-wrapClass {
+  display: flex;
+  align-items: center;
+}
+.forecast-button-container .left-tools-buttons-container-wrapClass .forecast-datetime-filter-container .mdc-icon-button.mat-mdc-icon-button.mat-unthemed.mat-mdc-button-base {
+  height: 40px;
+  padding: 0px;
+}
+.forecast-button-container .left-tools-buttons-container-wrapClass .forecast-datetime-filter-container .date-time-buttom-marker {
+  display: none;
+}

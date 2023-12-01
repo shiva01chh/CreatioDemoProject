@@ -1,0 +1,193 @@
+﻿.main-content-wrapper {
+	width: 100%;
+	height: 100%;
+
+	#schema-designer-caption {
+		color: rgb(51, 51, 51);
+		font-size: 28px;
+		font-family: "Bpmonline Open Sans Light";
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+}
+
+#schema-designer-diagram-ct {
+	min-width: 0;
+
+	.toolbar .toolbar-left [data-item-marker="save"].t-btn-wrapper.t-btn-style-grey {
+		background-color: #006CE0;
+	}
+
+	#schema-designer-toolbar-right {
+		color: #54657D;
+
+		[data-item-marker="SearchShowButton"] {
+			font: normal normal normal 24px/46px bpm_designer;
+			font-family: "bpmonline designer icons";
+			letter-spacing: 11.95px;
+			text-align: center;
+			background: none;
+			min-width: 24px;
+			width: 24px;
+			padding-left: 8px;
+
+			&::before {
+				content: "\e91f";
+			}
+
+			&:hover {
+				color: #006CE0
+			}
+		}
+
+		[data-item-marker="ToggleDescriptionsButton"] {
+			font: normal normal normal 24px/46px bpm_designer;
+			font-family: "bpmonline designer icons";
+			letter-spacing: 11.95px;
+			text-align: center;
+			background: none;
+			min-width: 24px;
+			width: 24px;
+			padding-left: 8px;
+
+			&::before {
+				content: "\e961"
+			}
+
+			&:hover {
+				color: #006CE0
+			}
+
+			&.untoggle {
+				opacity: 0.4;
+			}
+		}
+
+		[data-item-marker="SchemaPropertiesButton"] {
+			font: normal normal normal 24px/46px bpm_designer;
+			font-family: "bpmonline designer icons";
+			letter-spacing: 11.95px;
+			text-align: center;
+			background: none;
+			min-width: 24px;
+			width: 24px;
+			padding-left: 8px;
+
+			 &::before {
+				 content: "\e920";
+			 }
+
+			 &:hover {
+				 color: #006CE0
+			 }
+		 }
+
+		[data-item-marker="HelpButton"] {
+			font: normal normal normal 24px/46px bpm_designer;
+			font-family: "bpmonline designer icons";
+			letter-spacing: 11.95px;
+			text-align: center;
+			background: none;
+			min-width: 24px;
+			width: 24px;
+			padding-left: 8px;
+
+			&::before {
+				content: "\e907";
+			}
+
+			&:hover {
+				color: #006CE0
+			}
+		}
+	}
+
+	#diagram-schema-designer {
+		[data-action="arrow"],
+		[data-action="lasso"],
+		[data-action="space"] {
+			color: #54657D
+		}
+
+		.djs-palette-entries {
+			padding: 0 6px;
+		}
+	}
+
+}
+
+.container-lookup-page-fixed{
+	.rightContainerLookupPage {
+		visibility: hidden;
+	}
+}
+
+html[dir="rtl"] body {
+	.tip .tip-content {
+		direction: rtl !important;
+	}
+	.properties-container {
+		.t-label {
+			direction: rtl !important;
+		}
+	}
+}
+
+#SaveTemplatePageContainer {
+	font-family: "Bpmonline Open Sans", "Regular", sans-serif;
+	padding: 0 10px;
+
+	#CampaignTemplateEditPageEditPageCaptionLabel {
+		margin-top: 10px;
+		margin-bottom: 24px;
+		font-size: 2.2em;
+		color: #64b8df;
+	}
+
+	#CampaignTemplateEditPageCloseButtonButton-imageEl {
+		margin-top: 6px;
+		background-repeat: no-repeat;
+	}
+
+	#TemplateCaptionInputCaption {
+		margin-top: 4px;
+		color: gray;
+	}
+
+	#CampaignTemplateEditPageTemplateCaptionTextEdit-wrap {
+		border: 1px solid white;
+		border-bottom: 1px dotted #c8c8c8;
+	}
+
+	#PreviewImageContainer {
+		max-height: 430px;
+		height: 430px;
+		max-width: 610px;
+		width: 610px;
+		text-align: center;
+
+		.template-edit-page-preview-image {
+			max-height: 100%;
+			max-width: 100%;
+			padding-top: 20px;
+		}
+	}
+
+	.t-btn-style-grey {
+		color: #4e7bd8;
+		background-color: transparent;
+		border: 1px solid transparent;
+		border-radius: 2px;
+		font-size: 1.5em;
+		min-height: 30px;
+		text-transform: uppercase;
+		padding-left: 0.7em;
+		padding-bottom: 0.3em;
+		padding-top: 0.3em;
+	}
+
+	#EditButtonsContainer {
+		text-align: right;
+	}
+}
+

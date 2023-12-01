@@ -1,0 +1,5 @@
+2023-11-03 16:46:54,592 [INFO] [SSO] Logout started.
+2023-11-03 16:46:54,755 [INFO] [SSO] Logout ended.
+2023-11-03 18:23:05,738 [WARN] [1/1] obsolete sessions have been terminated
+2023-11-03 19:31:03,617 [WARN] [2/2] obsolete sessions have been terminated
+2023-11-03 20:37:22,868 [INFO] The AuthData.CookieId [a7691c43-acd0-4da4-881d-859cb9a5e167] has been expired

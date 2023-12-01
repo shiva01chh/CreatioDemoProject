@@ -1,0 +1,26 @@
+2023-11-03 16:54:30,667 No files with extension [*.gz] found in [/tmp//shivangi/8.1.0.6704_SalesEnterprise_Marketing_ServiceEnterpriseNet6_Softkey_PostgreSQL_ENU (1)/PackageInstallation/Unzip/]
+2023-11-03 18:07:45,765 Operation [Rebuild] started
+2023-11-03 18:07:56,223 Operation [Rebuild] took 10 s 457 ms
+2023-11-03 18:08:15,075 Operation [Rebuild] started
+2023-11-03 18:08:21,540 Operation [Rebuild] took 6 s 465 ms
+2023-11-03 18:19:39,196 Operation [Rebuild] started
+2023-11-03 18:20:04,949 Operation [Rebuild] took 25 s 754 ms
+2023-11-03 18:24:02,621 Operation [Build] started
+2023-11-03 18:24:19,847 Operation [Build] took 17 s 225 ms
+2023-11-03 18:55:13,827 Operation [Rebuild] started
+2023-11-03 18:55:32,823 Operation [Rebuild] took 18 s 995 ms
+2023-11-03 19:01:01,568 Operation [Build] started
+2023-11-03 19:01:17,074 Operation [Build] took 15 s 509 ms
+2023-11-03 19:10:46,316 No files with extension [*.gz] found in [/tmp//root/app/PackageInstallation/Unzip/]
+2023-11-03 19:23:24,572 Operation [Build] started
+2023-11-03 19:23:41,498 Operation [Build] took 16 s 926 ms
+2023-11-03 19:25:16,696 Generating schema sources count [0]: []
+2023-11-03 19:25:16,702 Generated schema sources count [0]
+2023-11-03 19:29:34,695 Operation [Build] started
+2023-11-03 19:29:47,058 Operation [Build] took 12 s 364 ms
+2023-11-03 19:31:15,894 Operation [Build] started
+2023-11-03 19:31:27,356 Operation [Build] took 11 s 461 ms
+2023-11-03 19:35:12,056 Operation [Build] started
+2023-11-03 19:35:23,057 Operation [Build] took 11 s 0 ms
+2023-11-03 19:36:18,382 Operation [Build] started
+2023-11-03 19:36:29,190 Operation [Build] took 10 s 807 ms

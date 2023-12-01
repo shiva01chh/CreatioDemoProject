@@ -1,0 +1,41 @@
+version: '3.7'
+services:
+  redis:
+    image: redis
+  consul-server:
+    image: consul
+    ports:
+      - "8500:8500"
+    command: "agent -dev -ui -client 0.0.0.0 -bind 0.0.0.0"
+  front:
+    image: front
+    build:
+      context: frontend/.
+      dockerfile: ./Dockerfile
+    ports:
+      - "5000:80"
+      - "9000:9000"
+    links:
+      - consul-server
+      - web-app
+      - static-content
+  web-app:
+    image: web-app
+    build:
+      context: ./../
+      dockerfile: ./WebFarm/Dockerfile
+    deploy:
+      replicas: 3
+    links:
+      - consul-server
+      - redis
+  static-content:
+    image: static-content
+    build:
+      context: ./../
+      dockerfile: ./WebFarm/Dockerfile
+      target: static_content
+    deploy:
+      replicas: 3
+    links:
+      - consul-server

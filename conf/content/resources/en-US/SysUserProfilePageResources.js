@@ -1,0 +1,46 @@
+﻿define("SysUserProfilePageResources", ["terrasoft"], function(Terrasoft) {
+	var localizableStrings = {
+		TabContainer_BasicInfo_caption: "Basic settings",
+		Login_label: "Login",
+		TabContainer_EmailSettings_caption: "Email accounts",
+		RepeatNewPasswordInput_label: "Confirm new password",
+		NewPasswordInput_label: "New password",
+		CurrentPasswordInput_label: "Current password",
+		TabContainer_PasswordSettings_caption: "Password settings",
+		Button_Change_Password_caption: "Change password",
+		Button_additional_settings_caption: "Additional settings",
+		Label_jfc0tv7_caption: "",
+		ExpansionPanel_3vwvs68_title: "",
+		EmailInput_3u1xtv3_label: "",
+		PasswordChangedMessage: "Password successfully changed",
+		PasswordsDoNotMatch: "Passwords do not match",
+		Checkbox_EnablePopups_tooltip: "Select the checkbox to enable Creatio to send you browser notifications when you are not working in the system",
+		ComboBox_DateTimeFormat_tooltip: "Display format of date \u0026 time field values",
+		ComboBox_TimeZone_tooltip: "Time zone applied to date \u0026 time values for your account",
+		ComboBox_Language_tooltip: "Creatio language",
+		EmailInput_3u1xtv3_tooltip: "You can use the email in the field to log in to Creatio",
+		EmailInput_3u1xtv3_placeholder: "email@yourcompany.com",
+		TimeZonePlaceholder: "Default time zone",
+		DateFimeFormatPlaceholder: "Default date and time format",
+		Checkbox_DisableAdvancedVisualEffects_tooltip: "Deactivates some visual effects to reduce latency and improve performance",
+		AddTotpButtonCaption: "Add TOTP",
+		SendSmsButtonCaption: "Send code via SMS",
+		ConfirmationCodeInputLabel: "Confirmation code",
+		AttachmentAddButtonCaption: "Upload",
+		AttachmentRefreshButtonCaption: "Refresh",
+		AttachmentsTabContainerCaption: "Attachments",
+		BackButton: "Back",
+		CancelButton: "Cancel",
+		CloseButton: "Close",
+		DefaultHeaderCaption: "Page title",
+		FeedTabContainerCaption: "Feed",
+		GeneralInfoTab_caption: "General information",
+		NewRecord: "New record",
+		Record: "Record",
+		SaveButton: "Save",
+		SetRecordRightsButtonCaption: "Set up access rights"
+	};
+	var parametersLocalizableStrings = {};
+	var localizableImages = {};
+	return {localizableStrings: localizableStrings, localizableImages: localizableImages, parametersLocalizableStrings: parametersLocalizableStrings};
+});

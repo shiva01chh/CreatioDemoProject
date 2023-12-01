@@ -1,0 +1,68 @@
+﻿.campaign-viewer-component-page-wrap,
+#CampaignSchemaViewerModuleContainer,
+#CampaignViewerComponentPageContainer {
+	height: 100%;
+}
+
+.campaign-viewer-component-page-wrap {
+	.not-selected-image {
+		width: 100%;
+		text-align: center;
+		margin-right: 0px;
+		padding-top: 25px;
+		padding-bottom: 30px;
+	}
+	
+	.description-container {
+		width: 100%;
+		text-align: center;
+		color: #999999;
+		font-size: 1.2em;
+	}
+	
+	.description-container .description-label {
+		max-width: 420px;
+		box-shadow: -3px 0 0 0 #54b8df;
+	}
+}
+
+.schema-viewer-container {
+	height: calc(~'100%' - 64px);
+
+	.control-no-label.campaign-properties-title-wrap .base-edit.base-edit-disabled {
+		background-color: transparent;
+	}
+
+	#schema-designer-toolbar-right {
+		[data-item-marker="ReloadDiagramButton"],
+		[data-item-marker="ToggleDescriptionsButton"],
+		[data-item-marker="SchemaPropertiesButton"] {
+			font: normal normal normal 24px/46px bpm_designer;
+			font-family: "bpmonline designer icons";
+			letter-spacing: 11.95px;
+			text-align: center;
+			background: none;
+			min-width: 24px;
+			width: 24px;
+		}
+		
+		[data-item-marker="ReloadDiagramButton"]:hover,
+		[data-item-marker="ToggleDescriptionsButton"]:hover,
+		[data-item-marker="SchemaPropertiesButton"]:hover {
+			color: #006CE0;
+		}
+		
+		[data-item-marker="ReloadDiagramButton"]::before {
+			content: "\e939";
+		}
+		[data-item-marker="SchemaPropertiesButton"]::before {
+			content: "\e920";
+		}
+		[data-item-marker="ToggleDescriptionsButton"]::before {
+			content: "\e961";
+		}
+		[data-item-marker="ToggleDescriptionsButton"].untoggle {
+			opacity: 0.4;
+		}
+	}
+}

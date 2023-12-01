@@ -1,0 +1,1288 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Terrasoft.Tools.WorkspaceConsole</name>
+    </assembly>
+    <members>
+        <member name="T:Terrasoft.Tools.WorkspaceConsole.Feature.EnableInitializeWorkspaceAfterInitializeSettings">
+            <summary>
+            Indicates whether to enable initialize workspace after initialize settings.
+            </summary>
+            <inheritdoc cref="T:Creatio.FeatureToggling.FeatureMetadata"/>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Feature.EnableInitializeWorkspaceAfterInitializeSettings.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Tools.WorkspaceConsole.Feature.EnableInitializeWorkspaceAfterInitializeSettings"/>.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.LoadWorkspaceContentProvider.GetSchemaStreamValues(Terrasoft.Core.Packages.Package,Terrasoft.Core.Packages.SchemaDescriptor)">
+            <summary>
+            Возвращает свойства схемы в бинарном представлении.
+            </summary>
+            <param name="package">Пакет.</param>
+            <param name="schema">Дескриптор схемы.</param>
+            <returns>Словарь cо свойствами схемы.</returns>
+            <remarks>Метод не реализован.</remarks>
+        </member>
+        <member name="T:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog">
+            <summary>
+            <see cref="T:Common.Logging.ILog"/> implementation that can proxy calls to specified <see cref="T:Common.Logging.ILog"/> instances.
+            </summary>
+            <seealso cref="T:Common.Logging.ILog" />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.#ctor(Common.Logging.ILog)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog"/> class.
+            </summary>
+            <param name="log">The log instance to proxy calls to.</param>
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.IsTraceEnabled">
+            <inheritdoc />
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.IsDebugEnabled">
+            <inheritdoc />
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.IsErrorEnabled">
+            <inheritdoc />
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.IsFatalEnabled">
+            <inheritdoc />
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.IsInfoEnabled">
+            <inheritdoc />
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.IsWarnEnabled">
+            <inheritdoc />
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.GlobalVariablesContext">
+            <inheritdoc />
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.ThreadVariablesContext">
+            <inheritdoc />
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.NestedThreadVariablesContext">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Debug(System.Object)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Debug(System.Object,System.Exception)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Debug(System.Action{Common.Logging.FormatMessageHandler})">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Debug(System.Action{Common.Logging.FormatMessageHandler},System.Exception)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Debug(System.IFormatProvider,System.Action{Common.Logging.FormatMessageHandler})">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Debug(System.IFormatProvider,System.Action{Common.Logging.FormatMessageHandler},System.Exception)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.DebugFormat(System.String,System.Object[])">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.DebugFormat(System.String,System.Exception,System.Object[])">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.DebugFormat(System.IFormatProvider,System.String,System.Object[])">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.DebugFormat(System.IFormatProvider,System.String,System.Exception,System.Object[])">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Error(System.Object)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Error(System.Object,System.Exception)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Error(System.Action{Common.Logging.FormatMessageHandler})">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Error(System.Action{Common.Logging.FormatMessageHandler},System.Exception)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Error(System.IFormatProvider,System.Action{Common.Logging.FormatMessageHandler})">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Error(System.IFormatProvider,System.Action{Common.Logging.FormatMessageHandler},System.Exception)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.ErrorFormat(System.String,System.Object[])">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.ErrorFormat(System.String,System.Exception,System.Object[])">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.ErrorFormat(System.IFormatProvider,System.String,System.Object[])">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.ErrorFormat(System.IFormatProvider,System.String,System.Exception,System.Object[])">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Fatal(System.Object)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Fatal(System.Object,System.Exception)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Fatal(System.Action{Common.Logging.FormatMessageHandler})">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Fatal(System.Action{Common.Logging.FormatMessageHandler},System.Exception)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Fatal(System.IFormatProvider,System.Action{Common.Logging.FormatMessageHandler})">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Fatal(System.IFormatProvider,System.Action{Common.Logging.FormatMessageHandler},System.Exception)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.FatalFormat(System.String,System.Object[])">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.FatalFormat(System.String,System.Exception,System.Object[])">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.FatalFormat(System.IFormatProvider,System.String,System.Object[])">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.FatalFormat(System.IFormatProvider,System.String,System.Exception,System.Object[])">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Info(System.Object)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Info(System.Object,System.Exception)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Info(System.Action{Common.Logging.FormatMessageHandler})">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Info(System.Action{Common.Logging.FormatMessageHandler},System.Exception)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Info(System.IFormatProvider,System.Action{Common.Logging.FormatMessageHandler})">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Info(System.IFormatProvider,System.Action{Common.Logging.FormatMessageHandler},System.Exception)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.InfoFormat(System.String,System.Object[])">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.InfoFormat(System.String,System.Exception,System.Object[])">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.InfoFormat(System.IFormatProvider,System.String,System.Object[])">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.InfoFormat(System.IFormatProvider,System.String,System.Exception,System.Object[])">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Trace(System.Object)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Trace(System.Object,System.Exception)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Trace(System.Action{Common.Logging.FormatMessageHandler})">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Trace(System.Action{Common.Logging.FormatMessageHandler},System.Exception)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Trace(System.IFormatProvider,System.Action{Common.Logging.FormatMessageHandler})">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Trace(System.IFormatProvider,System.Action{Common.Logging.FormatMessageHandler},System.Exception)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.TraceFormat(System.String,System.Object[])">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.TraceFormat(System.String,System.Exception,System.Object[])">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.TraceFormat(System.IFormatProvider,System.String,System.Object[])">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.TraceFormat(System.IFormatProvider,System.String,System.Exception,System.Object[])">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Warn(System.Object)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Warn(System.Object,System.Exception)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Warn(System.Action{Common.Logging.FormatMessageHandler})">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Warn(System.Action{Common.Logging.FormatMessageHandler},System.Exception)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Warn(System.IFormatProvider,System.Action{Common.Logging.FormatMessageHandler})">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.Warn(System.IFormatProvider,System.Action{Common.Logging.FormatMessageHandler},System.Exception)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.WarnFormat(System.String,System.Object[])">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.WarnFormat(System.String,System.Exception,System.Object[])">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.WarnFormat(System.IFormatProvider,System.String,System.Object[])">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.WarnFormat(System.IFormatProvider,System.String,System.Exception,System.Object[])">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.AppendLog(Common.Logging.ILog)">
+            <summary>
+            Starts proxying calls to specified <paramref name="log"/> instance.
+            </summary>
+            <param name="log">The log.</param>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog.RemoveLog(Common.Logging.ILog)">
+            <summary>
+            Stops proxying calls to specified <paramref name="log"/> instance.
+            </summary>
+            <param name="log">The log.</param>
+        </member>
+        <member name="T:Terrasoft.Tools.WorkspaceConsole.Logging.EventSupportedLogFactoryAdapter">
+            <summary>
+            <see cref="T:Common.Logging.ILoggerFactoryAdapter"/> implementation that decorates <see cref="T:Common.Logging.ILog"/> instances provided by
+            another <see cref="T:Common.Logging.ILoggerFactoryAdapter"/> with <see cref="T:Terrasoft.Tools.WorkspaceConsole.Logging.CompositeLog"/>.
+            </summary>
+            <seealso cref="T:Common.Logging.ILoggerFactoryAdapter" />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.EventSupportedLogFactoryAdapter.#ctor(Common.Logging.ILoggerFactoryAdapter)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Tools.WorkspaceConsole.Logging.EventSupportedLogFactoryAdapter"/> class.
+            </summary>
+            <param name="adapter">The adapter used to retrieve <see cref="T:Common.Logging.ILog"/> instances.</param>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.EventSupportedLogFactoryAdapter.Init(Common.Logging.ILoggerFactoryAdapter)">
+            <summary>
+            Initializes instance with specified source adapter.
+            </summary>
+            <param name="adapter">The adapter.</param>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.EventSupportedLogFactoryAdapter.GetLogger(System.Type)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.EventSupportedLogFactoryAdapter.GetLogger(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.EventSupportedLogFactoryAdapter.CreateLogListener(System.String[])">
+            <summary>
+            Creates the <see cref="T:Terrasoft.Tools.WorkspaceConsole.Logging.ILogListener"/> for specified logger names.
+            </summary>
+            <param name="loggerNames">The logger names.</param>
+        </member>
+        <member name="T:Terrasoft.Tools.WorkspaceConsole.Logging.ILogListener">
+            <summary>
+            Provides ability to subscribe for log message appending events.
+            </summary>
+            <seealso cref="T:System.IDisposable" />
+        </member>
+        <member name="E:Terrasoft.Tools.WorkspaceConsole.Logging.ILogListener.LogMessageAppended">
+            <summary>
+            Occurs when <see cref="T:Common.Logging.ILog"/> methods called.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Tools.WorkspaceConsole.Logging.LogAppendEventArgs">
+            <summary>
+            Provides log message data.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.LogAppendEventArgs.#ctor(Common.Logging.LogLevel,System.Object,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Tools.WorkspaceConsole.Logging.LogAppendEventArgs"/> class.
+            </summary>
+            <param name="level">The log item level.</param>
+            <param name="message">The log item message.</param>
+            <param name="exception">The log item exception.</param>
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.Logging.LogAppendEventArgs.Message">
+            <summary>
+            Gets the log item message.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.Logging.LogAppendEventArgs.Level">
+            <summary>
+            Gets the log item level.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.Logging.LogAppendEventArgs.Exception">
+            <summary>
+            Gets the log item exception.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Tools.WorkspaceConsole.Logging.LogListener">
+            <inheritdoc cref="T:Terrasoft.Tools.WorkspaceConsole.Logging.ILogListener"/>
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.Logging.LogListener.IsDisposed">
+            <inheritdoc cref="P:Ninject.Infrastructure.Disposal.IDisposableObject.IsDisposed"/>
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.Logging.LogListener.IsTraceEnabled">
+            <inheritdoc />
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.Logging.LogListener.IsDebugEnabled">
+            <inheritdoc />
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.Logging.LogListener.IsErrorEnabled">
+            <inheritdoc />
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.Logging.LogListener.IsFatalEnabled">
+            <inheritdoc />
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.Logging.LogListener.IsInfoEnabled">
+            <inheritdoc />
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.Logging.LogListener.IsWarnEnabled">
+            <inheritdoc />
+        </member>
+        <member name="E:Terrasoft.Tools.WorkspaceConsole.Logging.LogListener.Disposed">
+            <inheritdoc cref="T:Ninject.Infrastructure.Disposal.INotifyWhenDisposed"/>
+        </member>
+        <member name="E:Terrasoft.Tools.WorkspaceConsole.Logging.LogListener.LogMessageAppended">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.LogListener.WriteInternal(Common.Logging.LogLevel,System.Object,System.Exception)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Logging.LogListener.Dispose">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.Tools.WorkspaceConsole.Operations.BackupConfigurationOperation">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.BackupConfigurationOperation.Execute(System.String,System.String,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.BackupConfigurationOperation.Execute(System.String,System.String,System.String,System.String[])">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.Tools.WorkspaceConsole.Operations.BuildConfigurationOperation">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.BuildConfigurationOperation.#ctor(Terrasoft.Core.ConfigurationBuild.IConfigurationBuilder)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Tools.WorkspaceConsole.Operations.BuildConfigurationOperation"/> class.
+            </summary>
+            <param name="configurationBuilder">The configuration builder.</param>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.BuildConfigurationOperation.Execute(System.String,System.Boolean,System.Boolean)">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.Tools.WorkspaceConsole.Operations.IChangeFeatureStateOperation">
+            <summary>
+            Change feature state operation interface.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.IChangeFeatureStateOperation.Execute(System.String,System.String,System.Boolean)">
+            <summary>
+            Executes operation.
+            </summary>
+            <param name="featureCode">Feature code.</param>
+            <param name="adminUnitName">Admin unit name.</param>
+            <param name="state">State.</param>
+        </member>
+        <member name="T:Terrasoft.Tools.WorkspaceConsole.Operations.ChangeFeatureStateOperation">
+            <summary>
+            Change feature state operation.
+            </summary>
+            <inheritdoc cref="T:Terrasoft.Tools.WorkspaceConsole.Operations.IChangeFeatureStateOperation" />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.ChangeFeatureStateOperation.#ctor(Terrasoft.Core.IDbFeatureStateChanger)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Tools.WorkspaceConsole.Operations.ChangeFeatureStateOperation" /> type.
+            </summary>
+            <param name="dbFeatureStateChanger">An instance of the <see cref="T:Terrasoft.Core.IDbFeatureStateChanger"/>-implementing
+            type.</param>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.ChangeFeatureStateOperation.Execute(System.String,System.String,System.Boolean)">
+            <inheritdoc cref="M:Terrasoft.Tools.WorkspaceConsole.Operations.IChangeFeatureStateOperation.Execute(System.String,System.String,System.Boolean)" />
+        </member>
+        <member name="T:Terrasoft.Tools.WorkspaceConsole.Operations.PackageDownloadedEventArgs">
+            <summary>
+            Provides data for the PackageDownloaded event.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.PackageDownloadedEventArgs.#ctor(System.String,Terrasoft.Core.Packages.Package)">
+            <summary>
+            Initializes a new instance of the PackageDownloadedEventArgs class.
+            </summary>
+            <param name="message">Message.</param>
+            <param name="package">Package.</param>
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.Operations.PackageDownloadedEventArgs.Message">
+            <summary>
+            Gets message.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.Operations.PackageDownloadedEventArgs.Package">
+            <summary>
+            Gets package.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Tools.WorkspaceConsole.Operations.PackagesDownloadOperationStartingEventArgs">
+            <summary>
+            Provides data for the DownloadPackagesOperationStarting event.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.PackagesDownloadOperationStartingEventArgs.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Initializes a new instance of the PackagesDownloadOperationStartingEventArgs class.
+            </summary>
+            <param name="message">Message.</param>
+            <param name="workspaceName">Workspace name.</param>
+            <param name="destinationPath">Destination path.</param>
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.Operations.PackagesDownloadOperationStartingEventArgs.Message">
+            <summary>
+            Gets message.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.Operations.PackagesDownloadOperationStartingEventArgs.WorkspaceName">
+            <summary>
+            Gets workspace name.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.Operations.PackagesDownloadOperationStartingEventArgs.DestinationPath">
+            <summary>
+            Gets destination path.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Tools.WorkspaceConsole.Operations.DownloadPackagesOperation">
+            <summary>
+            Represent DownloadPackages operation.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.DownloadPackagesOperation.#ctor(Terrasoft.Core.AppConnection,Terrasoft.Core.Packages.PackageStorageComposer,Terrasoft.IO.IDirectory)">
+            <summary>
+            Initializes a new instance of the DownloadPackagesOperation class.
+            </summary>
+            <param name="appConnection">AppConnection.</param>
+            <param name="packageStorageComposer">PackageStorageComposer.</param>
+            <param name="directoryWrapper">Directory wrapper.</param>
+        </member>
+        <member name="E:Terrasoft.Tools.WorkspaceConsole.Operations.DownloadPackagesOperation.PackageDownloaded">
+            <summary>
+            Occurs when the package is downloaded.
+            </summary>
+        </member>
+        <member name="E:Terrasoft.Tools.WorkspaceConsole.Operations.DownloadPackagesOperation.DownloadPackagesOperationStarting">
+            <summary>
+            Occurs when the operation are started.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.DownloadPackagesOperation.Execute(System.String,System.String[])">
+            <summary>
+            Execute operation.
+            </summary>
+            <param name="destinationPath">Destination path.</param>
+            <param name="excludedPackageNames">Excluded package names.</param>
+        </member>
+        <member name="T:Terrasoft.Tools.WorkspaceConsole.Operations.ExportAppOperation">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.ExportAppOperation.Execute(System.String,System.String)">
+            <summary>
+            <inheritdoc />
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Tools.WorkspaceConsole.Operations.IBackupConfigurationOperation">
+            <summary>
+            Defines methods to create configuration backup.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.IBackupConfigurationOperation.Execute(System.String,System.String,System.String)">
+            <summary>
+            Executes configuration backup creation.
+            </summary>
+            <param name="sourcePackagesPath">Directory that contains packages as .gz files.</param>
+            <param name="tempFilesPath">Directory for temporary files.</param>
+            <param name="backupPath">Path to folder where configuration backup should be saved.</param>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.IBackupConfigurationOperation.Execute(System.String,System.String,System.String,System.String[])">
+            <summary>
+            Executes configuration backup creation.
+            </summary>
+            <param name="sourcePackagesPath">Directory that contains packages as .gz files.</param>
+            <param name="tempFilesPath">Directory for temporary files.</param>
+            <param name="backupPath">Path to folder where configuration backup should be saved.</param>
+            /// <param name="packagesToDelete">Packages to delete, which need to backup.</param>
+        </member>
+        <member name="T:Terrasoft.Tools.WorkspaceConsole.Operations.IBuildConfigurationOperation">
+            <summary>
+            Defines methods to build configuration.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.IBuildConfigurationOperation.Execute(System.String,System.Boolean,System.Boolean)">
+            <summary>
+            Executes configuration build.
+            </summary>
+            <param name="outputDirectory">Directory to write runtime content to.</param>
+            <param name="generateStaticContent">If true, generates static content.</param>
+            <param name="force">If true, runtime content is generated for all schemas.
+            If false, runtime content is generated only for changed schemas.</param>
+        </member>
+        <member name="E:Terrasoft.Tools.WorkspaceConsole.Operations.IDownloadPackagesOperation.PackageDownloaded">
+            <summary>
+            Occurs when the package is downloaded.
+            </summary>
+        </member>
+        <member name="E:Terrasoft.Tools.WorkspaceConsole.Operations.IDownloadPackagesOperation.DownloadPackagesOperationStarting">
+            <summary>
+            Occurs when the operation are started.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.IDownloadPackagesOperation.Execute(System.String,System.String[])">
+            <summary>
+            Execute operation.
+            </summary>
+            <param name="destinationPath">Destination path.</param>
+            <param name="excludedPackageNames">Excluded package names.</param>
+        </member>
+        <member name="T:Terrasoft.Tools.WorkspaceConsole.Operations.IExportAppOperation">
+            <summary>
+            Defines methods to export ZIP-archived application.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.IExportAppOperation.Execute(System.String,System.String)">
+            <summary>
+            Executes application export.
+            </summary>
+            <param name="applicationCode">Code of the application to export.</param>
+            <param name="destinationPath">Path to folder where application ZIP-archive should be saved.</param>
+        </member>
+        <member name="T:Terrasoft.Tools.WorkspaceConsole.Operations.IInstallAppOperation">
+            <summary>
+            Defines methods to install application from zip-archive.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.IInstallAppOperation.Execute(Terrasoft.Core.Applications.Abstractions.Installation.IInstalledAppInfo,System.String,System.String)">
+            <summary>
+            Executes application installation.
+            </summary>
+            <param name="installedAppInfo">Installing application info.</param>
+            <param name="sourcePath">Path to application archive.</param>
+            <param name="destinationPath">Local path to store packages.</param>
+        </member>
+        <member name="T:Terrasoft.Tools.WorkspaceConsole.Operations.IInstallZipPackageOperation">
+            <summary>
+            Defines methods to install package from zip-archive.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.IInstallZipPackageOperation.Execute(System.String,System.String,Terrasoft.Core.Packages.PackageInstallOptions)">
+            <summary>
+            Executes package installation.
+            </summary>
+            <param name="sourcePath">Path to install from.</param>
+            <param name="destinationPath">Local path to store packages.</param>
+            <param name="installOptions">Installation options.</param>
+        </member>
+        <member name="T:Terrasoft.Tools.WorkspaceConsole.Operations.InstallAppOperation">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.InstallAppOperation.#ctor(Terrasoft.Core.Applications.Abstractions.Packages.ISystemPackageManager,Terrasoft.Core.Applications.Abstractions.Installation.IAppInstaller,Terrasoft.Core.Applications.Abstractions.Packages.IPackageExtractor,Terrasoft.IO.IDirectory)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Tools.WorkspaceConsole.Operations.InstallAppOperation"/> class.
+            </summary>
+            <param name="systemPackageManager">The system package manager.</param>
+            <param name="appInstaller">The application installer.</param>
+            <param name="packageExtractor">The package extractor.</param>
+            <param name="directoryWrapper">The directory wrapper.</param>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.InstallAppOperation.Execute(Terrasoft.Core.Applications.Abstractions.Installation.IInstalledAppInfo,System.String,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.Tools.WorkspaceConsole.Operations.InstallZipPackageOperation">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.InstallZipPackageOperation.#ctor(Terrasoft.Core.Applications.Abstractions.Installation.IPackageZipInstaller)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Tools.WorkspaceConsole.Operations.InstallZipPackageOperation"/> class.
+            </summary>
+            <param name="packageZipInstaller">The package zip installer.</param>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.InstallZipPackageOperation.Execute(System.String,System.String,Terrasoft.Core.Packages.PackageInstallOptions)">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.Tools.WorkspaceConsole.Operations.IRegenerateAdditionalSourcesOperation">
+            <summary>
+            Defines parameterless method for additional source regeneration
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.IRegenerateAdditionalSourcesOperation.Execute">
+            <summary>
+            Regenerates additional sources for back references.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Tools.WorkspaceConsole.Operations.IRestoreConfigurationOperation">
+            <summary>
+            Defines methods to restore configuration.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.IRestoreConfigurationOperation.Execute(System.String,System.Boolean,System.Boolean)">
+            <summary>
+            Executes configuration restore from specified path.
+            </summary>
+            <param name="backupPath">Path where backup is stored.</param>
+            <param name="installPackageData">Indicates whether to install package data.</param>
+            <param name="ignoreSqlScriptBackwardCompatibilityCheck">Indicates whether to ignore SQL-scripts backward
+            compatibility check install.</param>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.ISetSysSettingOperation.Execute(System.String,System.String)">
+            <summary>
+            Set value of the system settting.
+            </summary>
+            <param name="sysSettingCode">Code of the system setting to set.</param>
+            <param name="sysSettingValue">Value of the system setting to set.</param>
+        </member>
+        <member name="T:Terrasoft.Tools.WorkspaceConsole.Operations.IUninstallAppOperation">
+            <summary>
+            Defines methods to uninstall app from workspace.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.IUninstallAppOperation.Execute(System.Guid,System.Collections.Generic.IList{System.String},Terrasoft.Core.Packages.PackageInstallOptions)">
+            <summary>
+            Executes application uninstallation.
+            </summary>
+            <param name="appId">Application id.</param>
+            <param name="errorMessages">List of error messages.</param>
+            <param name="installOptions">Install options.</param>
+        </member>
+        <member name="T:Terrasoft.Tools.WorkspaceConsole.Operations.RegenerateAdditionalSourcesOperation">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.RegenerateAdditionalSourcesOperation.#ctor(Terrasoft.Core.UserConnection)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Tools.WorkspaceConsole.Operations.RegenerateAdditionalSourcesOperation"/> class.
+            </summary>
+            <param name="userConnection">The user connection.</param>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.RegenerateAdditionalSourcesOperation.Execute">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.RestoreConfigurationOperation.Execute(System.String,System.Boolean,System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.SetSysSettingOperation.Execute(System.String,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.Tools.WorkspaceConsole.Operations.UninstallAppOperation">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.UninstallAppOperation.#ctor(Terrasoft.Core.Applications.Abstractions.Packages.ISystemPackageManager,Terrasoft.Core.Applications.Abstractions.Installation.IAppInstaller)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Tools.WorkspaceConsole.Operations.UninstallAppOperation"/> class.
+            </summary>
+            <param name="systemPackageManager">The system package manager.</param>
+            <param name="appInstaller">The application installer.</param>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.Operations.UninstallAppOperation.Execute(System.Guid,System.Collections.Generic.IList{System.String},Terrasoft.Core.Packages.PackageInstallOptions)">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.Tools.WorkspaceConsole.ValidateResourcesOptions">
+            <summary>
+            Настройки проверки ресурсов.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.ValidateResourcesOptions.CultureName">
+            <summary>
+            Культура.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.ValidateResourcesOptions.LocalizationConfigPath">
+            <summary>
+            Полный путь к файлу настроек.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.ValidateResourcesOptions.DestinationPath">
+            <summary>
+            Путь к папке с результатами выполнения операций.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Tools.WorkspaceConsole.ValidateResourcesResultMessage">
+            <summary>
+            Содержит текст сообщения, его тип и признак необходимости записи в журнал приложения.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.ValidateResourcesResultMessage.#ctor(Terrasoft.Common.MessageType,System.String,System.Boolean)">
+            <summary>
+            Инициализирует экземпляр <see cref="T:Terrasoft.Tools.WorkspaceConsole.ValidateResourcesResultMessage"/> с заданным типом, текстом сообщения и
+            признаком записи в журнал приложения.
+            </summary>
+            <param name="messageType">Тип сообщения.</param>
+            <param name="message">Текст сообщения.</param>
+            <param name="writeLogFile">Признак записи в журнал приложения.</param>
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.ValidateResourcesResultMessage.WriteLogFile">
+            <summary>
+            Признак записи в журнал приложения.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Tools.WorkspaceConsole.ValidateResourcesUtilities">
+            <summary>
+            Предоставляет методы по проверке ресурсов.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.ValidateResourcesUtilities.#ctor(Terrasoft.Tools.WorkspaceConsole.ValidateResourcesOptions)">
+            <summary>
+            Инициализирует экземпляр <see cref="T:Terrasoft.Tools.WorkspaceConsole.ValidateResourcesUtilities"/>.
+            </summary>
+            <param name="options">Настройки проверки ресурсов.</param>
+        </member>
+        <member name="E:Terrasoft.Tools.WorkspaceConsole.ValidateResourcesUtilities.ValidateMessage">
+            <summary>
+            Обработчик события для вывода информации об ошибках, возникших при проверке ресурсов.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.ValidateResourcesUtilities.ValidateLocalizedResourcesCulture(System.Xml.Linq.XDocument)">
+            <summary>
+            Проверяет, содержат ли локализованые ресурсы локализацию для культуры, отличной от указанной.
+            </summary>
+            <param name="xDocument">Xml-документ с локализованными ресурсами.</param>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.ValidateResourcesUtilities.ValidateLocalizedResources(System.Xml.Linq.XDocument)">
+            <summary>
+            Проверяет, содержат ли локализованые ресурсы непереведенные значения для заданной культуры.
+            </summary>
+            <param name="xDocument">Xml-документ с локализованными ресурсами.</param>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.ValidateResourcesUtilities.ValidateLocalizedData(System.Xml.Linq.XDocument,Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleContentType)">
+            <summary>
+            Проверяет, содержат ли локализованые данные непереведенные значения для заданного типа данных.
+            </summary>
+            <param name="xDocument">Xml-документ с локализованными данными.</param>
+            <param name="contentType">Тип локализованых данных.</param>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.ValidateResourcesUtilities.ValidateNotTranslatedResources(System.Xml.Linq.XDocument,System.Xml.Linq.XDocument)">
+            <summary>
+            Проверяет, все ли элементы локализуемых ресурсов локализованы.
+            </summary>
+            <param name="notLocalizedDocument">Xml-документ с нелокализованными ресурсами.</param>
+            <param name="localizedDocument">Xml-документ с локализованными ресурсами.</param>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.ValidateResourcesUtilities.ValidateNotTranslatedData(System.Xml.Linq.XDocument,System.Xml.Linq.XDocument)">
+            <summary>
+            Проверяет, все ли элементы локализуемых данных локализованы.
+            </summary>
+            <param name="notLocalizedDocument">Xml-документ с нелокализованными данными.</param>
+            <param name="localizedDocument">Xml-документ с локализованными данными.</param>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.ValidateResourcesUtilities.ValidateNotTranslatedSchemaData(System.Xml.Linq.XDocument,System.Xml.Linq.XDocument)">
+            <summary>
+            Проверяет, все ли элементы локализуемых данных схем локализованы.
+            </summary>
+            <param name="notLocalizedDocument">Xml-документ с нелокализованными данными схем.</param>
+            <param name="localizedDocument">Xml-документ с локализованными данными схем.</param>
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleApplication.MessageItem.Text">
+            <summary>
+            Error text.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleApplication.MessageItem.Type">
+            <summary>
+            Type <see cref="T:Terrasoft.Tools.WorkspaceConsole.ActionType"/> of action.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleApplication.WorkspaceConsoleModule.Configure(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            When implemented in a derived class, performs registration of the dependencies.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleApplication.CopyOldUIDllsIfNecessary(System.Boolean,System.Boolean)">
+            <summary>
+            Returns true if dll copy is required and dlls successfully copied, else returns false
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleApplication.WriteErrorMessage(System.Exception,Terrasoft.Tools.WorkspaceConsole.ActionType,System.Boolean,Terrasoft.Common.LocalizableString,System.Object[])">
+            <summary>
+            Writes error message in log and displays it in console.
+            </summary>
+            <param name="e">Exception.</param>
+            <param name="actionType">Type <see cref="T:Terrasoft.Tools.WorkspaceConsole.ActionType"/> of action.</param>
+            <param name="treatErrorsAsWarnings">Treat errors as warnings.</param>
+            <param name="text">Error message text.</param>
+            <param name="args">Error message format args.</param>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleApplication.WriteErrorMessage(System.Exception,Terrasoft.Common.LocalizableString,System.Object[])">
+            <summary>
+            Writes error message in log and displays it in console.
+            </summary>
+            <param name="e">Exception.</param>
+            <param name="text">Error message text.</param>
+            <param name="args">Error message format args.</param>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleApplication.WriteErrorMessage(System.CodeDom.Compiler.CompilerError,Terrasoft.Common.LocalizableString,System.Object[])">
+            <summary>
+            Writes error message in log and displays it in console.
+            </summary>
+            <param name="error">Compiler error.</param>
+            <param name="text">Error message text.</param>
+            <param name="args">Error message format args.</param>
+        </member>
+        <member name="M:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleApplication.WriteErrorMessage(Terrasoft.Common.LocalizableString,System.Object[])">
+            <summary>
+            Writes error message in log and displays it in console.
+            </summary>
+            <param name="text">Error message text.</param>
+            <param name="args">Error message format args.</param>
+        </member>
+        <member name="T:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleContentType">
+            <summary>
+            Workspace Console content type.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleContentType.SystemData">
+            <summary>
+            System objects data.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleContentType.ConfigurationData">
+            <summary>
+            Configuration objects data.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleContentType.Resources">
+            <summary>
+            Resources.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleContentType.LocalizableData">
+            <summary>
+            Localizable data.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleContentType.Repository">
+            <summary>
+            Repository.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleContentType.SqlScripts">
+            <summary>
+            Sql scripts.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleContentType.LocalizableSchemaData">
+            <summary>
+            Localizable objects data.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleContentType.Data">
+            <summary>
+            Objects data.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleContentType.All">
+            <summary>
+            All types.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation">
+            <summary>
+            Workspace Console operation.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.LoadLicResponse">
+            <summary>
+            Load licenses.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.DisableTrackChanges">
+            <summary>
+            Disable track schema changes.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.SaveRepositoryContent">
+            <summary>
+            Save repository content to local folder.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.SaveDBContent">
+            <summary>
+            Save data base content to local folder.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.LoadSvnContent">
+            <summary>
+            Load local folder content to SVN.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.SaveVersionSvnContent">
+            <summary>
+            Load packages by hierarchy from SVN to local folder.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.LoadWorkspaceContent">
+            <summary>
+            Load workspace contents.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.RegenerateSchemaSources">
+            <summary>
+            Перегенерация исходных кодов схем.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.SaveEntitySchemaReferences">
+            <summary>
+            Сохранение связей схем объектов.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.ClearAllWorkspaces">
+            <summary>
+            Clear all workspaces.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.DeleteWorkspaces">
+            <summary>
+            Delete workspaces.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.DeleteUnusedWorkspaces">
+            <summary>
+            Удаление неиспользуемых рабочих пространств.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.SaveEntitySchemasStructureInDB">
+            <summary>
+            Сохранение структуры объектов в базе данных.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.SaveSystemEntitySchemasStructureInDB">
+            <summary>
+            Сохранение структуры системных объектов в базе данных.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.InstallFromRepository">
+            <summary>
+            Установка из zip-архива.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.InstallBundlePackages">
+            <summary>
+            Установка списка пакетов из хранилища.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.PrevalidateInstallFromRepository">
+            <summary>
+            Проверяет возможность установки пакетов из zip-архива.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.ConcatRepositories">
+            <summary>
+            Слияние нескольких zip-архивов.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.ConcatSvnRepositories">
+            <summary>
+            Слияние нескольких хранилищ.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.ValidateContent">
+            <summary>
+            Проверка содержимого.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.CreateCustomPackage">
+            <summary>
+            Создание пользовательского пакета.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.CreateCurrentPackage">
+            <summary>
+            Create current package.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.InitializeSysSchemaContent">
+            <summary>
+            Initializes SysSchemaContent table with content from source files.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.InstallTestPackages">
+            <summary>
+            Установка тестовых пакетов из хранилища.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.InstallUnitTestPackages">
+            <summary>
+            Установка тестовых пакетов C# кода из хранилища.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.InstallTestPackagesBySuffix">
+            <summary>
+            Installation test packages from the repository by suffix.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.ValidateResourcesByResourceManagers">
+            <summary>
+            Валидация ресурсов по менеджерам ресурсов.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.ActualizeSchemaCaptions">
+            <summary>
+            Актуализация заголовков схем.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.ExecuteProcess">
+            <summary>
+            Execute process
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.ExecuteScript">
+            <summary>
+            Execute configuration script.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.UpdatePackages">
+            <summary>
+            Update changed packages
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.ReloadSchemaLocalizableCaptions">
+            <summary>
+            Reload captions for schemas and schema's columns.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.BuildWorkspace">
+            <summary>
+            Build workspace from visual studio.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.RebuildWorkspace">
+            <summary>
+            Rebuild workspace from visual studio.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.ExtractMetadata">
+            <summary>
+            Extracts metadata from and puts it into DB. For ClientUnitSchema and SourceCodeSchema extracts body and
+            less elements from metadata (MetaData column of SysSchema table). Then saves extracted body and less
+            elements into SysSchemaContent table. Then saves metadata without body and less elements to MetaData
+            column of SysSchema table.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.UpdateWorkspaceSolution">
+            <summary>
+            Update workspace solution and project files for visual studio.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.GenerateRequiredSourceCode">
+            <summary>
+            Regenerate source codes for schemas with obsolete source code.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.InstallRequiredSqlScripts">
+            <summary>
+            Install SQL scripts which were not installed.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.InstallRequiredData">
+            <summary>
+            Install package data which were not installed.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.UpdateRequiredSchemasDBStructure">
+            <summary>
+            Update database structure for schemas with obsolete table.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.CreateLocalizationSchemasInDBStructure">
+            <summary>
+            Create database structure for localization schemas.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.InstallPackagesFromWorkingCopy">
+            <summary>
+            Install packages from working copy.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.GeneratePackageResourceChecksums">
+            <summary>
+            Fill checksums for existing resources.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.CompressPackages">
+            <summary>
+            Compress packages in file system.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.EncryptPasswords">
+            <summary>
+            Re-encrypt existing passwords.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.EncryptSecurityText">
+            <summary>
+            Re-encrypt existing security text.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.RemoveConfigurationComments">
+            <summary>
+            Remove comments from configuration sources.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.CreateSystemDBStructure">
+            <summary>
+            Create system schemas structure in empty DB.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.InstallZipPackage">
+            <summary>
+            Install package from zip archive.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.InstallApp">
+            <summary>
+            Install application from zip archive.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.UninstallApp">
+            <summary>
+            Uninstall application from workspace.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.ExportApp">
+            <summary>
+            Export application to zip archive.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.CreateWorkspace">
+            <summary>
+            Create new workspace.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.InstallSystemPackage">
+            <summary>
+            Install system package.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.InstallCoreSystemSettings">
+            <summary>
+            Install core system settings
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.SetSysSetting">
+            <summary>
+            Install system setting.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.SaveLicenseRequest">
+            <summary>
+            Save license request.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.BuildConfiguration">
+            <summary>
+            Build configuration.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.LoadPackagesToFileSystem">
+            <summary>
+            Load packages to file system.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.LoadPackagesToDB">
+            <summary>
+            Load packages to database.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.InstallPackages">
+            <summary>
+            Install packages.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.DownloadPackages">
+            <summary>
+            Download all packages from DB to the specified file system path.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.RegenerateAdditionalSchemaSources">
+            <summary>
+            Builds all back referencing schema entities
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.InstallPackageData">
+            <summary>
+            Install package data.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.ChangeFeatureState">
+            <summary>
+            Change feature state.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.BackupConfiguration">
+            <summary>
+            Backup configuration.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.RestoreConfiguration">
+            <summary>
+            Restore configuration from backup.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.DeletePackages">
+            <summary>
+            Delete packages.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.UpdateConfiguration">
+            <summary>
+            Update configuration with install and/or delete packages
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.SetPackageType">
+            <summary>
+            Set type package.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.Rebuild">
+            <summary>
+            Rebuild all packages.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.Build">
+            <summary>
+            Build all packages.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.RebuildPackage">
+            <summary>
+            Rebuild specified package.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleOperation.BuildPackage">
+            <summary>
+            Build specified package.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleCommandLine.FeatureCode">
+            <summary>
+            Feature code.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleCommandLine.AdminUnitName">
+            <summary>
+            Admin unit name.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Tools.WorkspaceConsole.WorkspaceConsoleCommandLine.FeatureState">
+            <summary>
+            Feature state.
+            </summary>
+        </member>
+    </members>
+</doc>

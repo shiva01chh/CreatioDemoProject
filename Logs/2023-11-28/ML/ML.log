@@ -1,0 +1,30 @@
+2023-11-28 12:02:07,213 [.NET ThreadPool Worker] WARN Supervisor <GetModelsGroupedByEntityName>b__1_0 - PredictedResultColumnName is empty for model 74ce4daa-aa40-411d-8152-1b16cc2e8c2b
+Metadata: {
+}
+Entity schemaUid: a5657e6b-342d-4104-8ab8-aab37ef29860
+
+2023-11-28 12:02:07,213 [.NET ThreadPool Worker] WARN Supervisor <GetModelsGroupedByEntityName>b__1_0 - PredictedResultColumnName is empty for model 8f57ed14-2c8a-47c8-a990-104698359451
+Metadata: {
+}
+Entity schemaUid: a5657e6b-342d-4104-8ab8-aab37ef29860
+
+2023-11-28 12:02:07,213 [.NET ThreadPool Worker] WARN Supervisor <GetModelsGroupedByEntityName>b__1_0 - PredictedResultColumnName is empty for model 6f8c5159-e07b-485d-bfa2-37dbf4f0a2d3
+Metadata: {
+}
+Entity schemaUid: 117d32f9-8275-4534-8411-1c66115ce9cd
+
+2023-11-28 12:02:07,213 [.NET ThreadPool Worker] WARN Supervisor <GetModelsGroupedByEntityName>b__1_0 - PredictedResultColumnName is empty for model b624f2fd-81e1-4e8d-890b-5184994d1154
+Metadata: {
+}
+Entity schemaUid: 56143364-4580-4561-8814-8612fad2e5c0
+
+2023-11-28 12:03:50,414 [.NET ThreadPool Worker] INFO  Execute - ML model batch prediction job started
+2023-11-28 12:03:50,417 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-11-28 12:03:50,417 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-11-28 12:03:50,417 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-11-28 12:18:50,437 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-11-28 12:18:50,437 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-11-28 12:33:50,455 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-11-28 12:33:50,458 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-11-28 12:48:50,474 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-11-28 12:48:50,477 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl

@@ -1,0 +1,112 @@
+2023-11-22 13:09:03,753 --> PackageDBStorage.Load
+2023-11-22 13:09:05,573 <-- PackageDBStorage.Load
+2023-11-22 13:10:42,071 --> PackageDBStorage.Load
+2023-11-22 13:10:48,910 <-- PackageDBStorage.Load
+2023-11-22 13:10:49,028 --> PackageDBStorage.Load
+2023-11-22 13:10:53,160 <-- PackageDBStorage.Load
+2023-11-22 13:11:28,348 --> PackageDBStorage.Load
+2023-11-22 13:11:32,684 <-- PackageDBStorage.Load
+2023-11-22 13:11:32,771 --> PackageDBStorage.Load
+2023-11-22 13:11:36,947 <-- PackageDBStorage.Load
+2023-11-22 13:14:07,186 --> PackageDBStorage.Load
+2023-11-22 13:14:11,314 <-- PackageDBStorage.Load
+2023-11-22 13:14:11,393 --> PackageDBStorage.Load
+2023-11-22 13:14:15,727 <-- PackageDBStorage.Load
+2023-11-22 13:27:26,834 --> PackageDBStorage.Load
+2023-11-22 13:27:27,436 <-- PackageDBStorage.Load
+2023-11-22 13:27:33,262 --> PackageDBStorage.Load
+2023-11-22 13:27:38,262 <-- PackageDBStorage.Load
+2023-11-22 13:27:38,353 --> PackageDBStorage.Load
+2023-11-22 13:27:42,481 <-- PackageDBStorage.Load
+2023-11-22 13:29:58,836 --> PackageDBStorage.Load
+2023-11-22 13:30:04,462 <-- PackageDBStorage.Load
+2023-11-22 13:30:04,548 --> PackageDBStorage.Load
+2023-11-22 13:30:08,823 <-- PackageDBStorage.Load
+2023-11-22 13:36:00,224 --> PackageDBStorage.Load
+2023-11-22 13:36:04,582 <-- PackageDBStorage.Load
+2023-11-22 13:36:04,649 --> PackageDBStorage.Load
+2023-11-22 13:36:09,174 <-- PackageDBStorage.Load
+2023-11-22 13:37:01,364 --> PackageDBStorage.Load
+2023-11-22 13:37:05,808 <-- PackageDBStorage.Load
+2023-11-22 13:37:05,876 --> PackageDBStorage.Load
+2023-11-22 13:37:10,228 <-- PackageDBStorage.Load
+2023-11-22 15:49:24,631 --> PackageDBStorage.Load
+2023-11-22 15:49:25,845 <-- PackageDBStorage.Load
+2023-11-22 15:50:22,507 --> PackageDBStorage.Load
+2023-11-22 15:50:29,180 <-- PackageDBStorage.Load
+2023-11-22 15:50:29,320 --> PackageDBStorage.Load
+2023-11-22 15:50:33,771 <-- PackageDBStorage.Load
+2023-11-22 16:36:20,990 --> PackageInstallUtilities.LoadPackagesToFileSystem
+2023-11-22 16:36:20,992 --> PackageStorageComposer.Compose
+2023-11-22 16:36:20,992 --> PackageFileDesignModeDBStorage.Load
+2023-11-22 16:36:25,437 <-- PackageFileDesignModeDBStorage.Load
+2023-11-22 16:36:25,437 --> PackageFileDesignModeStorage.Load
+2023-11-22 16:36:25,457 <-- PackageFileDesignModeStorage.Load
+2023-11-22 16:36:25,459 --> PackageStorageComposer.SpecifySourceStorageChanges
+2023-11-22 16:36:25,464 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2023-11-22 16:36:25,476 --> PackageFileDesignModeStorage.ActualizePackageResourcesState
+2023-11-22 16:36:25,476 <-- PackageFileDesignModeStorage.ActualizePackageResourcesState
+2023-11-22 16:36:25,476 <-- PackageStorageComposer.Compose
+2023-11-22 16:36:25,494 --> PackageFileDesignModeStorage.Save: Packages [329] Schemas [8498] ReferenceAssemblies [35] SqlScripts [1535] PackageData [5239] SchemaResources [155265] CoreResources [0]
+2023-11-22 16:36:25,497 --> PackageFileDesignModeStorage.MarkNotEditablePackagesAsNotChanged
+2023-11-22 16:36:25,497 <-- PackageFileDesignModeStorage.MarkNotEditablePackagesAsNotChanged
+2023-11-22 16:36:25,498 --> PackageFileDesignModeStorage.SavePackage - GuidedDev
+2023-11-22 16:36:25,498 --> PackageFileDesignModeStorage.SavePackageDescriptor - GuidedDev
+2023-11-22 16:36:25,505 <-- PackageFileDesignModeStorage.SavePackageDescriptor - GuidedDev
+2023-11-22 16:36:25,505 --> PackageFileDesignModeStorage.SaveStandalonePackageSpecificFiles - GuidedDev
+2023-11-22 16:36:25,506 <-- PackageFileDesignModeStorage.SaveStandalonePackageSpecificFiles - GuidedDev
+2023-11-22 16:36:25,506 --> PackageFileDesignModeStorage.SavePackageSchemas - GuidedDev
+2023-11-22 16:36:25,506 <-- PackageFileDesignModeStorage.SavePackageSchemas - GuidedDev
+2023-11-22 16:36:25,521 --> PackageFileDesignModeStorage.SavePackageReferenceAssemblies - GuidedDev
+2023-11-22 16:36:25,521 <-- PackageFileDesignModeStorage.SavePackageReferenceAssemblies - GuidedDev
+2023-11-22 16:36:25,521 --> PackageFileDesignModeStorage.SavePackageSqlScripts - GuidedDev
+2023-11-22 16:36:25,521 <-- PackageFileDesignModeStorage.SavePackageSqlScripts - GuidedDev
+2023-11-22 16:36:25,521 --> PackageFileDesignModeStorage.SavePackageData - GuidedDev
+2023-11-22 16:36:25,521 <-- PackageFileDesignModeStorage.SavePackageData - GuidedDev
+2023-11-22 16:36:25,524 <-- PackageFileDesignModeStorage.SavePackage - GuidedDev
+2023-11-22 16:36:25,524 --> PackageFileDesignModeStorage.SavePackage - Custom
+2023-11-22 16:36:25,524 --> PackageFileDesignModeStorage.SavePackageDescriptor - Custom
+2023-11-22 16:36:25,524 <-- PackageFileDesignModeStorage.SavePackageDescriptor - Custom
+2023-11-22 16:36:25,524 --> PackageFileDesignModeStorage.SavePackageSchemas - Custom
+2023-11-22 16:36:25,538 <-- PackageFileDesignModeStorage.SavePackageSchemas - Custom
+2023-11-22 16:36:25,588 --> PackageFileDesignModeStorage.SavePackageReferenceAssemblies - Custom
+2023-11-22 16:36:25,588 <-- PackageFileDesignModeStorage.SavePackageReferenceAssemblies - Custom
+2023-11-22 16:36:25,588 --> PackageFileDesignModeStorage.SavePackageSqlScripts - Custom
+2023-11-22 16:36:25,588 <-- PackageFileDesignModeStorage.SavePackageSqlScripts - Custom
+2023-11-22 16:36:25,588 --> PackageFileDesignModeStorage.SavePackageData - Custom
+2023-11-22 16:36:25,588 <-- PackageFileDesignModeStorage.SavePackageData - Custom
+2023-11-22 16:36:25,588 <-- PackageFileDesignModeStorage.SavePackage - Custom
+2023-11-22 16:36:25,588 --> PackageFileDesignModeStorage.SavePackage - UsrApp_y46qysf
+2023-11-22 16:36:25,588 --> PackageFileDesignModeStorage.SavePackageDescriptor - UsrApp_y46qysf
+2023-11-22 16:36:25,590 <-- PackageFileDesignModeStorage.SavePackageDescriptor - UsrApp_y46qysf
+2023-11-22 16:36:25,590 --> PackageFileDesignModeStorage.SaveStandalonePackageSpecificFiles - UsrApp_y46qysf
+2023-11-22 16:36:25,590 <-- PackageFileDesignModeStorage.SaveStandalonePackageSpecificFiles - UsrApp_y46qysf
+2023-11-22 16:36:25,590 --> PackageFileDesignModeStorage.SavePackageSchemas - UsrApp_y46qysf
+2023-11-22 16:36:25,595 <-- PackageFileDesignModeStorage.SavePackageSchemas - UsrApp_y46qysf
+2023-11-22 16:36:25,600 --> PackageFileDesignModeStorage.SavePackageReferenceAssemblies - UsrApp_y46qysf
+2023-11-22 16:36:25,600 <-- PackageFileDesignModeStorage.SavePackageReferenceAssemblies - UsrApp_y46qysf
+2023-11-22 16:36:25,600 --> PackageFileDesignModeStorage.SavePackageSqlScripts - UsrApp_y46qysf
+2023-11-22 16:36:25,600 <-- PackageFileDesignModeStorage.SavePackageSqlScripts - UsrApp_y46qysf
+2023-11-22 16:36:25,600 --> PackageFileDesignModeStorage.SavePackageData - UsrApp_y46qysf
+2023-11-22 16:36:25,600 <-- PackageFileDesignModeStorage.SavePackageData - UsrApp_y46qysf
+2023-11-22 16:36:25,600 <-- PackageFileDesignModeStorage.SavePackage - UsrApp_y46qysf
+2023-11-22 16:36:25,682 <-- PackageFileDesignModeStorage.Save
+2023-11-22 16:36:25,682 --> PackageInstallUtilities.UpdatePackagesAutogeneratedContent
+2023-11-22 16:36:25,682 --> PackageDBStorage.Load
+2023-11-22 16:36:29,821 <-- PackageDBStorage.Load
+2023-11-22 16:36:33,075 --> PackageInstallUtilities.UpdateWorkspaceSolution
+2023-11-22 16:36:33,075 --> PackageDBStorage.Load
+2023-11-22 16:36:37,645 <-- PackageDBStorage.Load
+2023-11-22 16:36:43,980 <-- PackageInstallUtilities.UpdateWorkspaceSolution
+2023-11-22 16:36:43,980 <-- PackageInstallUtilities.UpdatePackagesAutogeneratedContent
+2023-11-22 16:36:43,980 <-- PackageInstallUtilities.LoadPackagesToFileSystem
+2023-11-22 16:37:50,196 --> PackageDBStorage.Load
+2023-11-22 16:37:56,110 <-- PackageDBStorage.Load
+2023-11-22 16:37:56,192 --> PackageDBStorage.Load
+2023-11-22 16:38:00,378 <-- PackageDBStorage.Load
+2023-11-22 17:49:09,884 --> PackageDBStorage.Load
+2023-11-22 17:49:11,627 <-- PackageDBStorage.Load
+2023-11-22 17:53:50,513 --> PackageDBStorage.Load
+2023-11-22 17:53:57,735 <-- PackageDBStorage.Load
+2023-11-22 17:53:57,893 --> PackageDBStorage.Load
+2023-11-22 17:54:02,866 <-- PackageDBStorage.Load

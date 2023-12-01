@@ -1,0 +1,77 @@
+﻿crt-flex#ShellHeader {
+  height: 56px;
+  transition: height 0.3s ease, opacity 0.3s ease;
+}
+@media screen and (max-width: 790px) {
+  crt-flex#ShellHeader {
+    height: 96px;
+  }
+}
+crt-navigation-panel#LeftNavigationPanel {
+  width: 242px;
+  opacity: 1;
+  transition: width 0.3s ease, opacity 0.3s ease;
+}
+crt-toggle-container#RightPanelContainer {
+  opacity: 1;
+  transition: width 0.3s ease, min-width 0.3s ease, opacity 0.3s ease;
+}
+crt-toggle-container#RightPanelContainer .crt-toggle-container.right-panel-container {
+  transition: height 0.3s ease;
+}
+.desktop-schema {
+  position: relative;
+}
+.desktop-schema > crt-navigation-panel {
+  position: absolute;
+  height: 100%;
+  z-index: 1000;
+}
+.desktop-schema > crt-tab-panel-static,
+.desktop-schema > crt-toggle-container {
+  position: absolute;
+  right: 8px;
+  height: 100%;
+  z-index: 1000;
+}
+.desktop-schema .center-container {
+  border: none;
+}
+.content-schema .center-container {
+  border: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  overflow: hidden;
+  position: relative;
+}
+.content-schema .center-container crt-router-outlet .crt-schema-outlet {
+  transition: height 0.3s ease;
+}
+.content-schema crt-schema-outlet {
+  background-color: #ffffffe6;
+}
+body[center-container-expanded='true'] crt-flex#ShellHeader {
+  height: 8px;
+  cursor: pointer;
+  opacity: 0;
+}
+body[center-container-expanded='true'] crt-flex#ShellHeader > .crt-flex {
+  overflow: hidden;
+}
+body[center-container-expanded='true'] .content-schema crt-navigation-panel#LeftNavigationPanel {
+  width: 0;
+  opacity: 0;
+  margin-left: -8px;
+}
+body[center-container-expanded='true'] .content-schema crt-flex#CenterContainer crt-router-outlet .crt-schema-outlet {
+  height: calc(100vh - 8px);
+}
+body[center-container-expanded='true'] .content-schema crt-toggle-container#RightPanelContainer {
+  width: 0 !important;
+  min-width: 0 !important;
+  opacity: 0;
+  margin-left: -8px;
+}
+body[center-container-expanded='true'] .content-schema crt-toggle-container#RightPanelContainer .crt-toggle-container.right-panel-container {
+  height: calc(100vh - 8px);
+}

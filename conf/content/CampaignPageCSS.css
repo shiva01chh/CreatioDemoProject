@@ -1,0 +1,199 @@
+﻿.ts-campaign-message-box {
+  width: 550px;
+}
+.ts-campaign-message-box .ts-inputbox-caption {
+  font-size: 22px;
+}
+.ts-campaign-message-box .memo-edit-core {
+  box-sizing: content-box;
+}
+.left-modules-container .island-block-container .control-width-15 {
+  display: inline-block;
+}
+.left-modules-container .island-block-container .label-wrap label {
+  text-align: left;
+  padding-left: 1px;
+}
+.left-modules-container .island-block-container .grid-layout .grid-layout-row .grid-layout-column > *:not(.grid-layout-spacer) {
+  padding-bottom: 8px;
+}
+.left-modules-container .island-block-container .grid-layout .grid-layout-row .grid-layout-column {
+  min-height: 1px;
+}
+.left-modules-container .island-block-container .grid-layout .grid-layout-row {
+  min-height: 1px;
+}
+.tabs-container {
+  display: flex;
+  flex-direction: column;
+}
+#CampaignAnalyticsTab {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+#CampaignAnalyticsTab .open-designer-button {
+  float: right;
+}
+#CampaignAnalyticsTab .not-selected-image {
+  width: 100%;
+  text-align: center;
+  margin-right: 0px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+#CampaignAnalyticsTab .description-container {
+  width: 100%;
+  text-align: center;
+  color: #999999;
+  font-size: 1.2em;
+}
+#CampaignAnalyticsTab .description-container .description-label {
+  max-width: 420px;
+  box-shadow: -3px 0 0 0 #54b8df;
+}
+.analytics-container {
+  display: flex;
+  flex-grow: 1;
+  position: relative;
+}
+.analytics-container #CampaignViewer {
+  flex-grow: 1;
+  margin: 0 -20px;
+  border-top: 1px solid #dbdbdb;
+  position: absolute;
+  height: 100%;
+  width: calc(100% + 40px);
+}
+.analytics-container #CampaignViewer .schema-designer .diagram {
+  width: inherit;
+  position: relative;
+}
+.analytics-container #CampaignViewer .e-datavisualization-diagram svg {
+  position: inherit !important;
+}
+.analytics-container #CampaignViewer .diagram .ej-diagram {
+  flex-basis: auto;
+  -webkit-flex-basis: auto;
+  height: 100%;
+}
+.analytics-container #CampaignViewer .diagram .header {
+  position: absolute;
+  right: 0;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.8);
+}
+.analytics-container #CampaignViewer #schema-designer-toolbar {
+  padding: 10px 10px 0 4px;
+  min-height: 44px;
+}
+.analytics-container #CampaignViewer #schema-designer-properties-ct {
+  margin-top: -1px;
+}
+.analytics-container #CampaignViewer #schema-designer-properties-ct .schema-wrap.one-el {
+  min-width: 356px;
+}
+.analytics-container #CampaignViewer #schema-designer-properties-ct #CustomCronExpressionModule .schema-wrap.one-el,
+.analytics-container #CampaignViewer #schema-designer-properties-ct #MonthlyStartModule .schema-wrap.one-el,
+.analytics-container #CampaignViewer #schema-designer-properties-ct #WeeklyStartModule .schema-wrap.one-el {
+  min-width: 306px;
+}
+.analytics-container #CampaignViewer #schema-designer-properties-ct .properties-container .editors-ct {
+  position: relative;
+}
+.analytics-container #CampaignViewer #schema-designer-properties-ct .properties-container .editors-ct .readonly-properties-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+.analytics-container #CampaignViewer #schema-designer-toolbar-right {
+  color: #54657D;
+}
+.analytics-container #CampaignViewer #schema-designer-toolbar-right [data-item-marker="ReloadDiagramButton"] {
+  font: normal normal normal 24px/46px bpm_designer;
+  font-family: "bpmonline designer icons";
+  letter-spacing: 11.95px;
+  text-align: center;
+  background: none;
+  min-width: 24px;
+  width: 24px;
+  padding-left: 8px;
+}
+.analytics-container #CampaignViewer #schema-designer-toolbar-right [data-item-marker="ReloadDiagramButton"]::before {
+  content: "\e939";
+}
+.analytics-container #CampaignViewer #schema-designer-toolbar-right [data-item-marker="ReloadDiagramButton"]:hover {
+  color: #006CE0;
+}
+.analytics-container #CampaignViewer #schema-designer-toolbar-right [data-item-marker="ToggleDescriptionsButton"] {
+  font: normal normal normal 24px/46px bpm_designer;
+  font-family: "bpmonline designer icons";
+  letter-spacing: 11.95px;
+  text-align: center;
+  background: none;
+  min-width: 24px;
+  width: 24px;
+  padding-left: 8px;
+}
+.analytics-container #CampaignViewer #schema-designer-toolbar-right [data-item-marker="ToggleDescriptionsButton"]::before {
+  content: "\e961";
+}
+.analytics-container #CampaignViewer #schema-designer-toolbar-right [data-item-marker="ToggleDescriptionsButton"]:hover {
+  color: #006CE0;
+}
+.analytics-container #CampaignViewer #schema-designer-toolbar-right [data-item-marker="ToggleDescriptionsButton"].untoggle {
+  opacity: 0.4;
+}
+.analytics-container #CampaignViewer #schema-designer-toolbar-right [data-item-marker="SearchShowButton"] {
+  font: normal normal normal 24px/46px bpm_designer;
+  font-family: "bpmonline designer icons";
+  letter-spacing: 11.95px;
+  text-align: center;
+  background: none;
+  min-width: 24px;
+  width: 24px;
+  padding-left: 8px;
+}
+.analytics-container #CampaignViewer #schema-designer-toolbar-right [data-item-marker="SearchShowButton"]::before {
+  content: "\e91f";
+}
+.analytics-container #CampaignViewer #schema-designer-toolbar-right [data-item-marker="SearchShowButton"]:hover {
+  color: #006CE0;
+}
+.analytics-container #CampaignViewer #schema-designer-toolbar-right [data-item-marker="SchemaPropertiesButton"] {
+  font: normal normal normal 24px/46px bpm_designer;
+  font-family: "bpmonline designer icons";
+  letter-spacing: 11.95px;
+  text-align: center;
+  background: none;
+  min-width: 24px;
+  width: 24px;
+  padding-left: 8px;
+}
+.analytics-container #CampaignViewer #schema-designer-toolbar-right [data-item-marker="SchemaPropertiesButton"]::before {
+  content: "\e920";
+}
+.analytics-container #CampaignViewer #schema-designer-toolbar-right [data-item-marker="SchemaPropertiesButton"]:hover {
+  color: #006CE0;
+}
+body[OldUI=false] .center-main-container.campaign-card-content-container > div {
+  padding-bottom: 0;
+}
+body[OldUI=false] .center-main-container .campaign-analytics-header-container .grid-layout-row {
+  max-width: 100%;
+}
+body[OldUI=false] .left-modules-container > div.island-block-container {
+  padding-bottom: 11px;
+}
+body[OldUI=false] ts-campaign-diagram > .ts-mask-container {
+  opacity: 0.5;
+}
+.control-no-label.campaign-properties-title-wrap .base-edit.base-edit-disabled {
+  background-color: transparent;
+}

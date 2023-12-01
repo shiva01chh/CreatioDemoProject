@@ -1,0 +1,123 @@
+﻿#SendTestEmailContentSchemaContainer {
+  position: relative;
+  left: 0;
+  right: 0;
+  padding-right: 24px;
+  padding-left: 24px;
+  overflow-x: hidden;
+}
+.send-test-email-content-schema-header .header-name-container {
+  width: 100%;
+}
+.send-test-email-content-schema-body .template-settings-block-label {
+  color: #999999;
+  font-size: 14px;
+  margin: 13px 0 11px 0;
+}
+.send-test-email-content-schema-body .radio-button-container {
+  margin-bottom: 12px;
+}
+.send-test-email-content-schema-body .radio-button-container label {
+  display: inline-block;
+  padding: 2px 11px 0 0;
+  margin: 0;
+}
+.send-test-email-content-schema-body #emailInput-input-wrap {
+  max-height: 150px;
+  overflow-y: auto;
+}
+.send-test-email-content-schema-body .vertical-field-label {
+  display: block;
+  margin: 0 0 5px 0;
+}
+.send-test-email-content-schema-body .vertical-field-label .control-wrap {
+  margin: 0;
+  padding: 0;
+}
+.send-test-email-content-schema-body .vertical-field-label .label-wrap {
+  width: 100%;
+  max-width: none;
+}
+.send-test-email-content-schema-body .vertical-field-label .label-wrap .t-label {
+  white-space: nowrap;
+}
+.send-test-email-content-schema-body .vertical-field-label .tip-label-wrap {
+  text-align: right;
+}
+.send-test-email-content-schema-body .vertical-field-label .email-memo-edit .memo-edit-scroll {
+  max-height: 38px;
+  overflow-y: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.send-test-email-content-schema-body .vertical-field-label .email-memo-edit .base-edit-input {
+  height: 38px;
+}
+.send-test-email-content-schema-body .vertical-field-without-label {
+  display: flex;
+  flex-direction: column;
+  margin: -5px 0 12px 0;
+}
+.send-test-email-content-schema-body .vertical-field-without-label .control-wrap {
+  margin: 0;
+  padding: 0;
+}
+.send-test-email-content-schema-body .vertical-field-without-label .label-wrap {
+  font-size: 0;
+  width: 100%;
+  max-width: none;
+}
+.send-test-email-content-schema-body .vertical-field-without-label .label-wrap .t-label {
+  white-space: nowrap;
+}
+.send-test-email-content-schema-body .tip-label-wrap.template-settings-block-label {
+  text-align: right;
+}
+.send-test-email-content-schema-body .radio-button-container {
+  margin-right: 0;
+}
+.send-test-email-content-schema-body .buttons-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 40px 0 0 0;
+}
+.send-test-email-content-schema-body .buttons-container .t-btn-wrapper {
+  margin: 0 10px 0 0;
+}
+#TestEmailMask {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  margin: 0;
+  background-color: #737CA1;
+  opacity: 0.4;
+  z-index: 1002;
+}
+#TestEmail {
+  position: fixed;
+  display: table;
+  margin: auto;
+  top: 30%;
+  bottom: auto;
+  right: 0;
+  left: 0;
+  height: auto;
+  width: 470px;
+  z-index: 1003;
+  background-color: #fff;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+  border-top: 3px solid #64b8df;
+  padding: 15px 0 15px 0;
+}
+#TestEmail::before {
+  content: none;
+}
+#TestEmail .t-label {
+  text-align: right;
+}
+#TestEmail .schema-wrap {
+  min-width: 0;
+}

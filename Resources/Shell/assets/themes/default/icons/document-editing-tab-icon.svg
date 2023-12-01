@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g transform="translate(459.548 -406.05)">
+    <g>
+      <path d="M-453.34,420.009h-4v-13h10v7" transform="translate(0.291 0.542)" fill="none" stroke="currentColor" stroke-width="1"/>
+      <line x2="5" transform="translate(-455.548 410.55)" fill="none" stroke="currentColor" stroke-width="1"/>
+      <line x2="2" transform="translate(-455.548 412.55)" fill="none" stroke="currentColor" stroke-width="1"/>
+      <line x2="5" transform="translate(-455.548 414.55)" fill="none" stroke="currentColor" stroke-width="1"/>
+      <line x2="4" transform="translate(-455.548 416.55)" fill="none" stroke="currentColor" stroke-width="1"/>
+      <line x1="6" y2="6" transform="translate(-452.048 415.55)" fill="none" stroke="currentColor" stroke-width="1"/>
+    </g>
+  </g>
+  <rect width="16" height="16" fill="none"/>
+</svg>

@@ -1,0 +1,37 @@
+﻿@tabpanel-height: 36px; //same as tabpanel height in tabpanel.css
+
+.page-tools-button {
+	float: right;
+	margin-top: -@tabpanel-height;
+}
+
+.next-record-button {
+	margin-top: 5px;
+}
+div#OperatorQueuesContainer {
+	.schema-wrap {
+		.detail {
+			// TODO: CC-1153 Remove 'detail' class for Agent Desktop grid in section mode
+			.ts-controlgroup-container {
+				padding-bottom: 1.1em;
+				.grid {
+					padding-left: 0;
+					.grid-pad {
+						padding-left: 6px;
+					}
+				}
+				.grid.grid-tiled {
+					.grid-pad:after {
+						margin: 0;
+					}
+					.grid-pad .grid-module {
+						padding-left: 0;
+					}
+				}
+			}
+		}
+	}
+}
+.supervisor-single-window-page-queue-wrapper .grid.grid-tiled .grid-pad {
+	padding-top: 1px;
+}

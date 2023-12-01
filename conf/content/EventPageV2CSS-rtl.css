@@ -1,0 +1,45 @@
+﻿.event-queue-tasks-wrap {
+  text-align: left;
+}
+.event-queue-tasks-wrap .queue-tasks-label {
+  width: auto;
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 10px;
+  color: #181818;
+}
+.event-queue-tasks-wrap .queue-task-spinner {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 32px;
+  height: 32px;
+  padding-top: 4px;
+}
+.event-queue-tasks-wrap #queue-task-spinner {
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  min-width: 32px;
+  margin: 0;
+  padding: 0;
+}
+.event-queue-tasks-wrap #queue-task-spinner .ts-mask-spinner {
+  width: 32px;
+  height: 32px;
+  margin: 0;
+}
+.event-queue-tasks-wrap #queue-task-spinner .ts-mask-spinner path {
+  stroke: #86DB45;
+}
+.event-queue-tasks-wrap #queue-task-spinner .ts-mask-opacity {
+  display: none;
+}
+.event-queue-tasks-wrap #queue-task-spinner .ts-mask-spinner-wrap {
+  height: auto;
+}
+.event-queue-tasks-wrap #EventPageV2EventQueueTasksSpinnerContainer_Label {
+  width: 32px;
+  min-width: 32px;
+  padding: 0;
+  margin: 0;
+}

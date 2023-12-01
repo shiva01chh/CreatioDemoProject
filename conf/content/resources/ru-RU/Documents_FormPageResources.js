@@ -1,0 +1,46 @@
+﻿define("Documents_FormPageResources", ["terrasoft"], function(Terrasoft) {
+	var localizableStrings = {
+		EmailInput_5qv50kb_label: "Email address",
+		EmailInput_5qv50kb_caption: "Email address",
+		PhoneInput_9rn9yle_label: "Phone number",
+		PhoneInput_9rn9yle_caption: "Phone number",
+		addRecord_8velva1_caption: "Add new",
+		ComboBox_8v995zi_ariaLabel: "Dropdown",
+		ComboBox_8v995zi_label: "Dropdown",
+		addRecord_z9aigow_caption: "Add new",
+		ComboBox_f52f1vu_ariaLabel: "Dropdown",
+		ComboBox_f52f1vu_label: "Dropdown",
+		WebInput_8h07mv3_label: "Web link",
+		WebInput_8h07mv3_caption: "Web link",
+		Label_w7xj87v_caption: "\u041A\u043E\u043D\u0442\u0440\u0430\u0433\u0435\u043D\u0442",
+		AccountLabel_caption: "\u041A\u043E\u043D\u0442\u0440\u0430\u0433\u0435\u043D\u0442",
+		addRecord_j5xiaof_caption: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C",
+		addRecord_njngkjy_caption: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C",
+		addRecord_q5m8gie_caption: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C",
+		AttachmentAddButtonCaption: "\u0417\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u044C",
+		AttachmentRefreshButtonCaption: "\u041E\u0431\u043D\u043E\u0432\u0438\u0442\u044C",
+		AttachmentsTabContainerCaption: "\u0424\u0430\u0439\u043B\u044B",
+		BackButton: "\u041D\u0430\u0437\u0430\u0434",
+		CancelButton: "\u041E\u0442\u043C\u0435\u043D\u0430",
+		CloseButton: "\u0417\u0430\u043A\u0440\u044B\u0442\u044C",
+		DefaultHeaderCaption: "\u0417\u0430\u0433\u043E\u043B\u043E\u0432\u043E\u043A \u0441\u0442\u0440\u0430\u043D\u0438\u0446\u044B",
+		FeedTabContainerCaption: "\u041B\u0435\u043D\u0442\u0430",
+		GeneralInfoTab_caption: "\u041E\u0441\u043D\u043E\u0432\u043D\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044F",
+		NewRecord: "\u041D\u043E\u0432\u0430\u044F \u0437\u0430\u043F\u0438\u0441\u044C",
+		Owner_tooltip: "\u0424\u0418\u041E \u043E\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043D\u043D\u043E\u0433\u043E \u0441\u043E\u0442\u0440\u0443\u0434\u043D\u0438\u043A\u0430. \u0412\u044B\u0431\u043E\u0440 \u0438\u0437 \u0441\u043F\u0438\u0441\u043A\u0430 \u043A\u043E\u043D\u0442\u0430\u043A\u0442\u043E\u0432, \u043F\u043E \u043A\u043E\u0442\u043E\u0440\u044B\u043C \u0437\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043E\u0432\u0430\u043D \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C \u0441\u0438\u0441\u0442\u0435\u043C\u044B",
+		Record: "\u0417\u0430\u043F\u0438\u0441\u044C",
+		RelatedDocumentsAddButton_caption: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C",
+		RelatedDocumentsExpansionPanel_title: "\u0421\u0432\u044F\u0437\u0430\u043D\u043D\u044B\u0435 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B",
+		RelatedDocumentsExportDataButton_caption: "\u042D\u043A\u0441\u043F\u043E\u0440\u0442 \u0432 Excel",
+		RelatedDocumentsImportDataButton_caption: "\u0418\u043C\u043F\u043E\u0440\u0442 \u0434\u0430\u043D\u043D\u044B\u0445",
+		RelatedDocumentsListDS_DocumentB: "\u041D\u043E\u043C\u0435\u0440",
+		RelatedDocumentsRefreshButton_caption: "\u041E\u0431\u043D\u043E\u0432\u0438\u0442\u044C",
+		RelatedDocumentsSearchFilter_placeholder: "\u041F\u043E\u0438\u0441\u043A",
+		RelatedDocumentsSettingsButton_caption: "\u0414\u0435\u0439\u0441\u0442\u0432\u0438\u044F",
+		SaveButton: "\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C",
+		SetRecordRightsButtonCaption: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0430 \u043F\u0440\u0430\u0432"
+	};
+	var parametersLocalizableStrings = {};
+	var localizableImages = {};
+	return {localizableStrings: localizableStrings, localizableImages: localizableImages, parametersLocalizableStrings: parametersLocalizableStrings};
+});

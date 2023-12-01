@@ -1,0 +1,79 @@
+2023-11-21 15:10:43,319 [1] FATAL  Microsoft.AspNetCore.Hosting.Diagnostics ApplicationError - Application startup exception
+System.Security.SecurityException: System login error. Error has been recorded in system log of the server. Please contact your system administrator.
+ ---> System.ArgumentException: Couldn't set commandtimeout (Parameter 'commandtimeout')
+ ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType)
+   at Npgsql.NpgsqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   --- End of inner exception stack trace ---
+   at Npgsql.NpgsqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Npgsql.NpgsqlConnectionStringBuilder..ctor(String connectionString)
+   at Npgsql.NpgsqlConnection.GetPoolAndSettings()
+   at Npgsql.NpgsqlConnection.set_ConnectionString(String value)
+   at Terrasoft.Core.DB.DBExecutor.get_DBConnection() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 220
+   at Terrasoft.Core.DB.DBExecutor.PingDB(UserConnection userConnection) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 1126
+   --- End of inner exception stack trace ---
+   at Terrasoft.Core.DB.DBExecutor.PingDB(UserConnection userConnection) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 1128
+   at Terrasoft.Core.SystemUserConnection.InitializeCurrentUser(String userName, TimeZoneInfo timeZone, String clientIP, String agent, Boolean needRegisterSessionStart) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SystemUserConnection.cs:line 223
+   at Terrasoft.Core.UserConnection.Login(String userName, TimeZoneInfo timeZone, Boolean needRegisterSessionStart) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/UserConnection.cs:line 1952
+   at Terrasoft.Core.SingleInstanceSystemUserConnectionProvider.Initialize(Boolean doLogin) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SingleInstanceSystemUserConnectionProvider.cs:line 64
+   at Terrasoft.Core.AppConnection.InitializeSystemUserConnection(ConfigurationSection schemaManagerProviderConfigurationSection) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/AppConnection.cs:line 439
+   at Terrasoft.Core.AppConnection.Initialize() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/AppConnection.cs:line 925
+   at Terrasoft.WebHost.Application.OnAfterConfigure() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.WebHost/Application.cs:line 195
+   at Terrasoft.WebHost.Startup.Configure(IApplicationBuilder app, IHostEnvironment env, IHostApplicationLifetime applicationLifetime, IApplication application, IAntiforgery antiforgery) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.WebHost/Startup.cs:line 305
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass15_0.<UseStartup>b__1(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2023-11-21 15:12:27,326 [1] FATAL  Microsoft.AspNetCore.Hosting.Diagnostics ApplicationError - Application startup exception
+System.Security.SecurityException: System login error. Error has been recorded in system log of the server. Please contact your system administrator.
+ ---> System.ArgumentException: Couldn't set commandtimeout (Parameter 'commandtimeout')
+ ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType)
+   at Npgsql.NpgsqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   --- End of inner exception stack trace ---
+   at Npgsql.NpgsqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Npgsql.NpgsqlConnectionStringBuilder..ctor(String connectionString)
+   at Npgsql.NpgsqlConnection.GetPoolAndSettings()
+   at Npgsql.NpgsqlConnection.set_ConnectionString(String value)
+   at Terrasoft.Core.DB.DBExecutor.get_DBConnection() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 220
+   at Terrasoft.Core.DB.DBExecutor.PingDB(UserConnection userConnection) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 1126
+   --- End of inner exception stack trace ---
+   at Terrasoft.Core.DB.DBExecutor.PingDB(UserConnection userConnection) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 1128
+   at Terrasoft.Core.SystemUserConnection.InitializeCurrentUser(String userName, TimeZoneInfo timeZone, String clientIP, String agent, Boolean needRegisterSessionStart) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SystemUserConnection.cs:line 223
+   at Terrasoft.Core.UserConnection.Login(String userName, TimeZoneInfo timeZone, Boolean needRegisterSessionStart) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/UserConnection.cs:line 1952
+   at Terrasoft.Core.SingleInstanceSystemUserConnectionProvider.Initialize(Boolean doLogin) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SingleInstanceSystemUserConnectionProvider.cs:line 64
+   at Terrasoft.Core.AppConnection.InitializeSystemUserConnection(ConfigurationSection schemaManagerProviderConfigurationSection) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/AppConnection.cs:line 439
+   at Terrasoft.Core.AppConnection.Initialize() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/AppConnection.cs:line 925
+   at Terrasoft.WebHost.Application.OnAfterConfigure() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.WebHost/Application.cs:line 195
+   at Terrasoft.WebHost.Startup.Configure(IApplicationBuilder app, IHostEnvironment env, IHostApplicationLifetime applicationLifetime, IApplication application, IAntiforgery antiforgery) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.WebHost/Startup.cs:line 305
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass15_0.<UseStartup>b__1(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2023-11-21 15:13:50,212 [.NET ThreadPool Worker] ERROR Supervisor Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery GetCookieTokenDoesNotThrow - An exception was thrown while deserializing the token.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The antiforgery token could not be decrypted.
+ ---> System.Security.Cryptography.CryptographicException: The provided payload cannot be decrypted because it was not protected with this protection provider. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.GetCookieTokenDoesNotThrow(HttpContext httpContext)

@@ -1,0 +1,11 @@
+﻿{
+  "Descriptor": {
+    "UId": "%Guid%",
+    "Name": "%AppCode%",
+    "Type": 1,
+    "ModifiedOnUtc": "\/Date(1632313759000)\/",
+    "Maintainer": "Terrasoft",
+    "ProjectPath": "Files/%AppCode%.csproj",
+    "DependsOn": []
+  }
+}

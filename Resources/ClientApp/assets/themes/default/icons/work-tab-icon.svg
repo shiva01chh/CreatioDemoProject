@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g transform="translate(284.081 -471.435)">
+    <path d="M-272.367,486.435h5v-10h-5" transform="translate(-2.214 -0.5)" fill="none" stroke="currentColor" stroke-width="1"/>
+    <line x1="3.5" transform="translate(-274.581 482.935)" fill="none" stroke="currentColor" stroke-width="1"/>
+    <line x1="3.5" transform="translate(-274.581 480.935)" fill="none" stroke="currentColor" stroke-width="1"/>
+    <line x1="3.5" transform="translate(-274.581 478.935)" fill="none" stroke="currentColor" stroke-width="1"/>
+    <g transform="translate(-2)">
+      <path d="M-273.081,485.935v-12h-8v12Z" transform="translate(0.5 0)" fill="none" stroke="currentColor" stroke-width="1"/>
+      <line x2="2.005" transform="translate(-276.086 476.935)" fill="none" stroke="currentColor" stroke-width="1"/>
+      <line x2="2.005" transform="translate(-279.086 476.935)" fill="none" stroke="currentColor" stroke-width="1"/>
+      <line x2="2.005" transform="translate(-276.086 478.935)" fill="none" stroke="currentColor" stroke-width="1"/>
+      <line x2="2.005" transform="translate(-279.086 478.935)" fill="none" stroke="currentColor" stroke-width="1"/>
+      <line x2="2.005" transform="translate(-276.086 480.935)" fill="none" stroke="currentColor" stroke-width="1"/>
+      <line x2="2.005" transform="translate(-279.086 480.935)" fill="none" stroke="currentColor" stroke-width="1"/>
+      <line x2="2.005" transform="translate(-276.086 482.935)" fill="none" stroke="currentColor" stroke-width="1"/>
+      <line x2="2.005" transform="translate(-279.086 482.935)" fill="none" stroke="currentColor" stroke-width="1"/>
+    </g>
+  </g>
+  <rect width="16" height="16" fill="none"/>
+</svg>

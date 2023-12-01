@@ -1,0 +1,16 @@
+﻿.select-year-container {
+  margin: 0.9em 0 0;
+}
+.select-year-container .t-label {
+  max-width: 8em;
+}
+.select-year-container .label-wrap + .control-wrap {
+  margin: 0;
+  padding: 0;
+}
+.select-year-container .label-wrap {
+  width: auto;
+}
+.select-year-container .base-edit-with-right-icon {
+  width: 90px;
+}

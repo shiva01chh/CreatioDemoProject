@@ -1,0 +1,578 @@
+2023-11-06 12:43:48,449 [.NET ThreadPool Worker] ERROR  Terrasoft.Core.UserConnection OnCurrentUserConnectionChanged - Overwriting UserConnection.Current in the same context is not allowed    at System.Environment.get_StackTrace()
+   at Terrasoft.Core.UserConnection.OnCurrentUserConnectionChanged(AsyncLocalValueChangedArgs`1 args) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/UserConnection.cs:line 627
+   at System.Threading.AsyncLocal`1.System.Threading.IAsyncLocal.OnValueChanged(Object previousValueObj, Object currentValueObj, Boolean contextChanged)
+   at System.Threading.ExecutionContext.SetLocalValue(IAsyncLocal local, Object newValue, Boolean needChangeNotifications)
+   at Terrasoft.Core.UserConnection.InitializeCurrent() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/UserConnection.cs:line 1580
+   at Terrasoft.Core.UserConnection.Initialize(AppConfigurationSectionGroup appSettings) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/UserConnection.cs:line 1896
+   at Terrasoft.Core.UserConnection.Initialize() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/UserConnection.cs:line 1880
+   at Terrasoft.Core.UserConnection.set_AppConnection(AppConnection value) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/UserConnection.cs:line 283
+   at Terrasoft.WebHost.Session.SessionEventListener.OnSessionEnd(ISession session) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.WebHost/Session/SessionEventListener.cs:line 205
+   at Terrasoft.WebHost.Session.ExpiredSessionSynchronizationService.CloseSession(String sessionKey) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.WebHost/Session/ExpiredSessionSynchronizationService.cs:line 64
+   at Terrasoft.WebHost.Session.ExpiredSessionSynchronizationService.<ClearExpiredSessionsCallback>b__12_0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.WebHost/Session/ExpiredSessionSynchronizationService.cs:line 76
+   at Terrasoft.Redis.RedisThrottledExecutor.Execute(Action action) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Redis/RedisThrottledExecutor.cs:line 37
+   at Terrasoft.WebHost.Session.ExpiredSessionSynchronizationService.ClearExpiredSessionsCallback(Object state) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.WebHost/Session/ExpiredSessionSynchronizationService.cs:line 72
+   at Terrasoft.Common.Timer.NonOverlappingTimerCallback(TimerCallback callback, Object state, Int32 dueTime, Int32 period) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Common/Timer.cs:line 22
+   at Terrasoft.Common.Timer.<>c__DisplayClass2_0.<Start>b__0(Object currentState) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Common/Timer.cs:line 37
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.TimerQueueTimer.Fire(Boolean isThreadPool)
+   at System.Threading.TimerQueue.FireNextTimers()
+   at System.Threading.UnmanagedThreadPoolWorkItem.ExecuteUnmanagedThreadPoolWorkItem(IntPtr callback, IntPtr state)
+   at System.Threading.UnmanagedThreadPoolWorkItem.ExecuteUnmanagedThreadPoolWorkItem(IntPtr callback, IntPtr state)
+   at System.Threading.UnmanagedThreadPoolWorkItem.System.Threading.IThreadPoolWorkItem.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+2023-11-06 12:46:07,000 [.NET ThreadPool Worker] ERROR  MatomoConnector Synchronize - MatomoConnector.MatomoDataSyncManager.Synchronize. Exception. 
+MatomoConnector.API.AuthException: Unable to send request because URL or API_KEY is incorrect.
+   at MatomoConnector.API.BaseModule.SendRequest[T](String method, ParametersCollection parameters, Int32 offset)
+   at MatomoConnector.API.SitesManagerModule.GetAllSites()
+   at MatomoConnector.API.MatomoService.GetAllSites()
+   at Terrasoft.Configuration.MatomoServiceFacade.GetSiteIds(IEnumerable`1 urls)
+   at Terrasoft.Configuration.MatomoDataSyncManager.GetSiteIds(List`1 visitors)
+   at Terrasoft.Configuration.MatomoDataSyncManager.Synchronize()
+2023-11-06 12:46:07,029 [.NET ThreadPool Worker] ERROR  TouchPoints FireOnMessageDequeuedEvent - Message processing error. Message: {"$type":"Terrasoft.Configuration.MatomoSyncDataMessage, CrtMatomoConnector","Type":2,"RequiresDeduplication":true}.
+MatomoConnector.API.AuthException: Unable to send request because URL or API_KEY is incorrect.
+   at MatomoConnector.API.BaseModule.SendRequest[T](String method, ParametersCollection parameters, Int32 offset)
+   at MatomoConnector.API.SitesManagerModule.GetAllSites()
+   at MatomoConnector.API.MatomoService.GetAllSites()
+   at Terrasoft.Configuration.MatomoServiceFacade.GetSiteIds(IEnumerable`1 urls)
+   at Terrasoft.Configuration.MatomoDataSyncManager.GetSiteIds(List`1 visitors)
+   at Terrasoft.Configuration.MatomoDataSyncManager.Synchronize()
+   at Terrasoft.Configuration.MatomoTouchQueueMessageProcessor.<InitStrategy>b__9_2(TouchQueueMessage baseMessage)
+   at Terrasoft.Configuration.BaseTouchQueueMessageProcessor.ProcessMessage(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.BaseQueueMessageProcessor.Process(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.InternalProcess(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.Process(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueJobDispatcher.OnMessageDequeued(Object sender, TouchQueueMessage message)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.FireOnMessageDequeuedEvent(T message)
+   at Terrasoft.Configuration.TouchQueueManager.FireOnMessageDequeuedEvent(TouchQueueMessage message)
+2023-11-06 12:46:07,030 [.NET ThreadPool Worker] ERROR  TouchPoints Execute - TouchQueueJobDispatcher failed to execute job.
+MatomoConnector.API.AuthException: Unable to send request because URL or API_KEY is incorrect.
+   at MatomoConnector.API.BaseModule.SendRequest[T](String method, ParametersCollection parameters, Int32 offset)
+   at MatomoConnector.API.SitesManagerModule.GetAllSites()
+   at MatomoConnector.API.MatomoService.GetAllSites()
+   at Terrasoft.Configuration.MatomoServiceFacade.GetSiteIds(IEnumerable`1 urls)
+   at Terrasoft.Configuration.MatomoDataSyncManager.GetSiteIds(List`1 visitors)
+   at Terrasoft.Configuration.MatomoDataSyncManager.Synchronize()
+   at Terrasoft.Configuration.MatomoTouchQueueMessageProcessor.<InitStrategy>b__9_2(TouchQueueMessage baseMessage)
+   at Terrasoft.Configuration.BaseTouchQueueMessageProcessor.ProcessMessage(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.BaseQueueMessageProcessor.Process(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.InternalProcess(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.Process(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueJobDispatcher.OnMessageDequeued(Object sender, TouchQueueMessage message)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.FireOnMessageDequeuedEvent(T message)
+   at Terrasoft.Configuration.TouchQueueManager.FireOnMessageDequeuedEvent(TouchQueueMessage message)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.InternalDequeue(IEnumerable`1 messageTypes)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.Dequeue()
+   at Terrasoft.Configuration.TouchQueueJobDispatcher.InternalExecute()
+   at Terrasoft.Configuration.BaseQueueJobDispatcher.Execute(UserConnection userConnection, IDictionary`2 parameters)
+2023-11-06 12:47:06,930 [.NET ThreadPool Worker] ERROR  MatomoConnector Synchronize - MatomoConnector.MatomoDataSyncManager.Synchronize. Exception. 
+MatomoConnector.API.AuthException: Unable to send request because URL or API_KEY is incorrect.
+   at MatomoConnector.API.BaseModule.SendRequest[T](String method, ParametersCollection parameters, Int32 offset)
+   at MatomoConnector.API.SitesManagerModule.GetAllSites()
+   at MatomoConnector.API.MatomoService.GetAllSites()
+   at Terrasoft.Configuration.MatomoServiceFacade.GetSiteIds(IEnumerable`1 urls)
+   at Terrasoft.Configuration.MatomoDataSyncManager.GetSiteIds(List`1 visitors)
+   at Terrasoft.Configuration.MatomoDataSyncManager.Synchronize()
+2023-11-06 12:47:06,937 [.NET ThreadPool Worker] ERROR  TouchPoints FireOnMessageDequeuedEvent - Message processing error. Message: {"$type":"Terrasoft.Configuration.MatomoSyncDataMessage, CrtMatomoConnector","Type":2,"RequiresDeduplication":true}.
+MatomoConnector.API.AuthException: Unable to send request because URL or API_KEY is incorrect.
+   at MatomoConnector.API.BaseModule.SendRequest[T](String method, ParametersCollection parameters, Int32 offset)
+   at MatomoConnector.API.SitesManagerModule.GetAllSites()
+   at MatomoConnector.API.MatomoService.GetAllSites()
+   at Terrasoft.Configuration.MatomoServiceFacade.GetSiteIds(IEnumerable`1 urls)
+   at Terrasoft.Configuration.MatomoDataSyncManager.GetSiteIds(List`1 visitors)
+   at Terrasoft.Configuration.MatomoDataSyncManager.Synchronize()
+   at Terrasoft.Configuration.MatomoTouchQueueMessageProcessor.<InitStrategy>b__9_2(TouchQueueMessage baseMessage)
+   at Terrasoft.Configuration.BaseTouchQueueMessageProcessor.ProcessMessage(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.BaseQueueMessageProcessor.Process(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.InternalProcess(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.Process(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueJobDispatcher.OnMessageDequeued(Object sender, TouchQueueMessage message)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.FireOnMessageDequeuedEvent(T message)
+   at Terrasoft.Configuration.TouchQueueManager.FireOnMessageDequeuedEvent(TouchQueueMessage message)
+2023-11-06 12:47:06,938 [.NET ThreadPool Worker] ERROR  TouchPoints Execute - TouchQueueJobDispatcher failed to execute job.
+MatomoConnector.API.AuthException: Unable to send request because URL or API_KEY is incorrect.
+   at MatomoConnector.API.BaseModule.SendRequest[T](String method, ParametersCollection parameters, Int32 offset)
+   at MatomoConnector.API.SitesManagerModule.GetAllSites()
+   at MatomoConnector.API.MatomoService.GetAllSites()
+   at Terrasoft.Configuration.MatomoServiceFacade.GetSiteIds(IEnumerable`1 urls)
+   at Terrasoft.Configuration.MatomoDataSyncManager.GetSiteIds(List`1 visitors)
+   at Terrasoft.Configuration.MatomoDataSyncManager.Synchronize()
+   at Terrasoft.Configuration.MatomoTouchQueueMessageProcessor.<InitStrategy>b__9_2(TouchQueueMessage baseMessage)
+   at Terrasoft.Configuration.BaseTouchQueueMessageProcessor.ProcessMessage(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.BaseQueueMessageProcessor.Process(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.InternalProcess(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.Process(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueJobDispatcher.OnMessageDequeued(Object sender, TouchQueueMessage message)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.FireOnMessageDequeuedEvent(T message)
+   at Terrasoft.Configuration.TouchQueueManager.FireOnMessageDequeuedEvent(TouchQueueMessage message)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.InternalDequeue(IEnumerable`1 messageTypes)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.Dequeue()
+   at Terrasoft.Configuration.TouchQueueJobDispatcher.InternalExecute()
+   at Terrasoft.Configuration.BaseQueueJobDispatcher.Execute(UserConnection userConnection, IDictionary`2 parameters)
+2023-11-06 12:48:06,910 [.NET ThreadPool Worker] ERROR  MatomoConnector Synchronize - MatomoConnector.MatomoDataSyncManager.Synchronize. Exception. 
+MatomoConnector.API.AuthException: Unable to send request because URL or API_KEY is incorrect.
+   at MatomoConnector.API.BaseModule.SendRequest[T](String method, ParametersCollection parameters, Int32 offset)
+   at MatomoConnector.API.SitesManagerModule.GetAllSites()
+   at MatomoConnector.API.MatomoService.GetAllSites()
+   at Terrasoft.Configuration.MatomoServiceFacade.GetSiteIds(IEnumerable`1 urls)
+   at Terrasoft.Configuration.MatomoDataSyncManager.GetSiteIds(List`1 visitors)
+   at Terrasoft.Configuration.MatomoDataSyncManager.Synchronize()
+2023-11-06 12:48:06,910 [.NET ThreadPool Worker] ERROR  TouchPoints FireOnMessageDequeuedEvent - Message processing error. Message: {"$type":"Terrasoft.Configuration.MatomoSyncDataMessage, CrtMatomoConnector","Type":2,"RequiresDeduplication":true}.
+MatomoConnector.API.AuthException: Unable to send request because URL or API_KEY is incorrect.
+   at MatomoConnector.API.BaseModule.SendRequest[T](String method, ParametersCollection parameters, Int32 offset)
+   at MatomoConnector.API.SitesManagerModule.GetAllSites()
+   at MatomoConnector.API.MatomoService.GetAllSites()
+   at Terrasoft.Configuration.MatomoServiceFacade.GetSiteIds(IEnumerable`1 urls)
+   at Terrasoft.Configuration.MatomoDataSyncManager.GetSiteIds(List`1 visitors)
+   at Terrasoft.Configuration.MatomoDataSyncManager.Synchronize()
+   at Terrasoft.Configuration.MatomoTouchQueueMessageProcessor.<InitStrategy>b__9_2(TouchQueueMessage baseMessage)
+   at Terrasoft.Configuration.BaseTouchQueueMessageProcessor.ProcessMessage(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.BaseQueueMessageProcessor.Process(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.InternalProcess(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.Process(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueJobDispatcher.OnMessageDequeued(Object sender, TouchQueueMessage message)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.FireOnMessageDequeuedEvent(T message)
+   at Terrasoft.Configuration.TouchQueueManager.FireOnMessageDequeuedEvent(TouchQueueMessage message)
+2023-11-06 12:48:06,910 [.NET ThreadPool Worker] ERROR  TouchPoints Execute - TouchQueueJobDispatcher failed to execute job.
+MatomoConnector.API.AuthException: Unable to send request because URL or API_KEY is incorrect.
+   at MatomoConnector.API.BaseModule.SendRequest[T](String method, ParametersCollection parameters, Int32 offset)
+   at MatomoConnector.API.SitesManagerModule.GetAllSites()
+   at MatomoConnector.API.MatomoService.GetAllSites()
+   at Terrasoft.Configuration.MatomoServiceFacade.GetSiteIds(IEnumerable`1 urls)
+   at Terrasoft.Configuration.MatomoDataSyncManager.GetSiteIds(List`1 visitors)
+   at Terrasoft.Configuration.MatomoDataSyncManager.Synchronize()
+   at Terrasoft.Configuration.MatomoTouchQueueMessageProcessor.<InitStrategy>b__9_2(TouchQueueMessage baseMessage)
+   at Terrasoft.Configuration.BaseTouchQueueMessageProcessor.ProcessMessage(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.BaseQueueMessageProcessor.Process(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.InternalProcess(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.Process(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueJobDispatcher.OnMessageDequeued(Object sender, TouchQueueMessage message)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.FireOnMessageDequeuedEvent(T message)
+   at Terrasoft.Configuration.TouchQueueManager.FireOnMessageDequeuedEvent(TouchQueueMessage message)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.InternalDequeue(IEnumerable`1 messageTypes)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.Dequeue()
+   at Terrasoft.Configuration.TouchQueueJobDispatcher.InternalExecute()
+   at Terrasoft.Configuration.BaseQueueJobDispatcher.Execute(UserConnection userConnection, IDictionary`2 parameters)
+2023-11-06 12:49:06,926 [.NET ThreadPool Worker] ERROR  MatomoConnector Synchronize - MatomoConnector.MatomoDataSyncManager.Synchronize. Exception. 
+MatomoConnector.API.AuthException: Unable to send request because URL or API_KEY is incorrect.
+   at MatomoConnector.API.BaseModule.SendRequest[T](String method, ParametersCollection parameters, Int32 offset)
+   at MatomoConnector.API.SitesManagerModule.GetAllSites()
+   at MatomoConnector.API.MatomoService.GetAllSites()
+   at Terrasoft.Configuration.MatomoServiceFacade.GetSiteIds(IEnumerable`1 urls)
+   at Terrasoft.Configuration.MatomoDataSyncManager.GetSiteIds(List`1 visitors)
+   at Terrasoft.Configuration.MatomoDataSyncManager.Synchronize()
+2023-11-06 12:49:06,930 [.NET ThreadPool Worker] ERROR  TouchPoints FireOnMessageDequeuedEvent - Message processing error. Message: {"$type":"Terrasoft.Configuration.MatomoSyncDataMessage, CrtMatomoConnector","Type":2,"RequiresDeduplication":true}.
+MatomoConnector.API.AuthException: Unable to send request because URL or API_KEY is incorrect.
+   at MatomoConnector.API.BaseModule.SendRequest[T](String method, ParametersCollection parameters, Int32 offset)
+   at MatomoConnector.API.SitesManagerModule.GetAllSites()
+   at MatomoConnector.API.MatomoService.GetAllSites()
+   at Terrasoft.Configuration.MatomoServiceFacade.GetSiteIds(IEnumerable`1 urls)
+   at Terrasoft.Configuration.MatomoDataSyncManager.GetSiteIds(List`1 visitors)
+   at Terrasoft.Configuration.MatomoDataSyncManager.Synchronize()
+   at Terrasoft.Configuration.MatomoTouchQueueMessageProcessor.<InitStrategy>b__9_2(TouchQueueMessage baseMessage)
+   at Terrasoft.Configuration.BaseTouchQueueMessageProcessor.ProcessMessage(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.BaseQueueMessageProcessor.Process(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.InternalProcess(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.Process(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueJobDispatcher.OnMessageDequeued(Object sender, TouchQueueMessage message)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.FireOnMessageDequeuedEvent(T message)
+   at Terrasoft.Configuration.TouchQueueManager.FireOnMessageDequeuedEvent(TouchQueueMessage message)
+2023-11-06 12:49:06,930 [.NET ThreadPool Worker] ERROR  TouchPoints Execute - TouchQueueJobDispatcher failed to execute job.
+MatomoConnector.API.AuthException: Unable to send request because URL or API_KEY is incorrect.
+   at MatomoConnector.API.BaseModule.SendRequest[T](String method, ParametersCollection parameters, Int32 offset)
+   at MatomoConnector.API.SitesManagerModule.GetAllSites()
+   at MatomoConnector.API.MatomoService.GetAllSites()
+   at Terrasoft.Configuration.MatomoServiceFacade.GetSiteIds(IEnumerable`1 urls)
+   at Terrasoft.Configuration.MatomoDataSyncManager.GetSiteIds(List`1 visitors)
+   at Terrasoft.Configuration.MatomoDataSyncManager.Synchronize()
+   at Terrasoft.Configuration.MatomoTouchQueueMessageProcessor.<InitStrategy>b__9_2(TouchQueueMessage baseMessage)
+   at Terrasoft.Configuration.BaseTouchQueueMessageProcessor.ProcessMessage(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.BaseQueueMessageProcessor.Process(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.InternalProcess(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.Process(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueJobDispatcher.OnMessageDequeued(Object sender, TouchQueueMessage message)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.FireOnMessageDequeuedEvent(T message)
+   at Terrasoft.Configuration.TouchQueueManager.FireOnMessageDequeuedEvent(TouchQueueMessage message)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.InternalDequeue(IEnumerable`1 messageTypes)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.Dequeue()
+   at Terrasoft.Configuration.TouchQueueJobDispatcher.InternalExecute()
+   at Terrasoft.Configuration.BaseQueueJobDispatcher.Execute(UserConnection userConnection, IDictionary`2 parameters)
+2023-11-06 12:50:06,914 [.NET ThreadPool Worker] ERROR  MatomoConnector SynchronizeForContactsRequest - MatomoConnector.MatomoDataSyncManager.SynchronizeForContactsRequest. Exception. 
+MatomoConnector.API.AuthException: Unable to send request because URL or API_KEY is incorrect.
+   at MatomoConnector.API.BaseModule.SendRequest[T](String method, ParametersCollection parameters, Int32 offset)
+   at MatomoConnector.API.SitesManagerModule.GetAllSites()
+   at MatomoConnector.API.MatomoService.GetAllSites()
+   at Terrasoft.Configuration.MatomoServiceFacade.GetSiteIds(IEnumerable`1 urls)
+   at Terrasoft.Configuration.MatomoDataSyncManager.GetSiteIds(List`1 visitors)
+   at Terrasoft.Configuration.MatomoDataSyncManager.SynchronizeForContactsRequest()
+2023-11-06 12:50:06,926 [.NET ThreadPool Worker] ERROR  TouchPoints FireOnMessageDequeuedEvent - Message processing error. Message: {"$type":"Terrasoft.Configuration.MatomoContactsRequestMessage, CrtMatomoConnector","Type":1,"RequiresDeduplication":true}.
+MatomoConnector.API.AuthException: Unable to send request because URL or API_KEY is incorrect.
+   at MatomoConnector.API.BaseModule.SendRequest[T](String method, ParametersCollection parameters, Int32 offset)
+   at MatomoConnector.API.SitesManagerModule.GetAllSites()
+   at MatomoConnector.API.MatomoService.GetAllSites()
+   at Terrasoft.Configuration.MatomoServiceFacade.GetSiteIds(IEnumerable`1 urls)
+   at Terrasoft.Configuration.MatomoDataSyncManager.GetSiteIds(List`1 visitors)
+   at Terrasoft.Configuration.MatomoDataSyncManager.SynchronizeForContactsRequest()
+   at Terrasoft.Configuration.MatomoTouchQueueMessageProcessor.<InitStrategy>b__9_4(TouchQueueMessage baseMessage)
+   at Terrasoft.Configuration.BaseTouchQueueMessageProcessor.ProcessMessage(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.BaseQueueMessageProcessor.Process(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.InternalProcess(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.Process(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueJobDispatcher.OnMessageDequeued(Object sender, TouchQueueMessage message)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.FireOnMessageDequeuedEvent(T message)
+   at Terrasoft.Configuration.TouchQueueManager.FireOnMessageDequeuedEvent(TouchQueueMessage message)
+2023-11-06 12:50:06,926 [.NET ThreadPool Worker] ERROR  TouchPoints Execute - TouchQueueJobDispatcher failed to execute job.
+MatomoConnector.API.AuthException: Unable to send request because URL or API_KEY is incorrect.
+   at MatomoConnector.API.BaseModule.SendRequest[T](String method, ParametersCollection parameters, Int32 offset)
+   at MatomoConnector.API.SitesManagerModule.GetAllSites()
+   at MatomoConnector.API.MatomoService.GetAllSites()
+   at Terrasoft.Configuration.MatomoServiceFacade.GetSiteIds(IEnumerable`1 urls)
+   at Terrasoft.Configuration.MatomoDataSyncManager.GetSiteIds(List`1 visitors)
+   at Terrasoft.Configuration.MatomoDataSyncManager.SynchronizeForContactsRequest()
+   at Terrasoft.Configuration.MatomoTouchQueueMessageProcessor.<InitStrategy>b__9_4(TouchQueueMessage baseMessage)
+   at Terrasoft.Configuration.BaseTouchQueueMessageProcessor.ProcessMessage(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.BaseQueueMessageProcessor.Process(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.InternalProcess(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.Process(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueJobDispatcher.OnMessageDequeued(Object sender, TouchQueueMessage message)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.FireOnMessageDequeuedEvent(T message)
+   at Terrasoft.Configuration.TouchQueueManager.FireOnMessageDequeuedEvent(TouchQueueMessage message)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.InternalDequeue(IEnumerable`1 messageTypes)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.Dequeue()
+   at Terrasoft.Configuration.TouchQueueJobDispatcher.InternalExecute()
+   at Terrasoft.Configuration.BaseQueueJobDispatcher.Execute(UserConnection userConnection, IDictionary`2 parameters)
+2023-11-06 12:51:06,907 [.NET ThreadPool Worker] ERROR  MatomoConnector SynchronizeForContactsRequest - MatomoConnector.MatomoDataSyncManager.SynchronizeForContactsRequest. Exception. 
+MatomoConnector.API.AuthException: Unable to send request because URL or API_KEY is incorrect.
+   at MatomoConnector.API.BaseModule.SendRequest[T](String method, ParametersCollection parameters, Int32 offset)
+   at MatomoConnector.API.SitesManagerModule.GetAllSites()
+   at MatomoConnector.API.MatomoService.GetAllSites()
+   at Terrasoft.Configuration.MatomoServiceFacade.GetSiteIds(IEnumerable`1 urls)
+   at Terrasoft.Configuration.MatomoDataSyncManager.GetSiteIds(List`1 visitors)
+   at Terrasoft.Configuration.MatomoDataSyncManager.SynchronizeForContactsRequest()
+2023-11-06 12:51:06,907 [.NET ThreadPool Worker] ERROR  TouchPoints FireOnMessageDequeuedEvent - Message processing error. Message: {"$type":"Terrasoft.Configuration.MatomoContactsRequestMessage, CrtMatomoConnector","Type":1,"RequiresDeduplication":true}.
+MatomoConnector.API.AuthException: Unable to send request because URL or API_KEY is incorrect.
+   at MatomoConnector.API.BaseModule.SendRequest[T](String method, ParametersCollection parameters, Int32 offset)
+   at MatomoConnector.API.SitesManagerModule.GetAllSites()
+   at MatomoConnector.API.MatomoService.GetAllSites()
+   at Terrasoft.Configuration.MatomoServiceFacade.GetSiteIds(IEnumerable`1 urls)
+   at Terrasoft.Configuration.MatomoDataSyncManager.GetSiteIds(List`1 visitors)
+   at Terrasoft.Configuration.MatomoDataSyncManager.SynchronizeForContactsRequest()
+   at Terrasoft.Configuration.MatomoTouchQueueMessageProcessor.<InitStrategy>b__9_4(TouchQueueMessage baseMessage)
+   at Terrasoft.Configuration.BaseTouchQueueMessageProcessor.ProcessMessage(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.BaseQueueMessageProcessor.Process(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.InternalProcess(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.Process(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueJobDispatcher.OnMessageDequeued(Object sender, TouchQueueMessage message)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.FireOnMessageDequeuedEvent(T message)
+   at Terrasoft.Configuration.TouchQueueManager.FireOnMessageDequeuedEvent(TouchQueueMessage message)
+2023-11-06 12:51:06,907 [.NET ThreadPool Worker] ERROR  TouchPoints Execute - TouchQueueJobDispatcher failed to execute job.
+MatomoConnector.API.AuthException: Unable to send request because URL or API_KEY is incorrect.
+   at MatomoConnector.API.BaseModule.SendRequest[T](String method, ParametersCollection parameters, Int32 offset)
+   at MatomoConnector.API.SitesManagerModule.GetAllSites()
+   at MatomoConnector.API.MatomoService.GetAllSites()
+   at Terrasoft.Configuration.MatomoServiceFacade.GetSiteIds(IEnumerable`1 urls)
+   at Terrasoft.Configuration.MatomoDataSyncManager.GetSiteIds(List`1 visitors)
+   at Terrasoft.Configuration.MatomoDataSyncManager.SynchronizeForContactsRequest()
+   at Terrasoft.Configuration.MatomoTouchQueueMessageProcessor.<InitStrategy>b__9_4(TouchQueueMessage baseMessage)
+   at Terrasoft.Configuration.BaseTouchQueueMessageProcessor.ProcessMessage(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.BaseQueueMessageProcessor.Process(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.InternalProcess(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.Process(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueJobDispatcher.OnMessageDequeued(Object sender, TouchQueueMessage message)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.FireOnMessageDequeuedEvent(T message)
+   at Terrasoft.Configuration.TouchQueueManager.FireOnMessageDequeuedEvent(TouchQueueMessage message)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.InternalDequeue(IEnumerable`1 messageTypes)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.Dequeue()
+   at Terrasoft.Configuration.TouchQueueJobDispatcher.InternalExecute()
+   at Terrasoft.Configuration.BaseQueueJobDispatcher.Execute(UserConnection userConnection, IDictionary`2 parameters)
+2023-11-06 12:52:06,907 [.NET ThreadPool Worker] ERROR  MatomoConnector <InitStrategy>b__9_4 - MatomoConnector.MatomoDataSyncManager.SynchronizeForContactsRequest. Exception. 
+MatomoConnector.API.AuthException: Unable to send request because URL or API_KEY is incorrect.
+   at MatomoConnector.API.BaseModule.SendRequest[T](String method, ParametersCollection parameters, Int32 offset)
+   at MatomoConnector.API.SitesManagerModule.GetAllSites()
+   at MatomoConnector.API.MatomoService.GetAllSites()
+   at Terrasoft.Configuration.MatomoServiceFacade.GetSiteIds(IEnumerable`1 urls)
+   at Terrasoft.Configuration.MatomoDataSyncManager.GetSiteIds(List`1 visitors)
+   at Terrasoft.Configuration.MatomoDataSyncManager.SynchronizeForContactsRequest()
+2023-11-06 12:52:06,909 [.NET ThreadPool Worker] ERROR  TouchPoints InternalDequeue - Message processing error. Message: {"$type":"Terrasoft.Configuration.MatomoContactsRequestMessage, CrtMatomoConnector","Type":1,"RequiresDeduplication":true}.
+MatomoConnector.API.AuthException: Unable to send request because URL or API_KEY is incorrect.
+   at MatomoConnector.API.BaseModule.SendRequest[T](String method, ParametersCollection parameters, Int32 offset)
+   at MatomoConnector.API.SitesManagerModule.GetAllSites()
+   at MatomoConnector.API.MatomoService.GetAllSites()
+   at Terrasoft.Configuration.MatomoServiceFacade.GetSiteIds(IEnumerable`1 urls)
+   at Terrasoft.Configuration.MatomoDataSyncManager.GetSiteIds(List`1 visitors)
+   at Terrasoft.Configuration.MatomoDataSyncManager.SynchronizeForContactsRequest()
+   at Terrasoft.Configuration.MatomoTouchQueueMessageProcessor.<InitStrategy>b__9_4(TouchQueueMessage baseMessage)
+   at Terrasoft.Configuration.BaseTouchQueueMessageProcessor.ProcessMessage(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.BaseQueueMessageProcessor.Process(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.InternalProcess(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.Process(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueJobDispatcher.OnMessageDequeued(Object sender, TouchQueueMessage message)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.FireOnMessageDequeuedEvent(T message)
+   at Terrasoft.Configuration.TouchQueueManager.FireOnMessageDequeuedEvent(TouchQueueMessage message)
+2023-11-06 12:52:06,909 [.NET ThreadPool Worker] ERROR  TouchPoints RunJobExecutor - TouchQueueJobDispatcher failed to execute job.
+MatomoConnector.API.AuthException: Unable to send request because URL or API_KEY is incorrect.
+   at MatomoConnector.API.BaseModule.SendRequest[T](String method, ParametersCollection parameters, Int32 offset)
+   at MatomoConnector.API.SitesManagerModule.GetAllSites()
+   at MatomoConnector.API.MatomoService.GetAllSites()
+   at Terrasoft.Configuration.MatomoServiceFacade.GetSiteIds(IEnumerable`1 urls)
+   at Terrasoft.Configuration.MatomoDataSyncManager.GetSiteIds(List`1 visitors)
+   at Terrasoft.Configuration.MatomoDataSyncManager.SynchronizeForContactsRequest()
+   at Terrasoft.Configuration.MatomoTouchQueueMessageProcessor.<InitStrategy>b__9_4(TouchQueueMessage baseMessage)
+   at Terrasoft.Configuration.BaseTouchQueueMessageProcessor.ProcessMessage(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.BaseQueueMessageProcessor.Process(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.InternalProcess(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.Process(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueJobDispatcher.OnMessageDequeued(Object sender, TouchQueueMessage message)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.FireOnMessageDequeuedEvent(T message)
+   at Terrasoft.Configuration.TouchQueueManager.FireOnMessageDequeuedEvent(TouchQueueMessage message)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.InternalDequeue(IEnumerable`1 messageTypes)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.Dequeue()
+   at Terrasoft.Configuration.TouchQueueJobDispatcher.InternalExecute()
+   at Terrasoft.Configuration.BaseQueueJobDispatcher.Execute(UserConnection userConnection, IDictionary`2 parameters)
+2023-11-06 12:53:06,924 [.NET ThreadPool Worker] ERROR  MatomoConnector <InitStrategy>b__9_4 - MatomoConnector.MatomoDataSyncManager.SynchronizeForContactsRequest. Exception. 
+MatomoConnector.API.AuthException: Unable to send request because URL or API_KEY is incorrect.
+   at MatomoConnector.API.BaseModule.SendRequest[T](String method, ParametersCollection parameters, Int32 offset)
+   at MatomoConnector.API.SitesManagerModule.GetAllSites()
+   at MatomoConnector.API.MatomoService.GetAllSites()
+   at Terrasoft.Configuration.MatomoServiceFacade.GetSiteIds(IEnumerable`1 urls)
+   at Terrasoft.Configuration.MatomoDataSyncManager.GetSiteIds(List`1 visitors)
+   at Terrasoft.Configuration.MatomoDataSyncManager.SynchronizeForContactsRequest()
+2023-11-06 12:53:06,928 [.NET ThreadPool Worker] ERROR  TouchPoints InternalDequeue - Message processing error. Message: {"$type":"Terrasoft.Configuration.MatomoContactsRequestMessage, CrtMatomoConnector","Type":1,"RequiresDeduplication":true}.
+MatomoConnector.API.AuthException: Unable to send request because URL or API_KEY is incorrect.
+   at MatomoConnector.API.BaseModule.SendRequest[T](String method, ParametersCollection parameters, Int32 offset)
+   at MatomoConnector.API.SitesManagerModule.GetAllSites()
+   at MatomoConnector.API.MatomoService.GetAllSites()
+   at Terrasoft.Configuration.MatomoServiceFacade.GetSiteIds(IEnumerable`1 urls)
+   at Terrasoft.Configuration.MatomoDataSyncManager.GetSiteIds(List`1 visitors)
+   at Terrasoft.Configuration.MatomoDataSyncManager.SynchronizeForContactsRequest()
+   at Terrasoft.Configuration.MatomoTouchQueueMessageProcessor.<InitStrategy>b__9_4(TouchQueueMessage baseMessage)
+   at Terrasoft.Configuration.BaseTouchQueueMessageProcessor.ProcessMessage(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.BaseQueueMessageProcessor.Process(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.InternalProcess(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.Process(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueJobDispatcher.OnMessageDequeued(Object sender, TouchQueueMessage message)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.FireOnMessageDequeuedEvent(T message)
+   at Terrasoft.Configuration.TouchQueueManager.FireOnMessageDequeuedEvent(TouchQueueMessage message)
+2023-11-06 12:53:06,928 [.NET ThreadPool Worker] ERROR  TouchPoints RunJobExecutor - TouchQueueJobDispatcher failed to execute job.
+MatomoConnector.API.AuthException: Unable to send request because URL or API_KEY is incorrect.
+   at MatomoConnector.API.BaseModule.SendRequest[T](String method, ParametersCollection parameters, Int32 offset)
+   at MatomoConnector.API.SitesManagerModule.GetAllSites()
+   at MatomoConnector.API.MatomoService.GetAllSites()
+   at Terrasoft.Configuration.MatomoServiceFacade.GetSiteIds(IEnumerable`1 urls)
+   at Terrasoft.Configuration.MatomoDataSyncManager.GetSiteIds(List`1 visitors)
+   at Terrasoft.Configuration.MatomoDataSyncManager.SynchronizeForContactsRequest()
+   at Terrasoft.Configuration.MatomoTouchQueueMessageProcessor.<InitStrategy>b__9_4(TouchQueueMessage baseMessage)
+   at Terrasoft.Configuration.BaseTouchQueueMessageProcessor.ProcessMessage(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.BaseQueueMessageProcessor.Process(BaseTaskQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.InternalProcess(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueMessageProcessor.Process(TouchQueueMessage message)
+   at Terrasoft.Configuration.TouchQueueJobDispatcher.OnMessageDequeued(Object sender, TouchQueueMessage message)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.FireOnMessageDequeuedEvent(T message)
+   at Terrasoft.Configuration.TouchQueueManager.FireOnMessageDequeuedEvent(TouchQueueMessage message)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.InternalDequeue(IEnumerable`1 messageTypes)
+   at Terrasoft.Configuration.BaseTaskQueueManager`1.Dequeue()
+   at Terrasoft.Configuration.TouchQueueJobDispatcher.InternalExecute()
+   at Terrasoft.Configuration.BaseQueueJobDispatcher.Execute(UserConnection userConnection, IDictionary`2 parameters)
+2023-11-06 13:45:48,762 [.NET ThreadPool Worker] ERROR  Terrasoft.Core.UserConnection System.Threading.IAsyncLocal.OnValueChanged - Overwriting UserConnection.Current in the same context is not allowed    at System.Environment.get_StackTrace()
+   at Terrasoft.Core.UserConnection.OnCurrentUserConnectionChanged(AsyncLocalValueChangedArgs`1 args) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/UserConnection.cs:line 626
+   at System.Threading.AsyncLocal`1.System.Threading.IAsyncLocal.OnValueChanged(Object previousValueObj, Object currentValueObj, Boolean contextChanged)
+   at System.Threading.ExecutionContext.SetLocalValue(IAsyncLocal local, Object newValue, Boolean needChangeNotifications)
+   at Terrasoft.WebHost.Session.SessionEventListener.OnSessionEnd(ISession session) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.WebHost/Session/SessionEventListener.cs:line 205
+   at Terrasoft.WebHost.Session.ExpiredSessionSynchronizationService.CloseSession(String sessionKey) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.WebHost/Session/ExpiredSessionSynchronizationService.cs:line 64
+   at Terrasoft.WebHost.Session.ExpiredSessionSynchronizationService.<ClearExpiredSessionsCallback>b__12_0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.WebHost/Session/ExpiredSessionSynchronizationService.cs:line 76
+   at Terrasoft.Common.Timer.NonOverlappingTimerCallback(TimerCallback callback, Object state, Int32 dueTime, Int32 period) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Common/Timer.cs:line 22
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.TimerQueueTimer.Fire(Boolean isThreadPool)
+   at System.Threading.TimerQueue.FireNextTimers()
+   at System.Threading.UnmanagedThreadPoolWorkItem.ExecuteUnmanagedThreadPoolWorkItem(IntPtr callback, IntPtr state)
+   at System.Threading.UnmanagedThreadPoolWorkItem.ExecuteUnmanagedThreadPoolWorkItem(IntPtr callback, IntPtr state)
+   at System.Threading.UnmanagedThreadPoolWorkItem.System.Threading.IThreadPoolWorkItem.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+2023-11-06 13:52:48,818 [.NET ThreadPool Worker] ERROR  Terrasoft.Core.UserConnection System.Threading.IAsyncLocal.OnValueChanged - Overwriting UserConnection.Current in the same context is not allowed    at System.Environment.get_StackTrace()
+   at Terrasoft.Core.UserConnection.OnCurrentUserConnectionChanged(AsyncLocalValueChangedArgs`1 args) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/UserConnection.cs:line 626
+   at System.Threading.AsyncLocal`1.System.Threading.IAsyncLocal.OnValueChanged(Object previousValueObj, Object currentValueObj, Boolean contextChanged)
+   at System.Threading.ExecutionContext.SetLocalValue(IAsyncLocal local, Object newValue, Boolean needChangeNotifications)
+   at Terrasoft.WebHost.Session.SessionEventListener.OnSessionEnd(ISession session) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.WebHost/Session/SessionEventListener.cs:line 205
+   at Terrasoft.WebHost.Session.ExpiredSessionSynchronizationService.CloseSession(String sessionKey) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.WebHost/Session/ExpiredSessionSynchronizationService.cs:line 64
+   at Terrasoft.WebHost.Session.ExpiredSessionSynchronizationService.<ClearExpiredSessionsCallback>b__12_0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.WebHost/Session/ExpiredSessionSynchronizationService.cs:line 76
+   at Terrasoft.Common.Timer.NonOverlappingTimerCallback(TimerCallback callback, Object state, Int32 dueTime, Int32 period) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Common/Timer.cs:line 22
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.TimerQueueTimer.Fire(Boolean isThreadPool)
+   at System.Threading.TimerQueue.FireNextTimers()
+   at System.Threading.UnmanagedThreadPoolWorkItem.ExecuteUnmanagedThreadPoolWorkItem(IntPtr callback, IntPtr state)
+   at System.Threading.UnmanagedThreadPoolWorkItem.ExecuteUnmanagedThreadPoolWorkItem(IntPtr callback, IntPtr state)
+   at System.Threading.UnmanagedThreadPoolWorkItem.System.Threading.IThreadPoolWorkItem.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+2023-11-06 14:35:09,283 [.NET ThreadPool Worker] ERROR  Terrasoft.Core.Entities.Entity Start - SysSchemaSource (Id: [cab2aaff-8308-415a-b402-206227a49706])
+Terrasoft.Common.DbOperationException: 53300: sorry, too many clients already
+ ---> Npgsql.PostgresException (0x80004005): 53300: sorry, too many clients already
+   at Npgsql.NpgsqlConnector.DoReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T](Boolean async)
+   at Npgsql.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.AllocateLong(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Terrasoft.Core.DB.DBExecutor.<get_DBConnection>b__23_0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 230
+   at Polly.Policy.<>c__DisplayClass109_0.<Execute>b__0(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c__DisplayClass103_0.<NoOp>b__1(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c.<NoOp>b__103_0(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action action)
+   at Terrasoft.Core.DB.DBExecutor.get_DBConnection() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 233
+   at Terrasoft.Core.DB.DBExecutor.CreateCommand() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 441
+   at Terrasoft.Core.DB.DBExecutor.ExecuteCommandAsync[TResult](Func`2 commandExecutionCallback, Func`2 commandExecutionCallbackAsync, String sqlText, QueryParameterCollection queryParameters, CancellationToken cancellationToken, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 593
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.<>c__DisplayClass45_0.<InternalExecute>b__0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 484
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.ExecuteInLockIfInTransaction[TResult](Func`1 action) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 266
+   at Terrasoft.Core.DB.BaseInsert.ExecuteAsync(DBExecutor dbExecutor, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/BaseInsert.cs:line 108
+   at Terrasoft.Core.DB.BaseInsert.Execute(DBExecutor dbExecutor) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/BaseInsert.cs:line 163
+   at Terrasoft.Core.Entities.Entity.InsertToDBAsync(Boolean sync, Boolean skipLookupColumnValues, Boolean validateRequired, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2455
+   --- End of inner exception stack trace ---
+   at Terrasoft.Core.Entities.Entity.InsertToDBAsync(Boolean sync, Boolean skipLookupColumnValues, Boolean validateRequired, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2467
+   at Terrasoft.Core.Entities.Entity.InsertToDB(Boolean skipLookupColumnValues, Boolean validateRequired, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 3645
+   at Terrasoft.Core.Entities.Entity.TryExecuteSaving(Boolean validateRequired, Boolean setColumnDefValue, Boolean sync, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2145
+2023-11-06 14:35:09,283 [.NET ThreadPool Worker] ERROR  Terrasoft.Core.Entities.Entity Start - SysSchemaSource (Id: [0b9dbb44-66a3-4316-bf52-9b0e59755cb5])
+Terrasoft.Common.DbOperationException: 53300: sorry, too many clients already
+ ---> Npgsql.PostgresException (0x80004005): 53300: sorry, too many clients already
+   at Npgsql.NpgsqlConnector.DoReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T](Boolean async)
+   at Npgsql.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.AllocateLong(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Terrasoft.Core.DB.DBExecutor.<get_DBConnection>b__23_0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 230
+   at Polly.Policy.<>c__DisplayClass109_0.<Execute>b__0(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c__DisplayClass103_0.<NoOp>b__1(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c.<NoOp>b__103_0(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action action)
+   at Terrasoft.Core.DB.DBExecutor.get_DBConnection() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 233
+   at Terrasoft.Core.DB.DBExecutor.CreateCommand() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 441
+   at Terrasoft.Core.DB.DBExecutor.ExecuteCommandAsync[TResult](Func`2 commandExecutionCallback, Func`2 commandExecutionCallbackAsync, String sqlText, QueryParameterCollection queryParameters, CancellationToken cancellationToken, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 593
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.<>c__DisplayClass45_0.<InternalExecute>b__0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 484
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.ExecuteInLockIfInTransaction[TResult](Func`1 action) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 266
+   at Terrasoft.Core.DB.BaseInsert.ExecuteAsync(DBExecutor dbExecutor, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/BaseInsert.cs:line 108
+   at Terrasoft.Core.DB.BaseInsert.Execute(DBExecutor dbExecutor) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/BaseInsert.cs:line 163
+   at Terrasoft.Core.Entities.Entity.InsertToDBAsync(Boolean sync, Boolean skipLookupColumnValues, Boolean validateRequired, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2455
+   --- End of inner exception stack trace ---
+   at Terrasoft.Core.Entities.Entity.InsertToDBAsync(Boolean sync, Boolean skipLookupColumnValues, Boolean validateRequired, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2467
+   at Terrasoft.Core.Entities.Entity.InsertToDB(Boolean skipLookupColumnValues, Boolean validateRequired, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 3645
+   at Terrasoft.Core.Entities.Entity.TryExecuteSaving(Boolean validateRequired, Boolean setColumnDefValue, Boolean sync, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2145
+2023-11-06 14:35:11,180 [.NET ThreadPool Worker] ERROR  Terrasoft.Core.Entities.Entity Start - SysSchemaSource (Id: [b7006a9c-fc90-4068-8512-a526a150e46d])
+Terrasoft.Common.DbOperationException: 53300: sorry, too many clients already
+ ---> Npgsql.PostgresException (0x80004005): 53300: sorry, too many clients already
+   at Npgsql.NpgsqlConnector.DoReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T](Boolean async)
+   at Npgsql.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.AllocateLong(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Terrasoft.Core.DB.DBExecutor.<get_DBConnection>b__23_0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 230
+   at Polly.Policy.<>c__DisplayClass109_0.<Execute>b__0(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c__DisplayClass103_0.<NoOp>b__1(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c.<NoOp>b__103_0(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action action)
+   at Terrasoft.Core.DB.DBExecutor.get_DBConnection() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 233
+   at Terrasoft.Core.DB.DBExecutor.CreateCommand() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 441
+   at Terrasoft.Core.DB.DBExecutor.ExecuteCommandAsync[TResult](Func`2 commandExecutionCallback, Func`2 commandExecutionCallbackAsync, String sqlText, QueryParameterCollection queryParameters, CancellationToken cancellationToken, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 593
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.<>c__DisplayClass45_0.<InternalExecute>b__0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 484
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.ExecuteInLockIfInTransaction[TResult](Func`1 action) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 266
+   at Terrasoft.Core.DB.BaseInsert.ExecuteAsync(DBExecutor dbExecutor, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/BaseInsert.cs:line 108
+   at Terrasoft.Core.DB.BaseInsert.Execute(DBExecutor dbExecutor) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/BaseInsert.cs:line 163
+   at Terrasoft.Core.Entities.Entity.InsertToDBAsync(Boolean sync, Boolean skipLookupColumnValues, Boolean validateRequired, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2455
+   --- End of inner exception stack trace ---
+   at Terrasoft.Core.Entities.Entity.InsertToDBAsync(Boolean sync, Boolean skipLookupColumnValues, Boolean validateRequired, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2467
+   at Terrasoft.Core.Entities.Entity.InsertToDB(Boolean skipLookupColumnValues, Boolean validateRequired, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 3645
+   at Terrasoft.Core.Entities.Entity.TryExecuteSaving(Boolean validateRequired, Boolean setColumnDefValue, Boolean sync, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2145
+2023-11-06 14:35:11,338 [.NET ThreadPool Worker] ERROR  Terrasoft.Core.Entities.Entity Start - SysSchemaSource (Id: [42198117-6375-4159-81b3-296587de4585])
+Terrasoft.Common.DbOperationException: 53300: sorry, too many clients already
+ ---> Npgsql.PostgresException (0x80004005): 53300: sorry, too many clients already
+   at Npgsql.NpgsqlConnector.DoReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T](Boolean async)
+   at Npgsql.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.AllocateLong(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Terrasoft.Core.DB.DBExecutor.<get_DBConnection>b__23_0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 230
+   at Polly.Policy.<>c__DisplayClass109_0.<Execute>b__0(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c__DisplayClass103_0.<NoOp>b__1(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c.<NoOp>b__103_0(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action action)
+   at Terrasoft.Core.DB.DBExecutor.get_DBConnection() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 233
+   at Terrasoft.Core.DB.DBExecutor.CreateCommand() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 441
+   at Terrasoft.Core.DB.DBExecutor.ExecuteCommandAsync[TResult](Func`2 commandExecutionCallback, Func`2 commandExecutionCallbackAsync, String sqlText, QueryParameterCollection queryParameters, CancellationToken cancellationToken, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 593
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.<>c__DisplayClass45_0.<InternalExecute>b__0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 484
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.ExecuteInLockIfInTransaction[TResult](Func`1 action) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 266
+   at Terrasoft.Core.DB.BaseInsert.ExecuteAsync(DBExecutor dbExecutor, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/BaseInsert.cs:line 108
+   at Terrasoft.Core.DB.BaseInsert.Execute(DBExecutor dbExecutor) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/BaseInsert.cs:line 163
+   at Terrasoft.Core.Entities.Entity.InsertToDBAsync(Boolean sync, Boolean skipLookupColumnValues, Boolean validateRequired, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2455
+   --- End of inner exception stack trace ---
+   at Terrasoft.Core.Entities.Entity.InsertToDBAsync(Boolean sync, Boolean skipLookupColumnValues, Boolean validateRequired, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2467
+   at Terrasoft.Core.Entities.Entity.InsertToDB(Boolean skipLookupColumnValues, Boolean validateRequired, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 3645
+   at Terrasoft.Core.Entities.Entity.TryExecuteSaving(Boolean validateRequired, Boolean setColumnDefValue, Boolean sync, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2145
+2023-11-06 16:01:19,393 [.NET ThreadPool Worker] ERROR  Terrasoft.Core.UserConnection OnCurrentUserConnectionChanged - Overwriting UserConnection.Current in the same context is not allowed    at System.Environment.get_StackTrace()
+   at Terrasoft.Core.UserConnection.OnCurrentUserConnectionChanged(AsyncLocalValueChangedArgs`1 args) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/UserConnection.cs:line 626
+   at System.Threading.AsyncLocal`1.System.Threading.IAsyncLocal.OnValueChanged(Object previousValueObj, Object currentValueObj, Boolean contextChanged)
+   at System.Threading.ExecutionContext.SetLocalValue(IAsyncLocal local, Object newValue, Boolean needChangeNotifications)
+   at Terrasoft.WebHost.Session.SessionEventListener.OnSessionEnd(ISession session) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.WebHost/Session/SessionEventListener.cs:line 205
+   at Terrasoft.WebHost.Session.ExpiredSessionSynchronizationService.CloseSession(String sessionKey) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.WebHost/Session/ExpiredSessionSynchronizationService.cs:line 64
+   at Terrasoft.WebHost.Session.ExpiredSessionSynchronizationService.<ClearExpiredSessionsCallback>b__12_0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.WebHost/Session/ExpiredSessionSynchronizationService.cs:line 76
+   at Terrasoft.Redis.RedisThrottledExecutor.Execute(Action action) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Redis/RedisThrottledExecutor.cs:line 37
+   at Terrasoft.WebHost.Session.ExpiredSessionSynchronizationService.ClearExpiredSessionsCallback(Object state) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.WebHost/Session/ExpiredSessionSynchronizationService.cs:line 72
+   at Terrasoft.Common.Timer.NonOverlappingTimerCallback(TimerCallback callback, Object state, Int32 dueTime, Int32 period) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Common/Timer.cs:line 22
+   at Terrasoft.Common.Timer.<>c__DisplayClass2_0.<Start>b__0(Object currentState) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Common/Timer.cs:line 37
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.TimerQueueTimer.Fire(Boolean isThreadPool)
+   at System.Threading.TimerQueue.FireNextTimers()
+   at System.Threading.UnmanagedThreadPoolWorkItem.ExecuteUnmanagedThreadPoolWorkItem(IntPtr callback, IntPtr state)
+   at System.Threading.UnmanagedThreadPoolWorkItem.ExecuteUnmanagedThreadPoolWorkItem(IntPtr callback, IntPtr state)
+   at System.Threading.UnmanagedThreadPoolWorkItem.System.Threading.IThreadPoolWorkItem.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+2023-11-06 17:05:19,745 [.NET ThreadPool Worker] ERROR  Terrasoft.Core.UserConnection System.Threading.IAsyncLocal.OnValueChanged - Overwriting UserConnection.Current in the same context is not allowed    at System.Environment.get_StackTrace()
+   at Terrasoft.Core.UserConnection.OnCurrentUserConnectionChanged(AsyncLocalValueChangedArgs`1 args) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/UserConnection.cs:line 626
+   at System.Threading.AsyncLocal`1.System.Threading.IAsyncLocal.OnValueChanged(Object previousValueObj, Object currentValueObj, Boolean contextChanged)
+   at System.Threading.ExecutionContext.SetLocalValue(IAsyncLocal local, Object newValue, Boolean needChangeNotifications)
+   at Terrasoft.WebHost.Session.SessionEventListener.OnSessionEnd(ISession session) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.WebHost/Session/SessionEventListener.cs:line 205
+   at Terrasoft.WebHost.Session.ExpiredSessionSynchronizationService.CloseSession(String sessionKey) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.WebHost/Session/ExpiredSessionSynchronizationService.cs:line 64
+   at Terrasoft.WebHost.Session.ExpiredSessionSynchronizationService.<ClearExpiredSessionsCallback>b__12_0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.WebHost/Session/ExpiredSessionSynchronizationService.cs:line 76
+   at Terrasoft.Common.Timer.NonOverlappingTimerCallback(TimerCallback callback, Object state, Int32 dueTime, Int32 period) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Common/Timer.cs:line 22
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.TimerQueueTimer.Fire(Boolean isThreadPool)
+   at System.Threading.TimerQueue.FireNextTimers()
+   at System.Threading.UnmanagedThreadPoolWorkItem.ExecuteUnmanagedThreadPoolWorkItem(IntPtr callback, IntPtr state)
+   at System.Threading.UnmanagedThreadPoolWorkItem.ExecuteUnmanagedThreadPoolWorkItem(IntPtr callback, IntPtr state)
+   at System.Threading.UnmanagedThreadPoolWorkItem.System.Threading.IThreadPoolWorkItem.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+2023-11-06 19:07:20,269 [.NET ThreadPool Worker] ERROR  Terrasoft.Core.UserConnection System.Threading.IAsyncLocal.OnValueChanged - Overwriting UserConnection.Current in the same context is not allowed    at System.Environment.get_StackTrace()
+   at Terrasoft.Core.UserConnection.OnCurrentUserConnectionChanged(AsyncLocalValueChangedArgs`1 args) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/UserConnection.cs:line 626
+   at System.Threading.AsyncLocal`1.System.Threading.IAsyncLocal.OnValueChanged(Object previousValueObj, Object currentValueObj, Boolean contextChanged)
+   at System.Threading.ExecutionContext.SetLocalValue(IAsyncLocal local, Object newValue, Boolean needChangeNotifications)
+   at Terrasoft.WebHost.Session.SessionEventListener.OnSessionEnd(ISession session) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.WebHost/Session/SessionEventListener.cs:line 205
+   at Terrasoft.WebHost.Session.ExpiredSessionSynchronizationService.CloseSession(String sessionKey) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.WebHost/Session/ExpiredSessionSynchronizationService.cs:line 64
+   at Terrasoft.WebHost.Session.ExpiredSessionSynchronizationService.<ClearExpiredSessionsCallback>b__12_0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.WebHost/Session/ExpiredSessionSynchronizationService.cs:line 76
+   at Terrasoft.Common.Timer.NonOverlappingTimerCallback(TimerCallback callback, Object state, Int32 dueTime, Int32 period) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Common/Timer.cs:line 22
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.TimerQueueTimer.Fire(Boolean isThreadPool)
+   at System.Threading.TimerQueue.FireNextTimers()
+   at System.Threading.UnmanagedThreadPoolWorkItem.ExecuteUnmanagedThreadPoolWorkItem(IntPtr callback, IntPtr state)
+   at System.Threading.UnmanagedThreadPoolWorkItem.ExecuteUnmanagedThreadPoolWorkItem(IntPtr callback, IntPtr state)
+   at System.Threading.UnmanagedThreadPoolWorkItem.System.Threading.IThreadPoolWorkItem.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()

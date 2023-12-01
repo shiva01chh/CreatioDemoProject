@@ -1,0 +1,80 @@
+﻿[data-tag="openServiceModelPage"] {
+  margin-left: 20px;
+}
+#ServiceModelFilterContainer {
+  border-left: none;
+  padding-left: 1em;
+  display: block;
+}
+#ServiceModelFilterContainer .label-wrap + .control-wrap {
+  padding-left: 25px;
+}
+#ServiceModelFilterContainer .label-wrap {
+  margin-top: -3px;
+  margin-right: 2.3em;
+  padding-left: 3.1em;
+  z-index: 0;
+}
+#ServiceModelFilterContainer .t-btn-image-left {
+  width: 22px;
+  height: 22px;
+}
+#ServiceModelFilterContainer .absolute-vertical-centered .t-btn-image {
+  margin-left: -0.5em;
+}
+#ServiceModelFilterContainer .extended-filter-button-container {
+  margin-bottom: 1em;
+  padding-left: 1.5em;
+}
+#ServiceModelFilterContainer .ts-controlgroup-container {
+  margin-left: 23px;
+  padding-top: 0em;
+  padding-bottom: 0.5em;
+}
+#ServiceModelFilterContainer .ts-controlgroup-caption-wrap {
+  height: auto;
+  padding-bottom: 0.8em;
+}
+#ServiceModelFilterContainer .control-width-15 .t-label {
+  text-align: left;
+}
+#ServiceModelFilterContainer .t-label {
+  width: 400%;
+}
+#ServiceModelFilterContainer .t-checkboxedit {
+  width: 15px;
+  height: 15px;
+}
+#ServiceModelFilterContainer .t-checkboxedit-wrap {
+  width: 15px;
+  height: 15px;
+  margin-top: 0px;
+  margin-left: 1.1em;
+}
+#ServiceModelPageContainer .action-buttons-container-wrapClass {
+  margin-bottom: 0;
+  padding-bottom: 1em;
+}
+#ServiceModelPageContainer .extended-filter-button-container {
+  margin-top: 5px;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+#ServiceModelPageContainer .extended-filter-button-container .t-btn-wrapper {
+  margin-right: 9px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  vertical-align: bottom;
+  border-right: 1px solid lightgrey;
+  padding-left: 0;
+}
+crt-schema-outlet #ServiceModelPageContainer {
+  margin-left: 3em;
+}
+.service-model-mail-container {
+  position: static;
+}
+#right-header-container.no-border-class,
+#ActionsButtonContainer.no-border-class {
+  border-style: none;
+}

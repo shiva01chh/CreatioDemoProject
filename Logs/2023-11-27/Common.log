@@ -1,0 +1,28 @@
+2023-11-27 18:32:28,235 [1] WARN  Terrasoft.WebHost.Application OnAfterConfigure - Application starting
+2023-11-27 18:32:35,328 [1] INFO  Terrasoft.Core.InMemoryPubSubServer .ctor - InMemoryPubSubServer started.
+2023-11-27 18:32:36,957 [1] INFO  Terrasoft.WebHost.Application StartApplicationScheduler - Starting scheduler...
+2023-11-27 18:32:36,957 [.NET ThreadPool Worker] INFO  Creatio.Messaging.MessageBus.RabbitMQ.Actors.OperationModeDispatcherActor OnReceive - OperationModeDispatcher initialized
+2023-11-27 18:32:37,034 [1] INFO  Terrasoft.WebHost.Application StartApplicationScheduler - Scheduler started
+2023-11-27 18:32:37,061 [1] INFO  Terrasoft.WebHost.Startup <MapODataServiceRoute>b__12_0 - OData service initialized successfully
+2023-11-27 18:32:40,470 [1] INFO  Mailing CreateInstance - [ActiveContactsHandler.CreateInstance]: Job ActualizeActiveContacts for process ActualizeActiveContactsProcess scheduled
+2023-11-27 18:32:40,470 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of ActiveContactsHandler created.
+2023-11-27 18:32:40,475 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of CESWebHooksHandler created.
+2023-11-27 18:32:40,479 [1] INFO  Mailing CreateInstance - [ScheduledMailingsHandler.CreateInstance]: Job MandrillScheduledMailing for process ScheduleMassMailing with interval 1 scheduled
+2023-11-27 18:32:40,479 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of ScheduledMailingsHandler created.
+2023-11-27 18:32:40,483 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of MandrillAnaliticsHandler created.
+2023-11-27 18:32:40,489 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of MandrillRecipientsHandler created.
+2023-11-27 18:32:40,493 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of MandrillWebHooksHandler created.
+2023-11-27 18:32:40,493 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of ArchiveBulkEmailTargetHandler created.
+2023-11-27 18:32:44,408 [1] WARN  Terrasoft.WebHost.Application OnStart - Application started
+2023-11-27 18:33:12,202 [.NET ThreadPool Worker] INFO Supervisor Terrasoft.Core.FeatureToggling.DbFeatureProvider AddOrUpdate - Merged duplicate 'UsePersistentFileImport' admin unit feature value. AdminUnitId = '7f3b869f-34f3-4f20-ab4d-7480a5fdf647'
+2023-11-27 18:33:12,557 [.NET ThreadPool Worker] INFO Supervisor Terrasoft.Core.FeatureToggling.FeatureChangedNotificationHandler MoveNext - Handling  feature state change to 
+2023-11-27 18:34:37,959 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [KEsyCRzksEe81bNjTUQFmg.job] [CalendarFailoverJob] started.
+2023-11-27 18:34:37,970 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [KEsyCRzksEe81bNjTUQFmg.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2023-11-27 18:34:37,970 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [KEsyCRzksEe81bNjTUQFmg.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2023-11-27 18:34:37,974 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [KEsyCRzksEe81bNjTUQFmg.job] [CalendarFailoverJob] ended.
+2023-11-27 18:34:38,557 [.NET ThreadPool Worker] WARN  Terrasoft.Core.DB.EntitySchemaDbInfoActualizer Actualize - Actualization of EntitySchemaDbInfo started.
+2023-11-27 18:34:38,616 [.NET ThreadPool Worker] WARN  Terrasoft.Core.DB.EntitySchemaDbInfoActualizer Actualize - Actualization of EntitySchemaDbInfo completed.
+2023-11-27 18:49:37,192 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [OCTYfHABiUCr782qzj79tA.job] [CalendarFailoverJob] started.
+2023-11-27 18:49:37,197 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [OCTYfHABiUCr782qzj79tA.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2023-11-27 18:49:37,197 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [OCTYfHABiUCr782qzj79tA.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2023-11-27 18:49:37,197 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [OCTYfHABiUCr782qzj79tA.job] [CalendarFailoverJob] ended.

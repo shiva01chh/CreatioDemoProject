@@ -1,0 +1,234 @@
+﻿.ts-campaign-message-box {
+	width: 550px;
+
+	.ts-inputbox-caption {
+		font-size: 22px;
+	}
+
+	.memo-edit-core {
+		box-sizing: content-box;
+	}
+}
+.left-modules-container .island-block-container .control-width-15 {
+	display: inline-block;
+}
+.left-modules-container .island-block-container .label-wrap label {
+	text-align: left;
+    padding-left: 1px;
+}
+.left-modules-container .island-block-container .grid-layout .grid-layout-row .grid-layout-column > *:not(.grid-layout-spacer) {
+    padding-bottom: 8px;
+}
+.left-modules-container .island-block-container .grid-layout .grid-layout-row .grid-layout-column {
+    min-height: 1px;
+}
+.left-modules-container .island-block-container .grid-layout .grid-layout-row {
+    min-height: 1px;
+}
+.tabs-container {
+	display: flex;
+	flex-direction: column;
+}
+#CampaignAnalyticsTab {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+
+	.open-designer-button {
+		float: right;
+	}
+	.not-selected-image {
+		width: 100%;
+		text-align: center;
+		margin-right: 0px;
+		padding-top: 25px;
+		padding-bottom: 30px;
+	}
+	.description-container {
+		width: 100%;
+		text-align: center;
+		color: #999999;
+		font-size: 1.2em;
+
+		.description-label {
+			max-width: 420px;
+			box-shadow: -3px 0 0 0 #54b8df;
+		}
+	}
+}
+
+.analytics-container {
+	display: flex;
+	flex-grow: 1;
+	position: relative;
+
+	#CampaignViewer {
+		flex-grow: 1;
+		margin: 0 -20px;
+		border-top: 1px solid #dbdbdb;
+		position: absolute;
+		height: 100%;
+		width: calc(~'100% + 40px');
+
+		.schema-designer .diagram {
+			width: inherit;
+			position: relative;
+		}
+		.e-datavisualization-diagram svg {
+			position: inherit !important;
+		}
+		.diagram .ej-diagram {
+			flex-basis: auto;
+			-webkit-flex-basis: auto;
+			height: 100%;
+		}
+
+		.diagram .header {
+			position: absolute;
+			right: 0;
+			z-index: 10;
+			background: rgba(255, 255, 255, 0.8);
+		}
+
+		#schema-designer-toolbar {
+			padding: 10px 10px 0 4px;
+			min-height: 44px;
+		}
+
+		#schema-designer-properties-ct {
+			margin-top: -1px;
+
+			.schema-wrap.one-el {
+				min-width: 356px;
+			}
+
+			#CustomCronExpressionModule,
+			#MonthlyStartModule,
+			#WeeklyStartModule {
+				.schema-wrap.one-el {
+					min-width: 306px;
+				}
+			}
+
+			.properties-container {
+				.editors-ct {
+					position: relative;
+
+					.readonly-properties-background {
+						position: absolute;
+						width: 100%;
+						height: 100%;
+						background: #fff;
+						opacity: 0.3;
+						top: 0;
+						left: 0;
+						right: 0;
+						z-index: 100;
+					}
+				}
+			}
+		}
+
+		#schema-designer-toolbar-right {
+			color: #54657D;
+			[data-item-marker="ReloadDiagramButton"] {
+				font: normal normal normal 24px/46px bpm_designer;
+				font-family: "bpmonline designer icons";
+				letter-spacing: 11.95px;
+				text-align: center;
+				background: none;
+				min-width: 24px;
+				width: 24px;
+				padding-left: 8px;
+
+				&::before {
+					content: "\e939"
+				}
+
+				&:hover {
+					color: #006CE0
+				}
+			}
+
+			[data-item-marker="ToggleDescriptionsButton"] {
+				font: normal normal normal 24px/46px bpm_designer;
+				font-family: "bpmonline designer icons";
+				letter-spacing: 11.95px;
+				text-align: center;
+				background: none;
+				min-width: 24px;
+				width: 24px;
+				padding-left: 8px;
+
+				&::before {
+					content: "\e961"
+				}
+
+				&:hover {
+					color: #006CE0
+				}
+
+				&.untoggle {
+					opacity: 0.4;
+				}
+			}
+
+			[data-item-marker="SearchShowButton"] {
+				font: normal normal normal 24px/46px bpm_designer;
+				font-family: "bpmonline designer icons";
+				letter-spacing: 11.95px;
+				text-align: center;
+				background: none;
+				min-width: 24px;
+				width: 24px;
+				padding-left: 8px;
+
+				&::before {
+					content: "\e91f";
+				}
+
+				&:hover {
+					color: #006CE0
+				}
+			}
+
+			[data-item-marker="SchemaPropertiesButton"] {
+				font: normal normal normal 24px/46px bpm_designer;
+				font-family: "bpmonline designer icons";
+				letter-spacing: 11.95px;
+				text-align: center;
+				background: none;
+				min-width: 24px;
+				width: 24px;
+				padding-left: 8px;
+
+				&::before {
+					content: "\e920";
+				}
+
+				&:hover {
+					color: #006CE0
+				}
+			 }
+		}
+	}
+}
+
+body[OldUI=false] {
+	.center-main-container.campaign-card-content-container > div {
+		padding-bottom: 0;
+	}
+	.center-main-container .campaign-analytics-header-container .grid-layout-row {
+		max-width: 100%;
+	}
+	.left-modules-container > div.island-block-container {
+		padding-bottom: 11px;
+	}
+	ts-campaign-diagram > .ts-mask-container{
+		opacity: 0.5;
+	}
+}
+
+.control-no-label.campaign-properties-title-wrap .base-edit.base-edit-disabled {
+	background-color: transparent;
+}

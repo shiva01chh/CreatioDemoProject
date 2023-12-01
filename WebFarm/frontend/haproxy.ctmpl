@@ -1,0 +1,56 @@
+global
+    log     /dev/log    local0
+    log     /dev/log    local1 notice
+    daemon
+    maxconn 30000
+    maxpipes 30000
+    maxsessrate 30000
+
+defaults
+    log global
+    mode http
+    option forwardfor
+    option redispatch
+    option httplog
+    option dontlognull
+    option http-keep-alive
+    timeout connect 5000
+    timeout client 86400000
+    timeout server 86400000
+    timeout tunnel 86400000
+    maxconn 30000
+
+frontend balancer
+    bind 0.0.0.0:80
+    mode http
+    http-request set-header X-Forwarded-Port %[dst_port]
+    acl is_websocket hdr(Upgrade) -i WebSocket
+    acl is_websocket hdr_beg(Host) -i ws
+    acl is_websocket path -i -m beg /msg
+    acl is_static_content path -i -m beg /conf/content/
+    default_backend web-nodes
+    use_backend websocket-nodes if is_websocket
+    use_backend static-content if is_static_content
+
+backend websocket-nodes
+   mode http
+    balance roundrobin
+    option prefer-last-server
+    cookie socketservername insert indirect nocache{{range service "web-app"}}
+    server {{.Node}} {{.Address}}:{{.Port}} cookie {{.Node}} check fall 3 rise 2{{end}}
+
+backend web-nodes
+    mode http
+    balance roundrobin{{range service "web-app"}}
+    server {{.Node}} {{.Address}}:{{.Port}} check fall 3 rise 2{{end}}
+
+backend static-content
+    mode http
+    balance roundrobin{{range service "static-content"}}
+    server {{.Node}} {{.Address}}:{{.Port}} check fall 3 rise 2{{end}}
+
+listen stats # Define a listen section called "stats"
+	bind *:9000 # Listen on localhost:9000
+	stats enable  # Enable stats page
+    stats uri /
+    stats refresh 30s

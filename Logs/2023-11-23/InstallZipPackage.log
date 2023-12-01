@@ -1,0 +1,12 @@
+2023-11-23 14:59:24,793 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Configuration build started
+2023-11-23 14:59:24,821 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Current schemas info loaded
+2023-11-23 14:59:26,551 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - New schemas info loaded
+2023-11-23 14:59:27,077 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Configuration state loaded
+2023-11-23 14:59:27,080 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Configuration server content generation started
+2023-11-23 14:59:27,082 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Configuration server content generated
+2023-11-23 14:59:27,135 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Meta info file updated
+2023-11-23 14:59:27,163 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - File content generation started
+2023-11-23 14:59:27,985 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - File content descriptors obtained
+2023-11-23 14:59:27,999 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - File content descriptors generated
+2023-11-23 14:59:28,010 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - File content bootstraps generated
+2023-11-23 14:59:28,010 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Configuration build finished

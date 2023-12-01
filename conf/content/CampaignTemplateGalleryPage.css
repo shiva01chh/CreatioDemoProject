@@ -1,0 +1,15 @@
+﻿#TemplateGalleryContainer .mat-tab-header {
+  display: none !important;
+}
+#TemplateGalleryContainer .tab-container {
+  min-height: 395px;
+}
+#TemplateGalleryContainer .mat-radio-group {
+  flex-direction: row !important;
+}
+#TemplateGalleryContainer .mat-grid-list-container {
+  min-height: 350px;
+}
+#TemplateGalleryContainer .preview-image-wrapper {
+  min-height: 320px;
+}

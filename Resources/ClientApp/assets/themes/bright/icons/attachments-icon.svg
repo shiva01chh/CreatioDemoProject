@@ -1,0 +1,6 @@
+<svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<g><path fill-rule="evenodd" clip-rule="evenodd" d="M6.205 3.613c-.269.269-.42.633-.42 1.013v5.297a2.579 2.579 0 0 0 5.157 0V4.626a.859.859 0 1 1 1.718 0v5.297a4.296 4.296 0 0 1-8.593 0V4.626a3.15 3.15 0 1 1 6.301 0l-.004 5.3a2.005 2.005 0 0 1-4.009 0l.004-4.725a.859.859 0 1 1 1.718 0l-.004 4.726a.287.287 0 0 0 .574 0l.004-5.3a1.433 1.433 0 0 0-2.446-1.014Z" fill="currentColor"/></g>
+	<defs>
+		<clipPath><path fill="transparent" d="M0 0h16v16H0z"/></clipPath>
+	</defs>
+</svg>

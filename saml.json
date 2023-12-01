@@ -1,0 +1,56 @@
+{
+  "SAML": {
+    "$schema": "https://www.componentspace.com/schemas/saml-config-schema-v1.0.json",
+    "Configurations": [
+      {
+        "LocalServiceProviderConfiguration": {
+          "Name": "https://localhost:5002",
+          "Description": "Example Service Provider",
+          "AssertionConsumerServiceUrl": "https://localhost:5002/ServiceModel/AuthService.svc/SsoLogin",
+          "SingleLogoutServiceUrl": "https://localhost:5002/ServiceModel/AuthService.svc/SsoLogout",
+          "LocalCertificates": [
+            {
+              "FileName": "sp.pfx",
+              "Password": "password"
+            }
+          ]
+        },
+        "PartnerIdentityProviderConfigurations": [
+          {
+            "Name": "http://adfs.sandbox.local/adfs/services/trust",
+            "Description": "ADFS",
+            "SignAuthnRequest": false,
+            "SignLogoutRequest": true,
+            "SignLogoutResponse": true,
+            "WantLogoutRequestSigned": false,
+            "WantLogoutResponseSigned": false,
+            "WantAssertionOrResponseSigned": false,
+            "SingleSignOnServiceUrl": "https://adfs.sandbox.local/adfs/ls",
+            "SingleLogoutServiceUrl": "https://adfs.sandbox.local/adfs/ls",
+            "PartnerCertificates": [
+              {
+                "FileName": "\\\\tscore-dev-05\\Share\\adfs_sandbox.cer"
+              }
+            ]
+          },
+          {
+            "Name": "https://app.onelogin.com/saml/metadata/f4eeafbf-a0b6-4757-b04b-b008697a1b27",
+            "Description": "OneLogin",
+            "WantAssertionOrResponseSigned": false,
+            "SingleSignOnServiceUrl": "https://ts-dev.onelogin.com/trust/saml2/http-post/sso/yourAppNumber",
+            "SingleLogoutServiceUrl": "https://ts-dev.onelogin.com/trust/saml2/http-redirect/slo/yourAppNumber",
+            "PartnerCertificates": [
+              {
+                "FileName": "certificates/onelogin.cer"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "PartnerName": "http://adfs.sandbox.local/adfs/services/trust",
+  "UseSsoByDefault": "false",
+  "SamlNameFieldName": "",
+  "SamlRoleFieldName": "role"
+}

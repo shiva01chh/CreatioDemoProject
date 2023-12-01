@@ -1,0 +1,146 @@
+﻿.setup-hierarchy-button {
+  right: 10px;
+}
+.hierarchy-container-list {
+  width: 95%;
+  margin-left: 24px;
+  margin-top: 10px;
+  max-height: 320px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+@media screen and (max-height: 1024px) {
+  .hierarchy-container-list {
+    max-height: 190px;
+  }
+}
+.hierarchy-container-list .base-edit.base-edit-readonly {
+  background-color: transparent;
+}
+.hierarchy-container-list .base-edit.base-edit-readonly input {
+  background-color: transparent;
+}
+.items-hierarchy-container {
+  display: block;
+  align-items: flex-end;
+  width: 100%;
+}
+.hierarchy-container-item.control-width-15 {
+  display: block;
+}
+.hierarchy-container-item.control-width-15 .hierarchy-label {
+  text-align: left;
+}
+.hierarchy-input-container {
+  display: inline-flex;
+  width: 100%;
+  max-height: 28px;
+}
+.hierarchy-input-container .base-edit-readonly {
+  width: 245px;
+}
+.hierarchy-input-container .delete-hierarchy-button span {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+}
+.setup-hierarchy-button {
+  color: #4E7BD8;
+}
+.setup-hierarchy-button .t-btn-image {
+  background-repeat: no-repeat;
+}
+div[data-item-marker="ForecastMiniPageContainer"] .minipage-alignable-container.show-overlay {
+  z-index: 1011;
+}
+div[data-item-marker="ForecastMiniPageContainer"] .alignable-container-overlay {
+  z-index: 1010;
+}
+.show-overlay [class*="mini-page-container"].grid-layout > .grid-layout-row > .grid-layout-column > div.auto-snapshot-container {
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+.auto-snapshot-time .label-wrap {
+  float: left;
+  margin-bottom: 4px;
+}
+.auto-snapshot-time .base-edit {
+  margin-bottom: 15px;
+}
+.auto-snapshot-checkbox-container .label-wrap,
+.auto-calculate-checkbox-container .label-wrap {
+  float: right;
+  display: inline-block;
+  justify-self: left;
+  width: 262px;
+}
+.auto-snapshot-checkbox-container .label-wrap .t-label,
+.auto-calculate-checkbox-container .label-wrap .t-label {
+  color: #4E7BD8;
+  font-size: 14px;
+}
+.auto-snapshot-checkbox-container .control-wrap,
+.auto-calculate-checkbox-container .control-wrap {
+  float: left;
+  width: auto;
+  display: inline-block;
+  padding-right: 5px;
+  margin-left: -3px;
+}
+.auto-snapshot-checkbox-container .control-wrap .toggle-wrap,
+.auto-calculate-checkbox-container .control-wrap .toggle-wrap {
+  margin-top: 4px;
+}
+@keyframes opacityAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#MiniPageContainer .forecast-minipage-alignable-container {
+  top: 6% !important;
+  animation: 0.5s ease-out 0s 1 opacityAnimation;
+}
+#MiniPageContainer .forecast-minipage-alignable-container .ts-tabpanel {
+  padding-right: 0;
+}
+#MiniPageContainer .forecast-minipage-alignable-container .tab-panel-margin-bottom {
+  margin-bottom: 1.5em;
+}
+#MiniPageContainer .forecast-minipage-alignable-container .minute-hours-container .module-container {
+  padding-left: 0;
+}
+#MiniPageContainer .forecast-minipage-alignable-container .minute-hours-container .module-container .one-el {
+  min-width: 0;
+}
+#MiniPageContainer .forecast-minipage-alignable-container .minute-hours-container .module-container .minute-hour-grid-layout.grid-layout {
+  padding: 0;
+}
+#MiniPageContainer .forecast-minipage-alignable-container .minute-hours-container .module-container .t-label,
+#MiniPageContainer .forecast-minipage-alignable-container .minute-hours-container .module-container .start-timer-properties-page-label {
+  color: #999999;
+  font-size: 13px;
+}
+#MiniPageContainer .forecast-minipage-alignable-container .minute-hours-container .module-container .grid-layout {
+  padding-left: 0;
+  padding-right: 0;
+}
+.cron-validation-error,
+.primary-display-container {
+  display: inline;
+  font-size: 11px;
+}
+.cron-validation-error-label,
+.primary-display-container-label {
+  color: red;
+  display: inherit;
+  font-size: inherit;
+  text-align: justify;
+}
+.cron-validation-error-hyperlink,
+.primary-display-container-hyperlink {
+  font-size: inherit;
+  display: inherit;
+}

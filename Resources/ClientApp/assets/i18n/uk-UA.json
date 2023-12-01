@@ -1,0 +1,3696 @@
+{
+    "ConfirmationDialog": {
+        "YES": "ТАК",
+        "NO": "НІ",
+        "DELETE": "ВИДАЛИТИ",
+        "CANCEL": "Скасувати"
+    },
+    "InfoDialog": {
+        "OK": "ОК"
+    },
+    "ValidationErrorDialogComponent": {
+        "Cancel": "Скасувати",
+        "Close": "Закрити"
+    },
+    "AddRecordRightsDialog": {
+        "Add": "Додати",
+        "Cancel": "Скасувати",
+        "RecordAuthor": "Автор запису",
+        "RightsRecipient": "Користувач, або роль, який отримує дозволи",
+        "Title": "Додати права залежно від автора запису"
+    },
+    "AddEntityOperationGranteeDialog": {
+        "Add": "Додати",
+        "Cancel": "Скасувати",
+        "Operation": "Операція",
+        "UserOrRole": "Користувач, або роль, який отримує дозволи",
+        "Title": "Додати права на дію з об'єктом залежно від ролі/користувача"
+    },
+    "LocalizableStringsDialog": {
+        "Title": "Рядки, що локалізуються",
+        "NameTitle": "Код",
+        "ValueTitle": "Значення",
+        "Add": "Додати",
+        "Cancel": "Скасувати",
+        "Apply": "Застосувати",
+        "ShowAllLanguages": "Відобразити всі мови",
+        "HideInactiveLanguages": "Приховати неактивні мови",
+        "Validations": {
+            "RequiredNameCaption": "Введіть значення",
+            "PatternNameCaption": "Введено некоректне значення. Використовуйте символи: a-z, A-Z, 0-9.\nСимвол: 0-9 не може бути першим",
+            "DuplicateNameCaption": "Локалізований рядок з таким кодом вже існує"
+        }
+    },
+    "OrderDirectionStrict": {
+        "Ascending": "За зростанням",
+        "Descending": "За зменшенням"
+    },
+    "AdministratedObjectPage": {
+        "AccessPermissions": "ПРАВА ДОСТУПУ",
+        "EntityOperations": "РОЗШИРЕНІ ДІЇ",
+        "Operation": "Операція",
+        "UserOrRole": "Роль / Користувач",
+        "InfoBlockText": "System operations \"Add any data\", \"View any data\", \"Edit any data\", \"Delete any data\" granted to roles or users have higher priority than permissions that you configure in this section.",
+        "InfoBlockEntityOperationsText": "Наявність у користувача або ролі доступу на операції \"CanExportGrid\" має вищій пріоритет, ніж налаштування, що задані в поточному розділі.",
+        "InfoBlockTitle": "Важливо знати",
+        "InfoBlockLink1": "Як працює пріоритет прав",
+        "InfoBlockLink2": "Як успадковуються права доступу",
+        "InfoBlockLink3": "Як настроїти права доступу для деталей",
+        "InfoBlockLink4": "Як змінити налаштування прав із записами для всіх існуючих записів",
+        "InfoBlockLink5": "Приклади налаштування прав доступу",
+        "NameFieldName": "Найменування",
+        "RightsByColumnDetail": "Використовувати доступ до колонок",
+        "RightsByColumnDetailTooltip": "Налаштування обмежень доступу до окремих колонок (полів) об'єкта",
+        "RightsByOperationDetail": "Використовувати доступ до операцій",
+        "RightsByOperationDetailTooltip": "Налаштування правил доступу на операції створення, читання, редагування та видалення даних",
+        "RightsByRecordDetail": "Використати доступ до записів",
+        "RightsByRecordDetailTooltip": "Permission settings for reading, editing and deleting specific records",
+        "RightsByEntityOperationDetailTitle": "Додаткові дозволи",
+        "RightsByEntityOperationDetailTooltip": "Налаштування доступу до операції експорту для поточного об'єкта з розбивкою за ролями або користувачами.",
+        "TitleFieldName": "Звернення",
+        "TitleFormat": "Права доступу до об'єкта {0}",
+        "UpdatePermissions": "Актуалізувати права на записи",
+        "OneEmptyRecordDefRightMessageTemplate": "Правило \"{0}\" містить рівень прав \"Не встановлено\" для всіх операцій. Ви можете змінити налаштування цього правила, інакше воно буде видалено. Ви хочете застосувати поточні установки?",
+        "SeveralEmptyRecordDefRightsMessageTemplate": "Правила \"{0}\" містять рівень прав \"Не встановлено\" для всіх операцій. Ви можете змінити налаштування цих правил, інакше їх буде видалено. Ви хочете застосувати поточні установки?",
+        "ProposalActualizationRights": "Було змінено налаштування прав доступу до записів. Необхідно актуалізувати права існуючих записів об'єкта {0}. Це може вплинути на швидкість роботи користувачів у системі. \nАктуалізувати права доступу до записів зараз?",
+        "AdditionalOperationPermissions": "Додаткові дозволи",
+        "UserOrRoleWhoObtainsPermission": "Користувач, або роль, який отримує дозволи",
+        "RightsByEntityOperationDetail": "Використовувати права доступу для операції об'єкта"
+    },
+    "AdministratedObjectSection": {
+        "BusinessLogicPermissions": "Доступ за записами обмежений",
+        "Close": "Закрити",
+        "ColumnPermissions": "Доступ по колонках обмежений",
+        "Name": "Name",
+        "ObjectPermissions": "Доступ за операціями обмежений",
+        "Search": "Пошук",
+        "Title": "Права доступу на об'єкти",
+        "TitleColumn": "Заголовок",
+        "UpdatePermissions": "Актуалізувати права на записи"
+    },
+    "BasePageComponent": {
+        "Close": "Закрити",
+        "Apply": "Застосувати",
+        "Cancel": "Скасувати",
+        "Save": "Зберегти",
+        "Actions": "Дії",
+        "Check": "Перевірка",
+        "Publish": "Опублікувати",
+        "PublishAndCompile": "Опублікувати та компілювати"
+    },
+    "MultiselectDialog": {
+        "Select": "Вибрати",
+        "Selected": "Вибрані:",
+        "Cancel": "Скасувати",
+        "Blankslate": "Для цього об'єкта немає жодного запису",
+        "BlankslateWithFilters": "При встановленому фільтрі у розділі немає жодного запису. Очистіть фільтр або змініть умови фільтрації"
+    },
+    "LookupDialog": {
+        "TitleTemplate": "Вибрати: {0}",
+        "Selected": "Вибрані:",
+        "SelectButton": "Вибрати",
+        "CancelButton": "Скасувати",
+        "Blankslate": "Для цього об'єкта немає жодного запису",
+        "AllPagesSelectionWarning": "Операція може зайняти тривалий час. Продовжити?"
+    },
+    "QuickEntityFilter": {
+        "NonGuidMessage": "Guid повинен містити 32 символи з 4 тире (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)."
+    },
+    "ChangeLogCleanerService": {
+        "SuccessLaunch": "Запущено очищення журналу змін. Ми покажемо вам повідомлення про завершення процесу у комунікаційній панелі"
+    },
+    "ClearChangeLogSettingsDialog": {
+        "AllObjects": "Усі об'єкти",
+        "AllPeriod": "За весь період",
+        "Cancel": "Скасувати",
+        "ChooseDate": "Виберіть дату",
+        "ChooseObject": "Оберіть об'єкт",
+        "Clear": "Очистити",
+        "ObjectSettingsTitle": "За яким об'єктом очистити події в журналі",
+        "OnlySelectedObject": "Specific object",
+        "PeriodSettingsTitle": "За який період очистити події в журналі",
+        "Title": "Очистити журнал змін",
+        "ToDatePeriod": "До обраної дати"
+    },
+    "ChangeLogPage": {
+        "Close": "Закрити",
+        "TitleFormat": "Журнал змін {0}",
+        "ViewLog": "ПЕРЕГЛЯНУТИ ЖУРНАЛ ЗМІН"
+    },
+    "ChangeLogSection": {
+        "Title": "Журнал змін",
+        "TitleColumn": "Заголовок",
+        "NameColumn": "Name",
+        "LoggingEnabledColumn": "Логується",
+        "ClearChangeLog": "Очистити журнал"
+    },
+    "ChangeLogComponent": {
+        "Blankslate": "Для цього об'єкта немає жодного запису в журналі змін",
+        "InsertedTooltip": "Запис додано",
+        "UpdatedTooltip": "Запис змінено",
+        "DeletedTooltip": "Запис видалено",
+        "ShowMore": "Show more",
+        "ShowLess": "Показати менше",
+        "ChangeType": "Тип зміни",
+        "ChangeTrackedOn": "Change made on",
+        "ChangeTrackedBy": "Автор зміни",
+        "ChangeTracked": "Запис",
+        "ColumnName": "Колонка",
+        "ColumnOldValue": "Старе значення",
+        "ColumnNewValue": "Нове значення",
+        "Yes": "Так",
+        "No": "Ні"
+    },
+    "LicenseManager": {
+        "PackageNameColumn": "Name",
+        "TypeColumn": "Тип",
+        "StartDateColumn": "Дата початку",
+        "DueDateColumn": "Дата завершення",
+        "StatusColumn": "Статус",
+        "CountColumn": "Підсумок",
+        "LicenseIsActive": "Активні",
+        "LicenseIsNotActive": "Не активна",
+        "TypePersonal": "Персональне",
+        "TypeConcurrent": "Конкурентна",
+        "TypeServer": "Сервер"
+    },
+    "LicenseSection": {
+        "Title": "Менеджер ліцензій",
+        "BlankslateTitle": "У розділі немає жодного запису.",
+        "BlankslateDescription": "Завантажте файл з ліцензіями і вони з'являться у розділі",
+        "ServerLicenseTooltip": "Конкурентні та серверні ліцензії надаються лише на сторінці користувача",
+        "ConcurrentLicenseTooltip": "Конкурентні та серверні ліцензії надаються лише на сторінці користувача",
+        "UploadButtonCaption": "Завантажити",
+        "UploadLicensesCompleteMessage": "Ліцензії завантажено",
+        "UploadLicensesErrorMessage": "Некоректний формат файлу",
+        "RequestLicensesButtonCaption": "Запит",
+        "DeleteLicensesButtonCaption": "Видалення",
+        "DeleteLicensesConfirmation": "Ліцензії будуть видалені. Продовжити?",
+        "DeleteLicensesSuccess": "Ліцензії успішно видалено."
+    },
+    "LicensePage": {
+        "TitleFormat": "Продукт {0}"
+    },
+    "UsedLicensesCounterChart": {
+        "ActiveLicensesTitle": "Активні ліцензії",
+        "ConcurrentLicenseTitle": "Конкурентні ліцензії",
+        "UsedLicensesCountTitle": "Роздано ліцензій",
+        "UsedLicensesCountSeparatorLabel": "для",
+        "DistributedLicensesLegend": "Надано ліцензій",
+        "AvailableLicensesLegend": "Ліміт одночасних сеансів користувачів",
+        "UnlimitedCountLabel": "з необмежених користувачів",
+        "LimitOfLicensesLabel": "Ліміт ліцензій"
+    },
+    "LicenseDetail": {
+        "Title": "Ліцензії"
+    },
+    "LicensedUsersDetail": {
+        "Title": "Користувачі з ліцензією",
+        "UsersDialogCaption": "Користувачі",
+        "UserNameColumn": "User",
+        "EmailColumn": "Email",
+        "JobTitleColumn": "Посада",
+        "Delete": "Відкликати",
+        "Blankslate": "Ці ліцензії ще не надані користувачам"
+    },
+    "LicenseRequestDialog": {
+        "Title": "Ідентифікатор компанії для запиту ліцензій",
+        "LicenseVersionTitle": "Версія ліцензії",
+        "InputFieldDescription": "Заповнюється системним налаштуванням «Ідентифікатор компанії для ліцензування». При зміні Id компанії він оновиться і в системному налаштуванні.",
+        "LicenseVersionDescription": "Версія Creatio, в яку ви плануєте завантажувати ліцензії.",
+        "InvalidVersionFormat": "Введіть версію у вигляді трьох чисел, розділених точками: наприклад, 7.18.1",
+        "RequestButtonCaption": "Generate a license request file"
+    },
+    "ObjectRecordRightsActualizationService": {
+        "SuccessLaunch": "Запущено актуалізацію прав із записів на підставі поточних налаштувань. Ми покажемо вам повідомлення про завершення актуалізації в комунікаційній панелі"
+    },
+    "ObjectChangeLogPage": {
+        "TitleFormat": "Журнал змін об'єкта {0}",
+        "SettingsTabCaption": "Налаштування журналу",
+        "ViewChangeLogTabCaption": "Дані журналу",
+        "EnableObjectTracking": "Журналювати"
+    },
+    "ObjectTypeFilter": {
+        "AllObjects": "Усі об'єкти",
+        "Lookups": "Довідники",
+        "Sections": "Розділи"
+    },
+    "SearchInput": {
+        "Placeholder": "Знайти",
+        "Settings": {
+            "Cancel": "Скасувати",
+            "Apply": "Застосувати",
+            "SearchColumnTemplate": "Пошук по колонці \"{0}\"",
+            "StartsWith": "Починається з",
+            "Contains": "Містить",
+            "Equals": "рівне"
+        }
+    },
+    "DeleteButtonTableCell": {
+        "Tooltip": "Видалити"
+    },
+    "RightLevelSelect": {
+        "Granted": "Дозволено",
+        "GrantedDelegate": "Дозволено з делегуванням",
+        "NotSet": "Не встановлено"
+    },
+    "RightsByColumnDetail": {
+        "Add": "Додати",
+        "Blankslate": "Доступ до всіх колонок не обмежений",
+        "Column": "Колонка",
+        "ColumnBlankslate": "Додайте ролі або користувачів, щоб надати їм права на колонку",
+        "DenyReadEdit": "Читання та редагування заборонено",
+        "Drag": "Перетягніть для зміни пріоритету",
+        "PermitRead": "Дозволити читання",
+        "PermitReadEdit": "Дозволити читання та редагування",
+        "Priority": "Пріоритет",
+        "Remove": "Видалити",
+        "RightLevel": "Рівень доступу",
+        "User": "Роль / Користувач",
+        "ValidationMessage": "Для обраної ролі правило вже існує. Вкажіть іншу роль для додавання правила",
+        "WarningDowngradingRights": "Рівень прав доступу, встановлений цим правилом, може призвести до обмежень у роботі правил з нижчим пріоритетом. Такі правила розташовані нижче за списком"
+    },
+    "RightsByRecordDetail": {
+        "Add": "Додати",
+        "Blankslate": "Відсутні правила роздачі прав залежно від автора",
+        "Delete": "Видалення",
+        "Edit": "Редагування",
+        "Read": "Читання",
+        "RecordAuthor": "Автор запису",
+        "Remove": "Видалити",
+        "RightsRecipient": "Користувач, або роль, який отримує дозволи",
+        "Title": "Роздача прав залежно від автора запису",
+        "TitleTooltip": "Permissions will be granted based on the record author, whenever a new record is created",
+        "ValidationMessage": "Для вибраних ролей правило вже існує. Вкажіть інші ролі, щоб додати правила"
+    },
+    "RightsByOperationsDetail": {
+        "Drag": "Перетягніть для зміни пріоритету",
+        "Priority": "Пріоритет",
+        "User": "Роль / Користувач",
+        "Create": "Створити",
+        "Read": "Читання",
+        "Edit": "Редагування",
+        "Delete": "Видалення",
+        "Remove": "Видалити",
+        "Add": "Додати",
+        "Blankslate": "Додайте ролі або користувачів, щоб надати їм доступ до даних об'єкта",
+        "ValidationMessage": "Для обраної ролі правило вже існує. Вкажіть іншу роль для додавання правила",
+        "WarningDowngradingRights": "Рівень прав доступу, встановлений цим правилом, може призвести до обмежень у роботі правил з нижчим пріоритетом. Такі правила розташовані нижче за списком",
+        "Allowed": "Дозволено",
+        "Denied": "Заборонено"
+    },
+    "RightsByEntityOperationsDetail": {
+        "Add": "Додати",
+        "EntityOperations": "Розширені операції",
+        "Title": "Додаткові дозволи",
+        "TitleTooltip": "Налаштування доступу на операцію для поточного об'єкта з розбивкою за ролями або користувачами",
+        "Blankslate": "Додайте ролі або користувачів, щоб надати їм доступ до додаткових дій",
+        "Operation": "Операція",
+        "UserOrRole": "Користувач, або роль, який отримує дозволи",
+        "ValidationMessage": "Поля не заповнені"
+    },
+    "SelectEntitySchemaColumnDialog": {
+        "Cancel": "Скасувати",
+        "Select": "Вибрати",
+        "SelectFieldPlaceholder": "Вибрати колонку",
+        "Title": "Вибрати колонку"
+    },
+    "SelectSysAdminUnitDialog": {
+        "Cancel": "Скасувати",
+        "FunctionalRoles": "Функціональні ролі",
+        "OrganizationalRoles": "Організаційні ролі",
+        "Search": "Пошук",
+        "Select": "Вибрати",
+        "Title": "Вибрати роль/користувача",
+        "Users": "Користувачі"
+    },
+    "SelectEntityOperationDialog": {
+        "Cancel": "Скасувати",
+        "Search": "Знайти",
+        "Operations": "Операції",
+        "Select": "Вибрати",
+        "Title": "Entity operation",
+        "Users": "Користувачі",
+        "SelectFieldPlaceholder": "Select entity operation"
+    },
+    "SysAdminUnitTree": {},
+    "TrackedColumns": {
+        "TitleTooltip": "Налаштування списку колонок, значення яких логуватимуться, при зміні запису",
+        "Title": "Логовані колонки",
+        "CaptionColumn": "Звернення",
+        "NameColumn": "Name",
+        "Add": "Додати",
+        "Remove": "Видалити",
+        "Blankslate": "Логовані колонки не вибрані"
+    },
+    "BaseSection": {
+        "BlankslateTitleWithFilters": "За встановленим фільтром у розділі немає жодного запису.",
+        "BlankslateDescriptionWithFilters": "Очистіть фільтр або змініть умови фільтрації",
+        "DeleteRecordConfirmation": "Ви справді бажаєте видалити обраний запис?",
+        "AbsentDataErrorMessage": "Запис був видалений або у вас немає прав на його читання"
+    },
+    "BaseTableDetail": {
+        "Add": "Додати",
+        "BlankslateWithFilters": "При встановленому фільтрі у розділі немає жодного запису. Очистіть фільтр або змініть умови фільтрації"
+    },
+    "Printables": {
+        "Caption": "Назва звіту",
+        "ModuleName": "Розділ",
+        "TypeName": "Тип",
+        "ShowInSection": "Відображати в розділі",
+        "ShowInCard": "Відображати на сторінці запису",
+        "ShowInAnalytics": "Відображати в аналітиці розділу",
+        "FilterPage": "Сторінка фільтрації",
+        "Section": {
+            "Title": "Налаштування звітів",
+            "BlankslateTitle": "За встановленим фільтром у розділі немає жодного запису.",
+            "BlankslateDescription": "Очистіть фільтр або змініть умови фільтрації",
+            "Delete": "Видалення",
+            "Add": "Новий звіт",
+            "Copy": "Copy",
+            "AddFastReport": "FastReport",
+            "AddMSWord": "MS Word"
+        },
+        "Page": {
+            "NewReportCaption": "Новий звіт",
+            "CopyPostfixCaption": " - Копія",
+            "InfoBlock": {
+                "Title": "Важливо знати",
+                "StepsTitle": "Для налаштування звіту:",
+                "Steps": [
+                    {
+                        "Text": "Встановіть дизайнер звітів FastReport (дизайнер можна завантажити з розділу \"Документація\" в {parameter:AcademyLink}).",
+                        "Parameters": {
+                            "AcademyLink": {
+                                "Caption": "Академії",
+                                "Value": "https://academy.terrasoft.ua/docs/developer/komponenty_prilozheniya/otchety/fastreport/obzor"
+                            }
+                        }
+                    },
+                    "Вкажіть джерела даних.",
+                    "Реалізуйте логіку обробки даних звіту конфігурації Creatio.",
+                    "Завантажте файл із джерелами даних та відкрийте його у дизайнері звітів.",
+                    "Налаштуйте шаблон звіту дизайнера звітів.",
+                    "Завантажте налаштований шаблон звіту в Creatio.",
+                    {
+                        "Text": "Встановіть дизайнер звітів FastReport (дизайнер можна завантажити з розділу \"Документація\" в {parameter:AcademyLink}).",
+                        "Parameters": {
+                            "AcademyLink": {
+                                "Caption": "Академія",
+                                "Value": "https://academy.creatio.com/docs/developer/application_components/reports/fastreport/overview"
+                            }
+                        }
+                    },
+                    "Вкажіть джерела даних.",
+                    "Реалізуйте логіку обробки даних звіту конфігурації Creatio.",
+                    "Завантажте файл із джерелами даних та відкрийте його у дизайнері звітів.",
+                    "Налаштуйте шаблон звіту дизайнера звітів.",
+                    "Завантажте налаштований шаблон звіту в Creatio.",
+                    {
+                        "Text": "Встановіть дизайнер звітів FastReport (дизайнер можна завантажити з розділу \"Документація\" в {parameter:AcademyLink}).",
+                        "Parameters": {
+                            "AcademyLink": {
+                                "Caption": "Академія",
+                                "Value": "https://academy.creatio.com/docs/developer/application_components/reports/fastreport/overview"
+                            }
+                        }
+                    },
+                    "Вкажіть джерела даних.",
+                    "Реалізуйте логіку обробки даних звіту конфігурації Creatio.",
+                    "Download file with the data source and open it in the FastReport Designer.",
+                    "Налаштуйте шаблон звіту у дизайнері звітів.",
+                    "Завантажте налаштований шаблон звіту в Creatio.",
+                    {
+                        "Text": "Встановіть дизайнер звітів FastReport (дизайнер можна завантажити з розділу \"Документація\" в {parameter:AcademyLink}).",
+                        "Parameters": {
+                            "AcademyLink": {
+                                "Caption": "Академія",
+                                "Value": "https://academy.creatio.com/docs/developer/application_components/reports/fastreport/overview"
+                            }
+                        }
+                    },
+                    "Вкажіть джерела даних.",
+                    "Реалізуйте логіку обробки даних звіту конфігурації Creatio.",
+                    "Download file with the data source and open it in the FastReport Designer.",
+                    "Налаштуйте шаблон звіту у дизайнері звітів.",
+                    "Завантажте налаштований шаблон звіту в Creatio."
+                ]
+            },
+            "DataSource": {
+                "Caption": "Джерело даних",
+                "Custom": {
+                    "Caption": "Вкажіть джерела даних для звіту",
+                    "Description": {
+                        "Text": "Налаштуйте джерела даних, щоб відобразити у вашому звіті дані з Creatio. Вкажіть перелік об'єктів, їх колонки, зв'язки у форматі json. Приклади опису джерел даних ви знайдете в {parameter:AcademyLink}.",
+                        "Parameters": {
+                            "AcademyLink": {
+                                "Caption": "Академія",
+                                "Value": "https://academy.creatio.com/docs/developer/application_components/reports/fastreport/overview"
+                            }
+                        }
+                    }
+                }
+            },
+            "Template": {
+                "Download": {
+                    "Caption": "Завантажте файл із джерелами даних та сформуйте шаблон звіту",
+                    "Description": "Завантажте файл на кнопку нижче. Потім відкрийте його у дизайнері звітів FastReport та налаштуйте зовнішній вигляд вашого звіту. У файлі зберігається структура джерел даних, яку використовує дизайнер звітів.",
+                    "ButtonCaption": "Завантажити файл"
+                },
+                "Upload": {
+                    "Caption": "Завантажте налаштований шаблон звіту в Creatio",
+                    "Description": "Завантажте підготовлений шаблон звіту у форматі .frx у Creatio за кнопкою нижче. Після завантаження готовий звіт з'явиться в меню \"Друк\" розділу або сторінки запису — залежно від вибраних налаштувань.",
+                    "ButtonCaption": "Завантаження файлу",
+                    "Error": {
+                        "MessageBoxCaption": "Неможливо завантажити шаблон звіту"
+                    },
+                    "ReportUploadedMessage": "Шаблон звіту успішно збережено"
+                }
+            },
+            "Validation": {
+                "required": "Введіть значення",
+                "noWhitespaces": "Введіть значення",
+                "isJson": "Введіть коректне значення JSON",
+                "maxLength": "Перевищено допустиму довжину тексту ({0}/{1})",
+                "dataSourceAbsentProviderNameProperty": "Джерело даних має містити властивість \"ProviderName\"",
+                "dataSourceAbsentSchemasProperty": "Джерело даних має містити властивість \"Schemas\"",
+                "dataSourceSchemasIsEmpty": "Джерело даних не містить схем",
+                "dataSourceSchemasHasNoColumns": "DataSource Схема \"{schemaName}\" має містити визначення колонок",
+                "dataSourceAbsentDataValueTypeProperty": "У колонці \"{columnName}\" схеми \"{schemaName}\" не визначено властивість \"DataValueType\""
+            }
+        }
+    },
+    "DateRange": {
+        "To": "до"
+    },
+    "MailServerTableComponent": {
+        "AdditionalSettings": "Додаткові налаштування",
+        "AddMailServer": "Додати сервіс",
+        "AllowEmailDownloading": "Завантаження E-mail повідомлень",
+        "AllowEmailSending": "Надіслати листи",
+        "Copy": "Копія",
+        "Delete": "Видалення",
+        "DeleteConfirmation": "Ви справді бажаєте видалити обраний запис?",
+        "Edit": "Редагування",
+        "Empty": "Немає доступних поштових сервісів",
+        "ExchangeMenuItem": "Exchange",
+        "IMAPIncomingSettingsDescription": "Налаштування поштового сервісу, необхідні для отримання пошти. Вкажіть адресу та порт поштового сервера, а також виберіть параметри безпеки передачі даних",
+        "IMAPIncomingSettingsHeader": "Сервер вхідної пошти (IMAP)",
+        "ImapMenuItem": "IMAP/SMTP",
+        "LoginFormat": "Формат логіну",
+        "MailServer": "Поштовий сервіс",
+        "MailServerAddress": "Адреса сервісу",
+        "MailServerName": "Назва сервісу",
+        "MailServerSettings": "Налаштування сервісу",
+        "MailServerType": "Тип поштового сервісу",
+        "MailServiceRemoveToolTip": "Creatio не може видалити поштовий сервіс, оскільки з ним працюють існуючі поштові скриньки.",
+        "None": "None",
+        "Port": "Порт",
+        "RequiredMailServiceActions": "Завантаження або надсилання листів є обов'язким для налаштування сервісу",
+        "Section": {
+            "Add": "Додати",
+            "GoToDiagnostic": "Diagnostic tool"
+        },
+        "Security": "Безпека",
+        "AuthenticationType": "Тип аутентифікації",
+        "ApplicationId": "Id застосунку (клієнт)",
+        "ClientSecret": "&quot;Секрет&quot; клієнта",
+        "Server": "Адреса серверу",
+        "SMTPOutgoingSettingsDescription": "Налаштування поштового сервісу необхідні для надсилання пошти. Вкажіть адресу та порт поштового сервера, а також виберіть параметри безпеки передачі даних",
+        "SMTPOutgoingSettingsHeader": "Сервер вихідної пошти (SMTP)",
+        "SuccessfulAddOperation": "Поштовий сервіс успішно доданий. Тепер його можна використовувати під час створення поштової скриньки",
+        "SuccessfulEditOperation": "Зміни до налаштувань поштового сервісу успішно додані",
+        "SuccessfulOperation": "Успішна операція",
+        "Type": "Тип",
+        "UseEmailAddressAsLogin": "Використовувати email",
+        "UseLogin": "Використовувати ручне введення",
+        "UseUserNameAsLogin": "Використовувати ім'я поштової скриньки",
+        "WarningTitle": "⚠ Попередження",
+        "BasicAuthWarningMessage": "Зверніть увагу, що Базова автентифікація застаріла і потенційно небезпечна. Вона офіційно <a href=\"https://docs.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online\" {0}>застаріла Microsoft</a>. Для використання продукції, будь ласка, розгляньте можливість переходу на сучасну автентифікацію OAuth. Інструкції по налаштуванню доступні на <a href=\"{1}\" {0}>Creatio Academy</a>."
+    },
+    "MailboxSettings": {
+        "AdditionalSettingsTabCaption": "Додаткові налаштування",
+        "MailboxesTabCaption": "Поштові скриньки",
+        "MailServicesTabCaption": "Поштові сервіси",
+        "Title": "Налаштування поштової скриньки"
+    },
+    "SqlScriptDesignerPage": {
+        "Name": "Name",
+        "Caption": "Заголовок"
+    },
+    "SchemaDataDesignerPage": {
+        "ActualizeData": "Актуалізувати дані",
+        "Fields": {
+            "Name": "Name",
+            "Object": "Об'єкт",
+            "InstallType": "Тип встановлення",
+            "Package": "Пакет"
+        },
+        "InfoBlockText1": "Тип встановлення",
+        "InfoBlockText2": "Тип установки визначає спосіб додавання даних до застосунку під час встановлення пакета.",
+        "InfoBlockText3": "• Установка — дані будуть додані під час першого встановлення пакета та змінені під час оновлення пакета. Цей тип установки є найбільш універсальним і використовується за замовчуванням.",
+        "InfoBlockText4": "• Оновлення існуючих — дані будуть додані при першому встановленні пакета, а при оновленні пакета будуть змінені лише колонки, позначені ознакою «Обов'язково для оновлення» на вкладці «Налаштування колонок». Цей тип установки використовується, наприклад, при постачанні hotfix-оновлень.",
+        "InfoBlockText5": "• Первинна установка — дані будуть додані під час першого встановлення пакета. Цей тип інсталяції працює, тільки якщо пакет встановлюється за допомогою WorkspaceConsole. Загалом не рекомендується для використання.",
+        "ColumnsSettingTabCaption": "Налаштування колонок",
+        "BoundDataTabCaption": "Прив'язані дані",
+        "InstallType": {
+            "Install": "Встановлення",
+            "FirstInstall": "Первинна установка",
+            "Update": "Оновити існуючий"
+        },
+        "ColumnsDetail": {
+            "Title": "Налаштування колонок",
+            "Blankslate": "Виберіть об'єкт, потім налаштуйте колонки",
+            "ErrorDeletePrimaryColumn": "Видалення первинного ключа \"{0}\" заборонено",
+            "ColumnsAreNotAvailableInPackageMessage": "Ці колонки недоступні в поточному пакеті і не можуть бути додані: {0}",
+            "Columns": {
+                "Caption": "Заголовок",
+                "Name": "Name",
+                "ForcedUpdate": "Обов'язково для оновлення",
+                "Key": "Ключ"
+            },
+            "Tooltips": {
+                "ForcedUpdate": "The checkbox indicates that the data in this column will update whenever the corresponding package is updated. This checkbox is used for the “Update existing” data installation type only.",
+                "Key": "The checkbox is set for the object's primary column by default. If the database uses composite keys, select this checkbox for all composite key columns. An object's primary column cannot be a composite key column."
+            }
+        },
+        "BoundDataDetail": {
+            "Title": "Дані",
+            "Blankslate": "Виберіть записи для прив'язування",
+            "ActualDataWasLoaded": "Актуальні дані успішно завантажені"
+        }
+    },
+    "WorkspaceExplorer": {
+        "Section": {
+            "ActionButtonCaption": "Дії",
+            "Title": "Конфігурація",
+            "WorkspaceItemMoveService": {
+                "NameColumn": "Name",
+                "SelectPackageDialogTitle": "Перемістити елемент {0} у пакет",
+                "MultiselectElementsPackageDialogTitle": "Перемістити {0} елемент(ів) у пакет",
+                "MoveElementsWebServiceSuccessMessage": "Перенесення елементів виконано успішно",
+                "NoPackagesMessage": "Немає доступних пакетів",
+                "MoveAllPackageElementsWebServiceSuccessMessage": "Перенесення елементів виконано успішно",
+                "MoveAllPackageElementsDialogTitle": "Перемістити елементи пакета {0} у пакет",
+                "SpecifyDependenciesConfirmationDialog": "Пакет {0} не має залежностей для коректного перенесення елементів. Виконати автоматичне встановлення відсутніх залежностей?"
+            },
+            "PackageStorageValidationMessageDialog": {
+                "Title": "Помилки конфігурації",
+                "MessageColumn": "Опис",
+                "ItemNameColumn": "Елемент",
+                "ItemTypeColumn": "Тип",
+                "PackageNameColumn": "Пакет",
+                "ConfirmationTitle": "Помилка переміщення елементів",
+                "WithoutValidationConfirmationMessage": "Дана дія порушує цілісність конфігурації через залежність між елементами пакетів, що переносяться. Для відновлення цілісності необхідно перенести елементи, що залишилися, або змінити залежності.\nПродовжуйте перенесення елементів, тільки якщо ви плануєте відновити цілісність конфігурації.\nПродовжити перенесення елементів?\n\n",
+                "MoveButtonCaption": "Перемістити елементи"
+            },
+            "WorkspaceItemMoveValidateDialog": {
+                "ErrorMessageTitle": "Помилка переміщення елементів",
+                "WithoutValidationConfirmationMessage": "Дана дія порушує цілісність конфігурації через залежність між елементами пакетів, що переносяться. Для відновлення цілісності необхідно перенести елементи, що залишилися, або змінити залежності.\nПродовжуйте перенесення елементів, тільки якщо ви плануєте відновити цілісність конфігурації.\nПродовжити перенесення елементів?\n\n",
+                "MoveButtonCaption": "Перемістити елементи"
+            },
+            "ValidateWorkspaceDialog": {
+                "ErrorMessageTitle": "Помилки конфігурації",
+                "ValidationSuccess": "Перевірка конфігурації пройшла успішно. Помилок не виявлено"
+            },
+            "Packages": {
+                "InstallPackageDialog": {
+                    "Title": "Встановити пакет зі сховища",
+                    "InputFieldPackageName": "Пакет",
+                    "InputFieldRepositoryAddress": "Сховище системи контролю версій",
+                    "InputFieldVersion": "Версія",
+                    "Cancel": "Скасувати",
+                    "Install": "Встановити"
+                },
+                "CreatePackageDialog": {
+                    "Title": "Пакет",
+                    "InputFieldName": "Name",
+                    "InputFieldDescription": "Опис",
+                    "InputFieldRepositoryAddress": "Сховище системи контролю версій",
+                    "InputFieldVersion": "Версія",
+                    "SaveButtonCaption": "Зберегти",
+                    "Cancel": "Скасувати",
+                    "OpenPackagePage": "Створити та додати залежності",
+                    "Validation": {
+                        "PackageNameNotSpecified": "Не вказано назву пакета",
+                        "PackageVersionNotSpecified": "Не вказано версію пакета",
+                        "NotAllowedFormat": "Неправильний формат версії репозиторію",
+                        "MaximumLengthExeeded": "Перевищена допустима довжина тексту"
+                    }
+                },
+                "SourceControl": {
+                    "CommitResult": {
+                        "Success": "Зміни успішно зафіксовані у сховищі",
+                        "CustomPackage": "Не вдалося зафіксувати користувацький пакет до сховища",
+                        "PackageUpdateNeed": "Changes have been detected in the repository. Workspace update is required",
+                        "PackageHasForeignLock": "Неможливо зберегти зміни елемента, оскільки пакет, до якого він зберігається, заблокований іншим користувачем"
+                    },
+                    "CommitChangesDialog": {
+                        "Title": "Зафіксувати пакет у сховищі",
+                        "LogMessageFieldCaption": "Опис",
+                        "CommitButtonCaption": "Зафіксувати зміни",
+                        "Cancel": "Скасувати",
+                        "NoChanges": "Немає елементів для фіксації"
+                    },
+                    "Update": {
+                        "ConfirmMessage": "Ви впевнені, що хочете оновити вибраний пакет зі сховища?",
+                        "NoChanges": "Змін не знайдено"
+                    },
+                    "Install": {
+                        "ConfirmMessage": "Знайдено встановлені пакети. При повторному встановленні структура пакетів може бути повністю змінена. Продовжити?",
+                        "NoChanges": "Змін не знайдено"
+                    },
+                    "Restore": {
+                        "ConfirmMessage": "Буде виконано синхронізацію конфігурації зі сховищем до останньої ревізії. Усі ваші зміни буде скасовано. Продовжити?",
+                        "Success": "Конфігурація успішно відновлена зі сховища"
+                    }
+                },
+                "PackageCreated": "Пакет {0} успішно створено",
+                "PackageDeleted": "Пакет {0} успішно видалено",
+                "PackageLocked": "Пакет {0} успішно заблоковано в SVN",
+                "PackageUnlocked": "Пакет {0} успішно розблоковано в SVN",
+                "SearchPlaceholder": "Пошук по пакетам",
+                "AllPackagesCaption": "Всі пакети",
+                "DeleteConfirmation": "Ви впевнені, що хочете видалити вибраний пакет?",
+                "BlankslateTitle": "Пакети не знайдено",
+                "InstallFromRepository": {
+                    "NoRepositories": "У Creatio немає збережених сховищ. Додати нове сховище?",
+                    "NoActiveRepository": "У Creatio немає активних сховищ. Перейти до списку сховищ?"
+                },
+                "ConnectedApplications": {
+                    "DeleteConfirmation": "Пакет буде також видалено з наступних застосунків:\n{0}\nВидалення пакетів може призвести до втрати функціональні можливостей цих застосунків або вони стануть неробочими. Ви справді хочете продовжити?"
+                }
+            },
+            "Items": {
+                "ImportSuccessMessage": "Елемент \"{0}\" успішно імпортовано до пакету \"{1}\"",
+                "UpdateDBStructureConfirmMessage": "Структура бази даних буде оновлена для вибраного об'єкта. Продовжити?",
+                "GenerateSchemasSourcesConfirmMessage": "Вихідний код буде згенерований для вибраного елемента. Продовжити?",
+                "InstallSqlScriptsConfirmMessage": "Вибраний сценарій SQL буде встановлений у базі даних. Продовжити?",
+                "InstallDataConfirmMessage": "Дані будуть встановлені для вибраного об'єкта. Продовжити?",
+                "DeleteConfirmMessage": "Ви дійсно хочете видалити вибраний елемент?",
+                "RevertChangesMessage": "Всі зміни вибраних елементів будуть втрачені. Продовжити?",
+                "RecordLockedInSVNSuccessfully": "Запис успішно заблоковано в SVN",
+                "RecordUnlockedInSVNSuccessfully": "Запис успішно розблоковано в SVN",
+                "MultiItemActionButton": "Масові дії",
+                "Columns": {
+                    "UId": "UID",
+                    "Name": "Name",
+                    "Title": "Заголовок",
+                    "Status": "Статус",
+                    "Type": "Тип",
+                    "Object": "Об'єкт",
+                    "ModifiedOn": "Змінено",
+                    "Package": "Пакет"
+                },
+                "Add": {
+                    "Caption": "Додати",
+                    "Sql": "SQL сценарій",
+                    "SourceCode": "Вихідний код",
+                    "Entity": "Об'єкт",
+                    "ReplacingEntity": "Заміщувальний Об'єкт",
+                    "ClientUnit": {
+                        "Module": "Модуль",
+                        "EditViewModelSchema": "Модель представлення сторінки",
+                        "AngularSchema": "Сторінка Freedom UI",
+                        "ModuleViewModelSchema": "Модель представлення розділу",
+                        "GridDetailViewModelSchema": "Detail (list) view model",
+                        "EditControlsDetailViewModelSchema": "Detail (fields) view model",
+                        "ExtendedClientUnitSchema": "Replacing view model",
+                        "ExtendedAngularSchema": "Angular replacing view model"
+                    },
+                    "UserTask": "Користувацька дія",
+                    "BusinessProcess": "Процес",
+                    "DataBinding": "Дані",
+                    "Import": "Імпорт",
+                    "RestService": "REST сервіс",
+                    "SoapService": "SOAP сервіс"
+                },
+                "Types": {
+                    "SqlScript": "SQL сценарій",
+                    "SchemaData": "Дані",
+                    "Assembly": "Reference assembly",
+                    "EntitySchema": "Об'єкт",
+                    "ClientUnitSchema": "Клієнтський модуль",
+                    "SourceCodeSchema": "Вихідний код",
+                    "ProcessSchema": "Бізнес-процес",
+                    "DcmSchema": "Кейс",
+                    "ProcessUserTaskSchema": "Користувацька дія",
+                    "CampaignSchema": "Маркетингова кампанія",
+                    "ServiceSchema": "Веб-сервіс",
+                    "AddonSchema": "Адон"
+                },
+                "Status": {
+                    "NeedInstall": "Потребує встановлення в БД ",
+                    "NeedUpdateSourceCode": "Потрібне оновлення вихідних кодів",
+                    "NeedUpdateStructure": "Потрібне оновлення БД",
+                    "LockedInSVN": "Заблоковано в SVN",
+                    "UnlockedInSVN": "Розблоковано у SVN"
+                },
+                "Filters": {
+                    "Types": {
+                        "AllItems": "Усі елементи",
+                        "Placeholder": "Тип"
+                    },
+                    "States": {
+                        "AllItems": "Усі елементи",
+                        "Placeholder": "Фільтри",
+                        "Locked": "Заблокований",
+                        "NeedActualization": "Вимагають актуалізації",
+                        "Error": "З помилкою"
+                    }
+                },
+                "DetailsDialog": {
+                    "Close": "Закрити",
+                    "PageTitle": "Властивості",
+                    "Title": "Заголовок",
+                    "Name": "Name",
+                    "FullQualifiedName": "Full qualified assembly name",
+                    "DataObjectName": "Об'єкт",
+                    "CreatedBy": "Створив",
+                    "CreatedOn": "Дата створення",
+                    "PackageName": "Пакет",
+                    "ParentCaption": "Parent",
+                    "ReplaceParent": "Заміщати батька",
+                    "IsChanged": "Змінено",
+                    "UId": "UId",
+                    "ModifiedBy": "Змінив",
+                    "Id": "Id",
+                    "ModifiedOn": "Змінено",
+                    "ManagerName": "Ім'я менеджера",
+                    "MetaDataModifiedOn": "Метадані змінено",
+                    "Description": "Опис",
+                    "IsLocked": "Заблокований",
+                    "NeedUpdateDBStructure": "Потрібне оновлення БД",
+                    "NeedInstall": "Потребує встановлення в БД ",
+                    "LastErrorText": "Останнє повідомлення про помилку",
+                    "LockedBy": "Заблокував",
+                    "DbStructureModifiedOn": "Дата зміни структури БД",
+                    "IsNetStandard": "IsNetStandard",
+                    "LoadOnAppStart": "LoadOnAppStart",
+                    "UIdTooltip": "Унікальний ідентифікатор конфігураційного елемента. При перенесенні на інше середовище не змінюється",
+                    "IdTooltip": "This column is the primary key in the database tables. A record Id may be different in different applications"
+                }
+            },
+            "Actions": {
+                "Move": "Перемістити в інший пакет",
+                "MovePackageAllElements": "Перемістити всі елементи",
+                "Blocks": {
+                    "SourceCode": "Вихідний код",
+                    "Actualization": "Актуалізувати елементи",
+                    "DevInFileSystem": "Розробка у файловій системі",
+                    "VersionControl": "Сховища SVN",
+                    "Packages": "Пакети",
+                    "Validation": "Configuration"
+                },
+                "Compile": "Компілювати",
+                "CompileAll": "Перекомпілювати усе",
+                "Edit": "Редагування",
+                "Delete": "Видалення",
+                "MultiDelete": "Видалити ({0})",
+                "MultiExport": "Експортувати ({0})",
+                "Export": "Експорт",
+                "Update": "Оновити зі сховища",
+                "Commit": "Зафіксувати у сховищі",
+                "Import": "Імпортувати",
+                "Properties": "Властивості",
+                "UpdateDBStructure": "Оновити структуру БД",
+                "MultiUpdateDBStructure": "Оновити структуру БД об'єктів",
+                "EditProcess": "Змінити процес",
+                "GenerateSchemasSources": "Згенерувати вихідний код",
+                "InstallSqlScripts": "Встановити",
+                "MultiInstallSqlScripts": "Встановити SQL сценарії",
+                "InstallData": "Встановити",
+                "MultiInstallData": "Встановити дані",
+                "RevertChanges": "Скасувати зміни",
+                "InstallRequiredSqlScripts": "Встановити SQL сценарії для тих, що потребують встановлення",
+                "InstallRequiredData": "Встановити дані для тих, хто потребує встановлення",
+                "InstallRequiredSchemasDBStructure": "Оновити структуру БД для тих, що потребують оновлення",
+                "OperationSuccessMessage": "Операція пройшла успішно",
+                "GenerateRequiredSchemasSources": "Згенерувати для тих, що потребують генерації",
+                "GenerateModifiedSchemasSources": "Згенерувати для змінених схем",
+                "GenerateAllSchemasSources": "Згенерувати для всіх схем",
+                "GenerateAllSchemasSourcesWasStarted": "Запущено генерацію вихідних кодів для всіх схем. Ми покажемо вам повідомлення про завершення генерації в комунікаційній панелі",
+                "GenerateAllSchemasSourcesSuccess": "Генерацію вихідних кодів для всіх схем виконано успішно",
+                "GenerateAllSchemasSourcesError": "Генерацію вихідних кодів для деяких схем виконано з помилками. Текст помилки для кожної схеми буде доступний в списку елементів конфігурації після його перезавантаження. Перезавантажити список елементів конфігураціі?",
+                "LoadPackagesToFileSystem": "Вивантажити пакети до файлової системи",
+                "LoadPackagesToDB": "Оновити пакети із файлової системи",
+                "OpenRepositoriesList": "Відкрити список сховищ",
+                "RestoreFromRepository": "Відновити зі сховища",
+                "InstallPackageFromRepository": "Встановити пакет зі сховища",
+                "PackageDependenciesDiagram": "Діаграма залежностей пакетів",
+                "ValidateWorkspace": "Перевірити конфігурацію",
+                "FileDesignModeInfo": "Для активації файлу конфігурації програми встановіть: \n - значення true для атрибута enabled елемента fileDesignMode; \n - значення false для прапора UseStaticFileContent.",
+                "Confirmation": {
+                    "InstallRequiredSqlScripts": "Встановлення до БД буде виконане для всіх елементів, що вимагають встановлення. Продовжити?",
+                    "InstallRequiredData": "Встановлення до БД буде виконане для всіх елементів, що вимагають встановлення. Продовжити?",
+                    "InstallRequiredSchemasDBStructure": "Структура БД буде оновлена для всіх схем, що потребують оновлення. Продовжити?",
+                    "Compile": "The workspace will be compiled. Do you wish to proceed?",
+                    "CompileAll": "The workspace will be recompiled. Do you wish to proceed?",
+                    "GenerateRequiredSchemasSources": "Згенерувати вихідні коди для всіх схем, що вимагають перегенерації?",
+                    "GenerateModifiedSchemasSources": "Згенерувати вихідні коди змінених схем?",
+                    "GenerateAllSchemasSources": "Згенерувати вихідні коди всіх схем? Ми покажемо вам повідомлення про завершення операції у комунікаційній панелі",
+                    "ThirdPartyPublisher": "Елемент \"{0}\" створений стороннім видавцем або встановлений із файлового архіву. \n Збереження змін для цього елемента буде неможливим. Продовжити?",
+                    "ValidateWorkspace": "Операція може зайняти тривалий час. Продовжити?",
+                    "ExportItems": "Операція може зайняти тривалий час. Продовжити?"
+                },
+                "OpenMetaData": " Відкрити метадані",
+                "OpenSourceCode": "Відкрити вихідний код",
+                "LockPackageElement": "Заблокувати елемент у SVN",
+                "UnLockPackageElement": "Розблокувати елемент у SVN",
+                "LockPackage": "Заблокувати пакет у SVN",
+                "UnLockPackage": "Розблокувати пакет у SVN"
+            },
+            "WorkspaceSyncResultDialog": {
+                "Close": "Закрити",
+                "Title": "Зміни",
+                "Error": "Помилка",
+                "ShowOnlyErrors": "Відображати лише помилки",
+                "Columns": {
+                    "Name": "Name",
+                    "Type": "Тип",
+                    "Status": "Статус",
+                    "ErrorText": "Текст помилки"
+                }
+            }
+        },
+        "PackagePage": {
+            "Title": "Властивості пакету",
+            "Name": "Name",
+            "Description": "Опис",
+            "Maintainer": "Видавець",
+            "MaintainerTooltip": "Розробник пакету",
+            "PackageType": "Компілювати в окрему збірку",
+            "RepositoryAddress": "Адреса сховища",
+            "RepositoryVersion": "Версія сховища",
+            "PackageVersion": "Версія пакету",
+            "DependenciesTab": "Залежності",
+            "InstallationFlow": "Порядок встановлення",
+            "SysInformationTab": "Системна інформація",
+            "CompilationRequired": "Для застосування змін необхідно виконати компіляцію конфігурації",
+            "PackageDependencyDetail": {
+                "DependsOnPackagesTitle": "Залежить від пакетів",
+                "DependentPackagesTitle": "Залежні пакети",
+                "DependsOnPackagesTooltip": "Пакети, від яких успадковується функціональність пакета",
+                "DependentPackagesTooltip": "Пакети, які успадковують функціональність пакета",
+                "PackagesDialogCaption": "Вибрати пакет",
+                "NameColumn": "Name",
+                "Maintainer": "Видавець",
+                "Remove": "Видалити",
+                "Blankslate": "Немає пакетів",
+                "Add": "Додати"
+            },
+            "InstallationFlowTab": {
+                "BeforePackageInstall": "Перед встановленням пакета",
+                "BeforePackageInstallTooltip": "Дії, які будуть виконані перед встановленням пакету",
+                "AfterPackageInstall": "Після встановлення пакета",
+                "AfterPackageInstallTooltip": "Дії, які будуть виконані після встановлення пакету",
+                "BeforePackageUninstall": "Перед видаленням пакета",
+                "BeforePackageUninstallTooltip": "Дії, які будуть виконані перед видаленням пакету",
+                "Blankslate": "Немає кроків"
+            },
+            "InstallFlowPackageDetail": {
+                "Add": "Додати",
+                "ScriptsDialogCaption": "Обрати схеми",
+                "ColumnNameCaption": "Name",
+                "ColumnTitleCaption": "Заголовок",
+                "ColumnPositionCaption": "Замовлення",
+                "ColumnModifiedOnCaption": "Змінено",
+                "Install": "Запустити вручну",
+                "Success": "Операція пройшла успішно"
+            },
+            "SysInformation": {
+                "CreatedBy": "Створив",
+                "ModifiedBy": "Змінив",
+                "CreatedOn": "Дата створення",
+                "ModifiedOn": "Змінено",
+                "UIDTooltip": "Унікальний ідентифікатор пакета. При перенесенні на інше середовище не змінюється",
+                "IDTooltip": "This column is the primary key in the database tables. A record Id may be different in different applications"
+            },
+            "RepositoryAuthorizationRequired": "Операція перервана через відсутність авторизації. Авторизуватись зараз?",
+            "InstallBehavior": "Використовуйте смарт-активацію",
+            "InstallBehaviorInfo": "Пакет встановлюється в середовище та автоматично активується, коли всі його залежності доступні. Відсутність залежностей не заважає встановленню пакету/застосунку, який містить цей пакет. Як тільки всі залежності стають доступними, пакет автоматично активується і стає доступним користувачу. Якщо залежності більше недоступні, пакет автоматично деактивується."
+        },
+        "Errors": {
+            "AssemblyIsNotInitialized": "Щоб продовжити роботу в Creatio, необхідно компілювати конфігурацію. \n Ви хочете скомпілювати зараз?"
+        },
+        "PageTemplateLookup": {
+            "HeaderCaption": "Обрати шаблон",
+            "Cancel": "Скасувати",
+            "Select": "Вибрати"
+        }
+    },
+    "TableDialog": {
+        "Close": "Закрити",
+        "Cancel": "Скасувати"
+    },
+    "ErrorListDialogService": {
+        "CodeErrorListDialogCaption": "Результат компіляції",
+        "FileNameColumn": "Назва файлу",
+        "ErrorTextColumn": "Опис",
+        "ErrorNumberColumn": "Код (англійською)",
+        "LineColumn": "Лінія",
+        "CodeValidationErrorListDialogCaption": "Помилка під час збереження залежностей пакетів",
+        "SourceColumn": "Джерело",
+        "ReferenceColumn": "Reference",
+        "PackageColumn": "Пакет",
+        "AcademyHelpUrlCaption": " Докладніше читайте в Академії"
+    },
+    "SchemaDesigners": {
+        "BaseDesignerPage": {
+            "SaveSuccessMessage": "Запис успішно збережено",
+            "PublishSuccessMessage": "Запис успішно опубліковано",
+            "ChangeParentSchemaMessage": "Використовувати об'єкт \"{0}\" як батьківський для поточного об'єкта?",
+            "DeleteParentSchemaMessage": "Видалити батьківський об'єкт для поточного об'єкта?"
+        },
+        "BaseDesignerStructureService": {
+            "MiniPage": {
+                "NameTitle": "Код (англійською)",
+                "PackageTitle": "Пакет",
+                "Apply": "Застосувати",
+                "Cancel": "Скасувати",
+                "Ok": "OK",
+                "Caption": "Заголовок",
+                "Description": "Опис",
+                "Validations": {
+                    "RequiredNameCaption": "Введіть значення",
+                    "PatternNameCaption": "Введено некоректне значення. Використовуйте символи: a-z, A-Z, 0-9.\nСимвол: 0-9 не може бути першим",
+                    "PatternPrefixTemplate": "Код повинен починатися з префіксу \"{0}\""
+                }
+            }
+        },
+        "SchemaParameterMiniPage": {
+            "CardTitle": "Параметр",
+            "Save": "Зберегти",
+            "Title": "Код (англійською)",
+            "Caption": "Заголовок",
+            "Lookup": "Вибір із довідника",
+            "Value": "Значення",
+            "Schema": "Схема",
+            "Create": "Створити",
+            "Cancel": "Скасувати",
+            "Resulting": "Resulting",
+            "Required": "Обов’язковий",
+            "ContainsPerformerId": "Містить Id виконавця",
+            "LazyLoad": "Відкладене завантаження",
+            "Serializable": "Серіалізований",
+            "CopyValue": "Копіювати значення",
+            "Type": "Тип",
+            "ProperyExistMessage": "Ця властивість вже встановлена в іншому параметрі. Вона може використовуватися лише у 1 параметрі.",
+            "Validations": {
+                "RequiredNameCaption": "Введіть значення",
+                "PatternNameCaption": "Введено некоректне значення. Використовуйте символи: a-z, A-Z, 0-9.\nСимвол: 0-9 не може бути першим",
+                "DataValueTypeListContainsMessage": "Оберіть значення зі списку"
+            }
+        },
+        "SqlSchemaDesignerPage": {
+            "Caption": "SQL",
+            "DependentScriptsCaption": "Залежні сценарії SQL",
+            "DependsOnScriptCaption": "Залежить від сценаріїв SQL",
+            "SqlScriptValidateCaption": "Перевірку сценарію SQL завершено"
+        },
+        "SqlSchemaDesignerMiniPage": {
+            "Title": "Sql-скрипт",
+            "DbmsType": "Тип СУБД",
+            "InstallationType": "Тип встановлення",
+            "Name": "Назва",
+            "Package": "Пакет",
+            "Apply": "Продовжити",
+            "Cancel": "Скасувати",
+            "Ok": "OK",
+            "BackwardCompatibilityConfirmed": "Зворотна сумісність",
+            "BackwardCompatibilityConfirmedLabelBeforeLink": "Зворотно сумісними вважаються SQL-скрипти, які відповідають рекомендаціям ",
+            "BackwardCompatibilityConfirmedLabelAfterLink": ". Встановлюйте цю ознаку лише в випадку, якщо ваш скрипт відповідає всім рекомендаціям.",
+            "AcademyHelpUrlCaption": "викладеним у статті"
+        },
+        "MultiSelectSqlSchemasMiniPage": {
+            "Title": "Виберіть SQL сценарій",
+            "TableColumn": {
+                "Name": "Код (англійською)",
+                "Package": "Пакет"
+            }
+        },
+        "EntitySchemaDesigner": {
+            "EntitySchemaDesignerStructure": {
+                "InheritedColumnsCaption": "Успадковані колонки",
+                "ColumnsCaption": "Колонки",
+                "IndexesCaption": "Індекси",
+                "EventsCaption": "Заходи",
+                "SourceCodeCaption": "Вихідний код"
+            },
+            "Actions": {
+                "OpenEmbeddedProcess": "Відкрити процес"
+            },
+            "EntityEditor": {
+                "GeneralGroup": {
+                    "Caption": "Основне",
+                    "NameCaption": "Код (англійською)",
+                    "TitleCaption": "Заголовок",
+                    "PackageCaption": "Пакет",
+                    "DescriptionCaption": "Опис"
+                },
+                "ObjectSettings": {
+                    "Caption": "Налаштування об'єкта",
+                    "IdCaption": "Id",
+                    "DisplayedValueCaption": "Відображаєме значення",
+                    "ParentInHierarchyCaption": "Батьківський об'єкт в ієрархії",
+                    "ChangeLogObjectNameCaption": "Ім'я об'єкта журналювання",
+                    "LocalizationObjectNameCaption": "Ім'я об'єкта локалізації",
+                    "ImageCaption": "Зображення",
+                    "SortingInListsCaption": "Сортування у списках",
+                    "OwnerCaption": "Відповідальний",
+                    "PermissionObjectNameCaption": "Ім'я об'єкта прав",
+                    "ColorCaption": "Колір"
+                },
+                "EntityBusinessRules": {
+                    "OpenBusinessRulesButtonCaption": "Відкрити бізнес правила",
+                    "BusinessRulesDialogTitle": "Бізнес правила",
+                    "BusinessRulesDialogCancelButton": "Скасувати",
+                    "BusinessRulesDialogApplyButton": "Застосувати"
+                },
+                "InheritanceGroup": {
+                    "Caption": "Успадкування",
+                    "ParentObjectCaption": "Батьківський об'єкт",
+                    "ExtendParent": "Заміщати батька"
+                },
+                "BehaviorGroup": {
+                    "Caption": "Поведінка",
+                    "isDBViewCaption": "Represents Structure of Database View",
+                    "isVirtualCaption": "Віртуальний",
+                    "isTrackChangesInDBCaption": "Оновити журнал змін",
+                    "isSSPAvailable": "Об'єкт доступний на порталі як розділ",
+                    "useRecordDeactivationCaption": "Дозволити деактивацію записів",
+                    "showInAdvancedModeCaption": "Відображати лише у розширеному режимі",
+                    "useLiveEditingCaption": "Увімкнути оновлення даних в реальному часі"
+                },
+                "AccessRights": {
+                    "Caption": "Права доступу",
+                    "OperationsCaption": "Операції",
+                    "ColumnsCaption": "Колонки",
+                    "RecordsCaption": "Records",
+                    "MasterRecordCaption": "Успадковувати права доступу від об'єкта"
+                },
+                "HistoryColumns": {
+                    "Caption": "Історичні колонки",
+                    "CreatedByCaption": "Створив",
+                    "CreatedOnCaption": "Дата створення",
+                    "ModifiedByCaption": "Змінив",
+                    "ModifiedOnCaption": "Змінено"
+                },
+                "Validations": {
+                    "RequiredNameCaption": "Введіть значення",
+                    "PatternNameCaption": "Введено некоректне значення. Використовуйте символи: a-z, A-Z, 0-9.\nСимвол: 0-9 не може бути першим.",
+                    "PatternPrefixTemplate": "Код повинен починатися з префіксу \"{0}\"",
+                    "DuplicateNameCaption": "Об'єкт із таким кодом вже існує"
+                }
+            },
+            "ColumnEditor": {
+                "GeneralGroup": {
+                    "Caption": "Основне",
+                    "NameCaption": "Код (англійською)",
+                    "EnglishNameCaption": "Код (англійською)",
+                    "TitleCaption": "Заголовок",
+                    "DataTypeCaption": "Тип даних",
+                    "FormatCaption": "Формат",
+                    "ReferenceSchemaCaption": "Вибір із довідника",
+                    "DescriptionCaption": "Опис",
+                    "RequiredCaption": "Обов’язковий",
+                    "DefaultValueCaption": "Значення за замовчуванням",
+                    "CanMakeCopyCaption": "Копіювати це значення під час копіювання записів",
+                    "IsMultiLineTextCaption": "Багаторядковий текст",
+                    "IsLocalizableTextCaption": "Текст що локалізується",
+                    "IsCascadeCaption": "При видаленні значень довідника:",
+                    "isAutonumber": "Автонумерація",
+                    "IsMaskedCaption": "Відображення маски вводу",
+                    "IsFormatValidationCaption": "Перевірте формат"
+                },
+                "BehaviorGroup": {
+                    "Caption": "Поведінка",
+                    "UsageModeCaption": "Режим використання",
+                    "UpdateChangeLogCaption": "Оновити журнал змін",
+                    "IndexedCaption": "Індексована",
+                    "SensitiveDataCaption": "Містить персональні дані"
+                },
+                "RequirementType": {
+                    "NoCaption": "Ні",
+                    "YesCaption": "Так"
+                },
+                "UsageType": {
+                    "GeneralCaption": "Основне",
+                    "AdvancedCaption": "Advanced",
+                    "NoneCaption": "None"
+                },
+                "Validations": {
+                    "RequiredNameCaption": "Введіть значення",
+                    "PatternNameCaption": "Введено некоректне значення. Використовуйте символи: a-z, A-Z, 0-9.\nСимвол: 0-9 не може бути першим",
+                    "DuplicateNameCaption": "Колонка с таким кодом вже існує",
+                    "PatternPrefixTemplate": "Код повинен починатися з префіксу \"{0}\""
+                },
+                "DataSourceGroup": {
+                    "DoNotControlIntegrityCaption": "Не контролювати цілісність"
+                },
+                "DefaultValueTypes": {
+                    "None": "None",
+                    "Const": "Константа",
+                    "Settings": "Системне налаштування",
+                    "SystemValue": "Системна змінна",
+                    "Sequence": "Автонумерація"
+                },
+                "DefaultValueDialog": {
+                    "Title": "Значення за замовчуванням",
+                    "ValueTypeCaption": "Тип значення за замовчуванням",
+                    "ValueCaption": "Значення",
+                    "LookupValueRecordDeletedCaption": "значення довідника видалено",
+                    "sequencePrefix": "Префікс",
+                    "sequenceNumberOfChars": "Кількість цифр",
+                    "Cancel": "Скасувати",
+                    "Ok": "OK"
+                }
+            },
+            "IndexEditor": {
+                "GeneralGroup": {
+                    "Caption": "Основне",
+                    "NameCaption": "Код (англійською)",
+                    "UniqueCaption": "Унікальний",
+                    "GenerateNameAutomaticallyCaption": "Автоматично згенерувати ім'я"
+                },
+                "IndexColumns": {
+                    "Caption": "Index Columns",
+                    "AddIndexColumnsDialogCaption": "Вибрати колонку",
+                    "TitleCaption": "Заголовок",
+                    "ColumnName": "Код (англійською)",
+                    "SortingOrder": "Напрямок сортування",
+                    "Blankslate": "В індексі немає колонок"
+                },
+                "Validations": {
+                    "RequiredNameCaption": "Введіть значення",
+                    "PatternNameCaption": "Введено некоректне значення. Використовуйте символи: a-z, A-Z, 0-9.\nСимвол: 0-9 не може бути першим",
+                    "DuplicateNameCaption": "Зображення з таким кодом вже існує"
+                }
+            },
+            "EntityColumnTypes": {
+                "TextCaption": "Текст",
+                "NumberCaption": "Номер",
+                "OtherCaption": "Інша",
+                "DateTimeCaption": "Дата/час"
+            },
+            "EventsEditor": {
+                "EventGroupType": {
+                    "Add": "Додавання",
+                    "Saving": "Збереження",
+                    "Updating": "Оновлення",
+                    "Delete": "Видалення",
+                    "Loading": "Завантаження",
+                    "ColumnValues": "Значення колонок"
+                },
+                "Events": {
+                    "Inserting": "Перед додаванням запису",
+                    "Inserted": "Після додавання запису",
+                    "Validating": "Перевірка",
+                    "Saving": "Перед збереженням запису",
+                    "Saved": "Після збереження запису",
+                    "SaveError": "Помилка збереження запису",
+                    "Updating": "Перед оновленням запису",
+                    "Updated": "Після оновлення запису",
+                    "Deleting": "Перед видаленням запису",
+                    "Deleted": "Після видалення запису",
+                    "DefColumnValuesSet": "Поле значення за замовчуванням",
+                    "Loading": "Перед завантаженням даних",
+                    "Loaded": "Після завантаження даних",
+                    "ColumnValueChanging": "Перед зміною значення колонки",
+                    "ColumnValueChanged": "Після зміни значення колонки",
+                    "ColumnBinaryValuePackageLoading": "Binary Value Stream Loading"
+                }
+            },
+            "Addons": {
+                "AddNewPage": "Додати нову сторінку",
+                "BusinessRule": "Бізнес правила",
+                "RelatedPage": "Сторінки",
+                "RelatedPageCaption": "Налаштування сторінки",
+                "RelatedPageLabel": "Сторінка за замовчуванням",
+                "OpenPageInDesignerTitle": "Відкрити дизайнер інтерфейсу",
+                "RelatedPagePlaceholder": "Виберіть наявну сторінку або створіть нову",
+                "RelatedPagesCaption": "Налаштування сторінок",
+                "TimelineEntity": "Хронологія",
+                "UseSchemaInTimelineCheckbox": "Показувати в компоненті Хронології за замовчуванням"
+            },
+            "SaveConfirmationDialog": {
+                "Save": "Зберегти",
+                "DoNotSave": "Не зберігати",
+                "Cancel": "Скасувати",
+                "Message": "Всі зміни будуть збережені. Продовжити?"
+            }
+        },
+        "ClientUnitSchemaDesigner": {
+            "ClientUnitSchemaDesignerPage": {
+                "JsCaption": "JS",
+                "LessCaption": "МЕНШЕ",
+                "LocalizableStringsCaption": "Локалізовані рядки",
+                "MessagesCaption": "Повідомлення",
+                "ImagesCaption": "Зображення",
+                "ParametersCaption": "Параметри",
+                "Addons": {
+                    "BusinessRule": "Бізнес правила"
+                }
+            },
+            "ClientUnitDesignerMiniPage": {
+                "Title": "Модуль",
+                "CaptionTitle": "Заголовок",
+                "ParentCaption": "Батьківський об'єкт",
+                "Validations": {
+                    "RequiredNameCaption": "Введіть значення"
+                }
+            },
+            "ClientUnitCaptionsMiniPage": {
+                "Title": "Captions",
+                "Apply": "Застосувати",
+                "Cancel": "Скасувати"
+            },
+            "ClientUnitMessagesMiniPage": {
+                "Title": "Повідомлення",
+                "NameCaption": "Код (англійською)",
+                "DirectionCaption": "Напрямок",
+                "BroadcastCaption": "Broadcast",
+                "AddressCaption": "Адреса",
+                "ModeCaption": "Режим",
+                "SubscribeCaption": "Підписка",
+                "PublishCaption": "Опублікувати",
+                "Add": "Додати",
+                "Apply": "Застосувати",
+                "Cancel": "Скасувати",
+                "Validations": {
+                    "RequiredNameCaption": "Введіть значення",
+                    "PatternNameCaption": "Введено некоректне значення. Використовуйте символи: a-z, A-Z, 0-9.\nСимвол: 0-9 не може бути першим",
+                    "DuplicateNameCaption": "Повідомлення з таким кодом вже існує"
+                }
+            },
+            "ClientUnitImagesMiniPage": {
+                "Title": "Зображення",
+                "NameTitle": "Код (англійською)",
+                "CaptionTitle": "Заголовок",
+                "ImageTitle": "Зображення",
+                "UidTitle": "Id",
+                "Add": "Додати",
+                "Apply": "Застосувати",
+                "Cancel": "Скасувати",
+                "Validations": {
+                    "RequiredNameCaption": "Введіть значення",
+                    "PatternNameCaption": "Введено некоректне значення. Використовуйте символи: a-z, A-Z, 0-9.\nСимвол: 0-9 не може бути першим",
+                    "DuplicateNameCaption": "Зображення з таким кодом вже існує"
+                }
+            }
+        },
+        "SourceCodeSchemaDesignerPage": {
+            "CsharpCaption": "C#",
+            "LocalizableStringsCaption": "Локалізовані рядки",
+            "MetadataCaption": "Метадані",
+            "MetadataReadCaption": "Метадані (читання)",
+            "ModifiedPackageCaption": "Modified package",
+            "RunButtonCaption": "Запустити як скрипт встановлення",
+            "RunSourceCodeCaption": "Операція пройшла успішно"
+        },
+        "SourceCodeDesignerMiniPage": {
+            "Title": "Вихідний код",
+            "Description": "Опис"
+        },
+        "SourceCodeCaptionsMiniPage": {
+            "Title": "Captions",
+            "Apply": "Застосувати",
+            "Cancel": "Скасувати"
+        },
+        "UserTaskCaptionsMiniPage": {
+            "Title": "Captions",
+            "Apply": "Застосувати",
+            "Cancel": "Скасувати",
+            "UserTask": "Користувацька дія",
+            "WithCustomEventHandler": "З такими обробниками подій, що налаштовуються",
+            "Partial": "Частково",
+            "Serialize": "Серіалізувати в БД",
+            "ParametersEditPage": "Сторінка редагування параметрів",
+            "DcmParametersEditPage": "Сторінка редагування параметрів кейсу",
+            "Color": "Колір",
+            "SmallSvgImage": "Маленьке векторне зображення",
+            "LargeSvgImage": "Велике векторне зображення",
+            "TitleSvgImage": "Векторне зображення для заголовку",
+            "DcmSmallSvgImage": "Маленьке векторне зображення для DCM",
+            "PageInaccessibleFromPackageInfo": "Вибрана сторінка не доступна з пакета, в якому знаходиться поточна дія процесу. Для коректної роботи доповніть набір залежностей пакета."
+        },
+        "UserTaskDesignerMiniPage": {
+            "Title": "Користувацька дія"
+        },
+        "UserTaskSchemaDesignerPage": {
+            "CsharpCaption": "C#",
+            "LocalizableStringsCaption": "Локалізовані рядки",
+            "ParametersCaption": "Параметри",
+            "MetadataCaption": "Метадані",
+            "MetadataReadCaption": "Метадані (читання)",
+            "ModifiedPackageCaption": "Modified package",
+            "InvalidClassNameConfirmationMessage": "Властивість \"Код\" дії процесу не збігається з назвою класу у вихідному коді. Дія процесу не здійсниться з поточними параметрами. Підкласти збереження?"
+        },
+        "MetaDataSchemaDesigner": {
+            "MetaDataCaption": "Метадані",
+            "HumanReadableMetaDataCaption": "Метадані (читання)",
+            "PackageDifferenceMetaDataCaption": "Modifications package"
+        },
+        "RelatedPagesDesigner": {
+            "RelatedPageLabel": "Сторінка за замовчуванням",
+            "AddPageLabel": "Додати сторінку",
+            "ExternalPageCaption": "Налаштування сторінок для зовнішніх користувачів",
+            "RelatedPagesCaption": "Налаштування сторінок",
+            "RelatedPagePlaceholder": "Виберіть наявну сторінку або створіть нову",
+            "DefaultPageSelectionTooltip": "Виберіть або створить сторінку за замовчуванням для редагування, читання та створення записів.\nМи рекомендуємо використовувати сторінку Freedom UI з поточним об'єктом, який використовується в якості джерела даних.",
+            "AddPageTooltip": "Виберіть або створіть окрему сторінку, яка використовуватиметься лише для додавання нового запису.",
+            "RelatedPageCombobox": {
+                "AddNewPage": "Додати нову сторінку",
+                "OpenPageInDesignerTitle": "Відкрити дизайнер інтерфейсу"
+            }
+        }
+    },
+    "Tracking": {
+        "ValidationMessage": {
+            "InvalidValue": "Некоректне значення",
+            "RequiredFieldValue": "Введіть значення",
+            "LongFieldValue": "Перевищено допустиму довжину тексту (255)",
+            "InvalidNumberValue": "Числовий формат некоректний"
+        },
+        "BaseItemMenuComponent": {
+            "Delete": "Видалити",
+            "Edit": "Редагувати"
+        },
+        "ConnectionDescription": {
+            "Checking": "Перевірка",
+            "Connected": "Підключено",
+            "Disconnected": "Від’єднано",
+            "Warning": "Попередження"
+        },
+        "ProjectsSection": {
+            "Add": "Новий проєкт",
+            "Title": "Налаштування трекінгу подій (Проєкти)",
+            "Columns": {
+                "Name": "Назва проекту",
+                "Owner": "Відповідальний",
+                "Description": "Опис",
+                "CreatedOn": "Створено",
+                "ModifiedOn": "Оновлено"
+            },
+            "BlankSlate": {
+                "Title": "У розділі немає жодного запису.",
+                "Description": "Додайте новий запис, і в розділі не буде так самотньо."
+            }
+        },
+        "ProjectPage": {
+            "Detail": {
+                "Name": "Назва проекту",
+                "Owner": "Відповідальний",
+                "Description": "Опис",
+                "CreatedOn": "Створено",
+                "ModifiedOn": "Оновлено",
+                "TotalEvents": "Усього подій",
+                "ConversionRate": "Коефіцієнт конверсії",
+                "DefaultValues": {
+                    "Name": "Додати проект",
+                    "Description": "Новий опис"
+                }
+            },
+            "ResourceDetail": {
+                "Header": "Ресурси трекінгу",
+                "Columns": {
+                    "Name": "Назва ресурсу",
+                    "Status": {
+                        "Caption": "Статус",
+                        "Active": "Активна",
+                        "Inactive": "Inactive"
+                    },
+                    "Source": "Джерело",
+                    "CreatedOn": "Створено",
+                    "ModifiedOn": "Оновлено"
+                }
+            }
+        },
+        "ResourcePage": {
+            "CreatedOn": "Дата створення",
+            "ModifiedOn": "Змінено",
+            "Name": "Найменування",
+            "Source": "ID (URL для web сайтів)",
+            "Active": "Активна",
+            "DefaultName": "Новий ресурс",
+            "DefaultSource": "https://example.com",
+            "Tabs": {
+                "TrackingCode": "Трекінговий код",
+                "GoalSettings": "Налаштування цілі"
+            },
+            "CustomEventTab": "Custom event",
+            "GoalDetail": {
+                "Header": "Ціль трекінгу",
+                "Columns": {
+                    "Name": "Назва цілі",
+                    "EventTypeFilter": "Фільтр типу події",
+                    "Status": {
+                        "Caption": "Статус",
+                        "Active": "Активна",
+                        "Inactive": "Inactive"
+                    },
+                    "Cost": "Вартість цілі"
+                }
+            },
+            "GoalEditiDialog": {
+                "Header": "Налаштування цілі",
+                "Name": "Назва цілі",
+                "UseEventCost": "Використовувати вартість події",
+                "Cost": "Вартість цілі",
+                "Active": "Active",
+                "FilterSettings": "Налаштування фільтрації цілі",
+                "EventTypeFilter": "Фільтр типу події",
+                "EventNameFilter": "Фільтр назви події",
+                "EventValueFilter": "Фільтр значення події",
+                "EventCostFilter": "Фільтр вартості події",
+                "Actions": {
+                    "Save": "Зберегти",
+                    "Cancel": "Скасувати"
+                },
+                "StringCondition": {
+                    "Equal": "рівне",
+                    "Contains": "Містить",
+                    "BeginWith": "Починається з",
+                    "EndWith": "Закінчується на"
+                },
+                "NumberCondition": {
+                    "Equal": "рівне",
+                    "LessOrEqual": "Менше або дорівнює",
+                    "MoreOrEqual": "Більше або дорівнює"
+                }
+            },
+            "BasicCodeTitle": "Базовий код трекінгу"
+        },
+        "CodePane": {
+            "CopyToClipboard": "Копіювати в буфер обміну",
+            "OnCopiedToClipboard": "Скопійовано"
+        },
+        "BaseTrackingCode": {
+            "Header": "Базовий код трекінгу",
+            "InfoBlock": {
+                "Title": "Важливо",
+                "Content": "Базовий код трекінгу для даного ресурсу необхідно розмістити на всіх сторінках сайту.",
+                "LinkText": "Подробиці з налаштування базового коду трекінгу"
+            },
+            "Loading": "Завантаження...",
+            "NotReady": "Збережіть ресурс перед отриманням трекінгового коду."
+        },
+        "EventCodeGenerator": {
+            "Header": "Код відстеження подій",
+            "Form": {
+                "EventType": "Тип події",
+                "EventName": "Назва події",
+                "EventValue": "Значення події",
+                "EventCost": "Вартість події"
+            },
+            "FormValidators": {
+                "EmptyForm": "Пусто...",
+                "InvalidForm": "Перевірте форму на наявність помилок..."
+            }
+        }
+    },
+    "SocialLeadgen": {
+        "ValidationMessage": {
+            "InvalidValue": "Некоректне значення",
+            "RequiredFieldValue": "Введіть значення",
+            "LongFieldValue": "Перевищено допустиму довжину тексту (255)",
+            "InvalidNumberValue": "Числовий формат некоректний"
+        },
+        "IntegrationTypes": {
+            "LinkedIn": "LinkedIn",
+            "Facebook": "Facebook / Instagram",
+            "Undefined": "Не визначено"
+        },
+        "IntegrationSettings": {
+            "Header": {
+                "Title": "Налаштування"
+            },
+            "Detail": {
+                "Url": "Адреса для отримання лідів",
+                "Group": "Роль для отримання сповіщень"
+            },
+            "Notes": {
+                "Header": "Важливо знати",
+                "Text": "<p>Адреса для отримання лідів — адреса застосунку Creatio, на яку будуть надіслані ліди з підключених рекламних облікових записів.</p><p>Для доставки вхідних запитів доступ до сайту має бути відкритий. У разі використання проксі-сервера (proxy) замість адреси додатку пропишіть адресу proxy. Якщо програма знаходиться в закритій мережі, відкрийте доступ до IP-адрес сервісу лідогенерації.</p><p>Роль для отримання повідомлень — організаційна роль, яку буде надіслано повідомлення у разі збою в роботі функціональності, наприклад, виникнення помилки при підключенні до рекламного облікового запису або під час створення лідів.</p><p>Вкладка “Підключення” містить список облікових записів та сторінок, які підключені до Creatio. На вкладці відображаються поточні статуси підключення на рівні сторінки, облікового запису, токена. Ви можете керувати підключеннями, наприклад, видаляти їх або підключатися повторно.</p><p>Вкладка “Логи” використовується для логування змін у функціональності лідогенерації.</p>"
+            },
+            "Tabs": {
+                "Connection": "Підключення",
+                "Logs": "Логи"
+            },
+            "AutorouteMessage": "Для продовження робіт потрібно заповнити поле \"Адреса отримання лідів\". За замовчуванням, у полі було встановлено поточну адресу застосунку з браузера. Переконайтеся, що введено коректну адресу та збережіть налаштування. Ці налаштування виконуються одноразово при першому відкритті розділу.",
+            "Error": {
+                "FormValidation": "Помилка при спробі зберегти налаштування. Перевірте будь-які поля на наявність помилок.",
+                "Save": "Не вдалося зберегти значення, введене в полі \"Адреса для отримання лідів\". Переконайтеся, що ви ввели коректну доступну ззовні адресу застосунку."
+            },
+            "Logs": {
+                "IntegrationFilter": {
+                    "PlaceholderCaption": "Інтеграція",
+                    "EmptyOptionCaption": "Усі елементи"
+                },
+                "DateColumnCaption": "Дата",
+                "IntegrationColumnCaption": "Інтеграція",
+                "DetailsColumnCaption": "Деталі",
+                "IntegrationNotFound": "Не знайдено",
+                "GetIntegrationListError": "Виникла помилка під час завантаження списку інтеграцій. Завантаження було перервано.",
+                "NoLogsMessage": "Наразі немає логів для відображення"
+            },
+            "FacebookPagesConnections": {
+                "Header": "Сторінки Facebook",
+                "Blankslate": "Підключення до сторінок ще не налаштовані."
+            },
+            "LinkedInAdAccountsConnections": {
+                "Header": "Рекламні облікові записи LinkedIn",
+                "Blankslate": "Підключення до рекламних облікових записів ще не налаштовані.",
+                "AdAccountsTable": {
+                    "DeleteConfirmation": "Ви дійсно хочете видалити рекламний обліковий запис?",
+                    "DeleteError": "Цей обліковий запис пов'язаний з інтеграцією. Будь ласка, видаліть інтеграцію та повторіть спробу",
+                    "Headers": {
+                        "Name": "Назва контрагента",
+                        "Link": "Посилання",
+                        "ConnectionStatus": "Стан підключення",
+                        "ExpirationDate": "Дата завершення"
+                    },
+                    "ConnectionStatuses": {
+                        "Active": "Active",
+                        "Inactive": "Inactive"
+                    },
+                    "ConnectionStatusErrorMessage": {
+                        "Inactive": "Немає доступу до рекламного облікового запису. Виконайте авторизацію в LinkedIn і налаштуйте права на облікові записи, з якими має бути виконана інтеграція."
+                    },
+                    "UsersTable": {
+                        "DeleteConfirmation": "Ви дійсно хочете видалити вибраний токен? Це може вплинути на доступ до рекламного облікового запису та можливість отримувати ліди в Creatio",
+                        "Headers": {
+                            "UserName": "Користувач мережі",
+                            "TokenStatus": "Статус токена",
+                            "ExpirationDate": "Expiration date",
+                            "HasAdAccountAccess": "Надає доступ до облікового запису"
+                        },
+                        "TokenStatuses": {
+                            "Active": "Active",
+                            "Expired": "Прострочено",
+                            "Revoked": "Скасовано",
+                            "Unknown": "Не відомо"
+                        },
+                        "HasAdAccountAccess": {
+                            "Yes": "Так",
+                            "No": "Ні"
+                        },
+                        "TokenStatusErrorMessage": {
+                            "Expired": "Виконайте авторизацію в LinkedIn і надайте права на рекламні облікові записи від імені користувача, чий токен був скасований.",
+                            "Revoked": "Токен був скасований.\nМожливі причини:\n-Вхід в інший застосунок Creatio під цим обліковим записом.\n-На стороні LinkedIn було видалено підключення до програми лідогенерації.\nДля розв'язання проблеми виконайте авторизацію в LinkedIn повторно і надайте права на рекламні акаунти від імені користувача, чий токен було скасовано.",
+                            "Unknown": "Не вдалося отримати статус токена з огляду на одну або кілька помилок, що виникли під час запиту інформації. Будь ласка, оновіть сторінку."
+                        },
+                        "MenuCell": {
+                            "Delete": "Видалити",
+                            "Reconnect": "Оновити підключення"
+                        }
+                    }
+                }
+            }
+        },
+        "IntegrationSection": {
+            "DeleteConfirmation": "Ви дійсно бажаєте видалити вибрану інтеграцію? Нові ліди з цієї інтеграції не передаватимуться в Creatio",
+            "DeleteError": "Не вдалося видалити інтеграцію, немає доступу до рекламного облікового запису. Будь ласка, надайте доступ до облікового запису, пов'язаного з цією інтеграцією, та спробуйте ще раз.",
+            "Header": {
+                "Title": "Social leadgen integrations",
+                "Buttons": {
+                    "New": "Новий",
+                    "Logs": "Логи",
+                    "Settings": "Налаштування"
+                }
+            },
+            "Columns": {
+                "Name": "Name",
+                "Type": "Тип",
+                "IsActive": "Active",
+                "IntegrationSectionItemMenu": {
+                    "Delete": "Видалити",
+                    "Activate": "Активувати",
+                    "Deactivate": "Деактивувати"
+                }
+            },
+            "BlankSlate": {
+                "Description": "У вас ще немає налаштованих інтеграцій"
+            }
+        },
+        "IntegrationPage": {
+            "ToggleStateCaptions": {
+                "Active": "Active",
+                "Inactive": "Inactive"
+            },
+            "Header": {
+                "Buttons": {
+                    "Logs": "Логи",
+                    "Settings": "Налаштування"
+                }
+            },
+            "Error": {
+                "Save": "Unable to modify settings. Make sure the required object fields are mapped and the \"Unmapped form fields\" macro settings are specified.",
+                "FormSelection": "Unable to modify settings. Make sure the required object fields are mapped and the \"Unmapped form fields\" macro settings are specified."
+            },
+            "BlankSlate": {
+                "Title": "Нам не вдалося знайти активні форми у вибраному рекламному обліковому записі.",
+                "Description": "Створіть форми для потенційних клієнтів або виберіть інший обліковий запис для налаштування."
+            },
+            "BlankSlateError": {
+                "Title": "Не вдалося отримати доступ до облікового запису.",
+                "Description": "Виконайте авторизацію повторно та надайте доступ."
+            },
+            "Detail": {
+                "Name": "Name",
+                "FacebookPage": "Сторінка Facebook",
+                "LinkedinAdAccount": "LinkedIn акаунт",
+                "DeactivateConfirmationQuestion": "Ви впевнені, що хочете деактивувати підписку? Передачу лідів з усіх форм буде зупинено. Новий статус набуде чинності після збереження змін на рівні картки інтеграції."
+            },
+            "IntegrationSettings": {
+                "FacebookIsNotSet": "Інтеграція з Facebook не налаштована.",
+                "LinkedInIsNotSet": "Інтеграція LinkedIn не налаштована.",
+                "Create": "Налаштувати інтеграцію",
+                "DefaultIntegrationRecordName": "Нова інтеграція із соціальними мережами"
+            },
+            "InfoBlock": {
+                "Title": "Важливо знати",
+                "Text": "Всі форми для вибраної сторінки є під'єднаними до Creatio. Створіть налаштування за замовчуванням для всіх форм на вкладці \"Параметри за замовчуванням\". Унікальні параметри для кожної форми можуть бути зроблені у вкладці \"Форми\"."
+            },
+            "ColumnMapping": {
+                "ExpansionPanelCaption": "Мапінг за замовчуванням",
+                "Object": "Об'єкт",
+                "AddMapping": "Додати",
+                "Hint": "Мапінг за замовчуванням застосовується до всіх форм рекламного облікового запису.\nВи можете налаштувати лише колонки форм, що містять інформацію про профіль користувача.\nМапінг для налаштованих питань, користувацьких прапорців та прихованих полів доступний у картці форми при активації прапора “Користувальницький маппінг”.\nМакрос “Not mapped fields” дозволяє передати значення всіх колонок форми до однієї колонки об'єкта.",
+                "DataTypes": {
+                    "Lookup": "Довідник",
+                    "Text": "Текст",
+                    "Boolean": "Логічне",
+                    "DateTime": "Значення дати та часу",
+                    "Date": "Date",
+                    "Time": "Час",
+                    "Number": "Номер",
+                    "Macro": "Макрос"
+                },
+                "FieldMenuCaptions": {
+                    "FormField": "Поле форми",
+                    "Text": "Текстове значення",
+                    "Boolean": "Логічне значення",
+                    "Lookup": "Значення довідника",
+                    "Other": "Інше"
+                },
+                "LinkedIn": "LinkedIn",
+                "BooleanValue": {
+                    "True": "Істина",
+                    "False": "False"
+                },
+                "UnmappedMacroValue": "Unmapped form fields",
+                "LookupValueUnknown": "<не знайдено>",
+                "ModalBox": {
+                    "SetButtonCaption": "Налаштувати",
+                    "CancelButtonCaption": "Скасувати",
+                    "SelectFormCaption": "Виберіть поле форми",
+                    "EnterTextValueCaption": "Введіть значення"
+                }
+            },
+            "Logs": {
+                "ExpansionPanelCaption": "Логи",
+                "NoLogsForIntegrationMessage": "Логів цієї інтеграції немає",
+                "ShowMoreButtonCaption": "Show more",
+                "Types": {
+                    "Info": "Інформація",
+                    "Warning": "Попередження",
+                    "Error": "Помилка"
+                }
+            },
+            "FormsList": {
+                "Header": "Форми",
+                "LinkedInStatus": "LinkedIn статус",
+                "Hint": "Custom mapping settings override the default mapping settings. Map each form separately.\nIf you deactivate custom mapping, Creatio will apply the default mapping settings to the form.",
+                "FormStatus": {
+                    "Archived": "Archived",
+                    "Pending": "В очікуванні",
+                    "Approved": "Затверджено",
+                    "Preapproved": "Попередньо схвалений",
+                    "Rejected": "Відхилено",
+                    "NeedsReview": "На перевірці",
+                    "AutoApproved": "Автоматично підтверджено",
+                    "AutoRejected": "Автоматично відхилено",
+                    "Undefined": "Не визначено",
+                    "NotActive": "Not active"
+                },
+                "MappingType": {
+                    "DefaultMapping": "Мапінг за замовчуванням",
+                    "CustomMapping": "Користувацький мапінг"
+                },
+                "BlankSlate": {
+                    "Description": "Для цієї форми застосовуються параметри мапінгу за замовчуванням."
+                },
+                "DeactivateFormConfirmationQuestion": "Ви впевнені, що хочете відписатися від отримання лідів цієї форми в Creatio? Новий статус набуде чинності після збереження змін на рівні картки інтеграції.",
+                "ObjectsTitle": {
+                    "Lead": "Лід"
+                }
+            },
+            "IntegrationSyncInfo": {
+                "Header": "Інформація про синхронізацію лідів",
+                "UnableToAdAccountAccess": "Немає доступу до рекламного облікового запису. Синхронізацію лідів зупинено.",
+                "SaveIntegration": "Будь ласка, збережіть інтеграцію та оновіть сторінку, щоб отримати повідомлення про стан синхронізації лідів.",
+                "SubscriptionInactive": "Підписка на отримання лідів неактивна для обраного рекламного облікового запису. Синхронізацію лідів зупинено. Активація підписки дозволить відновити отримання лідів у Creatio.",
+                "SubscriptionActive": "Підписка на отримання лідів активна для обраного рекламного облікового запису. Ліди, створені з боку LinkedIn, будуть передані в Creatio."
+            },
+            "DownloadLeads": {
+                "ForForm": {
+                    "ButtonCaption": "Синхронізувати ліди",
+                    "ModalBoxTitle": "Click “Sync” to upload the form’s leads for the period. The period is calculated regardless of the form’s lead subscription status at the time."
+                },
+                "ForAdAccount": {
+                    "ButtonCaption": "Синхронізувати всі ліди",
+                    "ModalBoxTitle": "Click “Sync” to upload the ad account’s leads for the period. The period is calculated regardless of the account’s lead subscription status at the time. Creatio will not reupload the leads you have already synchronized."
+                },
+                "ModalBox": {
+                    "InformationText": "Ліди з боку LinkedIn зберігаються 90 днів.",
+                    "CancelButtonCaption": "Скасувати",
+                    "DownloadButtonCaption": "Sync",
+                    "SuccessRunBusinessProcessInfoText": "Процес завантаження лідів запущено. Це може тривати деякий час.",
+                    "UnknownFailedRunBusinessProcessInfoText": "Не вдалося запустити процес завантаження лідів. Повторіть спробу пізніше. Якщо помилка запуску не зникне, зверніться до технічної підтримки. "
+                }
+            }
+        },
+        "SocialMediaProvider": {
+            "New": "Нова інтеграція",
+            "RestoreAccess": "Відновити доступ"
+        },
+        "IntegrationError": {
+            "InvalidSettings": "Неможливо підключитись до сервісу лідогенерації. У Creatio не заповнені системні налаштування \"Адреса Identity сервера\", \"Ідентифікатор програми для Identity сервера\", \"Секретний ключ для Identity сервера\".",
+            "InvalidScope": "Неможливо підключитись до сервісу лідогенерації. Обліковий запис сервісу лідогенерації не має необхідного переліку доступів. Для розв'язання цього питання зверніться до технічної підтримки Creatio.",
+            "InvalidClient": "Неможливо підключитись до сервісу лідогенерації. Неправильно заповнені системні налаштування “Ідентифікатор програми для Identity сервера” та “Секретний ключ для Identity сервера”. Для розв'язання цього питання зверніться до технічної підтримки Creatio.",
+            "GeneralError": "Неможливо підключитись до сервісу лідогенерації. Будь ласка, оновіть сторінку. Якщо проблема залишається, зверніться до технічної підтримки Creatio."
+        }
+    },
+    "QueueSorting": {
+        "QueueSectionHeader": "Налаштувати сортування у чергах",
+        "AddQueueObjectCaption": "Додати об'єкт черги",
+        "QueueObjectCaption": "Об'ект очереди",
+        "QueueTypeCaption": "Тип черги",
+        "BlindQueue": "Закрита черга",
+        "RegularQueue": "Відкрита черга",
+        "AddQueueSortObjectCaption": "Додати об'єкт сортування",
+        "Empty": "Empty",
+        "RequiredFieldValue": "Обрати об'єкт черги",
+        "QueueObjectLookup": {
+            "NameColumnCaption": "Заголовок",
+            "Title": "Queue object lookup"
+        },
+        "QueueObjectColumnLookup": {
+            "NameColumnCaption": "Заголовок",
+            "Title": "Queue object sorting column lookup"
+        },
+        "QueueObjectColumnPage": {
+            "AddQueueObjectColumn": "Додати колонку",
+            "SortDirection": "Напрямок сортування",
+            "SelectColumn": "Гістограма",
+            "RequiredFieldValue": "Не заповнені обов'язкові поля"
+        },
+        "QueueObjectTable": {
+            "Actions": {
+                "Delete": "Видалити",
+                "Edit": "Налаштування"
+            },
+            "RemoveToolTip": "Creatio не може видалити об'єкт сортування, тому що його використовують існуючі черги"
+        },
+        "QueueObjectColumnTable": {
+            "Caption": "Колонка сортування",
+            "ColumnCaption": "Заголовок",
+            "SortDirection": "Напрямок сортування",
+            "Position": "Пріоритет",
+            "Empty": "Не додано колонки для сортування",
+            "Actions": {
+                "Delete": "Видалити",
+                "Edit": "Змінити"
+            }
+        },
+        "OrderDirection": {
+            "Ascending": "За зростанням",
+            "Descending": "За зменшенням",
+            "None": "None"
+        }
+    },
+    "ChatSettings": {
+        "ChatSettingsPageHeader": "Чати",
+        "ChannelDetail": {
+            "DeleteAction": "Видалити",
+            "DeleteRecordErrorMessage": "Неможливо видалити вибраний запис",
+            "Title": "Канали",
+            "Columns": {
+                "Name": "Name",
+                "Status": {
+                    "Caption": "Active"
+                },
+                "Queue": "Черга",
+                "Provider": "Провайдер"
+            },
+            "FacebookSettings": {
+                "InvalidSettings": {
+                    "Message": "Неможливо додати новий канал. Ви можете ознайомитися з вимогами до налаштування в",
+                    "Link": {
+                        "Url": "https://academy.creatio.com/docs/user/setup_and_administration/base_integrations/set_up_chats/set_up_chat#title-3019-2",
+                        "Text": "стаття"
+                    }
+                }
+            }
+        },
+        "ChannelPage": {
+            "Name": "Name",
+            "Token": "Токен",
+            "WebhookUrl": "Адреса посилання",
+            "Status": "Статус",
+            "Queue": "Черга",
+            "Language": "Мова",
+            "ChannelProcessingGroup": "Обробка каналу",
+            "NewChannelCaption": "Новий '{0}' канал",
+            "InactiveChannelMessage": "To receive messages, you must activate the channel and specify the queue for processing. Are you sure you want to add an inactive channel?",
+            "FacebookPageLinkCaption": "Сторінка Facebook",
+            "ActiveChannelCaption": "Active",
+            "Telegram": {
+                "TelegramPageLinkCaption": "Канал Telegram",
+                "InvalidTelegramToken": "Для створення каналу введіть коректний токен",
+                "TelegramTokenAlreadyExists": "Для введеного токена вже існує канал"
+            },
+            "Tips": {
+                "Language": "Вибрана мова буде встановлюватися як мова спілкування контактів, створених через цей канал. Для вибору доступні лише активні мови. Перейдіть до довідника «Мови» для керування мовами",
+                "WhatsAppToken": "Введіть AUTH TOKEN свого облікового запису Twilio.",
+                "WhatsAppId": "Введіть SID облікового запису Twilio.",
+                "WhatsAppTestPhoneNumber": "Номер телефону, до якого буде надіслано тестове повідомлення для підтвердження каналу."
+            },
+            "WhatsApp": {
+                "PageLinkCaption": "Канал WhatsApp",
+                "ApplicationId": "Id застосунку",
+                "ChannelPhoneNumber": "Номер телефону",
+                "IntegrationPhoneNumber": "Номер телефону для підтвердження",
+                "Connect": "Підключити",
+                "InvalidPhoneNumber": "Дозволені лише цифри",
+                "ChannelDuplicatedErrorMessage": "Для введеного номера телефону вже існує канал",
+                "ErrorMessages": {
+                    "InvalidAppSidException": "Ви вказали неправильний SID облікового запису Twilio",
+                    "InvalidAccountPhoneNumberException": "Ви вказали неправильний номер телефону WhatsApp",
+                    "AuthenticateException": "Ви вказали неправильний Токен"
+                }
+            },
+            "ValidationMessage": {
+                "required": "Введіть значення",
+                "wrongValue": "Некоректне значення"
+            }
+        },
+        "ChatQueueDetail": {
+            "Title": "Черги чату",
+            "Columns": {
+                "Name": "Name",
+                "Routing": {
+                    "Caption": "Правило маршрутизації"
+                },
+                "Simultaneous": "Одночасні чати",
+                "Timeout": "Таймаут до завершення чату, хв"
+            }
+        },
+        "ChatActionsDetail": {
+            "Title": "Дії чатів",
+            "Columns": {
+                "Caption": "Заголовок",
+                "Process": "Процес",
+                "Queue": "Черга"
+            },
+            "Actions": {
+                "Delete": "Видалити"
+            }
+        },
+        "ChatQueuePage": {
+            "Title": "Черга",
+            "Name": "Name",
+            "OperatorRoutingRule": "Правило маршрутизації",
+            "SimultaneousChats": "Одночасні чати",
+            "TimeToWaitInQueue": "Час очікування в черзі",
+            "Timeout": "Таймаут для завершення чату, хвилин",
+            "Tips": {
+                "SimultaneousChats": "Максимальна кількість одночасних чатів на одному операторі",
+                "Timeout": "Максимальний час очікування, після якого чат буде автоматично завершено"
+            },
+            "ValidationMessage": {
+                "required": "Введіть значення",
+                "wrongValue": "Некоректне значення",
+                "nonNegativeValue": "Неможливо вказати від'ємне значення",
+                "nonNumericValue": "Неможливо вказати нечислове значення"
+            }
+        },
+        "ChatActionPage": {
+            "Title": "Дія чату",
+            "Caption": "Заголовок",
+            "Process": "Процес",
+            "ChatQueue": "Черга чатів",
+            "ValidationMessage": {
+                "required": "Введіть значення"
+            }
+        },
+        "ChatQueueOperatorDetail": {
+            "Title": "Оператори",
+            "Columns": {
+                "Operator": {
+                    "Caption": "Користувач/роль"
+                }
+            },
+            "DuplicationMessage": "A role already exists. Please choose another operator/role to proceed"
+        }
+    },
+    "IntegrationDiagnostics": {
+        "EmailListener": {
+            "Header": "Діагностика сервісу Email Listener",
+            "MailBoxAvailabilityCheck": "Перевірка працездатності поштової скриньки",
+            "ExchangeListenerAvaibilityCheck": "Перевірка доступності сервісу",
+            "ExchangeListenerAvailabilityCheck": "Перевірка доступності Creatio",
+            "GetSubscriberInfo": "Отримання інформації щодо передплат",
+            "StartDiagnosticButtonCaption": "Запустити діагностику",
+            "StartFullDiagnosticButtonCaption": "Запустити повну діагностику",
+            "MailBoxLookupCaption": "Поштова скринька",
+            "SuccessfulOperation": "Успішна операція",
+            "UnSuccessfulOperation": "Помилка",
+            "ELAvailabilityDescription": "Сервіс Email Listener доступний для цього сайту",
+            "ApplicationAvailabilityDescription": "Email Listener зміг отримати доступ до Creatio",
+            "ELNotAvailabilityDescription": "Сервіс Email Listener наразі не доступний для поточного сайту",
+            "ValidateCreatioExchangeEndpoint": "Перевірка правильності заповнення системного налаштування BpmonlineExchangeEventsEndpointUrl",
+            "CreatioExchangeEndpontErrorValidationInfoTemplate": "Endpoint is not valid\nExpected value: {0}/NewEmail\nActual value: {1}\nCheck the system setup BpmonlineExchangeEventsEndpointUrl is full!",
+            "CreatioExchangeEndpontSuccessValidationInfoTemplate": "Кінцева точка {0} діє",
+            "SendTestEmail": "Відтправка тестового листа",
+            "MailboxAvailabilityDiagnosticTooltip": "Необхідно заповнити поштову скриньку",
+            "MailboxDiagnosticSuccessDescriptor": "Ця поштова скринька успішно перевірена",
+            "NameCaption": "Name",
+            "FeaturesStateLabel": "Стан доступності функціональності",
+            "ExchangeListenerEnabledFeatureCaption": "Синхронізація пошти Exchange (ExchangeListenerEnabled)",
+            "EmailIntegrationV2FeatureCaption": "Синхронізація пошти Exchange та IMAP (EmailIntegrationV2)",
+            "SendEmailsV2FeatureCaption": "Надсилання листів (SendEmailsV2)",
+            "OldEmailIntegrationFeatureCaption": "Стара синхронізація пошти (OldEmailIntegrationFeature, вимкнена)",
+            "IsMailboxSyncSettingsCachedFeatureCaption": "Кеш налаштувань пошти (IsMailboxSyncSettingsCached)",
+            "DiagnosticWasNotStarted": "Діагностика не почалася"
+        }
+    },
+    "StructureExplorerDialog": {
+        "NoData": "Немає даних",
+        "Title": "Оберіть поле",
+        "CancelButtonCaption": "Скасувати",
+        "SelectButtonCaption": "Вибрати",
+        "RelatedObjectsTabCaption": "Пов'язані об'єкти{0}",
+        "FieldsTabCaption": "{0} fields{1}",
+        "SearchPlaceHolder": "Пошук"
+    },
+    "AggregationNames": {
+        "Count": "Кількість записів",
+        "Sum": "Суму значень",
+        "Avg": "Середнє значення",
+        "MinValue": "Мінімальне значення",
+        "MaxValue": "Максимальне значення",
+        "MinDate": "Мінімальна дата",
+        "MaxDate": "Максимальна дата",
+        "TopOne": "Значення першого запису"
+    },
+    "EntityColumnValuePickerProvider": {
+        "ValueFromFieldCaption": "Значення з іншого поля"
+    },
+    "DataSourceAttributeValuePickerProvider": {
+        "ValueFromFieldCaption": "Значення з іншого поля"
+    },
+    "FormulaValuePickerProvider": {
+        "ValueFromFieldCaption": "Формула",
+        "CancelButtonCaption": "Скасувати",
+        "SelectButtonCaption": "Зберегти",
+        "DialogTitleCaption": "Формула"
+    },
+    "RepositorySection": {
+        "Title": "Список сховищ SVN",
+        "Actions": {
+            "Add": "Додати",
+            "Edit": "Редагувати",
+            "Authorize": "Аутентифікуватися",
+            "Delete": "Видалити"
+        },
+        "Messages": {
+            "SuccessAuthorize": "Ви успішно автентифіковані в сховищі"
+        },
+        "Columns": {
+            "Name": "Name",
+            "Address": "Адреса SVN сховища",
+            "IsActive": "Active",
+            "Login": "Логін",
+            "Password": "Пароль"
+        },
+        "InfoBlock": {
+            "Title": "Важливо знати",
+            "TextPart1": "Transferring changes via SVN is intended for development environments only. Use the ",
+            "TextPart2": " розділ, щоб перенести зміни в робоче середовище.",
+            "InstallAppsLink": "https://academy.creatio.com/docs/user/no-code_customization/apps_and_extensions/install_applications_from_the_marketplace",
+            "InstallAppsLinkText": "Установка і видалення застосунків",
+            "LinksMessage": "Дізнайтесь більше про роботу в SVN в Академії:",
+            "DeploymentInCreatioIDEInfoLinkText": "Розгортання у Creatio IDE",
+            "SetupVersionControlInfoLinkText": "Налаштування контролю версій",
+            "DeploymentInCreatioIDEInfoLink": "https://academy.creatio.com/docs/developer/development_tools/deployment/transferring_solutions_in_creatio_ide",
+            "SetupVersionControlInfoLink": "https://academy.creatio.com/docs/node/1164"
+        },
+        "Page": {
+            "Title": "SVN сховище",
+            "Actions": {
+                "Add": "Додати",
+                "Apply": "Застосувати",
+                "Cancel": "Скасувати",
+                "Authorize": "Аутентифікуватися"
+            },
+            "Validation": {
+                "Required": "Введіть значення",
+                "MaxLength": "Перевищено допустиму довжину тексту ({0}/{1})",
+                "NameField": {
+                    "Pattern": "Неправильний формат імені"
+                }
+            }
+        }
+    },
+    "dataSource": "Джерело даних",
+    "lookup": "Довідник",
+    "lookupValueDeletion": "При видаленні значень довідника:",
+    "blockDeletionCaption": "Блокувати видалення, якщо є пов'язані записи в поточному об'єкті з цим значенням",
+    "DeleteRecordsCaption": "Видалити записи з поточного об'єкта з цим значенням",
+    "lookupView": "Вид довідника",
+    "selectionWindow": "Selection window",
+    "list": "Реєстр",
+    "columnFormat": "Тип даних",
+    "columnNumberFormat": "Тип даних",
+    "selectValueCaption": "Введіть значення",
+    "DataValueType": {
+        "TextCaption": "Текст",
+        "ShortTextCaption": "Рядок (50 символів)",
+        "PhoneTextCaption": "Номер телефону",
+        "WebTextCaption": "Web посилання",
+        "EmailTextCaption": "Email адреса",
+        "MediumTextCaption": "Рядок (250 символів)",
+        "LongTextCaption": "Рядок (500 символів)",
+        "MaxSizeTextCaption": "Текстовий рядок необмеженої довжини",
+        "SecureTextCaption": "Зашифрований рядок",
+        "HashTextCaption": "CRC",
+        "NumberCaption": "Число",
+        "IntegerCaption": "Ціле число",
+        "FLOAT1Caption": "Дробове число (0,1)",
+        "FLOAT2Caption": "Дробове число (0,01)",
+        "FLOAT3Caption": "Дробове число (0,001)",
+        "FLOAT4Caption": "Дробове число (0,0001)",
+        "FLOAT8Caption": "Дробове число (0,00000001)",
+        "MoneyCaption": "Валюта",
+        "DateTimeCaption": "Дата/час",
+        "DateCaption": "Дата",
+        "TimeCaption": "Час",
+        "BooleanCaption": "Логічне",
+        "ImageCaption": "Зображення",
+        "ImageLookupCaption": "Посилання зображення",
+        "FileCaption": "Файл",
+        "ColorCaption": "Колір",
+        "GuidCaption": "Унікальний ідентифікатор",
+        "BlobCaption": "BLOB",
+        "LookupCaption": "Довідник",
+        "Entity": "Об'єкт (Entity)",
+        "EntityCollection": "Колекція об'єктів (EntityCollection)",
+        "EntityColumnMappingCollection": "Object Column Values",
+        "CustomObject": "Об'єкт",
+        "Collection": "Перелік",
+        "LocalizableString": "Локалізований рядок",
+        "MetaDataText": "Рядок не локалізується",
+        "ObjectList": "Перелік значень, що серіалізується",
+        "CompositeObjectList": "Список складових значень, що серіалізується",
+        "FloatCaption": "Дробове",
+        "PhoneTextShortenedCaption": "Телефон",
+        "EmailTextShortenedCaption": "Email",
+        "RichCaption": "Розширений текст",
+        "TimerCaption": "Таймер",
+        "LocalTimeCaption": "Місцевий час"
+    },
+    "CodeMirror": {
+        "HotkeysDescription": "Гарячі клавіші:",
+        "SelectAll": "Ctrl-A Вибрати все",
+        "Undo": "Ctrl-Z Скасувати",
+        "Redo": "Shift-Ctrl-Z Повторити",
+        "Find": "Ctrl-F Знайти",
+        "FindNext": "F3 Перейти до наступного збігу",
+        "FindPrev": "Shift-F3 Перейти до попереднього збігу",
+        "Replace": "Shift-Ctrl-F Замінити",
+        "ReplaceAll": "Shift-Ctrl-R замінити все",
+        "DeleteLine": "Ctrl-Y Видалити рядок",
+        "GoLineStart": "Alt-Left Перейти на початок рядка",
+        "GoLineEnd": "Alt-Right Перейти до кінця рядка",
+        "JmpToLine": "Alt-G Перейти на рядок",
+        "Fullscreen": "F11 Відобразити редактор коду на весь екран",
+        "FullscreenExit": "Esc Вийти з повноекранного режиму",
+        "Autocomplete": "Ctrl-Space Виклик вікна автозаповнення"
+    },
+    "CDK": {
+        "WhereColumnCaption": "де",
+        "IsColumnCaption": "is",
+        "ByCaption": "на",
+        "ByColumnCaption": "за колонкою",
+        "InputsGroupCaption": "Поля",
+        "IndicatorWidget": {
+            "Caption": "Показник"
+        },
+        "GaugeWidget": {
+            "Caption": "Шкала"
+        },
+        "HeaderWidget": {
+            "Fullscreen": {
+                "ExpandLabel": "Розгорнути у повноекранний режим",
+                "CollapseLabel": "Згорнути повноекранний режим"
+            },
+            "Direction": {
+                "Menu": {
+                    "Caption": "Розташування графіка"
+                },
+                "Column": {
+                    "Caption": "Згори"
+                },
+                "Row": {
+                    "Caption": "Left"
+                },
+                "RowReverse": {
+                    "Caption": "Правий"
+                }
+            }
+        },
+        "ChartWidget": {
+            "ChangeChartType": {
+                "Caption": "Змінити тип діаграми"
+            },
+            "Line": {
+                "Caption": "Лінія"
+            },
+            "Spline": {
+                "Caption": "Сплайн"
+            },
+            "Area": {
+                "Caption": "Area"
+            },
+            "Scatter": {
+                "Caption": "Точкова діаграма"
+            },
+            "Bar": {
+                "Caption": "Гістограма"
+            },
+            "HorizontalBar": {
+                "Caption": "Bar"
+            },
+            "Pie": {
+                "Caption": "Кругова діаграма"
+            },
+            "Doughnut": {
+                "Caption": "Кільцева діаграма"
+            },
+            "Tsfunnel": {
+                "Caption": "Воронка"
+            },
+            "Common": {
+                "ShowSeriesDataCaption": "Показати дані по серіях",
+                "ShowDataForSelectedSeriesCaption": "Показати дані для цієї серії",
+                "ShowSeries": "Показати",
+                "HideSeries": "Приховати",
+                "EmptyValue": "Значення не задано",
+                "BooleanTrueValue": "Так",
+                "BooleanFalseValue": "Ні",
+                "ShowDataCaption": "Показати дані",
+                "DrillDownCaption": "Заглибитися в елемент",
+                "ExportDataBtnCaption": "Експорт в Excel"
+            },
+            "With": {
+                "Caption": "з"
+            },
+            "Series": {
+                "Caption": "серія"
+            }
+        },
+        "FunnelWidget": {
+            "OpportunityFunnel": {
+                "Caption": "Воронка продажів",
+                "ByCountLabelTemplate": "{0}",
+                "StageConversionLabelTemplate": "{0}%",
+                "ToFirstStageLabelTemplate": "{0}%",
+                "ByCountBtnLabel": "Кількість продажів",
+                "StageConversionBtnLabel": "Stage Conversion Rate",
+                "ToFirstStageBtnLabel": "Pipeline Conversion",
+                "DefaultTitle": "Нова воронка"
+            },
+            "FullPipelineFunnel": {
+                "Caption": "Full pipeline",
+                "ByCountBtnLabel": "Кількість записів",
+                "StageConversionBtnLabel": "Stage Conversion Rate",
+                "ToFirstStageBtnLabel": "Pipeline Conversion",
+                "DefaultTitle": "Нова воронка"
+            },
+            "Tooltip": {
+                "CountInStage": "Кількість",
+                "CountInStageValue": "{0}",
+                "Amount": "Amount",
+                "AmountValue": "{0} {1}",
+                "ConversionToStage": "Конверсія",
+                "ConversionToStageValue": "{0}%",
+                "ConversionToFirstStage": "Конверсія",
+                "ConversionToFirstStageValue": "{0}%",
+                "ConversionToStageCount": "Кількість",
+                "ConversionToStageCountValue": "{0}",
+                "ConversionToFirstStageCount": "Кількість",
+                "ConversionToFirstStageCountValue": "{0}"
+            }
+        },
+        "AnalyticsWidget": {
+            "Grid": {
+                "ConfirmationDialog": {
+                    "SaveDataGridConfigsForAllUsers": "Зберегти налаштування реєстру для всіх користувачів?",
+                    "ResetDataGridConfigsToDefault": "Повернути для реєстру налаштування за замовчуванням?"
+                }
+            }
+        }
+    },
+    "Components": {
+        "Input": {
+            "Caption": "Текст"
+        },
+        "Slider": {
+            "Caption": "Повзунок"
+        },
+        "NumberInput": {
+            "Caption": "Номер"
+        },
+        "Button": {
+            "Caption": "Кнопка"
+        },
+        "Checkbox": {
+            "Caption": "Чекбокс"
+        },
+        "Combobox": {
+            "Caption": "Випадаючий список",
+            "AddNewRecord": "Додати новий",
+            "IsGoToSourceAllowedTooltip": "Перейти до реєстру записів"
+        },
+        "DataGrid": {
+            "Caption": "Реєстр"
+        },
+        "ExpandedList": {
+            "Caption": "Expanded list",
+            "Hint": "The Expanded list includes a list, a expandable group, and an add entry button. Recommended to use on pages to display related information.",
+            "AddBtnCaption": "New",
+            "RefreshBtnCaption": "Оновити",
+            "SettingsBtnCaption": "Дії",
+            "ExportDataBtnCaption": "Експорт в Excel",
+            "ImportDataBtnCaption": "Імпорт даних"
+        },
+        "DateTimePicker": {
+            "Caption": "Дата/час"
+        },
+        "Gallery": {
+            "Caption": "Галерея"
+        },
+        "ColorPicker": {
+            "Caption": "Палітра кольорів"
+        },
+        "Label": {
+            "Caption": "Label"
+        },
+        "Feed": {
+            "Caption": "Стрічка"
+        },
+        "ActionDashboard": {
+            "Caption": "Панель дій",
+            "Hint": "Призначена для показу інформації про поточний стан роботи з записом за допомогою індикатора стадій та панелі дій. Рекомендується використовувати компонент на сторінці запису."
+        },
+        "ExpansionPanel": {
+            "Caption": "Панель розширення"
+        },
+        "TabPanel": {
+            "Caption": "Вкладки",
+            "DefaultTab1Name": "Вкладка 1",
+            "DefaultTab2Name": "Вкладка 2",
+            "DefaultLabel1Name": "Напис 1",
+            "DefaultLabel2Name": "Напис 2",
+            "NewTabName": "Нова вкладка",
+            "NewLabelName": "Новий напис",
+            "AddTab": "Додати вкладку",
+            "DeleteTab": "Видалити вкладку",
+            "DeleteTabConfirmation": "Видалити вкладку \"{0}\" та весь її вміст?"
+        },
+        "FolderTree": {
+            "Caption": "Групи",
+            "Hint": "Дозволяє настроїти структуру груп для сегментації записів за заданими фільтрами. Для коректної роботи компонента необхідно встановити зв'язок у налаштуваннях Списку або Джерела даних на сторінці."
+        },
+        "FolderTreeActions": {
+            "Caption": "Меню керування групами",
+            "Hint": "Використовується разом із компонентом \"Групи\". Дозволяє відображати групи на сторінці, якщо вони приховані."
+        },
+        "MenuItem": {
+            "Caption": "Пункт меню"
+        },
+        "SearchFilter": {
+            "Caption": "Пошук",
+            "Placeholder": "Пошук",
+            "Tooltip": "Компонент пошуку шукає тільки по текстових, числових і довідникових колонках з прямим зв'язком."
+        },
+        "Approval": {
+            "Caption": "Візи"
+        },
+        "ApprovalList": {
+            "Caption": "Історія візування",
+            "RefreshCaption": "Оновити",
+            "ProvideDataSource": "Перед використанням Візування необхідно вказати джерело даних"
+        },
+        "QuickFilter": {
+            "Caption": "Швидкий фільтр",
+            "DateRange": {
+                "Macros": {
+                    "Yesterday": "Вчора",
+                    "Today": "Сьогодні",
+                    "Tomorrow": "Завтра",
+                    "PreviousWeek": "Минулий тиждень",
+                    "CurrentWeek": "Поточний тиждень",
+                    "NextWeek": "Наступний тиждень",
+                    "PreviousMonth": "Минулий місяць",
+                    "CurrentMonth": "Поточний місяць",
+                    "NextMonth": "Наступний місяць",
+                    "PreviousQuarter": "Попередній квартал",
+                    "CurrentQuarter": "Поточний квартал",
+                    "NextQuarter": "Наступний квартал"
+                }
+            }
+        },
+        "FileInput": {
+            "Caption": "Файл",
+            "LabelCaption": "Файл для завантаження",
+            "Placeholder": "Виберіть файл"
+        },
+        "Attachment": {
+            "Caption": "Файли і посилання",
+            "Hint": "Список вкладень включає в себе список файлів, розширювану групу, кнопку завантаження. Рекомендується використовувати на сторінці форми для відображення пов'язаних вкладень.",
+            "AddBtnCaption": "Завантажити",
+            "RefreshBtnCaption": "Оновити"
+        },
+        "TogglePanel": {
+            "Caption": "Перемикач панелі",
+            "Hint": "Контейнер включає в себе згорнутий контейнер вкладок і блок кнопок, який дозволяє вам керувати екраном вкладок. Ви можете розмістити контейнери і кнопки в різних частинах сторінки незалежно один від одного."
+        },
+        "Breadcrumbs": {
+            "Back": "Назад"
+        },
+        "Timeline": {
+            "Caption": "Хронологія",
+            "AddObject": "+ Додати об'єкт",
+            "ProvideDataSource": "Введіть джерело даних перед використанням хронології",
+            "Tile": {
+                "TileObjectTitle": "Об'єкт: "
+            },
+            "DesignerCustomEntities": {
+                "Email": {
+                    "Caption": "Email"
+                },
+                "Feed": {
+                    "Caption": "Стрічка"
+                },
+                "Task": {
+                    "Caption": "Задача"
+                },
+                "SysFile": {
+                    "Caption": "Файл"
+                }
+            }
+        },
+        "MessageComposer": {
+            "Caption": "Редактор повідомлень",
+            "DesignerCustomEntities": {
+                "Email": {
+                    "Caption": "Email"
+                },
+                "Feed": {
+                    "Caption": "Стрічка"
+                },
+                "SelectChannelsCaption": "Вибір каналів"
+            }
+        },
+        "File": {
+            "Caption": "Файл",
+            "Label": "Файл для завантаження",
+            "Placeholder": "Виберіть файл"
+        },
+        "RichTextEditor": {
+            "Caption": "Розширений текст"
+        },
+        "ImageInput": {
+            "Caption": "Зображення",
+            "LabelCaption": "Зображення для завантаження"
+        },
+        "ProgressBar": {
+            "Caption": "Прогрес бар",
+            "Hint": "Індикатор виконання стадій",
+            "ProvideDataSource": "Введіть джерело даних перед використанням Прогрес бару"
+        },
+        "CommunicationOptions": {
+            "Caption": "Засоби зв'язку",
+            "Hint": "Компонент показує засоби зв’язку об'єктів Контакт або Обліковий запис",
+            "AddBtnCaption": "Додати засіб зв'язку"
+        },
+        "CampaignViewer": {
+            "Caption": "Переглядач маркетингових кампаній",
+            "Hint": "Відображає схему кампанії"
+        },
+        "TagSelect": {
+            "Caption": "Tags"
+        }
+    },
+    "LayoutElements": {
+        "GridArea1": {
+            "Caption": "Area"
+        },
+        "GridColumn1": {
+            "Caption": "1 колонка"
+        },
+        "GridColumn2": {
+            "Caption": "2 колонки"
+        },
+        "GridColumn3": {
+            "Caption": "3 колонки"
+        },
+        "GridColumn4": {
+            "Caption": "4 колонки"
+        },
+        "FlexRow": {
+            "Caption": "Гнучкий рядок",
+            "Hint": "Розміщує кілька елементів послідовно у рядок. Елементи можуть змінювати розмір залежно від вмісту. Наприклад, розташуйте поруч дві кнопки або поле з кнопкою. Дізнайтесь більше в Академії."
+        },
+        "FlexColumn": {
+            "Caption": "Гнучка колонка",
+            "Hint": "Розміщує кілька елементів послідовно в колонку. Елементи можуть змінювати розмір залежно від вмісту. Наприклад, розташуйте у колонці два острови. Дізнайтесь більше в Академії."
+        }
+    },
+    "InterfaceDesignerHeaderComponent": {
+        "SaveButtonCaption": "Зберегти",
+        "CancelButtonCaption": "Скасувати",
+        "UndoButtonTooltip": "Скасувати видалення",
+        "OpenSourceCodeTooltip": "Відкрити вихідний код",
+        "OpenPropertyTooltip": "Налаштування сторінки",
+        "CloseButtonCaption": "Close"
+    },
+    "HomePageDesigner": {
+        "Operation": {
+            "Copy": "Копія"
+        },
+        "Defaults": {
+            "Caption": "Домашня сторінка",
+            "CaptionTemplate": "{{0}} домашня сторінка"
+        }
+    },
+    "PageDesigner": {
+        "Operation": {
+            "Copy": "Копія"
+        },
+        "Defaults": {
+            "Caption": "Нова сторінка редагування",
+            "CaptionTemplate": "Нова сторінка редагування {{0}}",
+            "CaptionWithEntityTemplate": "{{0}} сторінка форми"
+        }
+    },
+    "HomePage": {
+        "DialogMessages": {
+            "RequiredFieldsAreNotFilled": "Потрібні поля не були заповнені або форма має помилки валідації"
+        }
+    },
+    "DesignerSettingsComponent": {
+        "HeaderCaption": "Налаштування графіка"
+    },
+    "InterfaceDesigner": {
+        "Caption": "Дизайнер",
+        "AddMenu": {
+            "AddDataSource": "Додати джерело даних",
+            "NewDataSource": "Нове джерело даних",
+            "ExistingDataSource": "Наявне джерело даних"
+        },
+        "ModelDependencyCycleDetectedError": "Виявлені кругові залежності між моделями {0}",
+        "DataSourceActions": {
+            "Edit": "Редагування",
+            "RemoveAttribute": "Видалити"
+        },
+        "SetupEntityDialog": {
+            "Title": "Новий об'єкт"
+        },
+        "SetupDataSourceDialog": {
+            "SetupDataSourceTitle": "Встановити джерело даних",
+            "CancelButtonDialog": "Скасувати",
+            "SelectButtonDialog": "Вибрати",
+            "Object": "Об'єкт",
+            "SelectDataSource": "Виберіть джерело даних"
+        },
+        "SetupEntityProperties": {
+            "NameColumnCaption": "Name"
+        },
+        "SetupEntityPropertiesDialog": {
+            "Name": "Name",
+            "Description": "Опис",
+            "SaveButton": "Зберегти",
+            "CancelButton": "Скасувати"
+        },
+        "LookupEntityDialog": {
+            "CreateOrEditLookupEntityTitle": "Новий довідник",
+            "CancelButtonDialog": "Скасувати",
+            "SelectButtonDialog": "Зберегти",
+            "TitleControl": "Назва",
+            "NameControl": "Код (англійською)",
+            "Validations": {
+                "RequiredNameCaption": "Введіть значення",
+                "DuplicateNameCaption": "Об'єкт із таким кодом вже існує",
+                "PatternPrefixTemplate": "Код повинен починатися з префіксу \"{0}\"",
+                "PatternNameCaption": "Введено некоректне значення. Використовуйте символи: a-z, A-Z, 0-9.\nСимвол: 0-9 не може бути першим."
+            }
+        },
+        "CopyPostfixCaption": "Копія",
+        "DesignElementSetting": {
+            "SettingsTitle": "Налаштування",
+            "DuplicateTitle": "Копія",
+            "DeleteTitle": "Видалити"
+        },
+        "Messages": {
+            "SuccessfullySaved": "Збереження пройшло успішно"
+        },
+        "PropertiesPages": {
+            "BaseInputPropertiesPanel": {
+                "AppearanceGroup": "Вигляд",
+                "BindToDataSourceCaption": "Джерело даних",
+                "DataSourceAttributeNotFoundError": "Колонка з шляхом \"{0}\" не знайдена",
+                "Editability": "Доступність редагування",
+                "EditabilityControls": {
+                    "Readonly": "Тільки для читання",
+                    "Disabled": "Відключена"
+                },
+                "TitleOnPage": "Заголовок на сторінці",
+                "Multiline": "Багаторядковий текст",
+                "LabelPosition": "Розташування заголовка",
+                "LabelPositionVariants": {
+                    "Auto": "Автоматично",
+                    "Left": "Ліворуч",
+                    "Right": "Правий",
+                    "Above": "Згори",
+                    "Hidden": "Прихований"
+                },
+                "Placeholder": "Placeholder",
+                "Combobox": {
+                    "IsAddAllowed": "Enable adding new values",
+                    "ShowValueAsLink": "Показувати значення як посилання",
+                    "IsGoToSourceAllowed": "Дозволити перехід до списку записів"
+                },
+                "Tooltip": "Підказка",
+                "ColorPicker": {
+                    "PageCaption": "Палітра кольорів",
+                    "AppearanceGroup": "Вигляд",
+                    "PickerModeRadioButtonCaption": "Палета",
+                    "PickerMode": {
+                        "Basic": "Базова палітра",
+                        "Extended": "Розширена палітра"
+                    }
+                },
+                "DisplayPhoneMask": "Показати маску телефону"
+            },
+            "EntityDataSourceAttributePropertiesPanel": {
+                "GeneralGroup": "Основне"
+            },
+            "EntityDataSourcePropertiesPanel": {
+                "GeneralGroup": "Основне",
+                "PrimaryDataSource": "Первинне джерело даних",
+                "PrimaryDataSourceChangeConfirm": "Первинне джерело даних для цієї сторінки буде змінено. Ви бажаєте зберегти зміни?",
+                "BusinessRulesGroup": "Бізнес правила"
+            },
+            "ButtonPropertiesPage": {
+                "GeneralGroup": "Основне",
+                "CaptionLabel": "Назва",
+                "ColorFieldLabel": "Стиль",
+                "Colors": {
+                    "Accent": "Фокус",
+                    "Primary": "Основне",
+                    "Warn": "Попередження",
+                    "Default": "За замовчуванням"
+                },
+                "ActionLabel": "Дія",
+                "MenuItemsLabel": "Пункти меню",
+                "AppearanceGroup": "Вигляд",
+                "AddNewItem": "Add new item",
+                "ButtonSizeFieldLabel": "Розміри",
+                "Sizes": {
+                    "Small": "Маленький",
+                    "Medium": "Середня",
+                    "Large": "Великий",
+                    "ExtraLarge": "Дуже великий"
+                }
+            },
+            "PropertiesPanelIconSettings": {
+                "UseIcon": "Використовувати іконку",
+                "IconPositionLabel": "Position",
+                "IconPosition": {
+                    "LeftIcon": "Іконка ліворуч",
+                    "RightIcon": "Іконка праворуч",
+                    "OnlyIcon": "Лише іконка",
+                    "OnlyText": "Лише текст"
+                },
+                "IconLabel": "Іконка",
+                "IconMenuHint": "Виберіть іконку"
+            },
+            "PropertiesPanelAdvancedSettings": {
+                "AdvancedGroup": "Advanced",
+                "CodeLabel": "Код елемента",
+                "DuplicateNameMessage": "Елемент з таким кодом вже існує",
+                "SaveNameButtonTitle": "Зберегти",
+                "CancelNameButtonTitle": "Скасувати",
+                "NameValidationMsg": "Неприпустиме або пусте значення. Використовуйте символи: (a-z), (A-Z), (0-9), ( - _ ). Символи: як: a-z, A-Z повинні бути першими."
+            },
+            "PropertiesPanelVisibilitySettings": {
+                "VisibilityGroup": "Видимість",
+                "Visible": "Видимий",
+                "NotVisible": "Невидимий",
+                "SetupConditions": "Налаштувати умови",
+                "DefaultValueNotSupported": "Для даного елементу не підтримується можливість встановлювати значення видимості за замовчуванням"
+            },
+            "ViewElementEventPropertiesPanel": {
+                "EventFieldLabel": "Дія",
+                "Requests": {
+                    "RunBusinessProcessRequest": "Запустити процес",
+                    "ClosePageRequest": "Закрити сторінку",
+                    "SaveRecordRequest": "Зберегти дані",
+                    "CancelRecordChangesRequest": "Відмінити зміни",
+                    "OpenPageRequest": "Open specific page",
+                    "ContinueInOtherPageRequest": "Продовжити на іншій сторінці",
+                    "CreateRecordRequest": "Відкрити сторінку нового запису",
+                    "UpdateRecordRequest": "Відкрити існуючий запис",
+                    "LoadDataRequest": "Оновити дані",
+                    "ExportDataGridToExcelRequest": "Експорт в Excel",
+                    "ImportDataRequest": "Імпорт даних",
+                    "SetRecordRightsRequest": "Налаштування прав",
+                    "UploadFileRequest": "Завантаження файлу",
+                    "ShowRelationshipsRequest": "Показати взаємозв'язки запису",
+                    "OpenDuplicatesPageRequest": "Відкрити сторінку дублів",
+                    "AddСommunicationOptionsRequest": "Додати засіб зв'язку",
+                    "DeleteRecordsRequest": "Видалити дані"
+                },
+                "RunBusinessProcessRequest": {
+                    "WhichProcessRunQuestion": "Який процес запустити?",
+                    "AddNewBusinessProcessButton": "Додати новий процес",
+                    "SelectBusinessProcessButton": "Відкрити дизайнер процесів",
+                    "HowProcessRunQuestion": "Як запустити процес?",
+                    "HowProcessRunLabel": "Параметр процесу, в який передається обраний запис",
+                    "HowRunProcessOptions": {
+                        "ForTheSelectedPage": "Для вибраної сторінки",
+                        "RegardlessOfThePage": "Незалежно від сторінки"
+                    }
+                },
+                "OpenPageRequest": {
+                    "Title": "Яку сторінку відкрити?",
+                    "OpenPageInDesignerTitle": "Відкрити дизайнер інтерфейсу",
+                    "AddNewPage": "Додати нову сторінку"
+                },
+                "CreateRecordRequest": {
+                    "WhichRecordToCreateLabel": "Який запис створити?",
+                    "DefaultAttributeValuesLabel": "Які значення колонок встановити?"
+                },
+                "UpdateRecordRequest": {
+                    "WhichObjectToOpenRecordOfLabel": "Сторінку якого об'єкта відкрити?",
+                    "WhichRecordToOpenLabel": "Який запис відкрити?"
+                },
+                "LoadDataRequest": {
+                    "DataSourceComboBoxLabel": "Яке джерело даних оновити?"
+                },
+                "ExecuteCustomCode": "Виконати довільний код",
+                "OpenDuplicatesPageRequest": {
+                    "WhichObjectToOpenDuplicatesOfLabel": "Які дублікати додатку слід відкрити?"
+                },
+                "ShowRelationshipsRequest": {
+                    "SelectEntityLabel": "Який об'єкт використовувати?",
+                    "SelectRecordIdLabel": "За якою колонкою приєднатися?"
+                }
+            },
+            "WidgetPropertiesPanel": {
+                "HeaderLabel": "Налаштування графіка",
+                "GeneralLabel": "Основне",
+                "TitleLabel": "Назва",
+                "ColorLabel": "Колір",
+                "StyleLabel": "Стиль",
+                "Styles": {
+                    "FullyColored": "Повнокольоровий",
+                    "PlainWhite": "Простий білий",
+                    "PartiallyColored": "Частково забарвлений",
+                    "Glassmorphism": "Ефект скла"
+                },
+                "SetupButtonLabel": "Налаштування графіка",
+                "ContextMenu": {
+                    "Edit": "Змінити"
+                },
+                "ChartSeries": "Серія графіку",
+                "SeriesControlLabel": "Заголовок",
+                "SetupBlockCaption": "Налаштувати графік",
+                "FilterByActiveItemTooltip": "Виберіть, щоб користувачі могли фільтрувати дані графіка по активному рядку пов'язаного джерела даних"
+            },
+            "ExpansionPanelPropertiesPage": {
+                "PageCaption": "Expansion panel settings",
+                "GeneralCaption": "Основне",
+                "TitleLabel": "Назва",
+                "ToggleTypeLabel": "Стиль",
+                "TogglePositionLabel": "Розташування кнопки",
+                "ColorLabel": "Колір заголовка тексту",
+                "DefaultToggleTypeLabel": "За замовчуванням",
+                "MaterialToggleTypeLabel": "Акордеон",
+                "BeforeTogglePositionLabel": "Ліворуч",
+                "AfterTogglePositionLabel": "Правий",
+                "FullWidthHeaderCaption": "Full width header",
+                "TitleWidthCaption": "Ширина заголовку",
+                "PaddingGroup": "Відступи",
+                "Padding": {
+                    "Top": "Зверху",
+                    "Bottom": "Нижній",
+                    "Left": "Ліворуч",
+                    "Right": "Правий"
+                }
+            },
+            "LabelPropertiesPage": {
+                "PageCaption": "Label settings",
+                "GeneralCaption": "Основне",
+                "AttributeBindingCaption": "Використовується значення атрибуту",
+                "TitleLabel": "Текст",
+                "TypeLabel": "Стиль",
+                "TextAlignLabel": "Вирівнювання",
+                "ThicknessLabel": "Формат",
+                "FontSizeLabel": "Розмір, px",
+                "FontColorLabel": "Колір тексту",
+                "BackgroundColorLabel": "Колір фону",
+                "AlignLeftCaption": "Ліворуч",
+                "AlignCenterCaption": "По центру",
+                "AlignRightCaption": "Правий",
+                "AlignJustifyCaption": "Вирівняти",
+                "TypeH1Caption": "Заголовок 1",
+                "TypeH2Caption": "Заголовок 2",
+                "TypeH3Caption": "Заголовок 3",
+                "TypeH4Caption": "Заголовок 4",
+                "TypeH5Caption": "Заголовок 5",
+                "TypeBody1Caption": "Body text",
+                "TypeCaptionCaption": "Заголовок",
+                "TypeBlankslateCaption": "Порожня сторінка",
+                "ThicknessLightCaption": "Легкий",
+                "ThicknessNormalCaption": "Normal",
+                "ThicknessSemiboldCaption": "Напівжирний",
+                "ThicknessBoldCaption": "Жирний",
+                "ThicknessDefaultCaption": "За замовчуванням ",
+                "TypeLarge1Caption": "Великий 1",
+                "TypeLarge2Caption": "Великий 2",
+                "TypeLarge3Caption": "Великий 3",
+                "TypeLarge4Caption": "Великий 4",
+                "TypeHeadline1Caption": "Заголовок 1",
+                "TypeHeadline1SmallCaption": "Заголовок 1 маленький",
+                "TypeHeadline2Caption": "Заголовок 2",
+                "TypeHeadline3Caption": "Заголовок 3",
+                "TypeHeadline4Caption": "Заголовок 4",
+                "TypeBodyLargeCaption": "Body large",
+                "TypeBodyCaption": "Тіло",
+                "TypeCaptionLargeCaption": "Підпис великий",
+                "TypePlaceholderLargeCaption": "Плейсхолдер великий",
+                "TypePlaceholderCaption": "Placeholder",
+                "TypeButtonCaption": "Кнопка",
+                "TypeButtonSmallCaption": "Кнопка маленька"
+            },
+            "DataGridPropertiesPage": {
+                "PageCaption": "Налаштування списку",
+                "RowsNumeration": "Row numbers",
+                "RowsMultiSelection": "Multiselect",
+                "GeneralCaption": "Основне",
+                "DataSourceCaption": "Об'єкт",
+                "ApplyStaticFilter": "Застосувати статичний фільтр",
+                "SetupStaticFilterAction": "Налаштувати фільтр",
+                "EditStaticFilterAction": "Відредагувати фільтр",
+                "FiltersDialogCaption": "Manually defined filter",
+                "AppearanceGroup": "Вигляд",
+                "AttributeBindingUsage": "Attribute value used",
+                "Editable": "Inline editing",
+                "ItemsCreation": "Inline adding records",
+                "ChangeFilters": "Змінити фільтр",
+                "MassActions": "Mass actions"
+            },
+            "ContainerPropertiesPage": {
+                "GeneralGroup": "Основне",
+                "AppearanceGroup": "Вигляд",
+                "ColorLabel": "Колір",
+                "BorderRadiusLabel": "Радіус заокруглення кутів",
+                "Sizes": {
+                    "None": "None",
+                    "Small": "Маленький",
+                    "Medium": "Medium",
+                    "Large": "Великий"
+                },
+                "PaddingGroup": "Відступи",
+                "Padding": {
+                    "Top": "Зверху",
+                    "Bottom": "Нижній",
+                    "Left": "Left",
+                    "Right": "Правий"
+                },
+                "StretchLabel": "Розтягувати по батьківському контейнеру",
+                "FitContentLabel": "Розмір відповідає вмісту",
+                "Grid": {
+                    "PageCaption": "Налаштування сітки",
+                    "ColumnsLabel": "Кількість колонок",
+                    "ColumnGapFieldLabel": "Відступ між колонками",
+                    "RowGapFieldLabel": "Відступ між рядками"
+                },
+                "Flex": {
+                    "PageCaption": "Налаштування гнучкого контейнера",
+                    "Direction": "Напрямок",
+                    "Row": "Рядок",
+                    "Column": "Гістограма",
+                    "JustifyContentLabel": "Justify content",
+                    "JustifyContent": {
+                        "Start": "Початок",
+                        "Center": "По центру",
+                        "End": "End",
+                        "SpaceBetween": "Space between"
+                    },
+                    "AlignItemsLabel": "Вирівнювання елементів",
+                    "AlignItems": {
+                        "Stretch": "Розтягнути",
+                        "Start": "Початок",
+                        "Center": "По центру",
+                        "End": "End"
+                    },
+                    "Gap": "Gap",
+                    "WrapLabel": "Переносити елементи по рядках"
+                }
+            },
+            "PagePropertiesPage": {
+                "BusinessRulesGroup": "Бізнес правила",
+                "PageCaption": "Налаштування сторінки",
+                "GeneralLabel": "Основне",
+                "NameLabel": "Код (англійською)",
+                "PackageLabel": "Пакет",
+                "DescriptionLabel": "Опис",
+                "CaptionLabel": "Назва сторінки",
+                "BackToSettings": "Повернутися до налаштувань \"{{name}}\"",
+                "Validations": {
+                    "RequiredNameMessage": "Введіть значення",
+                    "PatternNameMessage": "Використовуйте a-z, A-Z, 0-9. Ім'я не має починатися з цифри",
+                    "PrefixNameMessage": "Код повинен починатися з префіксу \"{0}\"",
+                    "DuplicateNameMessage": "Елемент з таким ім'ям вже існує",
+                    "RequiredCaptionMessage": "Введіть значення"
+                },
+                "AppearanceGroup": "Вигляд"
+            },
+            "TabPanelPropertiesPage": {
+                "GeneralCaption": "Основне",
+                "PageCaption": "Налаштування вкладок",
+                "ItemsLabel": "Вкладки",
+                "AddNewItem": "Додати вкладку",
+                "AppearanceGroup": "Вигляд",
+                "StyleTypeLabel": "Стиль",
+                "TabStyleDefaultCaption": "Простий білий",
+                "TabStylePartiallyColoredCaption": "Частково забарвлений",
+                "TabStyleFullyColoredCaption": "Повнокольоровий",
+                "BodyBackgroundColor": "Тіло",
+                "SelectedTabCaptionColor": "Selected",
+                "TabCaptionColor": "Unselected",
+                "HeaderBackgroundColor": "Header",
+                "UnderlineSelectedTabColor": "Tab underline",
+                "TabCaptionColorSubGroup": "Колір заголовка вкладки",
+                "TabPanelColorSubGroup": "Колір панелі вкладок",
+                "ContextMenu": {
+                    "Edit": "Редагувати",
+                    "Copy": "Копія",
+                    "Remove": "Видалити"
+                },
+                "ModeLabel": "Режим",
+                "ModeTab": "Вкладки",
+                "ModeToggle": "Перемикачі"
+            },
+            "TabItemPropertiesPage": {
+                "GeneralGroup": "Основне",
+                "CaptionLabel": "Назва",
+                "AppearanceGroup": "Вигляд",
+                "IconPosition": {
+                    "LeftIcon": "Іконка ліворуч",
+                    "OnlyIcon": "Лише іконка",
+                    "OnlyText": "Лише текст"
+                }
+            },
+            "FeedPropertiesPage": {
+                "PageCaption": "Налаштування стрічки",
+                "GeneralCaption": "Основне",
+                "FeedTypeCaption": "Як відфільтрувати записи",
+                "FeedChannel": "Канал",
+                "FeedTypeGeneral": "Основне",
+                "FeedTypeChannel": "Канал",
+                "FeedTypeRecord": "Пов'язано з записом",
+                "FeedTypeUser": "Пов'язано з користувачем",
+                "FeedDataSourceCaption": "Джерело даних",
+                "FeedTypeRecordTooltipCaption": "Повідомлення стрічки буде відображатися на основі спеціального спілкування.",
+                "FeedTypeGeneralTooltipCaption": "Всі сповіщення та згадки, пов'язані з поточним користувачем. В цьому режимі стрічка покаже пости і коментарі, де поточний користувач був помічений або на які він підписаний. Наприклад, стрічку в цьому режимі можна додати на домашню сторінку, щоб не пропустити важливу інформацію.",
+                "ExternalUsersGroupCaption": "Зовнішні користувачі",
+                "AllowExternalPostCaption": "Дозволити публікацію для зовнішніх користувачів",
+                "ShowBlankSlateCaption": "Показувати чистий аркуш"
+            },
+            "ActionDashboardPropertiesPage": {
+                "PageCaption": "Налаштування панелі дій",
+                "GeneralCaption": "Основне",
+                "DataSource": "Джерело даних",
+                "GoToCasesButtonCaption": "Налаштувати кейси",
+                "EmptyDataSourceHint": "На сторінку не додано джерело даних. Будь ласка, додайте наявне джерело даних, щоб налаштувати компонент",
+                "ChannelsCaption": "Канали",
+                "CallAction": "Дзвінок",
+                "EmailAction": "Email",
+                "FeedAction": "Повідомлення у стрічці",
+                "ActivityAction": "Задача",
+                "CasesDisabledTitle": "Для цього джерела даних неможливо налаштувати кейси"
+            },
+            "FolderTreePropertiesPage": {
+                "GeneralLabel": "Основне",
+                "HeaderLabel": "Налаштування груп",
+                "SourceSchemaLabel": "Folder storage location",
+                "RootSchemaLabel": "Що будуть фільтрувати групи?",
+                "AppearanceGroup": "Вигляд",
+                "BorderRadiusLabel": "Радіус заокруглення кутів",
+                "Sizes": {
+                    "None": "Не обрано",
+                    "Small": "Маленький",
+                    "Medium": "Середній",
+                    "Large": "Великий"
+                }
+            },
+            "FolderTreeActionsPropertiesPage": {
+                "HeaderLabel": "Налаштування меню керування групами",
+                "FolderTreeLabel": "Вибір дерева груп",
+                "GeneralCaption": "Основне"
+            },
+            "DefaultAttributeValues": {
+                "AddAttribute": "Додати поле"
+            },
+            "SliderPropertiesPage": {
+                "ColorLabel": "Стиль",
+                "Colors": {
+                    "Accent": "Фокус",
+                    "Primary": "Основне",
+                    "Warn": "Попередження",
+                    "Default": "За замовчуванням"
+                },
+                "ReadonlyLabel": "Тільки для читання",
+                "StepLabel": "Розмір кроку",
+                "MinValueLabel": "Мінімальне значення",
+                "MaxValueLabel": "Максимальне значення",
+                "Validations": {
+                    "GreaterThanZeroCaption": "Значення має бути більше 0",
+                    "MinValueLessThanMaxValueCaption": "Мінімальне значення не має перевищувати максимального",
+                    "MaxValueGreaterMinValueCaption": "Максимальне значення не має бути менше мінімального",
+                    "StyleIsInvalidCaption": "Стиль вказано невірно"
+                }
+            },
+            "ApprovalPropertiesPage": {
+                "HeaderLabel": "Налаштування візування",
+                "GeneralGroup": "Основне",
+                "SchemaNameLabel": "Які записи візувати?",
+                "AppearanceGroup": "Вигляд",
+                "HiddenWhenNoData": "Ховати, якщо немає даних"
+            },
+            "ApprovalListPropertiesPage": {
+                "HeaderLabel": "Approvals list settings",
+                "GeneralGroup": "Основне",
+                "SchemaNameLabel": "Об'єкт"
+            },
+            "MenuItemPropertiesPanel": {
+                "GeneralGroup": "Основне",
+                "CaptionLabel": "Назва",
+                "ActionLabel": "Дія",
+                "AppearanceGroup": "Appearance"
+            },
+            "MenuItemsContainerPropertiesPanel": {
+                "MenuItemsLabel": "Пункти меню",
+                "AddNewItem": "Додати новий пункт меню",
+                "ContextMenu": {
+                    "AddToSubmenu": "Додати підпункт",
+                    "Copy": "Копія",
+                    "Edit": "Редагувати",
+                    "Delete": "Видалити"
+                },
+                "CopyPostfix": " - Копія"
+            },
+            "GalleryPropertiesPanel": {
+                "PageCaption": "Налаштування галереї",
+                "GeneralCaption": "Основне",
+                "AdditionalCaption": "Additional",
+                "DataSourceCaption": "Об'єкт",
+                "CaptionColumnField": "Caption",
+                "DescriptionColumnField": "Опис",
+                "ImageColumnField": "Зображення",
+                "SelectableConfigField": "Selectable"
+            },
+            "EntitySchemaSelectComponent": {
+                "AddNewEntity": "Додати новий об'єкт",
+                "CreatePageLabel": "{0} ще не має сторінки запису.",
+                "CreatePageLink": "Створити сторінку",
+                "EditPageLabel": "{0} має 1 сторінку запису.",
+                "EditPageLink": "Редагувати сторінку",
+                "OpenPageSetup": "Відкрити налаштування сторінки",
+                "SaveConfirmationDialog": {
+                    "Save": "Зберегти",
+                    "Cancel": "Відмінити зміни",
+                    "Message": "Щоб створити сторінку необхідно зберегти зміни в об'єкті. Продовжити?"
+                },
+                "RelatedPageCaptionWithEntityName": "Настройки страницы для {0}"
+            },
+            "SearchFilterPropertiesPanel": {
+                "PageCaption": "Налаштування пошуку",
+                "GeneralCaption": "Основне",
+                "ChooseTargetsCaption": "Оберіть компонент для фільтрації",
+                "ChooseTargetsTooltip": "Оберіть список, в якому буде виконуватися пошук. В меню відображаються ті списки поточної сторінки, у яких заповнений об’єкт",
+                "Placeholder": "Placeholder",
+                "DirectConnection": "Компонент пошуку шукає тільки по текстових, числових і довідникових колонках з <a href='https://academy.creatio.com/docs/developer/back_end_development/data_operations/orm/overview#title-1263-1' target='_blank'>прямим зв'язком</a> до об’єктів реєстру.",
+                "AppearanceGroup": "Вигляд",
+                "IconOnlyCaption": "Тільки іконка"
+            },
+            "QuickFilterPropertiesPanel": {
+                "PageCaption": "Налаштування швидкого фільтру",
+                "GeneralCaption": "Основне",
+                "AppearanceCaption": "Вигляд",
+                "ChooseFilterTypeLabel": "Виберіть тип фільтра",
+                "CaptionLabel": "Назва",
+                "HintLabel": "Підказка",
+                "CustomType": "Custom",
+                "DateRangeType": "Дата/час",
+                "LookupType": "Довідник"
+            },
+            "DataSourceAttributePropertiesPanel": {
+                "GeneralGroup": "Основне",
+                "RequirementType": {
+                    "NoCaption": "Ні",
+                    "YesCaption": "Так"
+                },
+                "Validators": {
+                    "UniqueName": "Назва\"{0}\" вже існує",
+                    "InvalidCharacter": "Введено некоректне значення. Використовуйте символи: a-z, A-Z, 0-9.\nСимвол: 0-9 не може бути першим",
+                    "InvalidPrefix": "Значення має починатися з префікса \"{0}\""
+                }
+            },
+            "PageParametersDataSourceAttributePropertiesPanel": {
+                "GeneralGroup": "Основне",
+                "TitleCaption": "Назва",
+                "NameCaption": "Код"
+            },
+            "FilePropertiesPage": {
+                "General": "Основне",
+                "AllowedExtensions": "Типи файлів",
+                "AllowedExtensionsEmptyMessage": "Якщо не вказано, дозволені всі типи файлів із системного налаштування \"File extensions AllowList\"",
+                "MaxSize": "Максимальний розмір файлу, МБ",
+                "MaxSizeEmptyMessage": "Якщо не встановлено, значення за замовчуванням застосовується до системного параметру \"Максимальний розмір вкладень\"",
+                "LabelPosition": "Розташування заголовка",
+                "LabelPositionVariants": {
+                    "Auto": "Auto",
+                    "Left": "Ліворуч",
+                    "Right": "Правий",
+                    "Above": "Згори",
+                    "Hidden": "Прихований"
+                },
+                "Placeholder": "Placeholder",
+                "AppearanceGroup": "Вигляд",
+                "DataSource": "Джерело даних",
+                "Editability": "Доступність редагування",
+                "TitleOnPage": "Title on page",
+                "EditabilityControls": {
+                    "Readonly": "Тільки для читання"
+                }
+            },
+            "FileListPropertiesPage": {
+                "PageCaption": "Налаштування списку вкладень",
+                "GeneralGroup": "Основне",
+                "FileGroupLabel": "Група файлів",
+                "TagLabel": "Файловий тег",
+                "TagPlaceholder": "Показувати всі файли записів за замовчуванням",
+                "TagHint": "Використовувати теґ для фільтрації файлів запису, наприклад, \"документи заявок\"",
+                "FileEntitySchemaLabel": "Розташування сховища файлів",
+                "FileGroups": {
+                    "Attachments": "Файли і посилання"
+                },
+                "AttributeToAttachFiles": "Запис для прикріплення файлів",
+                "EmptyDataSourceHint": "На сторінку не додано джерело даних. Будь ласка, додайте наявне джерело даних, щоб налаштувати компонент",
+                "AppearanceGroup": "Вигляд",
+                "ViewTypeLabel": "View",
+                "TileSizeFieldLabel": "Розмір зображення в галереї",
+                "Sizes": {
+                    "Small": "Маленький",
+                    "Medium": "Середня",
+                    "Large": "Великий",
+                    "ExtraLarge": "Дуже великий"
+                },
+                "ViewTypeOption": {
+                    "List": "Реєстр",
+                    "Gallery": "Галерея"
+                }
+            },
+            "ImageInputPropertiesPage": {
+                "SizeFieldLabel": "Розміри",
+                "Sizes": {
+                    "None": "None",
+                    "Small": "Маленький",
+                    "Medium": "Середня",
+                    "Large": "Великий",
+                    "ExtraLarge": "Дуже великий"
+                },
+                "BorderRadiusLabel": "Радіус заокруглення кутів",
+                "PositioningLabel": "Позиція зображення",
+                "Positioning": {
+                    "Cover": "Заповнення",
+                    "ScaleDown": "Вмістити"
+                },
+                "MaxSize": "Максимальний розмір файлу, МБ",
+                "MaxSizeEmptyMessage": "Якщо не встановлено, значення за замовчуванням застосовується до стандартного параметра \"Максимальний розмір зображення\"",
+                "MaxSizePlaceholder": "{0} МБ за замовчуванням",
+                "TooltipLabel": "Підказка",
+                "AppearanceGroup": "Вигляд",
+                "Editability": "Доступність редагування",
+                "EditabilityControls": {
+                    "Readonly": "Тільки для читання"
+                }
+            },
+            "AccountCompactProfilePropertiesPage": {
+                "PageCaption": "Налаштування компактного профілю контрагента",
+                "GeneralGroup": "Основне",
+                "AttributeForReferenceColumn": "Джерело даних",
+                "Editability": "Доступність редагування",
+                "EmptyAccountDataSourceHint": "На сторінку не додано джерело даних. Будь ласка, додайте наявне джерело даних, щоб налаштувати компонент",
+                "EditabilityControls": {
+                    "Readonly": "Тільки для читання"
+                }
+            },
+            "ContactCompactProfilePropertiesPage": {
+                "PageCaption": "Налаштування компактного профілю контакту",
+                "GeneralGroup": "Основне",
+                "AttributeForReferenceColumn": "Джерело даних",
+                "Editability": "Доступність редагування",
+                "EmptyContactDataSourceHint": "На сторінку не додано джерело даних. Будь ласка, додайте наявне джерело даних, щоб налаштувати компонент",
+                "EditabilityControls": {
+                    "Readonly": "Тільки для читання"
+                }
+            },
+            "UserCompactProfilePropertiesPage": {
+                "PageCaption": "Налаштування профілю користувача",
+                "GeneralGroup": "Основне",
+                "AttributeForReferenceColumn": "Джерело даних",
+                "Editability": "Доступність редагування",
+                "EmptyUserProfileDataSourceHint": "На сторінку не додано джерело даних. Будь ласка, додайте наявне джерело даних, щоб налаштувати компонент",
+                "EditabilityControls": {
+                    "Readonly": "Тільки для читання"
+                }
+            },
+            "CommunicationOptionsPropertiesPage": {
+                "PageCaption": "Налаштування засобів зв'язку",
+                "GeneralGroup": "Основне",
+                "MasterRecordCaption": "Запис для прив'язки засобів зв'язку",
+                "DataSourceEntityColumn": "Джерело даних",
+                "Editability": "Доступність редагування",
+                "EditabilityControls": {
+                    "Readonly": "Тільки читання"
+                },
+                "LabelPositionCaption": "Розташування заголовка",
+                "LabelPosition": {
+                    "Auto": "Авто",
+                    "Left": "Ліворуч",
+                    "Above": "Згори",
+                    "Hidden": "Прихований"
+                },
+                "ShowNoDataPlaceholder": "Відображати заповнювач, якщо немає даних",
+                "AppearanceGroup": "Вигляд",
+                "ColumnsCountLabel": "Кількість колонок",
+                "ContactEntitySchemaName": "Засоби зв'язку контакту",
+                "AccountEntitySchemaName": "Засоби зв'язку Контрагента",
+                "EmptyDataSourceHint": "На сторінку не додано джерело даних. Будь ласка, додайте наявне джерело даних, щоб налаштувати компонент"
+            },
+            "TimerPropertiesPage": {
+                "PageCaption": "Налаштування таймера",
+                "TimerType": "Режим",
+                "TargetDateTimeColumn": "Цільова колонка Дата/час",
+                "StartDateTimeColumn": "Колонка початку дата час",
+                "FromDateTimerType": "Таймер відліку вгору",
+                "CountdownToSpecificDateTimerType": "Зворотний відлік до певної дати",
+                "ShowNegativeCountDownValue": "Показувати негативне значення зворотнього відліку",
+                "TextColorForNegativeValues": "Колір тексту для від'ємних значень",
+                "TextForPositiveValues": "Текст для додатних значень",
+                "TextForNegativeValues": "Текст для від'ємних значень",
+                "ValueTextTooltip": "Будь ласка, використовуйте [#timer#] макроси і текстові рядки, щоб створити детальні мітки таймера. Наприклад, додатнє значення - залишилося [#timer#], щоб  завершити задачу; Від'ємне значення - [#timer#] прострочено."
+            },
+            "LocalTimePropertiesPage": {
+                "PageCaption": "Налаштування місцевого часу",
+                "TimeZoneColumn": "Колонка часового поясу"
+            },
+            "BaseCustomPropertiesPanel": {
+                "PageCaption": "Користувацькі налаштування елементів",
+                "GeneralCaption": "Основне",
+                "Description": "Ви можете налаштувати цей елемент у вихідному коді сторінки",
+                "OpenSourceCodeButtonCaption": "Відкрити вихідний код"
+            },
+            "EmailComposerPropertiesPage": {
+                "PageCaption": "Email редактор",
+                "GeneralCaption": "Основне",
+                "DefaultSenderType": "Відправник за замовчуванням",
+                "DefaultMailbox": "Викор. пошту за замовчуванням",
+                "CaseMailbox": "Використовувати початкову поштову скриньку кейсу"
+            },
+            "MessageComposerSelectorPropertiesPage": {
+                "ContextMenu": {
+                    "Edit": "Змінити",
+                    "Delete": "Видалити"
+                },
+                "ChannelsCaption": "Канали",
+                "AddNewItem": "Додати канал",
+                "PageCaption": "Редактор повідомлень",
+                "DefaultChannelCaption": "Канал за замовчуванням"
+            },
+            "NextStepsPropertiesPage": {
+                "PageCaption": "Налаштування наступних кроків"
+            },
+            "TimelinePropertiesPanel": {
+                "PageCaption": "Налаштування хронології",
+                "ObjectsCaption": "Об'єкти",
+                "AddObject": "Додати об'єкт",
+                "ContextMenu": {
+                    "Edit": "Редагувати",
+                    "Delete": "Видалити"
+                }
+            },
+            "TimelineItemPropertiesPage": {
+                "GeneralGroup": "Основне",
+                "CaptionLabel": "Назва",
+                "AppearanceGroup": "Вигляд",
+                "LinkedColumn": "Зв'язану колонку",
+                "SortedByColumn": "Сортування",
+                "IconPosition": {
+                    "OnlyIcon": "Лише іконка"
+                },
+                "Feed": {
+                    "ExternalUsersGroupCaption": "Зовнішні користувачі",
+                    "AllowExternalPostCaption": "Дозволити публікацію для зовнішніх користувачів"
+                }
+            },
+            "ImportDataRequestPropertiesPanel": {
+                "EntitySchemaSelectCaption": "Які дані для імпорту"
+            },
+            "ExportDataGridToExcelRequestPropertiesPanel": {
+                "ViewSelectCaption": "Які дані для експорту"
+            },
+            "UploadFileRequestPropertiesPanel": {
+                "ViewSelectCaption": "Куди завантажувати файли?",
+                "AllowedExtensions": "Які розширення файлів дозволено завантажувати?",
+                "AllowedExtensionsEmptyMessage": "Якщо не вказано, дозволені всі типи файлів із системного налаштування \"File extensions AllowList\"",
+                "MaxSize": "Який максимально дозволений розмір файлу в МБ?",
+                "MaxSizeEmptyMessage": "Якщо не встановлено, значення за замовчуванням застосовується до системного параметру \"Максимальний розмір вкладень\"",
+                "FileTypesPlaceholder": "Наприклад, .pdf, .png",
+                "MaxSizePlaceholder": "{0} МБ за замовчуванням"
+            },
+            "RichTextPropertiesPanel": {
+                "ToolbarDisplayMode": "Режим відображення панелі інструментів",
+                "Inline": "У тексті",
+                "Classic": "Класичний"
+            },
+            "EntityStagePropertiesPanel": {
+                "HeaderLabel": "Прогрес бар",
+                "GeneralGroup": "Основне",
+                "SchemaNameLabel": "Джерело даних",
+                "CasesCaption": "Налаштувати кейси",
+                "EmptyDataSourceHint": "На сторінку не додано джерело даних. Будь ласка, додайте наявне джерело даних, щоб налаштувати компонент",
+                "SaveOnChange": "Зберегти запис під час зміни стадії",
+                "AskUserToChangeSchema": "Показувати спливаюче сповіщення про оновлення кейсу",
+                "SaveEntityConfirmationDialog": {
+                    "Save": "Зберегти",
+                    "Cancel": "Скасувати",
+                    "Message": "Одна з сутностей була змінена. Її слід зберегти для продовження налаштувань кейсу. Зберегти та продовжити?"
+                }
+            },
+            "AddCommunicationOptionsRequestPropertiesPanel": {
+                "ViewSelectCaption": "Де додати засіб зв'язку?"
+            },
+            "AllowedResultsPropertiesPage": {
+                "PageCaption": "Дозволені результати"
+            },
+            "AppearanceSettingsPropertyPanel": {
+                "ButtonSizeFieldLabel": "Modal window size"
+            },
+            "DeleteRecordsRequestPropertiesPanel": {
+                "SelectDataToDelete": "Які дані потрібно видалити?"
+            },
+            "TagSelectPropertiesPanelComponent": {
+                "PageCaption": "Tags settings",
+                "GeneralCaption": "General",
+                "AppearanceCaption": "Appearance",
+                "CaptionLabel": "Title",
+                "CaptionPlaceholder": "Tags",
+                "RecordLabel": "Data source"
+            },
+            "SchemaOutletPropertiesPage": {
+                "PageCaption": "Налаштування контейнера схеми"
+            }
+        },
+        "SaveMessage": "Всі зміни будуть збережені. Продовжити?",
+        "MainHeader": {
+            "Title": "Назва",
+            "CommandLinePlaceholder": "Що я можу зробити для вас?"
+        },
+        "SaveConfirmationDialog": {
+            "Message": "У вас є незбережені зміни. Під час закриття сторінки їх буде втрачено. Зберегти?",
+            "Save": "Зберегти",
+            "DoNotSave": "Не зберігати",
+            "Cancel": "Скасувати"
+        },
+        "Commands": {
+            "RemoveDataSourceItem": {
+                "SuccessfullyRemoved": "Параметр \"{{parameterCaption}}\" був видалений"
+            }
+        },
+        "Components": {
+            "DataSourceAttributeCommonPropertiesComponent": {
+                "TitleCaption": "Назва",
+                "NameCaption": "Код",
+                "FormatCaption": "Формат",
+                "ReferenceSchemaCaption": "Довідник",
+                "RequiredCaption": "Обов'язкове",
+                "Validations": {
+                    "RequiredNameMessage": "Введіть значення"
+                }
+            }
+        },
+        "SafariInfoPanelMessage": "Будь ласка, використовуйте Chrome для найкращого досвіду, оскільки Safari може не підтримувати всі можливості дизайнера. Дякуємо!"
+    },
+    "ApplicationManagement": {
+        "CreateApplicationComponent": {
+            "WaitTitle": "Додаємо контент у ваш застосунок",
+            "WaitTitleGenAI": "Generating your application"
+        },
+        "ApplicationInfoDialogComponent": {
+            "HeaderCaption": "Новий застосунок",
+            "HeaderEditCaption": "Редагування застосунку",
+            "HeaderCarouselCaption": "Оберіть піктограму та колір",
+            "InputNameCaption": "Назвіть застосунок",
+            "ApplicationCodeCaption": "Код застосунку",
+            "InputDescriptionCaption": "Опишіть призначення застосунку (необов'язково)",
+            "InputDescriptionPlaceholder": "Напишіть кілька слів, щоб представити ваш застосунок",
+            "CancelButtonCaption": "Скасувати",
+            "CreateButtonCaption": "Створити",
+            "SaveButtonCaption": "Зберегти",
+            "UseExistingObjectTooltip": "Виберіть, щоб пов'язати розділ для існуючого об'єкту замість створення нового об'єкту",
+            "AdvancedModeButtonCaption": "Розширені параметри",
+            "NamePlaceholder": "Назвіть ваш застосунок",
+            "CodePlaceholder": "Створити унікальний ID застосунку",
+            "DisclaimerCaption": "Натискаючи кнопку \"Генерувати за допомогою AI\", ви погоджуєтеся з тим, що ваш запит буде оброблено за допомогою моделі OpenAI. Переглянути Умови та правила <a class=\"document-link\" href=\"https://openai.com/policies\" target=\"_blank\">тут</a>. Creatio виступає як агент і не може нести відповідальність за будь-які результати, згенеровані OpenAI.",
+            "InputAIDescriptionCaption": "Опишіть для чого це",
+            "InputAIDescriptionPlaceholder": "Напишіть кілька слів про ваш застосунок і ми створимо його автоматично.",
+            "GenerateWithAIButtonCaption": "Генерувати з ШІ",
+            "CodeTooltip": "Код застосунку використовується як унікальний ідентифікатор, коли застосунок встановлюється в інше середовище. Крім того, код може використовуватися для генерації кодів елементів розділу у випадку, якщо в шаблоні є схеми"
+        },
+        "ApplicationValidatorService": {
+            "InvalidCharactersForName": "У назві припустимі лише символи \"-_\"",
+            "InvalidCharactersForCode": "В коді допускаються тільки латинські букви та цифри",
+            "ApplicationNameAlreadyExists": "Застосунок із назвою \"{0}\" вже існує",
+            "ApplicationCodeAlreadyExists": "Цей код застосунку або назва пакета вже використовується",
+            "InvalidApplicationCodePrefix": "Код повинен починатися з префіксу \"{0}\"",
+            "FirstSymbolIsNotLetterAndNotDigit": "Назва має починатися з літери або цифри",
+            "EntityNameAlreadyExists": "Об'єкт із таким кодом вже існує"
+        }
+    },
+    "Validators": {
+        "Autocomplete": {
+            "Message": "Оберіть значення зі списку"
+        },
+        "Required": {
+            "Message": "Введіть значення"
+        },
+        "MaxLength": {
+            "Message": "Перевищено допустиму довжину тексту ({{actualLength}}/{{maxLength}})"
+        },
+        "Min": {
+            "Message": "Мінімальне допустиме значення {{min}}"
+        },
+        "Max": {
+            "Message": "Максимальне допустиме значення {{max}}"
+        },
+        "MinLength": {
+            "Message": "Не досягнуто допустимої довжини тексту ({{actualLength}}/{{minLength}})"
+        },
+        "GridColumnsCount": {
+            "Message": "Неможливо видалити стовпчик, у якому є елементи. Щоб зменшити кількість колонок, необхідно видалити елементи або перенести їх до інших колонок."
+        },
+        "Email": {
+            "Message": "Неправильний формат Email"
+        },
+        "ColorPicker": {
+            "Message": "Помилка дії. вибрано неприпустимий формат HEX"
+        },
+        "Link": {
+            "Message": "Неприпустимий формат Url"
+        }
+    },
+    "UserProfile": {
+        "Profile": "Профіль користувача",
+        "Photo": "Фото",
+        "FirstLastName": "ПІБ",
+        "Organization": "Організація",
+        "Language": "Мова",
+        "TimeZone": "Часовий пояс",
+        "DateTimeFormat": "Формат дати та часу",
+        "Role": "Роль",
+        "Active": "Active",
+        "Status": "Статус",
+        "Invited": "Запрошений",
+        "Email": "Email",
+        "ChangeEmail": "Змінити email адресу",
+        "ChangeEmailButton": "Змінити і вийти",
+        "EmailChanged": "Ваша email адреса була змінена",
+        "ResendConfirmEmailSuccess": "Лист із підтвердженням email відправлений",
+        "ResendConfirmEmailError": "Лист із підтвердженням email не надіслано",
+        "NotConfirmedEmail": "Перевірте пошту для підтвердження реєстрації",
+        "Password": "Пароль",
+        "ChangePassword": "Змінити пароль",
+        "ChangePasswordError": "Сталася помилка під час зміни паролю",
+        "ResetPasswordValidationError": "Введений email не зареєстрований",
+        "ConnectedAccounts": "Пов'язані облікові записи",
+        "DisconnectAccountError": "Не вдалося вимкнути обраний обліковий запис",
+        "DeleteProfile": "Видалити профіль",
+        "ChangesSaved": "Зміни збережені",
+        "SavingError": "Помилка під час спроби зберегти дані",
+        "ApplyChanges": "Зберегти",
+        "ReloginError": "Зміни не застосовані. Перезайдіть до облікового запису, щоб зміни набули чинності",
+        "NewEmail": "Нова email адреса",
+        "CurrentPassword": "Поточний пароль",
+        "WrongPassword": "Неправильний пароль",
+        "ExistsEmailError": "Ця email адреса вже використовується",
+        "ChangeEmailError": "Сталася помилка. Email не було змінено. Повторіть спробу пізніше",
+        "EmailNotConfirmed": "Email адреса не підтверджена",
+        "ResendConfirm": "Надіслати підтвердження повторно",
+        "ConnectedAccountsSectionCaption": "Облікові записи у зовнішніх ресурсах",
+        "Back": "Назад",
+        "Logins": {
+            "AddNewLogin": "Додати",
+            "DisconnectAccount": "Від'єднатись",
+            "LoginAlreadyAssociated": "Обліковий запис пов'язаний з іншим користувачем",
+            "DefaultConnectionErrorMessage": "Неможливо підключитися до соціальної мережі"
+        }
+    },
+    "OrganizationUserSection": {
+        "GridColumns": {
+            "id": "Id",
+            "fullName": "ПІБ",
+            "email": "Email",
+            "status": "Статус",
+            "role": "Роль",
+            "lastActivity": "Остання активність"
+        },
+        "GridActions": {
+            "Activate": "Активувати",
+            "Deactivate": "Вимкнути",
+            "Edit": "Редагувати",
+            "Resend": "Надіслати запрошення повторно",
+            "Cancel": "Скасувати запрошення"
+        },
+        "UserStatus": {
+            "Active": "Active",
+            "Inactive": "Inactive",
+            "Invited": "Запрошення відправлено"
+        },
+        "AddUser": "+ Додати користувача",
+        "ChangeStatusMessage": {
+            "activate": "Користувач активований",
+            "deactivate": "Користувач деактивований"
+        },
+        "InvitationSent": "Запрошення відправлено",
+        "InviteUsersPage": {
+            "NewUser": "Новий користувач",
+            "Back": "Назад",
+            "Role": "Роль",
+            "Email": "Business email",
+            "Collaborators": "Запрошені користувачі",
+            "SendInvite": "Надіслати запрошення",
+            "InviteSuccess": "Запрошення відправлено",
+            "EmailExists": "Користувача {0} вже запрошено до організації",
+            "GoToProfile": "Перейти до профілю"
+        }
+    },
+    "UserProfileActionComponent": {
+        "YourProfileActionCaption": "Ваш профіль",
+        "LogoutActionCaption": "Вийти"
+    },
+    "EnvironmentManagement": {
+        "WaitTrialPage": {
+            "DemoDataToggleCaption": "Наповнити систему демоданними",
+            "Description": "Цей обліковий запис буде використовуватися при вході в систему",
+            "Continue": "Продовжити",
+            "ConfirmRegistration": {
+                "RegistrationSuccessful": "Реєстрація пройшла успішно!",
+                "CreateFirstApp": "Хочете створити ваш перший застосунок просто зараз?",
+                "GuideMeButtonCaption": "Так, створити новий додаток",
+                "ManageButtonCaption": "Ні, зроблю це пізніше"
+            },
+            "WaitPage": {
+                "StudioEnterpriseMessage": "Ви зможете створити<br />свій <strong>перший застосунок</strong> за кілька секунд!",
+                "CRMMessage": "За кілька секунд ви зможете ознайомитися з комплексними рішеннями для <strong>маркетингу, продажу та сервісу</strong>, інтегрованими в єдину no-code платформу!",
+                "CreatioIsHotMessage": "Creatio<br />is hot!",
+                "TrialTimeoutMessage": "З огляду на підвищений попит підготування вашого застосунку займе трохи більше часу, ніж зазвичай.",
+                "SendTrialEmail": "Ми цінуємо ваш час і надішлемо email,<br />коли застосунок буде готовий.",
+                "GoToApplications": "Перейти до Центру Застосунків"
+            }
+        }
+    },
+    "RelationshipDesignerModal": {
+        "Caption": "Зв'язки об'єкту {{schemaName}}"
+    },
+    "RelationshipDesigner": {
+        "DeleteItemMessage": "Ви дійсно хочете видалити елемент?",
+        "RequiredControlErrorMessage": "Введіть значення"
+    },
+    "RelationshipDiagram": {
+        "NoAccess": "Немає прав для зміни зв'язку",
+        "Tools": {
+            "FitToView": "За розміром екрана",
+            "ResetView": "Скинути вид",
+            "ZoomIn": "Приблизити",
+            "ZoomOut": "Зменшити",
+            "MiniMapClose": "Закрити міні карту",
+            "MiniMapOpen": "Відкрити міні карту"
+        }
+    },
+    "GroupsPropertiesPage": {
+        "Title": "Групи",
+        "Search": "Пошук"
+    },
+    "GroupPropertiesDialog": {
+        "Cancel": "Скасувати",
+        "Comment": "Коментар",
+        "EditGroup": "Редагувати групу",
+        "Name": "Назва",
+        "NewGroup": "Нова група",
+        "Save": "Зберегти"
+    },
+    "EntityInGroupPropertiesDialog": {
+        "AddToGroup": "Додати в групу",
+        "Cancel": "Скасувати",
+        "Comment": "Коментар",
+        "Edit": "Змінити",
+        "Group": "Група",
+        "Save": "Зберегти"
+    },
+    "ConnectionPropertiesPage": {
+        "Comment": "Коментар",
+        "Relations": "Зв'язки",
+        "RelationshipType": "Тип зв'язку",
+        "Title": "Зв'язок"
+    },
+    "ContainerPropertiesPage": {
+        "Address": "Адреса",
+        "Email": "Email",
+        "GeneralInformation": "Основна інформація",
+        "Groups": "Групи",
+        "Phone": "Контактний телефон",
+        "RelationshipsWith": "Пов'язані записи ({0})",
+        "Type": "Тип",
+        "Web": "Інтернет"
+    },
+    "OperationPermissionsErrorDialog": {
+        "ErrorTemplate": "У вас немає дозволу на виконання цієї операції.\nБудь ласка, зверніться до системного адміністратора і попросіть дозвіл на виконання наступної системної операції з кодом: «{0}». Керування правами доступу до системних операцій здійснюється в розділі «Права доступу на операції» Системного дизайнера."
+    },
+    "ViewElementGroup": {
+        "ChartsGroupCaption": "Графік",
+        "ComponentsGroupCaption": "Компонент",
+        "LayoutElementsGroupCaption": "Елементи розмітки",
+        "InputsGroupCaption": "Ввод",
+        "CustomElementsGroupCaption": "Користувацький елемент"
+    },
+    "EntitySchemaDesignerPage": {
+        "NameFieldName": "Name",
+        "CaptionFieldName": "Заголовок"
+    },
+    "pageParametersDataSource": "Параметри сторінки",
+    "TypeCaptions": {
+        "GridContainer": "Контейнер сітки",
+        "FlexContainer": "Флекс-контейнер",
+        "TabContainer": "Вкладка",
+        "MenuItem": "Пункт меню",
+        "ChartWidget": "Графік",
+        "TimelineTile": "Плитка"
+    },
+    "DialogComponent": {
+        "CancelButtonDialog": "Скасувати",
+        "SaveButtonDialog": "Зберегти"
+    },
+    "DesktopPageDesigner": {
+        "Defaults": {
+            "Caption": "Робочий стіл",
+            "CaptionTemplate": "{{0}} робочий стіл"
+        }
+    },
+    "SsoSettings": {
+        "Validators": {
+            "AdfsTenant": {
+                "Message": "Значення не повинно бути порожнім або починатися з http:// або https://"
+            },
+            "StringUrl": {
+                "Message": "Значення має бути коректним URL"
+            }
+        },
+        "SsoIdentityProvider": {
+            "DuplicationError": "Цей провайдер вже існує. Будь ласка, перевірте введену інформацію."
+        }
+    },
+    "BusinessRuleAction": {
+        "StructureExplorer": {
+            "Title": "Обрати елементи",
+            "ElementsTab": "{0}Елементів{1}"
+        }
+    },
+    "FileSizeUnit": {
+        "Byte": "байт",
+        "Bytes": "байт",
+        "Kilobyte": "KB",
+        "Megabyte": "MB",
+        "Gigabyte": "GB"
+    },
+    "Approvals": {
+        "ComponentHeaderLabel": "Потрібно підтвердження"
+    },
+    "AccountCompactProfile": {
+        "Caption": "Компактний профіль контрагента",
+        "EmptyDisplayValue": "Назва контрагента",
+        "NamePlaceholder": "Назва контрагента",
+        "DesignerNamePlaceholder": "Назва контрагента",
+        "AlternativeNamePlaceholder": "Також відомий як",
+        "CountryPlaceholder": "Країна"
+    },
+    "ContactCompactProfile": {
+        "Caption": "Компактний профіль контакта",
+        "EmptyDisplayValue": "Contact name",
+        "NamePlaceholder": "Contact name",
+        "DesignerNamePlaceholder": "Contact name",
+        "BirthDatePlaceholder": "Дата народження · Вік",
+        "DesignerBirthDatePlaceholder": "Дата народження",
+        "CountryPlaceholder": "Країна"
+    },
+    "ObjectPermissions": {
+        "Warning": "Увага! ",
+        "OperationsPoint": "Об'єкти, використовувані довідниковими полями на цій сторінці розділу, не є безпечними. Згідно поточних прав доступу, всі записи з об'єктів, перерахованих нижче, повністю доступні будь-якому зовнішньому користувачеві:",
+        "RecordsPoint": "Об'єкти, використовувані довідниковими полями на цій сторінці розділу, не є безпечними. Згідно поточних прав доступу, всі записи з об'єктів, перерахованих нижче, повністю доступні будь-якому зовнішньому користувачеві:",
+        "SetProperPermissionsBegin": "Щоб встановити належні права доступу, увімкніть права доступу на операції та записи для цих об'єктів в \"",
+        "ObjectPermissions": "Права доступу на об'єкти",
+        "SetProperPermissionsEnd": "\" секція дизайнера системи.",
+        "Link": "Оновити права доступу на об'єкти зараз",
+        "End": "Примітка: Можливо, вам знадобиться встановити окремі права доступу для існуючих записів, щоб інші користувачі могли працювати з ними.",
+        "UpdateObjectPermissionsMessage": "Поточні налаштування дозволів будуть змінені. Це може вплинути на продуктивність системи для всіх користувачів. Бажаєте оновити дозволи на об'єкти зараз?"
+    }
+}

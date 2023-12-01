@@ -1,0 +1,5 @@
+AppWithSectionAndEditPage
+AppWithPortalSectionAndEditPage
+AppWithHomePage
+EmptyApp
+AppFreedomUI

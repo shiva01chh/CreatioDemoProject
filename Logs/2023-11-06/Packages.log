@@ -1,0 +1,489 @@
+2023-11-06 12:46:03,590 Operation [Build] started
+2023-11-06 12:46:10,977 Operation [Build] took 7 s 386 ms
+2023-11-06 12:52:04,724 Operation [Build] started
+2023-11-06 12:52:09,210 Operation [Build] took 4 s 486 ms
+2023-11-06 14:35:07,910 InstallError: .AppFeature (1b221c58-4d4d-47ed-82ce-416181e775bf)
+Npgsql.PostgresException (0x80004005): 53300: sorry, too many clients already
+   at Npgsql.NpgsqlConnector.DoReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T](Boolean async)
+   at Npgsql.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.AllocateLong(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Terrasoft.Core.DB.DBExecutor.<get_DBConnection>b__23_0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 230
+   at Polly.Policy.<>c__DisplayClass109_0.<Execute>b__0(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c__DisplayClass103_0.<NoOp>b__1(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c.<NoOp>b__103_0(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action action)
+   at Terrasoft.Core.DB.DBExecutor.get_DBConnection() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 233
+   at Terrasoft.Core.DB.DBExecutor.CreateCommand() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 441
+   at Terrasoft.Core.DB.DBExecutor.ExecuteCommandAsync[TResult](Func`2 commandExecutionCallback, Func`2 commandExecutionCallbackAsync, String sqlText, QueryParameterCollection queryParameters, CancellationToken cancellationToken, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 593
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.<>c__DisplayClass43_0`1.<InternalExecuteScalar>b__0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 450
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.ExecuteInLockIfInTransaction[TResult](Func`1 action) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 266
+   at Terrasoft.Core.DB.Select.ExecuteScalarAsync[TResult](Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/Select.cs:line 1210
+   at Terrasoft.Core.SchemaManager`1.GetPackageUIdBySchemaId(Guid schemaId, UserConnection userConnection) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaManager.cs:line 3229
+   at Terrasoft.Core.SchemaManager`1.DeriveSchemaManagerItem(UserConnection userConnection, EntityCollection orderedSchemas) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaManager.cs:line 2242
+   at Terrasoft.Core.SchemaManager`1.CreateRuntimeSchemaFromMetaData(Guid schemaUId, UserConnection userConnection, Boolean initResources) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaManager.cs:line 2631
+   at Terrasoft.Core.Entities.EntitySchemaManager.CreateRuntimeSchemaFromMetaData(Guid schemaUId, UserConnection userConnection, Boolean initResources) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/EntitySchemaManager.cs:line 773
+   at Terrasoft.Core.SchemaManager`1.GetRuntimeInstanceFromMetadata(Guid schemaUId, Boolean initResources) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaManager.cs:line 3026
+   at Terrasoft.Core.SchemaManager`1.GetRuntimeInstanceFromMetadata(Guid schemaUId) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaManager.cs:line 4728
+   at Terrasoft.Core.Packages.PackageInstallUtilities.GenerateSchemaAdditionalSource(Guid schemaId, Guid schemaUId, String schemaName, Boolean continueIfError) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageInstallUtilities.cs:line 1494
+2023-11-06 14:35:07,910 InstallError: .BufferedImportEntity (5f1f7cd2-97ec-4b87-913d-c9b2fc6561f3)
+Npgsql.PostgresException (0x80004005): 53300: sorry, too many clients already
+   at Npgsql.NpgsqlConnector.DoReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T](Boolean async)
+   at Npgsql.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.AllocateLong(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Terrasoft.Core.DB.DBExecutor.<get_DBConnection>b__23_0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 230
+   at Polly.Policy.<>c__DisplayClass109_0.<Execute>b__0(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c__DisplayClass103_0.<NoOp>b__1(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c.<NoOp>b__103_0(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action action)
+   at Terrasoft.Core.DB.DBExecutor.get_DBConnection() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 233
+   at Terrasoft.Core.DB.DBExecutor.CreateCommand() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 441
+   at Terrasoft.Core.DB.DBExecutor.ExecuteCommandAsync[TResult](Func`2 commandExecutionCallback, Func`2 commandExecutionCallbackAsync, String sqlText, QueryParameterCollection queryParameters, CancellationToken cancellationToken, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 593
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.<>c__DisplayClass45_0.<InternalExecute>b__0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 484
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.ExecuteInLockIfInTransaction[TResult](Func`1 action) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 266
+   at Terrasoft.Core.DB.Query.Execute() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/Query.cs:line 466
+   at Terrasoft.Core.Entities.EntitySchemaManager.DeleteSchemaAdditionalSources(Guid schemaId, UserConnection userConnection) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/EntitySchemaManager.cs:line 975
+   at Terrasoft.Core.Packages.PackageInstallUtilities.GenerateSchemaAdditionalSource(Guid schemaId, Guid schemaUId, String schemaName, Boolean continueIfError) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageInstallUtilities.cs:line 1494
+2023-11-06 14:35:07,910 InstallError: .DistributionType (1bbaa446-a76f-415f-9455-9223d31376ce)
+Npgsql.PostgresException (0x80004005): 53300: sorry, too many clients already
+   at Npgsql.NpgsqlConnector.DoReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T](Boolean async)
+   at Npgsql.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.AllocateLong(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Terrasoft.Core.DB.DBExecutor.<get_DBConnection>b__23_0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 230
+   at Polly.Policy.<>c__DisplayClass109_0.<Execute>b__0(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c__DisplayClass103_0.<NoOp>b__1(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c.<NoOp>b__103_0(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action action)
+   at Terrasoft.Core.DB.DBExecutor.get_DBConnection() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 233
+   at Terrasoft.Core.DB.DBExecutor.CreateCommand() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 441
+   at Terrasoft.Core.DB.DBExecutor.ExecuteCommandAsync[TResult](Func`2 commandExecutionCallback, Func`2 commandExecutionCallbackAsync, String sqlText, QueryParameterCollection queryParameters, CancellationToken cancellationToken, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 593
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.<>c__DisplayClass43_0`1.<InternalExecuteScalar>b__0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 450
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.ExecuteInLockIfInTransaction[TResult](Func`1 action) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 266
+   at Terrasoft.Core.DB.Select.ExecuteScalarAsync[TResult](Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/Select.cs:line 1210
+   at Terrasoft.Core.SchemaManager`1.GetPackageUIdBySchemaId(Guid schemaId, UserConnection userConnection) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaManager.cs:line 3229
+   at Terrasoft.Core.SchemaManager`1.DeriveSchemaManagerItem(UserConnection userConnection, EntityCollection orderedSchemas) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaManager.cs:line 2242
+   at Terrasoft.Core.SchemaManager`1.CreateRuntimeSchemaFromMetaData(Guid schemaUId, UserConnection userConnection, Boolean initResources) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaManager.cs:line 2631
+   at Terrasoft.Core.Entities.EntitySchemaManager.CreateRuntimeSchemaFromMetaData(Guid schemaUId, UserConnection userConnection, Boolean initResources) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/EntitySchemaManager.cs:line 773
+   at Terrasoft.Core.Packages.PackageInstallUtilities.GenerateSchemaAdditionalSource(Guid schemaId, Guid schemaUId, String schemaName, Boolean continueIfError) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageInstallUtilities.cs:line 1512
+2023-11-06 14:35:07,925 InstallError: .Command (0feb9eed-fd62-4ea6-8fd4-2514306e1090)
+Npgsql.PostgresException (0x80004005): 53300: sorry, too many clients already
+   at Npgsql.NpgsqlConnector.DoReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T](Boolean async)
+   at Npgsql.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.AllocateLong(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Terrasoft.Core.DB.DBExecutor.<get_DBConnection>b__23_0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 230
+   at Polly.Policy.<>c__DisplayClass109_0.<Execute>b__0(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c__DisplayClass103_0.<NoOp>b__1(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c.<NoOp>b__103_0(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action action)
+   at Terrasoft.Core.DB.DBExecutor.get_DBConnection() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 233
+   at Terrasoft.Core.DB.DBExecutor.CreateCommand() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 441
+   at Terrasoft.Core.DB.DBExecutor.ExecuteCommandAsync[TResult](Func`2 commandExecutionCallback, Func`2 commandExecutionCallbackAsync, String sqlText, QueryParameterCollection queryParameters, CancellationToken cancellationToken, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 593
+   at Terrasoft.Core.DB.DBExecutor.InternalExecuteReader(String sqlText, QueryParameterCollection queryParameters, CommandBehavior behavior, CancellationToken cancellationToken) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 801
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.<>c__DisplayClass41_0.<InternalExecuteReader>b__0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 399
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.ExecuteInLockIfInTransaction[TResult](Func`1 action) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 266
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.InternalExecuteReader(String sqlText, QueryParameterCollection queryParameters, CommandBehavior behavior, CancellationToken cancellationToken) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 388
+   at Terrasoft.Core.DB.DBExecutor.InternalExecuteReader(String sqlText, QueryParameterCollection queryParameters) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 886
+   at Terrasoft.Core.DB.Select.ExecuteReaderAsync(DBExecutor dbExecutor, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/Select.cs:line 1163
+   at Terrasoft.Core.DB.Select.ExecuteReader(DBExecutor dbExecutor) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/Select.cs:line 1452
+   at Terrasoft.Core.DB.QueryExecutor.ExecuteReader(Select select, Action`1 readAction) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/QueryExecutor.cs:line 38
+   at Terrasoft.Core.SchemaResourceManager.LoadResourcesForSchemaHierarchy(IEnumerable`1 schemaIds) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaResourceManager.cs:line 197
+   at Terrasoft.Core.SchemaResourceManager.LoadRuntimeResourcesForSchema(Dictionary`2 localResourceSets, IEnumerable`1 schemaHierarchyIds) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaResourceManager.cs:line 202
+   at Terrasoft.Core.SchemaResourceManager.LoadRuntimeResourcesForSchema(Dictionary`2 localResourceSets) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaResourceManager.cs:line 173
+   at Terrasoft.Core.SchemaResourceManager.InternalGetResourceSet(CultureInfo cultureInfo, Boolean createIfNotExists, Boolean tryParents) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaResourceManager.cs:line 399
+   at Terrasoft.Core.SchemaResourceManager.GetString(String name, CultureInfo culture) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaResourceManager.cs:line 454
+   at Terrasoft.Common.LocalizableValue`1.GetCultureValue(CultureInfo culture, Boolean throwIfNoManager, Boolean useCultureFallback) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Common/LocalizableValue.cs:line 323
+   at Terrasoft.Common.LocalizableValue`1.LoadCultureValues(IEnumerable`1 culturesInfo) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Common/LocalizableValue.cs:line 357
+   at Terrasoft.Core.Schema.LoadLocalizableValues(IEnumerable`1 culturesInfo) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Schema.cs:line 560
+   at Terrasoft.Core.Entities.EntitySchema.LoadLocalizableValues(IEnumerable`1 culturesInfo) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/EntitySchema.cs:line 2308
+   at Terrasoft.Core.MetaItem.ReadMetaData(DataReader reader) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/MetaItem.cs:line 280
+   at Terrasoft.Core.Entities.EntitySchema.ReadMetaData(DataReader reader) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/EntitySchema.cs:line 2642
+   at Terrasoft.Core.MetaDataSerializer.Deserialize(Func`1 getReader, Boolean useRuntimeSchema)+MoveNext() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/MetaDataSerializer.cs:line 64
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at Terrasoft.Core.SchemaManager`1.DeserializeSchemaManagerItem(Stream metaData, UserConnection userConnection) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaManager.cs:line 2524
+   at Terrasoft.Core.SchemaManager`1.DeriveSchemaManagerItem(UserConnection userConnection, EntityCollection orderedSchemas) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaManager.cs:line 2242
+   at Terrasoft.Core.SchemaManager`1.CreateRuntimeSchemaFromMetaData(Guid schemaUId, UserConnection userConnection, Boolean initResources) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaManager.cs:line 2631
+   at Terrasoft.Core.Entities.EntitySchemaManager.CreateRuntimeSchemaFromMetaData(Guid schemaUId, UserConnection userConnection, Boolean initResources) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/EntitySchemaManager.cs:line 773
+   at Terrasoft.Core.Packages.PackageInstallUtilities.GenerateSchemaAdditionalSource(Guid schemaId, Guid schemaUId, String schemaName, Boolean continueIfError) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageInstallUtilities.cs:line 1512
+2023-11-06 14:35:07,963 InstallError: .BaseVisa (5fa90d0d-64eb-4f52-8d3d-c51fa6443b66)
+Npgsql.PostgresException (0x80004005): 53300: sorry, too many clients already
+   at Npgsql.NpgsqlConnector.DoReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T](Boolean async)
+   at Npgsql.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.AllocateLong(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Terrasoft.Core.DB.DBExecutor.<get_DBConnection>b__23_0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 230
+   at Polly.Policy.<>c__DisplayClass109_0.<Execute>b__0(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c__DisplayClass103_0.<NoOp>b__1(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c.<NoOp>b__103_0(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action action)
+   at Terrasoft.Core.DB.DBExecutor.get_DBConnection() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 233
+   at Terrasoft.Core.DB.DBExecutor.CreateCommand() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 441
+   at Terrasoft.Core.DB.DBExecutor.ExecuteCommandAsync[TResult](Func`2 commandExecutionCallback, Func`2 commandExecutionCallbackAsync, String sqlText, QueryParameterCollection queryParameters, CancellationToken cancellationToken, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 593
+   at Terrasoft.Core.DB.DBExecutor.InternalExecuteReader(String sqlText, QueryParameterCollection queryParameters, CommandBehavior behavior, CancellationToken cancellationToken) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 801
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.<>c__DisplayClass41_0.<InternalExecuteReader>b__0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 399
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.ExecuteInLockIfInTransaction[TResult](Func`1 action) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 266
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.InternalExecuteReader(String sqlText, QueryParameterCollection queryParameters, CommandBehavior behavior, CancellationToken cancellationToken) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 388
+   at Terrasoft.Core.DB.DBExecutor.InternalExecuteReader(String sqlText, QueryParameterCollection queryParameters) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 886
+   at Terrasoft.Core.DB.Select.ExecuteReaderAsync(DBExecutor dbExecutor, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/Select.cs:line 1163
+   at Terrasoft.Core.DB.Select.ExecuteReader(DBExecutor dbExecutor) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/Select.cs:line 1452
+   at Terrasoft.Core.DB.QueryExecutor.ExecuteReader(Select select, Action`1 readAction) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/QueryExecutor.cs:line 38
+   at Terrasoft.Core.SchemaResourceManager.LoadResourcesForSchemaHierarchy(IEnumerable`1 schemaIds) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaResourceManager.cs:line 197
+   at Terrasoft.Core.SchemaResourceManager.LoadRuntimeResourcesForSchema(Dictionary`2 localResourceSets, IEnumerable`1 schemaHierarchyIds) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaResourceManager.cs:line 202
+   at Terrasoft.Core.SchemaResourceManager.InitializeResourceSets(String schemaName) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaResourceManager.cs:line 416
+   at Terrasoft.Core.SchemaResourceManager.ReInitializeResourceSets(String schemaName) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaResourceManager.cs:line 424
+   at Terrasoft.Core.SchemaManager`1.CreateRuntimeSchemaFromMetaData(Guid schemaUId, UserConnection userConnection, Boolean initResources) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaManager.cs:line 2631
+   at Terrasoft.Core.Entities.EntitySchemaManager.CreateRuntimeSchemaFromMetaData(Guid schemaUId, UserConnection userConnection, Boolean initResources) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/EntitySchemaManager.cs:line 773
+   at Terrasoft.Core.SchemaManager`1.GetRuntimeInstanceFromMetadata(Guid schemaUId, Boolean initResources) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaManager.cs:line 3026
+   at Terrasoft.Core.SchemaManager`1.GetRuntimeInstanceFromMetadata(Guid schemaUId) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaManager.cs:line 4728
+   at Terrasoft.Core.Packages.PackageInstallUtilities.GenerateSchemaAdditionalSource(Guid schemaId, Guid schemaUId, String schemaName, Boolean continueIfError) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageInstallUtilities.cs:line 1494
+2023-11-06 14:35:07,965 InstallError: .BulkEmailCategory (13cffa88-d296-4202-8bee-d023d51a8454)
+Npgsql.PostgresException (0x80004005): 53300: sorry, too many clients already
+   at Npgsql.NpgsqlConnector.DoReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T](Boolean async)
+   at Npgsql.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.AllocateLong(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Terrasoft.Core.DB.DBExecutor.<get_DBConnection>b__23_0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 230
+   at Polly.Policy.<>c__DisplayClass109_0.<Execute>b__0(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c__DisplayClass103_0.<NoOp>b__1(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c.<NoOp>b__103_0(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action action)
+   at Terrasoft.Core.DB.DBExecutor.get_DBConnection() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 233
+   at Terrasoft.Core.DB.DBExecutor.CreateCommand() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 441
+   at Terrasoft.Core.DB.DBExecutor.ExecuteCommandAsync[TResult](Func`2 commandExecutionCallback, Func`2 commandExecutionCallbackAsync, String sqlText, QueryParameterCollection queryParameters, CancellationToken cancellationToken, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 593
+   at Terrasoft.Core.DB.DBExecutor.InternalExecuteReader(String sqlText, QueryParameterCollection queryParameters, CommandBehavior behavior, CancellationToken cancellationToken) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 801
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.<>c__DisplayClass41_0.<InternalExecuteReader>b__0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 399
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.ExecuteInLockIfInTransaction[TResult](Func`1 action) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 266
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.InternalExecuteReader(String sqlText, QueryParameterCollection queryParameters, CommandBehavior behavior, CancellationToken cancellationToken) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 388
+   at Terrasoft.Core.DB.DBExecutor.InternalExecuteReader(String sqlText, QueryParameterCollection queryParameters) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 886
+   at Terrasoft.Core.DB.Select.ExecuteReaderAsync(DBExecutor dbExecutor, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/Select.cs:line 1163
+   at Terrasoft.Core.DB.Select.ExecuteReader(DBExecutor dbExecutor) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/Select.cs:line 1452
+   at Terrasoft.Core.DB.QueryExecutor.ExecuteReader(Select select, Action`1 readAction) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/QueryExecutor.cs:line 38
+   at Terrasoft.Core.SchemaResourceManager.LoadResourcesForSchemaHierarchy(IEnumerable`1 schemaIds) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaResourceManager.cs:line 197
+   at Terrasoft.Core.SchemaResourceManager.LoadRuntimeResourcesForSchema(Dictionary`2 localResourceSets, IEnumerable`1 schemaHierarchyIds) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaResourceManager.cs:line 202
+   at Terrasoft.Core.SchemaResourceManager.InitializeResourceSets(String schemaName) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaResourceManager.cs:line 416
+   at Terrasoft.Core.SchemaResourceManager.ReInitializeResourceSets(String schemaName) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaResourceManager.cs:line 424
+   at Terrasoft.Core.SchemaManager`1.CreateRuntimeSchemaFromMetaData(Guid schemaUId, UserConnection userConnection, Boolean initResources) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaManager.cs:line 2631
+   at Terrasoft.Core.Entities.EntitySchemaManager.CreateRuntimeSchemaFromMetaData(Guid schemaUId, UserConnection userConnection, Boolean initResources) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/EntitySchemaManager.cs:line 773
+   at Terrasoft.Core.SchemaManager`1.GetRuntimeInstanceFromMetadata(Guid schemaUId, Boolean initResources) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaManager.cs:line 3026
+   at Terrasoft.Core.SchemaManager`1.GetRuntimeInstanceFromMetadata(Guid schemaUId) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaManager.cs:line 4728
+   at Terrasoft.Core.Packages.PackageInstallUtilities.GenerateSchemaAdditionalSource(Guid schemaId, Guid schemaUId, String schemaName, Boolean continueIfError) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageInstallUtilities.cs:line 1494
+2023-11-06 14:35:08,416 InstallError: .DocumentFolder (9fa78bfb-9df5-4382-9242-e7597eea88bc)
+Npgsql.PostgresException (0x80004005): 53300: sorry, too many clients already
+   at Npgsql.NpgsqlConnector.DoReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T](Boolean async)
+   at Npgsql.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.AllocateLong(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Terrasoft.Core.DB.DBExecutor.<get_DBConnection>b__23_0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 230
+   at Polly.Policy.<>c__DisplayClass109_0.<Execute>b__0(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c__DisplayClass103_0.<NoOp>b__1(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c.<NoOp>b__103_0(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action action)
+   at Terrasoft.Core.DB.DBExecutor.get_DBConnection() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 233
+   at Terrasoft.Core.DB.DBExecutor.CreateCommand() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 441
+   at Terrasoft.Core.DB.DBExecutor.ExecuteCommandAsync[TResult](Func`2 commandExecutionCallback, Func`2 commandExecutionCallbackAsync, String sqlText, QueryParameterCollection queryParameters, CancellationToken cancellationToken, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 593
+   at Terrasoft.Core.DB.DBExecutor.InternalExecuteReader(String sqlText, QueryParameterCollection queryParameters, CommandBehavior behavior, CancellationToken cancellationToken) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 801
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.<>c__DisplayClass41_0.<InternalExecuteReader>b__0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 399
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.ExecuteInLockIfInTransaction[TResult](Func`1 action) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 266
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.InternalExecuteReader(String sqlText, QueryParameterCollection queryParameters, CommandBehavior behavior, CancellationToken cancellationToken) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 388
+   at Terrasoft.Core.DB.DBExecutor.InternalExecuteReader(String sqlText, QueryParameterCollection queryParameters) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 886
+   at Terrasoft.Core.DB.QueryExecutor.ExecuteReader(String sqlText, QueryParameterCollection parameters, Action`1 readAction) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/QueryExecutor.cs:line 49
+   at Terrasoft.Core.ResourceProviders.SchemaHierarchyReader.ReadSchemaHierarchy(String sqlText, QueryParameterCollection parameters) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/ResourceProviders/SchemaHierarchyReader.cs:line 161
+   at Terrasoft.Core.SchemaResourceManager.LoadRuntimeResourcesForSchemaByName(Dictionary`2 localResourceSets, String schemaName) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaResourceManager.cs:line 178
+   at Terrasoft.Core.SchemaResourceManager.InitializeResourceSets(String schemaName) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaResourceManager.cs:line 416
+   at Terrasoft.Core.SchemaResourceManager.ReInitializeResourceSets(String schemaName) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaResourceManager.cs:line 424
+   at Terrasoft.Core.SchemaManager`1.CreateRuntimeSchemaFromMetaData(Guid schemaUId, UserConnection userConnection, Boolean initResources) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaManager.cs:line 2631
+   at Terrasoft.Core.Entities.EntitySchemaManager.CreateRuntimeSchemaFromMetaData(Guid schemaUId, UserConnection userConnection, Boolean initResources) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/EntitySchemaManager.cs:line 773
+   at Terrasoft.Core.Packages.PackageInstallUtilities.GenerateSchemaAdditionalSource(Guid schemaId, Guid schemaUId, String schemaName, Boolean continueIfError) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageInstallUtilities.cs:line 1512
+2023-11-06 14:35:10,327 InstallError: .ExternalAccessTag (18053fe1-4ec0-4798-8bdf-64c48c4e1412)
+Npgsql.PostgresException (0x80004005): 53300: sorry, too many clients already
+   at Npgsql.NpgsqlConnector.DoReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T](Boolean async)
+   at Npgsql.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.AllocateLong(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Terrasoft.Core.DB.DBExecutor.<get_DBConnection>b__23_0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 230
+   at Polly.Policy.<>c__DisplayClass109_0.<Execute>b__0(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c__DisplayClass103_0.<NoOp>b__1(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c.<NoOp>b__103_0(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action action)
+   at Terrasoft.Core.DB.DBExecutor.get_DBConnection() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 233
+   at Terrasoft.Core.DB.DBExecutor.CreateCommand() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 441
+   at Terrasoft.Core.DB.DBExecutor.ExecuteCommandAsync[TResult](Func`2 commandExecutionCallback, Func`2 commandExecutionCallbackAsync, String sqlText, QueryParameterCollection queryParameters, CancellationToken cancellationToken, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 593
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.<>c__DisplayClass45_0.<InternalExecute>b__0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 484
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.ExecuteInLockIfInTransaction[TResult](Func`1 action) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 266
+   at Terrasoft.Core.DB.Query.Execute() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/Query.cs:line 466
+   at Terrasoft.Core.Entities.EntitySchemaManager.DeleteSchemaAdditionalSources(Guid schemaId, UserConnection userConnection) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/EntitySchemaManager.cs:line 975
+   at Terrasoft.Core.Packages.PackageInstallUtilities.GenerateSchemaAdditionalSource(Guid schemaId, Guid schemaUId, String schemaName, Boolean continueIfError) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageInstallUtilities.cs:line 1512
+2023-11-06 14:35:10,369 InstallError: .BaseFolder (d602bf96-d029-4b07-9755-63c8f5cb5ed5)
+Terrasoft.Common.DbOperationException: 53300: sorry, too many clients already
+ ---> Npgsql.PostgresException (0x80004005): 53300: sorry, too many clients already
+   at Npgsql.NpgsqlConnector.DoReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T](Boolean async)
+   at Npgsql.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.AllocateLong(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Terrasoft.Core.DB.DBExecutor.<get_DBConnection>b__23_0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 230
+   at Polly.Policy.<>c__DisplayClass109_0.<Execute>b__0(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c__DisplayClass103_0.<NoOp>b__1(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c.<NoOp>b__103_0(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action action)
+   at Terrasoft.Core.DB.DBExecutor.get_DBConnection() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 233
+   at Terrasoft.Core.DB.DBExecutor.CreateCommand() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 441
+   at Terrasoft.Core.DB.DBExecutor.ExecuteCommandAsync[TResult](Func`2 commandExecutionCallback, Func`2 commandExecutionCallbackAsync, String sqlText, QueryParameterCollection queryParameters, CancellationToken cancellationToken, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 593
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.<>c__DisplayClass45_0.<InternalExecute>b__0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 484
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.ExecuteInLockIfInTransaction[TResult](Func`1 action) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 266
+   at Terrasoft.Core.DB.BaseInsert.ExecuteAsync(DBExecutor dbExecutor, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/BaseInsert.cs:line 108
+   at Terrasoft.Core.DB.BaseInsert.Execute(DBExecutor dbExecutor) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/BaseInsert.cs:line 163
+   at Terrasoft.Core.Entities.Entity.InsertToDBAsync(Boolean sync, Boolean skipLookupColumnValues, Boolean validateRequired, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2455
+   --- End of inner exception stack trace ---
+   at Terrasoft.Core.Entities.Entity.InsertToDBAsync(Boolean sync, Boolean skipLookupColumnValues, Boolean validateRequired, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2467
+   at Terrasoft.Core.Entities.Entity.InsertToDB(Boolean skipLookupColumnValues, Boolean validateRequired, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 3645
+   at Terrasoft.Core.Entities.Entity.TryExecuteSaving(Boolean validateRequired, Boolean setColumnDefValue, Boolean sync, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2145
+   at Terrasoft.Core.Entities.Entity.InternalSaveAsync(Boolean validateRequired, Boolean setColumnDefValue, Boolean sync, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2190
+   at Terrasoft.Core.Entities.Entity.InternalSave(Boolean validateRequired, Boolean setColumnDefValue, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2108
+   at Terrasoft.Core.Entities.Entity.SaveAsync(Boolean sync, Boolean validateRequired, Boolean setColumnDefValue, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2329
+   at Terrasoft.Core.SchemaManager`1.SaveSchemaSources(EntityCollection sources) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaManager.cs:line 4195
+   at Terrasoft.Core.Packages.PackageInstallUtilities.GenerateSchemaAdditionalSource(Guid schemaId, Guid schemaUId, String schemaName, Boolean continueIfError) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageInstallUtilities.cs:line 1499
+2023-11-06 14:35:10,502 InstallError: .CampaignTargetStatus (4632eea4-8425-48a6-a698-c5088b2884f1)
+Terrasoft.Common.DbOperationException: 53300: sorry, too many clients already
+ ---> Npgsql.PostgresException (0x80004005): 53300: sorry, too many clients already
+   at Npgsql.NpgsqlConnector.DoReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T](Boolean async)
+   at Npgsql.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.AllocateLong(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Terrasoft.Core.DB.DBExecutor.<get_DBConnection>b__23_0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 230
+   at Polly.Policy.<>c__DisplayClass109_0.<Execute>b__0(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c__DisplayClass103_0.<NoOp>b__1(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c.<NoOp>b__103_0(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action action)
+   at Terrasoft.Core.DB.DBExecutor.get_DBConnection() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 233
+   at Terrasoft.Core.DB.DBExecutor.CreateCommand() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 441
+   at Terrasoft.Core.DB.DBExecutor.ExecuteCommandAsync[TResult](Func`2 commandExecutionCallback, Func`2 commandExecutionCallbackAsync, String sqlText, QueryParameterCollection queryParameters, CancellationToken cancellationToken, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 593
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.<>c__DisplayClass45_0.<InternalExecute>b__0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 484
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.ExecuteInLockIfInTransaction[TResult](Func`1 action) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 266
+   at Terrasoft.Core.DB.BaseInsert.ExecuteAsync(DBExecutor dbExecutor, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/BaseInsert.cs:line 108
+   at Terrasoft.Core.DB.BaseInsert.Execute(DBExecutor dbExecutor) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/BaseInsert.cs:line 163
+   at Terrasoft.Core.Entities.Entity.InsertToDBAsync(Boolean sync, Boolean skipLookupColumnValues, Boolean validateRequired, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2455
+   --- End of inner exception stack trace ---
+   at Terrasoft.Core.Entities.Entity.InsertToDBAsync(Boolean sync, Boolean skipLookupColumnValues, Boolean validateRequired, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2467
+   at Terrasoft.Core.Entities.Entity.InsertToDB(Boolean skipLookupColumnValues, Boolean validateRequired, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 3645
+   at Terrasoft.Core.Entities.Entity.TryExecuteSaving(Boolean validateRequired, Boolean setColumnDefValue, Boolean sync, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2145
+   at Terrasoft.Core.Entities.Entity.InternalSaveAsync(Boolean validateRequired, Boolean setColumnDefValue, Boolean sync, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2190
+   at Terrasoft.Core.Entities.Entity.InternalSave(Boolean validateRequired, Boolean setColumnDefValue, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2108
+   at Terrasoft.Core.Entities.Entity.SaveAsync(Boolean sync, Boolean validateRequired, Boolean setColumnDefValue, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2329
+   at Terrasoft.Core.SchemaManager`1.SaveSchemaSources(EntityCollection sources) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaManager.cs:line 4195
+   at Terrasoft.Core.Packages.PackageInstallUtilities.GenerateSchemaAdditionalSource(Guid schemaId, Guid schemaUId, String schemaName, Boolean continueIfError) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageInstallUtilities.cs:line 1499
+2023-11-06 14:35:11,305 InstallError: .OpportunitySource (6f66df29-03a2-41b3-9cde-021eeeedfcb0)
+Npgsql.PostgresException (0x80004005): 53300: sorry, too many clients already
+   at Npgsql.NpgsqlConnector.DoReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T](Boolean async)
+   at Npgsql.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.AllocateLong(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Terrasoft.Core.DB.DBExecutor.<get_DBConnection>b__23_0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 230
+   at Polly.Policy.<>c__DisplayClass109_0.<Execute>b__0(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c__DisplayClass103_0.<NoOp>b__1(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c.<NoOp>b__103_0(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action action)
+   at Terrasoft.Core.DB.DBExecutor.get_DBConnection() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 233
+   at Terrasoft.Core.DB.DBExecutor.CreateCommand() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 441
+   at Terrasoft.Core.DB.DBExecutor.ExecuteCommandAsync[TResult](Func`2 commandExecutionCallback, Func`2 commandExecutionCallbackAsync, String sqlText, QueryParameterCollection queryParameters, CancellationToken cancellationToken, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 593
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.<>c__DisplayClass45_0.<InternalExecute>b__0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 484
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.ExecuteInLockIfInTransaction[TResult](Func`1 action) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 266
+   at Terrasoft.Core.DB.Query.Execute() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/Query.cs:line 466
+   at Terrasoft.Core.Entities.EntitySchemaManager.DeleteSchemaAdditionalSources(Guid schemaId, UserConnection userConnection) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/EntitySchemaManager.cs:line 975
+   at Terrasoft.Core.Packages.PackageInstallUtilities.GenerateSchemaAdditionalSource(Guid schemaId, Guid schemaUId, String schemaName, Boolean continueIfError) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageInstallUtilities.cs:line 1512
+2023-11-06 14:35:11,307 InstallError: .LeadInQualifyStatus (071aba13-b2b4-4050-aa8f-dab49a65b4b1)
+Npgsql.PostgresException (0x80004005): 53300: sorry, too many clients already
+   at Npgsql.NpgsqlConnector.DoReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T](Boolean async)
+   at Npgsql.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.AllocateLong(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Terrasoft.Core.DB.DBExecutor.<get_DBConnection>b__23_0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 230
+   at Polly.Policy.<>c__DisplayClass109_0.<Execute>b__0(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c__DisplayClass103_0.<NoOp>b__1(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c.<NoOp>b__103_0(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action action)
+   at Terrasoft.Core.DB.DBExecutor.get_DBConnection() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 233
+   at Terrasoft.Core.DB.DBExecutor.CreateCommand() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 441
+   at Terrasoft.Core.DB.DBExecutor.ExecuteCommandAsync[TResult](Func`2 commandExecutionCallback, Func`2 commandExecutionCallbackAsync, String sqlText, QueryParameterCollection queryParameters, CancellationToken cancellationToken, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 593
+   at Terrasoft.Core.DB.DBExecutor.InternalExecuteReader(String sqlText, QueryParameterCollection queryParameters, CommandBehavior behavior, CancellationToken cancellationToken) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 801
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.<>c__DisplayClass41_0.<InternalExecuteReader>b__0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 399
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.ExecuteInLockIfInTransaction[TResult](Func`1 action) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 266
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.InternalExecuteReader(String sqlText, QueryParameterCollection queryParameters, CommandBehavior behavior, CancellationToken cancellationToken) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 388
+   at Terrasoft.Core.DB.DBExecutor.InternalExecuteReader(String sqlText, QueryParameterCollection queryParameters) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 886
+   at Terrasoft.Core.DB.Select.ExecuteReaderAsync(DBExecutor dbExecutor, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/Select.cs:line 1163
+   at Terrasoft.Core.DB.Select.ExecuteReader(DBExecutor dbExecutor) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/Select.cs:line 1452
+   at Terrasoft.Core.DB.Select.ExecuteReaderAsync(ExecuteReaderReadMethod readMethod, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/Select.cs:line 1190
+   at Terrasoft.Core.DB.Select.ExecuteReader(ExecuteReaderReadMethod readMethod) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/Select.cs:line 1476
+   at Terrasoft.Core.Entities.EntityBackReferencePropertiesGenerator.GetPropertyCollection(Guid resourceSchemaId) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/EntityBackReferencePropertiesGenerator.cs:line 47
+   at Terrasoft.Core.Entities.EntityBackReferencePropertiesGenerator.WriteSchemaClassBody(GeneratorContext context, SchemaCodeGeneratorResource`1 resource, GeneratorTokenVisibility sourceVisibility) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/EntityBackReferencePropertiesGenerator.cs:line 243
+   at Terrasoft.Core.CodeGeneration.SchemaCodeGenerator`1.GenerateSourceCode(SchemaCodeGeneratorResource`1 resource, TextWriter streamWriter, Action`3 action) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/CodeGeneration/SchemaCodeGenerator.cs:line 636
+   at Terrasoft.Core.Entities.EntityBackReferencePropertiesGenerator.GenerateSources(SchemaCodeGeneratorResource`1 resource) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/EntityBackReferencePropertiesGenerator.cs:line 308
+   at Terrasoft.Core.Packages.PackageInstallUtilities.GenerateSchemaAdditionalSource(Guid schemaId, Guid schemaUId, String schemaName, Boolean continueIfError) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageInstallUtilities.cs:line 1512
+2023-11-06 14:35:11,316 InstallError: .HTTPAuthType (31274c13-38d5-44bc-92fa-08050925366d)
+Terrasoft.Common.DbOperationException: 53300: sorry, too many clients already
+ ---> Npgsql.PostgresException (0x80004005): 53300: sorry, too many clients already
+   at Npgsql.NpgsqlConnector.DoReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T](Boolean async)
+   at Npgsql.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.AllocateLong(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Terrasoft.Core.DB.DBExecutor.<get_DBConnection>b__23_0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 230
+   at Polly.Policy.<>c__DisplayClass109_0.<Execute>b__0(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c__DisplayClass103_0.<NoOp>b__1(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c.<NoOp>b__103_0(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action action)
+   at Terrasoft.Core.DB.DBExecutor.get_DBConnection() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 233
+   at Terrasoft.Core.DB.DBExecutor.CreateCommand() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 441
+   at Terrasoft.Core.DB.DBExecutor.ExecuteCommandAsync[TResult](Func`2 commandExecutionCallback, Func`2 commandExecutionCallbackAsync, String sqlText, QueryParameterCollection queryParameters, CancellationToken cancellationToken, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 593
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.<>c__DisplayClass45_0.<InternalExecute>b__0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 484
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.ExecuteInLockIfInTransaction[TResult](Func`1 action) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 266
+   at Terrasoft.Core.DB.BaseInsert.ExecuteAsync(DBExecutor dbExecutor, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/BaseInsert.cs:line 108
+   at Terrasoft.Core.DB.BaseInsert.Execute(DBExecutor dbExecutor) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/BaseInsert.cs:line 163
+   at Terrasoft.Core.Entities.Entity.InsertToDBAsync(Boolean sync, Boolean skipLookupColumnValues, Boolean validateRequired, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2455
+   --- End of inner exception stack trace ---
+   at Terrasoft.Core.Entities.Entity.InsertToDBAsync(Boolean sync, Boolean skipLookupColumnValues, Boolean validateRequired, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2467
+   at Terrasoft.Core.Entities.Entity.InsertToDB(Boolean skipLookupColumnValues, Boolean validateRequired, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 3645
+   at Terrasoft.Core.Entities.Entity.TryExecuteSaving(Boolean validateRequired, Boolean setColumnDefValue, Boolean sync, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2145
+   at Terrasoft.Core.Entities.Entity.InternalSaveAsync(Boolean validateRequired, Boolean setColumnDefValue, Boolean sync, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2190
+   at Terrasoft.Core.Entities.Entity.InternalSave(Boolean validateRequired, Boolean setColumnDefValue, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2108
+   at Terrasoft.Core.Entities.Entity.SaveAsync(Boolean sync, Boolean validateRequired, Boolean setColumnDefValue, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2329
+   at Terrasoft.Core.SchemaManager`1.SaveSchemaSources(EntityCollection sources) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaManager.cs:line 4195
+   at Terrasoft.Core.Packages.PackageInstallUtilities.GenerateSchemaAdditionalSource(Guid schemaId, Guid schemaUId, String schemaName, Boolean continueIfError) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageInstallUtilities.cs:line 1512
+2023-11-06 14:35:13,082 InstallError: .MktgActivityTag (955e1091-28c1-4f60-a1b5-47503dc45b78)
+Terrasoft.Common.DbOperationException: 53300: sorry, too many clients already
+ ---> Npgsql.PostgresException (0x80004005): 53300: sorry, too many clients already
+   at Npgsql.NpgsqlConnector.DoReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T](Boolean async)
+   at Npgsql.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.AllocateLong(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Terrasoft.Core.DB.DBExecutor.<get_DBConnection>b__23_0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 230
+   at Polly.Policy.<>c__DisplayClass109_0.<Execute>b__0(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c__DisplayClass103_0.<NoOp>b__1(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c.<NoOp>b__103_0(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action action)
+   at Terrasoft.Core.DB.DBExecutor.get_DBConnection() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 233
+   at Terrasoft.Core.DB.DBExecutor.CreateCommand() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 441
+   at Terrasoft.Core.DB.DBExecutor.ExecuteCommandAsync[TResult](Func`2 commandExecutionCallback, Func`2 commandExecutionCallbackAsync, String sqlText, QueryParameterCollection queryParameters, CancellationToken cancellationToken, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 593
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.<>c__DisplayClass45_0.<InternalExecute>b__0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 484
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.ExecuteInLockIfInTransaction[TResult](Func`1 action) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 266
+   at Terrasoft.Core.DB.BaseInsert.ExecuteAsync(DBExecutor dbExecutor, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/BaseInsert.cs:line 108
+   at Terrasoft.Core.DB.BaseInsert.Execute(DBExecutor dbExecutor) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/BaseInsert.cs:line 163
+   at Terrasoft.Core.Entities.Entity.InsertToDBAsync(Boolean sync, Boolean skipLookupColumnValues, Boolean validateRequired, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2455
+   --- End of inner exception stack trace ---
+   at Terrasoft.Core.Entities.Entity.InsertToDBAsync(Boolean sync, Boolean skipLookupColumnValues, Boolean validateRequired, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2467
+   at Terrasoft.Core.Entities.Entity.InsertToDB(Boolean skipLookupColumnValues, Boolean validateRequired, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 3645
+   at Terrasoft.Core.Entities.Entity.TryExecuteSaving(Boolean validateRequired, Boolean setColumnDefValue, Boolean sync, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2145
+   at Terrasoft.Core.Entities.Entity.InternalSaveAsync(Boolean validateRequired, Boolean setColumnDefValue, Boolean sync, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2190
+   at Terrasoft.Core.Entities.Entity.InternalSave(Boolean validateRequired, Boolean setColumnDefValue, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2108
+   at Terrasoft.Core.Entities.Entity.SaveAsync(Boolean sync, Boolean validateRequired, Boolean setColumnDefValue, Boolean trackChanges) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/Entity.cs:line 2329
+   at Terrasoft.Core.SchemaManager`1.SaveSchemaSources(EntityCollection sources) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/SchemaManager.cs:line 4195
+   at Terrasoft.Core.Packages.PackageInstallUtilities.GenerateSchemaAdditionalSource(Guid schemaId, Guid schemaUId, String schemaName, Boolean continueIfError) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageInstallUtilities.cs:line 1512
+2023-11-06 14:35:13,545 InstallError: .OpenIdFieldNameMap (21bc0031-f482-47ea-9b0f-74608db8d2c1)
+Npgsql.PostgresException (0x80004005): 53300: sorry, too many clients already
+   at Npgsql.NpgsqlConnector.DoReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T](Boolean async)
+   at Npgsql.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.AllocateLong(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Terrasoft.Core.DB.DBExecutor.<get_DBConnection>b__23_0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 230
+   at Polly.Policy.<>c__DisplayClass109_0.<Execute>b__0(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c__DisplayClass103_0.<NoOp>b__1(Context ctx, CancellationToken ct)
+   at Polly.Policy.<>c.<NoOp>b__103_0(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action`2 action, Context context, CancellationToken cancellationToken)
+   at Polly.Policy.Execute(Action action)
+   at Terrasoft.Core.DB.DBExecutor.get_DBConnection() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 233
+   at Terrasoft.Core.DB.DBExecutor.CreateCommand() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 441
+   at Terrasoft.Core.DB.DBExecutor.ExecuteCommandAsync[TResult](Func`2 commandExecutionCallback, Func`2 commandExecutionCallbackAsync, String sqlText, QueryParameterCollection queryParameters, CancellationToken cancellationToken, Boolean sync) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/DBExecutor.cs:line 593
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.<>c__DisplayClass45_0.<InternalExecute>b__0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 484
+   at Terrasoft.DB.PostgreSql.PostgreSqlExecutor.ExecuteInLockIfInTransaction[TResult](Func`1 action) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.DB.PostgreSql/PostgreSqlExecutor.cs:line 266
+   at Terrasoft.Core.DB.Query.Execute() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/DB/Query.cs:line 466
+   at Terrasoft.Core.Entities.EntitySchemaManager.DeleteSchemaAdditionalSources(Guid schemaId, UserConnection userConnection) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Entities/EntitySchemaManager.cs:line 975
+   at Terrasoft.Core.Packages.PackageInstallUtilities.GenerateSchemaAdditionalSource(Guid schemaId, Guid schemaUId, String schemaName, Boolean continueIfError) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageInstallUtilities.cs:line 1512

@@ -1,0 +1,4 @@
+﻿.multiselect-button-group-wrapper .multiselect-button-group .t-btn-pressed.t-btn-disabled {
+  opacity: 0.8;
+  color: #ddd !important;
+}

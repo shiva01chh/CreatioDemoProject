@@ -1,0 +1,13 @@
+﻿.quality-buttons-container .useful-button,
+.quality-buttons-container .useless-button {
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5;
+}
+.quality-buttons-container .t-btn-pressed {
+  background-color: transparent;
+}
+.quality-buttons-container .t-btn-pressed .useful-button,
+.quality-buttons-container .t-btn-pressed .useless-button {
+  opacity: 1;
+}

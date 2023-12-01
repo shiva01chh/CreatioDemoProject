@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="55" height="55" viewBox="0 0 55 55">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="55" height="55" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Repeat_Grid_1" data-name="Repeat Grid 1" clip-path="url(#clip-path)">
+    <g transform="translate(-241 -380)">
+      <g id="AddCampaignParticipantSchema-SmallImage_3_" data-name="AddCampaignParticipantSchema-SmallImage (3)" transform="translate(241 380)">
+        <circle id="Ellipse_1" data-name="Ellipse 1" cx="27.5" cy="27.5" r="27.5" fill="#fe7043"/>
+        <g id="Group_1" data-name="Group 1" transform="translate(-588 -207)">
+          <path id="Path_1" data-name="Path 1" d="M618.9,235.4a6.28,6.28,0,0,1-6.8,0,6.478,6.478,0,0,0-4.036,1.554A10.726,10.726,0,0,0,604.5,243.3a1.817,1.817,0,0,0,1.8,2.1h18.4a1.817,1.817,0,0,0,1.8-2.1,12,12,0,0,0-.923-2.856C624.417,237.815,621.93,235.4,618.9,235.4Z" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+          <path id="Path_2" data-name="Path 2" d="M610.3,241a7.839,7.839,0,0,0-1.1,4.1" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+          <path id="Path_3" data-name="Path 3" d="M620.6,241a7.84,7.84,0,0,1,1.1,4.1" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+          <path id="Path_4" data-name="Path 4" d="M620.1,227.6c0,3.1-2,5.7-4.6,5.7s-4.6-2.5-4.6-5.7" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+          <path id="Path_5" data-name="Path 5" d="M611.2,228.3c-2.3-5.3,2.4-9.8,6.6-7.5,2.1-.2,3.7,3.8,2.1,7.3a16.4,16.4,0,0,0-2.3-4.6C616.5,224.2,611.7,224.1,611.2,228.3Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="Line_1" data-name="Line 1" y2="9.2" transform="translate(615.5 235.9)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+        </g>
+      </g>
+      <g id="Component_11_2" data-name="Component 11 – 2" transform="translate(360.354 327.354)">
+        <path id="Path_8" data-name="Path 8" d="M38,24l3,3,5-5" transform="translate(-119 52)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

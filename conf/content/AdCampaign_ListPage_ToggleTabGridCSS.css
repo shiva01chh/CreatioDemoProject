@@ -1,0 +1,8 @@
+﻿#AdAccountsTabContainerFacebookGrid thead,
+#AdAccountsTabContainerGoogleGrid thead {
+  display: none;
+}
+#AdAccountsTabContainerFacebookGrid .crt-data-table-container table.crt-data-table.mat-table .mat-row .mat-cell.crt-header-toolbar-cell.mat-table-sticky,
+#AdAccountsTabContainerGoogleGrid .crt-data-table-container table.crt-data-table.mat-table .mat-row .mat-cell.crt-header-toolbar-cell.mat-table-sticky {
+  display: none !important;
+}

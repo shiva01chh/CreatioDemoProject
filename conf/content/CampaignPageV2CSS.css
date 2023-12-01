@@ -1,0 +1,32 @@
+﻿.campaign-card-content-container {
+  max-width: none !important;
+}
+[data-item-marker*=TargetPercent] .base-edit-validation {
+  min-width: 150px;
+}
+#CampaignSchemaTab {
+  height: calc(100% - 40px);
+}
+#CampaignSchemaTab .campaign-schema-block {
+  height: 100%;
+}
+#CampaignSchemaTab .campaign-schema-block .column-2 {
+  width: 100%;
+  height: 100%;
+}
+#CampaignIndicatorTargetTotal .indicator-wrap,
+#CampaignIndicatorTargetAchieve .indicator-wrap,
+#CampaignIndicatorTargetRemain .indicator-wrap {
+  border-top: 3px solid;
+}
+#CampaignIndicatorTargetTotal .indicator-caption,
+#CampaignIndicatorTargetAchieve .indicator-caption,
+#CampaignIndicatorTargetRemain .indicator-caption {
+  font-size: 17px;
+}
+#CampaignIndicatorTargetTotal .indicator-value,
+#CampaignIndicatorTargetAchieve .indicator-value,
+#CampaignIndicatorTargetRemain .indicator-value {
+  padding-top: 10px;
+  font-size: 24px;
+}

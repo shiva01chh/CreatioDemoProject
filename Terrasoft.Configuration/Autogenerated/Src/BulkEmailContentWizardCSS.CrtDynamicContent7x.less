@@ -1,0 +1,248 @@
+﻿.wizard-wrap {
+	overflow-y: hidden;
+	height: 100%;
+
+	.empty-replica-container {
+		text-align: center;
+		padding: 10% 15%;
+
+		.empty-replica-image {
+			width: 134px;
+			height: 139px;
+			margin: 40px auto;
+		}
+
+		.empty-replica-warning-label {
+			font-family: "Bpm'online Open Sans Light";
+			font-size: 20px;
+			color: #999999;
+		}
+	}
+
+	.replica-container-list {
+		width: 314px;
+		overflow-y: auto;
+
+		.replica-item-wrapper-container {
+			padding: 11px 20px 12px 20px;
+			display: flex;
+			flex-direction: column;
+			cursor: pointer;
+
+			.t-label {
+				font-family: "Bpmonline Open Sans";
+				font-size: 14px;
+				color: #444444;
+				display: inline;
+				word-wrap: normal;
+				max-width: 274px;
+				width: 100%;
+				cursor: pointer;
+			}
+
+			&:hover {
+				background-color: #e4ebfa;
+			}
+		}
+
+		.selected {
+			background-color: #e4ebfa;
+		}
+	}
+
+	.wizard-header-container {
+		background: white;
+		border-bottom: 1px solid #dbdbdb;
+
+		.caption-label {
+			font-size: 26px;
+			font-family: "Bpmonline Open Sans Light";
+			border-bottom: 1px dotted #dbdbdb;
+		}
+
+		.button-group-container {
+			margin-top: 5px;
+			margin-left: 16px;
+		}
+		
+		.caption-container {
+			margin-top: 13px;
+			margin-left: 30px;
+		}
+
+		.wizard-buttons-container {
+			text-align: center;
+
+			.ts-tabpanel {
+				border-bottom: none;
+				padding-right: 0;
+				margin-top: 8px;
+
+				.ts-tabpanel-items {
+
+					.ts-tabpanel-active-item {
+						color: #444444;
+					}
+				}
+
+				.ts-tabpanel-items > li {
+					font-size: 1.4em;
+					color: #999999;
+				}
+
+				.ts-tabpanel-wrap:before {
+					height: 0;
+				}
+			}
+		}
+
+		.main-header-logo-container {
+			float: right;
+			padding-top: 1em;
+			padding-right: 1.5em;
+			background-size: contain;
+			display: inline-table;
+			position: relative;
+
+			.main-header-logo-image {
+				max-width: 127px;
+				max-height: 27px;
+			}
+		}
+	}
+
+	.wizard-container {
+		height: calc(~"100%" - 40px);
+
+		.wizard-design-container {
+			height: 100%;
+
+			.left-container {
+				padding-bottom: 50px;
+			}
+
+			.content-builder-container {
+				.left-control-group {
+					border-right: 1px solid #dbdbdb;
+
+					.content-preview-block-container {
+						height: calc(~"100%" - 69px) !important;
+						padding-bottom: 50px;
+					}
+				}
+
+				.header-container {
+
+					.right-button-container {
+						width: 100% !important;
+						margin-top: 10px !important;
+	
+						.content-builder-settings-container {
+							margin-right: 20px !important;
+						}
+					}
+				}
+			}
+		}
+
+	}
+
+	.wizard-issues-container {
+		position: absolute;
+		bottom: 0;
+		height: auto;
+		width: 100%;
+		pointer-events: none;
+	}
+
+	.notification-message-panel {
+		padding: 5px;
+		box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.2);
+		margin: 0 0 0 15px;
+		z-index: 2000;
+		position: absolute;
+		background-color: white;
+		left: 0;
+		top: 40px;
+		animation: fadeIn 0.6s;
+
+		@keyframes fadeIn {
+			from {
+				opacity: 0;
+			}
+			to {
+				opacity: 1;
+			}
+		}
+
+		.t-label {
+			width: inherit;
+			padding: 5px 0px 0px 5px;
+			font-size: 15px;
+			float: left;
+		}
+
+		.message-panel-buttons .t-btn-image {
+			min-width: 16px;
+			min-height: 16px;
+			margin-top: 3px;
+		}
+
+		.error-static-image {
+			width: 25px;
+			height: 25px;
+			margin-top: 4px;
+			float: left;
+		}
+
+		.message-panel-buttons,
+		.load-storage-buttons {
+			float: left;
+		}
+	}
+
+	.notification-message-panel[data-notification-type="error"] {
+		border-left: 5px solid #fed600;
+	}
+
+	.notification-message-panel[data-notification-type="info"] {
+		border-left: 5px solid #64b8df;
+	}
+}
+::-webkit-scrollbar {
+	width: 4px;
+	height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #999999 0% 0% no-repeat padding-box;
+	border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #aaaaaa;
+}
+
+.scrollable-container {
+	scrollbar-base-color:#999999;
+	scrollbar-track-color:#ffffff;
+	scrollbar-highlight-color:#ffffff;
+	scrollbar-3dlight-color: #ffffff;
+	scrollbar-shadow-color: #999999;
+	scrollbar-darkshadow-color:#999999;
+	scrollbar-arrow-color:#ffffff;
+	scrollbar-face-color:#999999;
+
+	scrollbar-color: #999999 #ffffff;
+	scrollbar-width: thin;
+
+	-ms-overflow-style: -ms-autohiding-scrollbar;
+	-ms-scrollbar-base-color:#999999;
+	-ms-scrollbar-track-color:#ffffff;
+	-ms-scrollbar-highlight-color:#ffffff;
+	-ms-scrollbar-3dlight-color: #ffffff;
+	-ms-scrollbar-shadow-color: #999999;
+	-ms-scrollbar-darkshadow-color:#999999;
+	-ms-scrollbar-arrow-color:#ffffff;
+	-ms-scrollbar-face-color:#999999;
+}

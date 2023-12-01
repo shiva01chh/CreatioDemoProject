@@ -1,0 +1,42 @@
+﻿#CampaignTemplateGalleryPageContainer .mat-tab-header {
+  display: none !important;
+}
+#CampaignTemplateGalleryPageContainer .actions-container .search-container .search-field {
+  width: 385px;
+}
+#CampaignTemplateGalleryPageContainer .actions-container .tab-actions-container {
+  padding-left: 10px;
+}
+#CampaignTemplateGalleryPageContainer .tab-container {
+  min-height: 395px;
+}
+#CampaignTemplateGalleryPageContainer .button-container {
+  padding-left: 5px;
+}
+#CampaignTemplateGalleryPageContainer .mat-radio-group {
+  flex-direction: row !important;
+}
+#CampaignTemplateGalleryPageContainer .mat-grid-list-container {
+  min-height: 350px;
+}
+#CampaignTemplateGalleryPageContainer .preview-image-wrapper {
+  min-height: 320px;
+}
+#CampaignTemplateGalleryPageContainer .preview-image-wrapper img {
+  padding: 24px 0;
+}
+#CampaignTemplateGalleryPageContainer .table-list-container .grid-column {
+  flex-grow: 1;
+}
+#CampaignTemplateGalleryPageContainer .table-list-container .grid-column .mat-selection-list {
+  height: auto;
+}
+#CampaignTemplateGalleryPageContainer .preview-list-container .grid-column {
+  flex-grow: 1;
+}
+#CampaignTemplateGalleryPageContainer .list-cell-preview-container .image-container {
+  padding: 3px 0;
+}
+#CampaignTemplateGalleryPageContainer .preview-container {
+  width: 400px;
+}

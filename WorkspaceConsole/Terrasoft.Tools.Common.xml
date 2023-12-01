@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Terrasoft.Tools.Common</name>
+    </assembly>
+    <members>
+        <member name="M:Terrasoft.Tools.Common.BaseConsoleApplication`2.LoadConfiguration">
+            <summary>
+            Loads application configuration.
+            </summary>
+            <returns>Configuration.</returns>
+        </member>
+        <member name="M:Terrasoft.Tools.Common.BaseConsoleApplication`2.Initialize(System.Configuration.ConfigurationSectionGroup)">
+            <summary>
+            Initializes console application.
+            </summary>
+            <param name="appConfigurationSectionGroup">App configuration section group.</param>
+        </member>
+        <member name="M:Terrasoft.Tools.Common.BaseConsoleApplication`2.GetAppSettings">
+            <summary>
+            Returns application settings.
+            </summary>
+            <returns>App configuration section group.</returns>
+        </member>
+        <member name="T:Terrasoft.Tools.Common.BaseConsoleDBApplication`2">
+            <summary>
+            Базовый класс консольного приложения с подключением к БД.
+            </summary>
+            <typeparam name="TCommandLine">Тип обработки командной строки.</typeparam>
+            <typeparam name="TOperations">Любая структура.</typeparam>
+        </member>
+        <member name="T:Terrasoft.Tools.Common.CommandLineParameterNullOrEmptyException">
+            <summary>
+            Представляет исключение для обязательного параметра командной строки.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Tools.Common.CommandLineParameterNullOrEmptyException.#ctor">
+            <summary>
+            Инициализирует новый экземпляр класса 
+            <see cref="T:Terrasoft.Tools.Common.CommandLineParameterNullOrEmptyException"/>.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Tools.Common.CommandLineParameterNullOrEmptyException.#ctor(System.String)">
+            <summary>
+            Инициализирует новый экземпляр класса 
+            <see cref="T:Terrasoft.Tools.Common.CommandLineParameterNullOrEmptyException"/>, используя заданное имя 
+            параметра.
+            </summary>
+            <param name="parameterName">Имя параметра.</param>
+        </member>
+        <member name="M:Terrasoft.Tools.Common.CommandLineParameterNullOrEmptyException.#ctor(System.String,System.Exception)">
+            <summary>
+            Инициализирует новый экземпляр класса 
+            <see cref="T:Terrasoft.Tools.Common.CommandLineParameterNullOrEmptyException"/>, используя заданное сообщение 
+            об ошибке и ссылку на внутреннее исключение, которое стало причиной данного исключения.
+            </summary>
+            <param name="message">Сообщение об ошибке.</param>
+            <param name="innerException">Внутреннее исключение.</param>
+        </member>
+    </members>
+</doc>
