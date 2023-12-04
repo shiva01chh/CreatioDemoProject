@@ -1040,3 +1040,5 @@
 2023-12-01 12:24:00 ::1 POST /msg/negotiate negotiateVersion=1 5000 Supervisor ::1 Mozilla/5.0+(X11;+Linux+x86_64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/118.0.0.0+Safari/537.36 http://localhost:5000/Shell/ 200 20
 2023-12-01 12:25:57 ::1 GET /msg id=m_41gI-PGVKEck34w0JRDw 5000 Supervisor ::1 Mozilla/5.0+(X11;+Linux+x86_64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/118.0.0.0+Safari/537.36  101 116954
 2023-12-01 12:27:13 ::1 POST /ServiceModel/AppInstallerService.svc/LoadPackagesToDB - 5000 Supervisor ::1 Mozilla/5.0+(X11;+Linux+x86_64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/118.0.0.0+Safari/537.36 http://localhost:5000/ClientApp/ 200 5546
+2023-12-01 15:14:32 ::1 GET /msg id=lyYjR2WJoqwdoglT2_eV6g 5000 Supervisor ::1 Mozilla/5.0+(X11;+Linux+x86_64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/118.0.0.0+Safari/537.36  101 10682793
+2023-12-01 15:14:32 ::1 GET /msg id=f9sPLohUx9eVGsZtQUbfaA 5000 Supervisor ::1 Mozilla/5.0+(X11;+Linux+x86_64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/118.0.0.0+Safari/537.36  101 10709579

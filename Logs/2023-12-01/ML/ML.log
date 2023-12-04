@@ -118,3 +118,17 @@ Entity schemaUid: 56143364-4580-4561-8814-8612fad2e5c0
 2023-12-01 19:02:03,337 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
 2023-12-01 19:02:03,510 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
 2023-12-01 19:02:03,511 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-01 19:17:03,528 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-01 19:17:03,528 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-01 19:32:03,548 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-01 19:32:03,548 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-01 19:47:03,555 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-01 19:47:03,555 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-01 20:02:03,352 [.NET ThreadPool Worker] INFO  Execute - ML model batch prediction job started
+2023-12-01 20:02:03,352 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-01 20:02:03,572 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-01 20:02:03,572 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-01 20:17:03,592 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-01 20:17:03,592 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-01 20:32:03,610 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-01 20:32:03,612 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl

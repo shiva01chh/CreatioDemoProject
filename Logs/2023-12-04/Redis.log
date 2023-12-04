@@ -1,0 +1,20 @@
+2023-12-04 12:14:06,282 [1] INFO  Redis CreateRedisClientsManager - Redis clients manager is created with type: [Terrasoft.Redis.StackExchangeAdapters.RedisClientsManagerAdapter, Terrasoft.Redis.StackExchangeAdapters]
+2023-12-04 12:14:20,521 [1] INFO  Redis StartCheckExpiredSessionsTimer - Expired sessions cleanup will occur every [60000] ms.
+2023-12-04 12:15:20,564 [.NET ThreadPool Worker] INFO  Redis <ClearExpiredSessionsCallback>b__12_0 - All session keys: 1.Expired session keys: 0.
+2023-12-04 12:16:20,571 [.NET ThreadPool Worker] INFO  Redis <ClearExpiredSessionsCallback>b__12_0 - All session keys: 1.Expired session keys: 0.
+2023-12-04 12:17:20,576 [.NET ThreadPool Worker] INFO  Redis <ClearExpiredSessionsCallback>b__12_0 - All session keys: 1.Expired session keys: 0.
+2023-12-04 12:18:20,584 [.NET ThreadPool Worker] INFO  Redis <ClearExpiredSessionsCallback>b__12_0 - All session keys: 1.Expired session keys: 0.
+2023-12-04 12:19:20,591 [.NET ThreadPool Worker] INFO  Redis <ClearExpiredSessionsCallback>b__12_0 - All session keys: 1.Expired session keys: 0.
+2023-12-04 12:20:20,594 [.NET ThreadPool Worker] INFO  Redis <ClearExpiredSessionsCallback>b__12_0 - All session keys: 1.Expired session keys: 0.
+2023-12-04 12:21:20,599 [.NET ThreadPool Worker] INFO  Redis <ClearExpiredSessionsCallback>b__12_0 - All session keys: 1.Expired session keys: 0.
+2023-12-04 12:22:20,602 [.NET ThreadPool Worker] INFO  Redis <ClearExpiredSessionsCallback>b__12_0 - All session keys: 1.Expired session keys: 0.
+2023-12-04 12:23:20,607 [.NET ThreadPool Worker] INFO  Redis <ClearExpiredSessionsCallback>b__12_0 - All session keys: 1.Expired session keys: 0.
+2023-12-04 12:24:20,610 [.NET ThreadPool Worker] INFO  Redis <ClearExpiredSessionsCallback>b__12_0 - All session keys: 1.Expired session keys: 0.
+2023-12-04 12:25:20,614 [.NET ThreadPool Worker] INFO  Redis <ClearExpiredSessionsCallback>b__12_0 - All session keys: 1.Expired session keys: 0.
+2023-12-04 12:26:20,620 [.NET ThreadPool Worker] INFO  Redis <ClearExpiredSessionsCallback>b__12_0 - All session keys: 1.Expired session keys: 0.
+2023-12-04 12:27:20,623 [.NET ThreadPool Worker] INFO  Redis <ClearExpiredSessionsCallback>b__12_0 - All session keys: 1.Expired session keys: 0.
+2023-12-04 12:28:20,631 [.NET ThreadPool Worker] INFO  Redis <ClearExpiredSessionsCallback>b__12_0 - All session keys: 1.Expired session keys: 0.
+2023-12-04 12:29:20,635 [.NET ThreadPool Worker] INFO  Redis <ClearExpiredSessionsCallback>b__12_0 - All session keys: 1.Expired session keys: 0.
+2023-12-04 12:30:20,643 [.NET ThreadPool Worker] INFO  Redis <ClearExpiredSessionsCallback>b__12_0 - All session keys: 1.Expired session keys: 0.
+2023-12-04 12:31:20,649 [.NET ThreadPool Worker] INFO  Redis <ClearExpiredSessionsCallback>b__12_0 - All session keys: 1.Expired session keys: 0.
+2023-12-04 12:32:20,650 [.NET ThreadPool Worker] INFO  Redis <ClearExpiredSessionsCallback>b__12_0 - All session keys: 1.Expired session keys: 0.
