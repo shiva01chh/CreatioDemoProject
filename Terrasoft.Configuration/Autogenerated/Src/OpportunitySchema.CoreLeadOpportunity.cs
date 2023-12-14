@@ -29,7 +29,7 @@
 	#region Class: Opportunity_CoreLeadOpportunity_TerrasoftSchema
 
 	/// <exclude/>
-	public class Opportunity_CoreLeadOpportunity_TerrasoftSchema : Terrasoft.Configuration.Opportunity_CrtMLOpportunityScoring_TerrasoftSchema
+	public class Opportunity_CoreLeadOpportunity_TerrasoftSchema : Terrasoft.Configuration.Opportunity_CrtLeadOppMgmtApp_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -156,7 +156,7 @@
 	/// <summary>
 	/// Opportunity.
 	/// </summary>
-	public class Opportunity_CoreLeadOpportunity_Terrasoft : Terrasoft.Configuration.Opportunity_CrtMLOpportunityScoring_Terrasoft
+	public class Opportunity_CoreLeadOpportunity_Terrasoft : Terrasoft.Configuration.Opportunity_CrtLeadOppMgmtApp_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -246,7 +246,7 @@
 	#region Class: Opportunity_CoreLeadOpportunityEventsProcess
 
 	/// <exclude/>
-	public partial class Opportunity_CoreLeadOpportunityEventsProcess<TEntity> : Terrasoft.Configuration.Opportunity_CrtMLOpportunityScoringEventsProcess<TEntity> where TEntity : Opportunity_CoreLeadOpportunity_Terrasoft
+	public partial class Opportunity_CoreLeadOpportunityEventsProcess<TEntity> : Terrasoft.Configuration.Opportunity_CrtLeadOppMgmtAppEventsProcess<TEntity> where TEntity : Opportunity_CoreLeadOpportunity_Terrasoft
 	{
 
 		public Opportunity_CoreLeadOpportunityEventsProcess(UserConnection userConnection)

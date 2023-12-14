@@ -1,0 +1,13 @@
+2023-12-04 20:01:50,611 [.NET ThreadPool Worker] INFO Supervisor DeleteRecordsAsync - Start.
+2023-12-04 20:01:50,683 [.NET ThreadPool Worker] INFO Supervisor Enqueue - Deletes '0' records from queue.
+2023-12-04 20:01:50,708 [.NET ThreadPool Worker] INFO Supervisor Execute - Sets '1' records to queue.
+2023-12-04 20:01:51,078 [.NET ThreadPool Worker] INFO Supervisor ApplyOperations - Deleting entity: Lookup, id: 3fa5e251-edcc-48a7-997f-d5c6c2da1b1d
+2023-12-04 20:01:51,127 [.NET ThreadPool Worker] INFO Supervisor ApplyOperations - Done
+2023-12-04 20:01:51,127 [.NET ThreadPool Worker] INFO Supervisor ApplyOperations - 3fa5e251-edcc-48a7-997f-d5c6c2da1b1dsuccess
+
+2023-12-04 20:01:51,132 [.NET ThreadPool Worker] INFO Supervisor RecordProcessed - Post message start. MultiDelete_{"total":1,"processed":1,"skipped":0,"operationKey":"e3d08f9c-f419-474f-8747-5ac2771c3484"}
+2023-12-04 20:01:51,132 [.NET ThreadPool Worker] INFO Supervisor RecordProcessed - Post message end. MultiDelete_{"total":1,"processed":1,"skipped":0,"operationKey":"e3d08f9c-f419-474f-8747-5ac2771c3484"}
+2023-12-04 20:01:51,134 [.NET ThreadPool Worker] INFO Supervisor RecordProcessed - Post message start. MultiDelete_{"total":1,"processed":1,"skipped":0,"operationKey":"e3d08f9c-f419-474f-8747-5ac2771c3484"}
+2023-12-04 20:01:51,134 [.NET ThreadPool Worker] INFO Supervisor RecordProcessed - Post message end. MultiDelete_{"total":1,"processed":1,"skipped":0,"operationKey":"e3d08f9c-f419-474f-8747-5ac2771c3484"}
+2023-12-04 20:01:51,134 [.NET ThreadPool Worker] INFO Supervisor DeleteRecordsAsync - End.
+

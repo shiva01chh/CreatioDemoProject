@@ -1,0 +1,104 @@
+2023-12-07 12:44:30,963 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 12:44:30,969 [.NET ThreadPool Worker] INFO  Execute - ML model batch prediction job started
+2023-12-07 12:44:30,973 [.NET ThreadPool Worker] DEBUG  CheckIsServiceUrlSet - There are no ML problem types with set ServiceUrl
+2023-12-07 12:44:30,973 [.NET ThreadPool Worker] DEBUG  CheckIsServiceUrlSet - There are no ML problem types with set ServiceUrl
+2023-12-07 12:46:19,201 [.NET ThreadPool Worker] WARN Supervisor <GetModelsGroupedByEntityName>b__1_0 - PredictedResultColumnName is empty for model 74ce4daa-aa40-411d-8152-1b16cc2e8c2b
+Metadata: {
+}
+Entity schemaUid: a5657e6b-342d-4104-8ab8-aab37ef29860
+
+2023-12-07 12:46:19,201 [.NET ThreadPool Worker] WARN Supervisor <GetModelsGroupedByEntityName>b__1_0 - PredictedResultColumnName is empty for model 8f57ed14-2c8a-47c8-a990-104698359451
+Metadata: {
+}
+Entity schemaUid: a5657e6b-342d-4104-8ab8-aab37ef29860
+
+2023-12-07 12:46:19,201 [.NET ThreadPool Worker] WARN Supervisor <GetModelsGroupedByEntityName>b__1_0 - PredictedResultColumnName is empty for model 6f8c5159-e07b-485d-bfa2-37dbf4f0a2d3
+Metadata: {
+}
+Entity schemaUid: 117d32f9-8275-4534-8411-1c66115ce9cd
+
+2023-12-07 12:46:19,201 [.NET ThreadPool Worker] WARN Supervisor <GetModelsGroupedByEntityName>b__1_0 - PredictedResultColumnName is empty for model b624f2fd-81e1-4e8d-890b-5184994d1154
+Metadata: {
+}
+Entity schemaUid: 56143364-4580-4561-8814-8612fad2e5c0
+
+2023-12-07 12:59:30,979 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 12:59:30,981 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 13:14:30,989 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 13:14:30,989 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 13:29:30,995 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 13:29:30,995 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 13:44:30,986 [.NET ThreadPool Worker] INFO  Execute - ML model batch prediction job started
+2023-12-07 13:44:30,986 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 13:44:31,005 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 13:44:31,005 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 13:59:31,010 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 13:59:31,010 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 14:14:31,016 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 14:14:31,016 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 14:29:31,022 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 14:29:31,022 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 14:44:30,991 [.NET ThreadPool Worker] INFO  Execute - ML model batch prediction job started
+2023-12-07 14:44:30,991 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 14:44:31,029 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 14:44:31,029 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 14:59:31,034 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 14:59:31,034 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 15:14:31,041 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 15:14:31,041 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 15:29:31,048 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 15:29:31,048 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 15:44:30,997 [.NET ThreadPool Worker] INFO  Execute - ML model batch prediction job started
+2023-12-07 15:44:30,997 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 15:44:31,053 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 15:44:31,053 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 15:59:31,059 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 15:59:31,059 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 16:14:31,065 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 16:14:31,065 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 16:29:31,071 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 16:29:31,071 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 16:44:31,005 [.NET ThreadPool Worker] INFO  Execute - ML model batch prediction job started
+2023-12-07 16:44:31,005 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 16:44:31,077 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 16:44:31,077 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 16:59:31,083 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 16:59:31,083 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 17:14:31,089 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 17:14:31,089 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 17:29:31,095 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 17:29:31,095 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 17:44:31,013 [.NET ThreadPool Worker] INFO  Execute - ML model batch prediction job started
+2023-12-07 17:44:31,013 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 17:44:31,101 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 17:44:31,101 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 17:59:31,107 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 17:59:31,107 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 18:14:31,113 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 18:14:31,113 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 18:29:31,119 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 18:29:31,119 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 18:44:31,019 [.NET ThreadPool Worker] INFO  Execute - ML model batch prediction job started
+2023-12-07 18:44:31,019 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 18:44:31,125 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 18:44:31,125 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 18:59:31,131 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 18:59:31,131 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 19:14:31,137 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 19:14:31,137 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 19:29:31,143 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 19:29:31,143 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 19:44:31,028 [.NET ThreadPool Worker] INFO  Execute - ML model batch prediction job started
+2023-12-07 19:44:31,028 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 19:44:31,149 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 19:44:31,149 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 19:59:31,155 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 19:59:31,155 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 20:14:31,161 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 20:14:31,161 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 20:29:31,167 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 20:29:31,167 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 20:44:31,035 [.NET ThreadPool Worker] INFO  Execute - ML model batch prediction job started
+2023-12-07 20:44:31,037 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl
+2023-12-07 20:44:31,173 [.NET ThreadPool Worker] INFO  Execute - Start to process (training, state sync) ML models
+2023-12-07 20:44:31,173 [.NET ThreadPool Worker] DEBUG  ProcessAllModels - There are no ML problem types with set ServiceUrl

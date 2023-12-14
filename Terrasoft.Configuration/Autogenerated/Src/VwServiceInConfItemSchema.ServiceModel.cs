@@ -80,8 +80,8 @@
 
 		protected override EntitySchemaColumn CreateDependencyTypeColumn() {
 			EntitySchemaColumn column = base.CreateDependencyTypeColumn();
-			column.IsSimpleLookup = true;
 			column.ModifiedInSchemaUId = new Guid("f352fdd7-1847-46e6-a7bc-cd3772b42761");
+			column.IsSimpleLookup = true;
 			return column;
 		}
 

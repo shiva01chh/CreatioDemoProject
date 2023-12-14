@@ -661,7 +661,7 @@
 			};
 			parametrizedElement.Parameters.Add(isRunningParameter);
 			var currentActivityIdParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("9fb630a4-576f-42a8-8e29-476f4c948d20"),
+				UId = new Guid("3bdc338f-0456-4db0-8ec1-e5bfa5e06101"),
 				ContainerUId = new Guid("836ca04a-78fa-4cf4-a449-453ee4c8b6cd"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -688,7 +688,7 @@
 			};
 			parametrizedElement.Parameters.Add(currentActivityIdParameter);
 			var createActivityParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("90a9baa1-e1e5-4e7b-b2ac-cef4a192bc78"),
+				UId = new Guid("724fdec6-5be0-4635-853e-aa41a32ef0ae"),
 				ContainerUId = new Guid("836ca04a-78fa-4cf4-a449-453ee4c8b6cd"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -716,7 +716,7 @@
 			parametrizedElement.Parameters.Add(createActivityParameter);
 			var activityPriorityParameter = new ProcessSchemaParameter(this) {
 				ReferenceSchemaUId = new Guid("b934f48c-5dea-49b9-bde3-697cb4be5d8b"),
-				UId = new Guid("2a8ac9a8-469c-489e-9bf6-b633b78c9725"),
+				UId = new Guid("ff6ce580-c17a-40f7-8b6b-9a0ec91f4566"),
 				ContainerUId = new Guid("836ca04a-78fa-4cf4-a449-453ee4c8b6cd"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -743,7 +743,7 @@
 			};
 			parametrizedElement.Parameters.Add(activityPriorityParameter);
 			var startInParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("091d3735-7b87-4405-8a8b-2643e469b63a"),
+				UId = new Guid("e529f861-cb56-456e-88c8-db35eb9f104c"),
 				ContainerUId = new Guid("836ca04a-78fa-4cf4-a449-453ee4c8b6cd"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -770,7 +770,7 @@
 			};
 			parametrizedElement.Parameters.Add(startInParameter);
 			var startInPeriodParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("fd38019f-45da-4aac-ad60-cda9a11cc934"),
+				UId = new Guid("dd654947-a07f-4990-bbb6-eb8384fcb72d"),
 				ContainerUId = new Guid("836ca04a-78fa-4cf4-a449-453ee4c8b6cd"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -797,7 +797,7 @@
 			};
 			parametrizedElement.Parameters.Add(startInPeriodParameter);
 			var durationParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("7ea3f8c0-96b6-4b9c-b7d8-d16fb41a401e"),
+				UId = new Guid("8d041137-8cee-4a53-add2-f4206f99c2f6"),
 				ContainerUId = new Guid("836ca04a-78fa-4cf4-a449-453ee4c8b6cd"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -824,7 +824,7 @@
 			};
 			parametrizedElement.Parameters.Add(durationParameter);
 			var durationPeriodParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("fb34cf57-8b4b-4a45-8ba0-68e20dc37db1"),
+				UId = new Guid("95c2000c-d012-49c0-942c-3ac961cd9bdc"),
 				ContainerUId = new Guid("836ca04a-78fa-4cf4-a449-453ee4c8b6cd"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -851,7 +851,7 @@
 			};
 			parametrizedElement.Parameters.Add(durationPeriodParameter);
 			var showInSchedulerParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("3fee5142-6994-40d7-ba75-d0ad02366fb1"),
+				UId = new Guid("6f1e58be-b162-4c31-a06f-d11dbb168b86"),
 				ContainerUId = new Guid("836ca04a-78fa-4cf4-a449-453ee4c8b6cd"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -878,7 +878,7 @@
 			};
 			parametrizedElement.Parameters.Add(showInSchedulerParameter);
 			var remindBeforeParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("76ea7295-179c-44aa-805f-bdf07897e501"),
+				UId = new Guid("47e92e99-129e-40e4-8ba1-ac45a51a5ef2"),
 				ContainerUId = new Guid("836ca04a-78fa-4cf4-a449-453ee4c8b6cd"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -905,7 +905,7 @@
 			};
 			parametrizedElement.Parameters.Add(remindBeforeParameter);
 			var remindBeforePeriodParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("9953206a-a32b-4f7c-ac43-73978cc73a0b"),
+				UId = new Guid("0f12a213-b260-45bd-bc7d-26539f55dbce"),
 				ContainerUId = new Guid("836ca04a-78fa-4cf4-a449-453ee4c8b6cd"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -932,7 +932,7 @@
 			};
 			parametrizedElement.Parameters.Add(remindBeforePeriodParameter);
 			var activityResultParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("bc1c15cb-cdcd-41bf-ada1-24f93879e3c8"),
+				UId = new Guid("d3b4dae3-b814-4fba-855c-94de1a0bfef1"),
 				ContainerUId = new Guid("836ca04a-78fa-4cf4-a449-453ee4c8b6cd"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -959,7 +959,7 @@
 			};
 			parametrizedElement.Parameters.Add(activityResultParameter);
 			var isActivityCompletedParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("397739e7-a708-4a20-92df-0f46115fc7df"),
+				UId = new Guid("02e9c372-6bc7-43d0-8793-4ab53b94f0d7"),
 				ContainerUId = new Guid("836ca04a-78fa-4cf4-a449-453ee4c8b6cd"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -1179,7 +1179,7 @@
 			};
 			parametrizedElement.Parameters.Add(addRightsParameter);
 			var considerTimeInFilterParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("794ba64d-26d5-4acd-bf85-47e531bd7cc1"),
+				UId = new Guid("62d3f1a0-a972-4209-bd08-60c76a667714"),
 				ContainerUId = new Guid("35a81948-7702-4db3-a7bf-3f258a365e3b"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -1670,7 +1670,7 @@
 			};
 			parametrizedElement.Parameters.Add(ignoreDisplayValuesParameter);
 			var resultCompositeObjectListParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("4ba990b9-b0f1-4de3-a75f-d829bc4d4f4d"),
+				UId = new Guid("1e7a5bc6-4fab-419f-a533-7ddda97d1461"),
 				ContainerUId = new Guid("a870c1ce-bfa0-4d8b-8b91-f65750ebcaa7"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -1697,7 +1697,7 @@
 			};
 			parametrizedElement.Parameters.Add(resultCompositeObjectListParameter);
 			var considerTimeInFilterParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("9d92a9ab-654c-4828-a88e-928c3f024614"),
+				UId = new Guid("b6932fbf-1f40-41d9-bd2e-d5b995bad333"),
 				ContainerUId = new Guid("a870c1ce-bfa0-4d8b-8b91-f65750ebcaa7"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -2408,7 +2408,7 @@
 			};
 			parametrizedElement.Parameters.Add(ignoreDisplayValuesParameter);
 			var resultCompositeObjectListParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("5cdab1d7-2dc4-40f6-8b28-1ce03ee63d05"),
+				UId = new Guid("8cc5c292-8b59-41fa-bd18-437edbf0d6db"),
 				ContainerUId = new Guid("bff63975-7641-445b-a526-7e12cd421a7e"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -2435,7 +2435,7 @@
 			};
 			parametrizedElement.Parameters.Add(resultCompositeObjectListParameter);
 			var considerTimeInFilterParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("3ecb854a-5efc-437b-bcad-720355ee5c64"),
+				UId = new Guid("247b5115-0d75-43b2-92eb-51b90668f401"),
 				ContainerUId = new Guid("bff63975-7641-445b-a526-7e12cd421a7e"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -2573,7 +2573,7 @@
 			};
 			parametrizedElement.Parameters.Add(addRightsParameter);
 			var considerTimeInFilterParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("fd78bbdd-35a9-4b04-8893-2f411493f543"),
+				UId = new Guid("490acb2d-09ef-4eea-b51b-fa409bf65401"),
 				ContainerUId = new Guid("b9416b19-62b4-412d-8205-b053619588be"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -2739,7 +2739,7 @@
 			};
 			parametrizedElement.Parameters.Add(addRightsParameter);
 			var considerTimeInFilterParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("cf49b09b-e253-4f62-b9a5-965f059dc4d7"),
+				UId = new Guid("c2e6c46c-b6ff-4b25-bae7-afc6c75e70a0"),
 				ContainerUId = new Guid("afdc5703-6023-42b4-a3bd-aa1a91271e3a"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -4870,7 +4870,7 @@
 					Owner = this,
 					Type = "ProcessSchemaToken",
 					Name = "GiveRightsToVisaOwnerContractVisaSubProcessToken",
-					SchemaElementUId = new Guid("d2aca52a-4317-4632-a997-7f76ef5f227e"),
+					SchemaElementUId = new Guid("30aa14a8-59f0-485c-a054-8ff052c7c256"),
 					CreatedInSchemaUId = InternalSchemaUId,
 					ExecutedEventHandler = OnExecuted,
 				});
@@ -5081,18 +5081,18 @@
 			MetaPathParameterValues.Add("725b0f21-bc47-4763-ac11-51f3e58ac1f6", () => InputVisaParameters.ShowExecutionPage);
 			MetaPathParameterValues.Add("49aa3b10-f4df-4db4-a710-7a3da112ae79", () => InputVisaParameters.InformationOnStep);
 			MetaPathParameterValues.Add("a7674ac1-de80-4564-9a13-246fabb59722", () => InputVisaParameters.IsRunning);
-			MetaPathParameterValues.Add("9fb630a4-576f-42a8-8e29-476f4c948d20", () => InputVisaParameters.CurrentActivityId);
-			MetaPathParameterValues.Add("90a9baa1-e1e5-4e7b-b2ac-cef4a192bc78", () => InputVisaParameters.CreateActivity);
-			MetaPathParameterValues.Add("2a8ac9a8-469c-489e-9bf6-b633b78c9725", () => InputVisaParameters.ActivityPriority);
-			MetaPathParameterValues.Add("091d3735-7b87-4405-8a8b-2643e469b63a", () => InputVisaParameters.StartIn);
-			MetaPathParameterValues.Add("fd38019f-45da-4aac-ad60-cda9a11cc934", () => InputVisaParameters.StartInPeriod);
-			MetaPathParameterValues.Add("7ea3f8c0-96b6-4b9c-b7d8-d16fb41a401e", () => InputVisaParameters.Duration);
-			MetaPathParameterValues.Add("fb34cf57-8b4b-4a45-8ba0-68e20dc37db1", () => InputVisaParameters.DurationPeriod);
-			MetaPathParameterValues.Add("3fee5142-6994-40d7-ba75-d0ad02366fb1", () => InputVisaParameters.ShowInScheduler);
-			MetaPathParameterValues.Add("76ea7295-179c-44aa-805f-bdf07897e501", () => InputVisaParameters.RemindBefore);
-			MetaPathParameterValues.Add("9953206a-a32b-4f7c-ac43-73978cc73a0b", () => InputVisaParameters.RemindBeforePeriod);
-			MetaPathParameterValues.Add("bc1c15cb-cdcd-41bf-ada1-24f93879e3c8", () => InputVisaParameters.ActivityResult);
-			MetaPathParameterValues.Add("397739e7-a708-4a20-92df-0f46115fc7df", () => InputVisaParameters.IsActivityCompleted);
+			MetaPathParameterValues.Add("3bdc338f-0456-4db0-8ec1-e5bfa5e06101", () => InputVisaParameters.CurrentActivityId);
+			MetaPathParameterValues.Add("724fdec6-5be0-4635-853e-aa41a32ef0ae", () => InputVisaParameters.CreateActivity);
+			MetaPathParameterValues.Add("ff6ce580-c17a-40f7-8b6b-9a0ec91f4566", () => InputVisaParameters.ActivityPriority);
+			MetaPathParameterValues.Add("e529f861-cb56-456e-88c8-db35eb9f104c", () => InputVisaParameters.StartIn);
+			MetaPathParameterValues.Add("dd654947-a07f-4990-bbb6-eb8384fcb72d", () => InputVisaParameters.StartInPeriod);
+			MetaPathParameterValues.Add("8d041137-8cee-4a53-add2-f4206f99c2f6", () => InputVisaParameters.Duration);
+			MetaPathParameterValues.Add("95c2000c-d012-49c0-942c-3ac961cd9bdc", () => InputVisaParameters.DurationPeriod);
+			MetaPathParameterValues.Add("6f1e58be-b162-4c31-a06f-d11dbb168b86", () => InputVisaParameters.ShowInScheduler);
+			MetaPathParameterValues.Add("47e92e99-129e-40e4-8ba1-ac45a51a5ef2", () => InputVisaParameters.RemindBefore);
+			MetaPathParameterValues.Add("0f12a213-b260-45bd-bc7d-26539f55dbce", () => InputVisaParameters.RemindBeforePeriod);
+			MetaPathParameterValues.Add("d3b4dae3-b814-4fba-855c-94de1a0bfef1", () => InputVisaParameters.ActivityResult);
+			MetaPathParameterValues.Add("02e9c372-6bc7-43d0-8793-4ab53b94f0d7", () => InputVisaParameters.IsActivityCompleted);
 			MetaPathParameterValues.Add("e0dd21fb-3d51-44e8-b854-0e07c860de49", () => InputVisaParameters.VisaOwner);
 			MetaPathParameterValues.Add("4e06d591-5e64-4ada-8d8c-ecc485ed6411", () => InputVisaParameters.Objective);
 			MetaPathParameterValues.Add("e4157d41-c7c0-423c-90ea-9b31a9527bea", () => InputVisaParameters.IsAllowedToDelegate);
@@ -5100,7 +5100,7 @@
 			MetaPathParameterValues.Add("5aca796c-35c6-418a-9deb-b088a8f677dc", () => ForbitContractChange.DataSourceFilters);
 			MetaPathParameterValues.Add("24dfe4df-9bb5-49a4-95db-61542b4948d1", () => ForbitContractChange.DeleteRights);
 			MetaPathParameterValues.Add("00434e0c-82ed-4624-aecf-e0253c869124", () => ForbitContractChange.AddRights);
-			MetaPathParameterValues.Add("794ba64d-26d5-4acd-bf85-47e531bd7cc1", () => ForbitContractChange.ConsiderTimeInFilter);
+			MetaPathParameterValues.Add("62d3f1a0-a972-4209-bd08-60c76a667714", () => ForbitContractChange.ConsiderTimeInFilter);
 			MetaPathParameterValues.Add("eb5c0633-71b5-4885-bf63-9348c6e716fe", () => ReadContract.DataSourceFilters);
 			MetaPathParameterValues.Add("df762cbe-8d50-45aa-a692-fc3ca13753f4", () => ReadContract.ResultType);
 			MetaPathParameterValues.Add("0e9f1193-9fc1-4b4b-8432-b733eba80912", () => ReadContract.ReadSomeTopRecords);
@@ -5118,8 +5118,8 @@
 			MetaPathParameterValues.Add("221e16c4-8293-45d9-8259-d695e5af79eb", () => ReadContract.ResultEntityCollection);
 			MetaPathParameterValues.Add("43a99aa6-4673-4153-a178-a5b9790d2ad5", () => ReadContract.EntityColumnMetaPathes);
 			MetaPathParameterValues.Add("32c0ad0e-56cf-4c87-b1ac-2dd4e4bf0c7c", () => ReadContract.IgnoreDisplayValues);
-			MetaPathParameterValues.Add("4ba990b9-b0f1-4de3-a75f-d829bc4d4f4d", () => ReadContract.ResultCompositeObjectList);
-			MetaPathParameterValues.Add("9d92a9ab-654c-4828-a88e-928c3f024614", () => ReadContract.ConsiderTimeInFilter);
+			MetaPathParameterValues.Add("1e7a5bc6-4fab-419f-a533-7ddda97d1461", () => ReadContract.ResultCompositeObjectList);
+			MetaPathParameterValues.Add("b6932fbf-1f40-41d9-bd2e-d5b995bad333", () => ReadContract.ConsiderTimeInFilter);
 			MetaPathParameterValues.Add("e23b91be-231f-435f-8517-737db19c220d", () => SendEmailToOwner.Sender);
 			MetaPathParameterValues.Add("eafc53b1-5965-4420-91e0-d855598a9606", () => SendEmailToOwner.Recepient);
 			MetaPathParameterValues.Add("5267c7f6-bd77-4ed7-824c-b431dbd24c08", () => SendEmailToOwner.CopyRecepient);
@@ -5145,8 +5145,8 @@
 			MetaPathParameterValues.Add("9d748d72-4039-430d-9516-9bf95155fd9b", () => ReadOwner.ResultEntityCollection);
 			MetaPathParameterValues.Add("c3c00126-734d-41e9-bf79-8da33bbe8ad7", () => ReadOwner.EntityColumnMetaPathes);
 			MetaPathParameterValues.Add("37fda484-0125-46f8-b450-58f5d24b2f0e", () => ReadOwner.IgnoreDisplayValues);
-			MetaPathParameterValues.Add("5cdab1d7-2dc4-40f6-8b28-1ce03ee63d05", () => ReadOwner.ResultCompositeObjectList);
-			MetaPathParameterValues.Add("3ecb854a-5efc-437b-bcad-720355ee5c64", () => ReadOwner.ConsiderTimeInFilter);
+			MetaPathParameterValues.Add("8cc5c292-8b59-41fa-bd18-437edbf0d6db", () => ReadOwner.ResultCompositeObjectList);
+			MetaPathParameterValues.Add("247b5115-0d75-43b2-92eb-51b90668f401", () => ReadOwner.ConsiderTimeInFilter);
 			MetaPathParameterValues.Add("310fad23-c110-4806-9d92-9b7ef68030a8", () => ContractVisaSubProcess.Contract);
 			MetaPathParameterValues.Add("cf070ad1-6809-4a88-9acd-4c1050d73518", () => ContractVisaSubProcess.VisaOwner);
 			MetaPathParameterValues.Add("68991ea2-632d-4c0d-bcc0-b0279a32a9da", () => ContractVisaSubProcess.VisaObjective);
@@ -5157,13 +5157,13 @@
 			MetaPathParameterValues.Add("cd06c729-8a50-4f14-a085-8c9bf142de19", () => GiveRightsToOwner.DataSourceFilters);
 			MetaPathParameterValues.Add("fe09c0ea-c751-454d-9193-e03efc91f334", () => GiveRightsToOwner.DeleteRights);
 			MetaPathParameterValues.Add("3ce1b749-d0db-40c4-b82f-c8972441ef28", () => GiveRightsToOwner.AddRights);
-			MetaPathParameterValues.Add("fd78bbdd-35a9-4b04-8893-2f411493f543", () => GiveRightsToOwner.ConsiderTimeInFilter);
+			MetaPathParameterValues.Add("490acb2d-09ef-4eea-b51b-fa409bf65401", () => GiveRightsToOwner.ConsiderTimeInFilter);
 			MetaPathParameterValues.Add("13c7b81c-15c4-41e0-872d-b3f630e982e7", () => GiveRightsToOwner.Employee1);
 			MetaPathParameterValues.Add("db86a347-29e9-4743-9766-c6a508976d06", () => GiveRightsToVisaOwner.EntitySchemaUId);
 			MetaPathParameterValues.Add("e9392949-f8f5-4add-bc89-a191956f1182", () => GiveRightsToVisaOwner.DataSourceFilters);
 			MetaPathParameterValues.Add("c7fca4c4-fb67-44e2-b05f-2c3a3b6e3769", () => GiveRightsToVisaOwner.DeleteRights);
 			MetaPathParameterValues.Add("aeae1d71-a282-4e9b-aa64-781333770500", () => GiveRightsToVisaOwner.AddRights);
-			MetaPathParameterValues.Add("cf49b09b-e253-4f62-b9a5-965f059dc4d7", () => GiveRightsToVisaOwner.ConsiderTimeInFilter);
+			MetaPathParameterValues.Add("c2e6c46c-b6ff-4b25-bae7-afc6c75e70a0", () => GiveRightsToVisaOwner.ConsiderTimeInFilter);
 			MetaPathParameterValues.Add("c6d0a247-634d-4113-8471-9fce9fb79995", () => GiveRightsToVisaOwner.Role1);
 		}
 

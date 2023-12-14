@@ -29,7 +29,7 @@
 	#region Class: Lead_CoreLeadOpportunity_TerrasoftSchema
 
 	/// <exclude/>
-	public class Lead_CoreLeadOpportunity_TerrasoftSchema : Terrasoft.Configuration.Lead_WebLeadForm_TerrasoftSchema
+	public class Lead_CoreLeadOpportunity_TerrasoftSchema : Terrasoft.Configuration.Lead_CrtOrderLead_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -141,7 +141,7 @@
 	/// <summary>
 	/// Lead.
 	/// </summary>
-	public class Lead_CoreLeadOpportunity_Terrasoft : Terrasoft.Configuration.Lead_WebLeadForm_Terrasoft
+	public class Lead_CoreLeadOpportunity_Terrasoft : Terrasoft.Configuration.Lead_CrtOrderLead_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -195,7 +195,7 @@
 	#region Class: Lead_CoreLeadOpportunityEventsProcess
 
 	/// <exclude/>
-	public partial class Lead_CoreLeadOpportunityEventsProcess<TEntity> : Terrasoft.Configuration.Lead_WebLeadFormEventsProcess<TEntity> where TEntity : Lead_CoreLeadOpportunity_Terrasoft
+	public partial class Lead_CoreLeadOpportunityEventsProcess<TEntity> : Terrasoft.Configuration.Lead_CrtOrderLeadEventsProcess<TEntity> where TEntity : Lead_CoreLeadOpportunity_Terrasoft
 	{
 
 		public Lead_CoreLeadOpportunityEventsProcess(UserConnection userConnection)

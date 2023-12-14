@@ -1,0 +1,17 @@
+2023-12-04 12:39:51,403 Generating schema sources count [0]: []
+2023-12-04 12:39:51,406 Generated schema sources count [0]
+2023-12-04 15:55:40,853 InstallStart: SchemaDBStructure
+2023-12-04 15:55:42,389 InstallFinish: SchemaDBStructure
+2023-12-04 18:22:47,663 InstallStart: SchemaDBStructure
+2023-12-04 18:22:48,779 InstallFinish: SchemaDBStructure
+2023-12-04 18:37:46,036 InstallStart: SqlScript
+2023-12-04 18:37:46,046 InstallFinish: SqlScript
+2023-12-04 18:46:59,724 InstallStart: SchemaDBStructure
+2023-12-04 18:46:59,739 InstallFinish: SchemaDBStructure
+2023-12-04 20:07:16,359 InstallStart: SchemaDBStructure
+2023-12-04 20:07:16,534 InstallFinish: SchemaDBStructure
+2023-12-04 20:07:29,807 InstallStart: SchemaDBStructure
+2023-12-04 20:07:29,977 InstallFinish: SchemaDBStructure
+2023-12-04 20:25:44,098 InstallStart: SchemaDBStructure
+2023-12-04 20:25:44,490 InstallFinish: SchemaDBStructure
+2023-12-04 20:27:07,802 Operation [Build] started

@@ -1,0 +1,47 @@
+2023-12-14 13:08:49,835 InstallStart: SchemaDBStructure
+2023-12-14 13:08:50,428 InstallFinish: SchemaDBStructure
+2023-12-14 13:13:45,569 InstallStart: SchemaDBStructure
+2023-12-14 13:13:45,896 InstallFinish: SchemaDBStructure
+2023-12-14 13:38:25,735 InstallStart: SchemaDBStructure
+2023-12-14 13:38:25,989 InstallFinish: SchemaDBStructure
+2023-12-14 15:31:17,291 Creating storage directory [/tmp//root/app/PackageInstallation/Temp]
+2023-12-14 15:31:17,291 Downloading file [GlbDataBinding.gz]
+2023-12-14 15:31:17,296 Unzipping [/tmp//root/app/PackageInstallation/Temp/GlbDataBinding.gz]
+2023-12-14 15:31:17,331 Unzipped [/tmp//root/app/PackageInstallation/Temp/GlbDataBinding.gz] to [/tmp//root/app/PackageInstallation/Temp/GlbDataBinding]
+2023-12-14 15:31:24,433 Generating schema sources count [16]: [GlbDataBinding.BaseSectionV2, GlbDataBinding.SysSettingsSection, GlbDataBinding.GlbDataBindingService, GlbDataBinding.GlbDataBindingHelper, GlbDataBinding.BasePageV2, GlbDataBinding.SysAdminOperationSectionV2, GlbDataBinding.BaseLookupConfigurationSection, GlbDataBinding.SysWorkplacePageV2, GlbDataBinding.SysAdminUnitSectionV2, GlbDataBinding.SysSettingPage, GlbDataBinding.LookupSection, GlbDataBinding.SysAdminOperationPageV2, GlbDataBinding.SysWorkplaceSectionV2, GlbDataBinding.GlbDataBindingMixin, GlbDataBinding.BaseGridDetailV2, GlbDataBinding.LookupEditPage]
+2023-12-14 15:31:27,387 Generated schema sources count [16]
+2023-12-14 15:47:50,194 No files with extension [*.gz] found in [/home/shivangi/Shivangi/Shivangi's-workspace/creatio_october_traning/app/conf/backup/]
+2023-12-14 15:48:07,002 Generating schema sources count [0]: []
+2023-12-14 15:48:07,002 Generated schema sources count [0]
+2023-12-14 15:54:37,646 Generating schema sources count [0]: []
+2023-12-14 15:54:37,646 Generated schema sources count [0]
+2023-12-14 16:03:48,362 Generating schema sources count [16]: [GlbDataBinding.BaseSectionV2, GlbDataBinding.SysSettingsSection, GlbDataBinding.GlbDataBindingService, GlbDataBinding.GlbDataBindingHelper, GlbDataBinding.BasePageV2, GlbDataBinding.SysAdminOperationSectionV2, GlbDataBinding.BaseLookupConfigurationSection, GlbDataBinding.SysWorkplacePageV2, GlbDataBinding.SysAdminUnitSectionV2, GlbDataBinding.SysSettingPage, GlbDataBinding.LookupSection, GlbDataBinding.SysAdminOperationPageV2, GlbDataBinding.SysWorkplaceSectionV2, GlbDataBinding.GlbDataBindingMixin, GlbDataBinding.BaseGridDetailV2, GlbDataBinding.LookupEditPage]
+2023-12-14 16:03:50,666 Generated schema sources count [16]
+2023-12-14 16:06:31,589 Generating schema sources count [0]: []
+2023-12-14 16:06:31,590 Generated schema sources count [0]
+2023-12-14 16:09:24,936 Operation [Build] started
+2023-12-14 16:11:54,806 Operation [Build] took 149 s 871 ms
+2023-12-14 16:16:04,026 Generating schema sources count [0]: []
+2023-12-14 16:16:04,029 Generated schema sources count [0]
+2023-12-14 16:30:05,235 InstallStart: SchemaDBStructure
+2023-12-14 16:30:06,352 InstallFinish: SchemaDBStructure
+2023-12-14 16:33:45,596 InstallStart: SchemaDBStructure
+2023-12-14 16:33:46,251 InstallFinish: SchemaDBStructure
+2023-12-14 16:41:09,677 Operation [Build] started
+2023-12-14 16:43:37,987 Operation [Build] took 148 s 311 ms
+2023-12-14 16:44:16,914 Generating schema sources count [2]: [UsrRealtyFreedomUI.UsrRealtyFreedomUI_FormPage, UsrRealtyFreedomUI.UsrRealtyOfferTypeFreedomUI]
+2023-12-14 16:44:20,322 Generated schema sources count [2]
+2023-12-14 18:20:33,504 Creating storage directory [/tmp//root/app/PackageInstallation/Temp]
+2023-12-14 18:20:33,504 Downloading file [CSL_MaintenanceTools.gz]
+2023-12-14 18:20:33,507 Unzipping [/tmp//root/app/PackageInstallation/Temp/CSL_MaintenanceTools.gz]
+2023-12-14 18:20:33,520 Unzipped [/tmp//root/app/PackageInstallation/Temp/CSL_MaintenanceTools.gz] to [/tmp//root/app/PackageInstallation/Temp/CSL_MaintenanceTools]
+2023-12-14 18:20:39,783 Generating schema sources count [1]: [CSL_MaintenanceTools.SystemDesigner]
+2023-12-14 18:20:41,148 Generated schema sources count [1]
+2023-12-14 18:20:57,543 Creating storage directory [/tmp//root/app/PackageInstallation/Temp]
+2023-12-14 18:20:57,543 Downloading file [GlbDataBinding.gz]
+2023-12-14 18:20:57,543 Unzipping [/tmp//root/app/PackageInstallation/Temp/GlbDataBinding.gz]
+2023-12-14 18:20:57,579 Unzipped [/tmp//root/app/PackageInstallation/Temp/GlbDataBinding.gz] to [/tmp//root/app/PackageInstallation/Temp/GlbDataBinding]
+2023-12-14 18:21:02,790 Generating schema sources count [16]: [GlbDataBinding.BaseSectionV2, GlbDataBinding.SysSettingsSection, GlbDataBinding.GlbDataBindingService, GlbDataBinding.GlbDataBindingHelper, GlbDataBinding.BasePageV2, GlbDataBinding.SysAdminOperationSectionV2, GlbDataBinding.BaseLookupConfigurationSection, GlbDataBinding.SysWorkplacePageV2, GlbDataBinding.SysAdminUnitSectionV2, GlbDataBinding.SysSettingPage, GlbDataBinding.LookupSection, GlbDataBinding.SysAdminOperationPageV2, GlbDataBinding.SysWorkplaceSectionV2, GlbDataBinding.GlbDataBindingMixin, GlbDataBinding.BaseGridDetailV2, GlbDataBinding.LookupEditPage]
+2023-12-14 18:21:05,444 Generated schema sources count [16]
+2023-12-14 18:22:43,310 Generating schema sources count [0]: []
+2023-12-14 18:22:43,310 Generated schema sources count [0]

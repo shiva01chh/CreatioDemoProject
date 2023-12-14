@@ -1,0 +1,35 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "AddonSchemaManager",
+      "UId": "bb19637f-1013-4233-924e-8c89d75fddc2",
+      "A2": "UsrRealtyVisitFreedomUIRelatedPage",
+      "A5": "312277fe-48cb-483e-a2cc-4c788b7ed430",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "0a5fd6f6-4122-4c7b-87ec-16cf2f86dc0b",
+      "B8": "8.1.0.6704",
+      "AD1": "6a275f51-36f4-4a1d-8da2-fd270cc1411a",
+      "AD2": "EntitySchemaManager",
+      "AD3": "RelatedPage",
+      "AD5": "3a2d6f51-1bfc-4c17-aacb-b53de4866b7c",
+      "AD4": {
+  "Pages": [
+    {
+      "UId": "e164e8c2-181b-76ce-fb4d-2153becfabf1",
+      "PageSchemaUId": "197a8930-fae3-4c75-8cc4-3a7483d1ed66",
+      "IsDefault": true,
+      "IsSspDefault": false,
+      "Actions": {
+        "Add": false
+      },
+      "Role": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+      "TypeColumnValue": null
+    }
+  ],
+  "TypeColumnUId": null
+}
+    }
+  }
+}

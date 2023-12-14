@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "+iWs+LijXIfgjR8mL9XiAo2Cc+lkPe7TIcRjyks7x8ykLEWWhP7VVJpTk12Q7ghYOxJ6wsdZaVOl2GAmY8cQVQ==",
+  "dgSpecHash": "N0B3ruIxhoBUhIb7YmnOPDyHZIEGDo9XAWVX4c4YFAl9weCFhtB9eROqkEqzrGDPG3dkagVg6eC2YCfds1t03Q==",
   "success": true,
-  "projectFilePath": "/home/shivangi/Shivangi/Shivangi's-workspace/creatio_october_traning/app/Terrasoft.Configuration/Terrasoft.Configuration.ODataEntities.csproj",
+  "projectFilePath": "/home/shivangi/Shivangi/Shivangi's-workspace/creatio_october_traning/app/Terrasoft.Configuration/Terrasoft.Configuration.Dev.csproj",
   "expectedPackageFiles": [
-    "/home/shivangi/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "/home/shivangi/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+    "/root/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/root/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

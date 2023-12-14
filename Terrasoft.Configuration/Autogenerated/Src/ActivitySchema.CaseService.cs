@@ -35,7 +35,7 @@
 	#region Class: Activity_CaseService_TerrasoftSchema
 
 	/// <exclude/>
-	public class Activity_CaseService_TerrasoftSchema : Terrasoft.Configuration.Activity_CrtDocument_TerrasoftSchema
+	public class Activity_CaseService_TerrasoftSchema : Terrasoft.Configuration.Activity_CrtInvoice_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -160,7 +160,7 @@
 	/// <summary>
 	/// Activity.
 	/// </summary>
-	public class Activity_CaseService_Terrasoft : Terrasoft.Configuration.Activity_CrtDocument_Terrasoft
+	public class Activity_CaseService_Terrasoft : Terrasoft.Configuration.Activity_CrtInvoice_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -225,7 +225,7 @@
 	#region Class: Activity_CaseServiceEventsProcess
 
 	/// <exclude/>
-	public partial class Activity_CaseServiceEventsProcess<TEntity> : Terrasoft.Configuration.Activity_CrtDocumentEventsProcess<TEntity> where TEntity : Activity_CaseService_Terrasoft
+	public partial class Activity_CaseServiceEventsProcess<TEntity> : Terrasoft.Configuration.Activity_CrtInvoiceEventsProcess<TEntity> where TEntity : Activity_CaseService_Terrasoft
 	{
 
 		public Activity_CaseServiceEventsProcess(UserConnection userConnection)

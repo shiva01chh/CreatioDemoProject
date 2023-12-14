@@ -1,0 +1,64 @@
+2023-12-08 18:29:02,151 [1] WARN  Terrasoft.WebHost.Application OnAfterConfigure - Application starting
+2023-12-08 18:29:09,216 [1] INFO  Terrasoft.Core.InMemoryPubSubServer .ctor - InMemoryPubSubServer started.
+2023-12-08 18:29:11,063 [1] INFO  Terrasoft.WebHost.Application StartApplicationScheduler - Starting scheduler...
+2023-12-08 18:29:11,063 [.NET ThreadPool Worker] INFO  Creatio.Messaging.MessageBus.RabbitMQ.Actors.OperationModeDispatcherActor OnReceive - OperationModeDispatcher initialized
+2023-12-08 18:29:11,168 [1] INFO  Terrasoft.WebHost.Application StartApplicationScheduler - Scheduler started
+2023-12-08 18:29:11,192 [1] INFO  Terrasoft.WebHost.Startup <MapODataServiceRoute>b__12_0 - OData service initialized successfully
+2023-12-08 18:29:14,721 [1] INFO  Mailing CreateInstance - [ActiveContactsHandler.CreateInstance]: Job ActualizeActiveContacts for process ActualizeActiveContactsProcess scheduled
+2023-12-08 18:29:14,721 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of ActiveContactsHandler created.
+2023-12-08 18:29:14,727 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of CESWebHooksHandler created.
+2023-12-08 18:29:14,730 [1] INFO  Mailing CreateInstance - [ScheduledMailingsHandler.CreateInstance]: Job MandrillScheduledMailing for process ScheduleMassMailing with interval 1 scheduled
+2023-12-08 18:29:14,730 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of ScheduledMailingsHandler created.
+2023-12-08 18:29:14,730 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of MandrillAnaliticsHandler created.
+2023-12-08 18:29:14,737 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of MandrillRecipientsHandler created.
+2023-12-08 18:29:14,739 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of MandrillWebHooksHandler created.
+2023-12-08 18:29:14,739 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of ArchiveBulkEmailTargetHandler created.
+2023-12-08 18:29:19,791 [1] WARN  Terrasoft.WebHost.Application OnStart - Application started
+2023-12-08 18:29:28,636 [.NET ThreadPool Worker] INFO Supervisor Terrasoft.Core.FeatureToggling.DbFeatureProvider AddOrUpdate - Merged duplicate 'UsePersistentFileImport' admin unit feature value. AdminUnitId = '7f3b869f-34f3-4f20-ab4d-7480a5fdf647'
+2023-12-08 18:29:29,115 [.NET ThreadPool Worker] INFO Supervisor Terrasoft.Core.FeatureToggling.FeatureChangedNotificationHandler MoveNext - Handling  feature state change to 
+2023-12-08 18:31:12,747 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [S2tsSqnAwEH0BSasfNow.job] [CalendarFailoverJob] started.
+2023-12-08 18:31:12,756 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [S2tsSqnAwEH0BSasfNow.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2023-12-08 18:31:12,756 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [S2tsSqnAwEH0BSasfNow.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2023-12-08 18:31:12,758 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [S2tsSqnAwEH0BSasfNow.job] [CalendarFailoverJob] ended.
+2023-12-08 18:31:13,556 [.NET ThreadPool Worker] WARN  Terrasoft.Core.DB.EntitySchemaDbInfoActualizer Actualize - Actualization of EntitySchemaDbInfo started.
+2023-12-08 18:31:13,596 [.NET ThreadPool Worker] WARN  Terrasoft.Core.DB.EntitySchemaDbInfoActualizer Actualize - Actualization of EntitySchemaDbInfo completed.
+2023-12-08 18:46:11,304 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [a3h5PfiHY0aQdjNNhImTg.job] [CalendarFailoverJob] started.
+2023-12-08 18:46:11,308 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [a3h5PfiHY0aQdjNNhImTg.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2023-12-08 18:46:11,308 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [a3h5PfiHY0aQdjNNhImTg.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2023-12-08 18:46:11,308 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [a3h5PfiHY0aQdjNNhImTg.job] [CalendarFailoverJob] ended.
+2023-12-08 19:01:11,377 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [sDym0TSXJEWxCHo2hCrOVA.job] [CalendarFailoverJob] started.
+2023-12-08 19:01:11,377 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [sDym0TSXJEWxCHo2hCrOVA.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2023-12-08 19:01:11,377 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [sDym0TSXJEWxCHo2hCrOVA.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2023-12-08 19:01:11,377 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [sDym0TSXJEWxCHo2hCrOVA.job] [CalendarFailoverJob] ended.
+2023-12-08 19:16:11,369 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [e56C2r6OiES5av4R7zG7Cg.job] [CalendarFailoverJob] started.
+2023-12-08 19:16:11,369 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [e56C2r6OiES5av4R7zG7Cg.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2023-12-08 19:16:11,369 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [e56C2r6OiES5av4R7zG7Cg.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2023-12-08 19:16:11,369 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [e56C2r6OiES5av4R7zG7Cg.job] [CalendarFailoverJob] ended.
+2023-12-08 19:31:11,371 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [eAckJaO43UaP0S2jxE7uPA.job] [CalendarFailoverJob] started.
+2023-12-08 19:31:11,374 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [eAckJaO43UaP0S2jxE7uPA.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2023-12-08 19:31:11,374 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [eAckJaO43UaP0S2jxE7uPA.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2023-12-08 19:31:11,374 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [eAckJaO43UaP0S2jxE7uPA.job] [CalendarFailoverJob] ended.
+2023-12-08 19:46:11,446 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [WqTHsj7iLk2YmlbCtrfqmQ.job] [CalendarFailoverJob] started.
+2023-12-08 19:46:11,446 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [WqTHsj7iLk2YmlbCtrfqmQ.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2023-12-08 19:46:11,449 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [WqTHsj7iLk2YmlbCtrfqmQ.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2023-12-08 19:46:11,449 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [WqTHsj7iLk2YmlbCtrfqmQ.job] [CalendarFailoverJob] ended.
+2023-12-08 20:01:11,422 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [qIVZXfFrh0GwTRjJzGjjCA.job] [CalendarFailoverJob] started.
+2023-12-08 20:01:11,425 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [qIVZXfFrh0GwTRjJzGjjCA.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2023-12-08 20:01:11,425 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [qIVZXfFrh0GwTRjJzGjjCA.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2023-12-08 20:01:11,425 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [qIVZXfFrh0GwTRjJzGjjCA.job] [CalendarFailoverJob] ended.
+2023-12-08 20:16:11,384 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [0kb3r9SzskCCD4w2igy9GQ.job] [CalendarFailoverJob] started.
+2023-12-08 20:16:11,387 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [0kb3r9SzskCCD4w2igy9GQ.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2023-12-08 20:16:11,387 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [0kb3r9SzskCCD4w2igy9GQ.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2023-12-08 20:16:11,387 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [0kb3r9SzskCCD4w2igy9GQ.job] [CalendarFailoverJob] ended.
+2023-12-08 20:31:11,375 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [KchobQR1EUKfE51DJq60YA.job] [CalendarFailoverJob] started.
+2023-12-08 20:31:11,378 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [KchobQR1EUKfE51DJq60YA.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2023-12-08 20:31:11,378 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [KchobQR1EUKfE51DJq60YA.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2023-12-08 20:31:11,378 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [KchobQR1EUKfE51DJq60YA.job] [CalendarFailoverJob] ended.
+2023-12-08 20:46:11,367 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [VEa5thdOVUmYbthzrMCfw.job] [CalendarFailoverJob] started.
+2023-12-08 20:46:11,369 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [VEa5thdOVUmYbthzrMCfw.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2023-12-08 20:46:11,369 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [VEa5thdOVUmYbthzrMCfw.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2023-12-08 20:46:11,369 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [VEa5thdOVUmYbthzrMCfw.job] [CalendarFailoverJob] ended.
+2023-12-08 21:01:11,329 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [xIpFNb8tpEaWWP8wgQVyhw.job] [CalendarFailoverJob] started.
+2023-12-08 21:01:11,332 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [xIpFNb8tpEaWWP8wgQVyhw.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2023-12-08 21:01:11,332 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [xIpFNb8tpEaWWP8wgQVyhw.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2023-12-08 21:01:11,334 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [xIpFNb8tpEaWWP8wgQVyhw.job] [CalendarFailoverJob] ended.

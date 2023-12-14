@@ -325,6 +325,11 @@
 			set;
 		}
 
+		public IEnumerable<UsrRealtyFreedomUI> UsrRealtyFreedomUICollectionByUsrManager {
+			get;
+			set;
+		}
+
 		public IEnumerable<Certificate> CertificateCollectionByContact {
 			get;
 			set;
@@ -420,12 +425,12 @@
 			set;
 		}
 
-		public IEnumerable<ContactExternalRate> ContactExternalRateCollectionByContact {
+		public IEnumerable<BulkEmailSplitFile> BulkEmailSplitFileCollectionByLockedBy {
 			get;
 			set;
 		}
 
-		public IEnumerable<BulkEmailSplitFile> BulkEmailSplitFileCollectionByLockedBy {
+		public IEnumerable<ContactExternalRate> ContactExternalRateCollectionByContact {
 			get;
 			set;
 		}
@@ -495,12 +500,12 @@
 			set;
 		}
 
-		public IEnumerable<DayOff> DayOffCollectionByContact {
+		public IEnumerable<MktgActivity> MktgActivityCollectionByOwner {
 			get;
 			set;
 		}
 
-		public IEnumerable<MktgActivity> MktgActivityCollectionByOwner {
+		public IEnumerable<DayOff> DayOffCollectionByContact {
 			get;
 			set;
 		}
@@ -555,12 +560,12 @@
 			set;
 		}
 
-		public IEnumerable<ContactCareer> ContactCareerCollectionByContact {
+		public IEnumerable<BulkEmailFile> BulkEmailFileCollectionByLockedBy {
 			get;
 			set;
 		}
 
-		public IEnumerable<BulkEmailFile> BulkEmailFileCollectionByLockedBy {
+		public IEnumerable<ContactCareer> ContactCareerCollectionByContact {
 			get;
 			set;
 		}
@@ -585,12 +590,12 @@
 			set;
 		}
 
-		public IEnumerable<AccountBillingInfo> AccountBillingInfoCollectionByChiefAccountant {
+		public IEnumerable<BulkEmail> BulkEmailCollectionByOwner {
 			get;
 			set;
 		}
 
-		public IEnumerable<BulkEmail> BulkEmailCollectionByOwner {
+		public IEnumerable<AccountBillingInfo> AccountBillingInfoCollectionByChiefAccountant {
 			get;
 			set;
 		}
@@ -601,6 +606,11 @@
 		}
 
 		public IEnumerable<VwOpportunityInStage> VwOpportunityInStageCollectionByOwner {
+			get;
+			set;
+		}
+
+		public IEnumerable<UsrRealtyVisitFreedomUI> UsrRealtyVisitFreedomUICollectionByUsrPotentialCustomer {
 			get;
 			set;
 		}
@@ -660,12 +670,12 @@
 			set;
 		}
 
-		public IEnumerable<WSysAccount> WSysAccountCollectionByContact {
+		public IEnumerable<VwBulkEmailTarget> VwBulkEmailTargetCollectionByContact {
 			get;
 			set;
 		}
 
-		public IEnumerable<VwBulkEmailTarget> VwBulkEmailTargetCollectionByContact {
+		public IEnumerable<WSysAccount> WSysAccountCollectionByContact {
 			get;
 			set;
 		}
@@ -970,12 +980,12 @@
 			set;
 		}
 
-		public IEnumerable<ContactInFolder> ContactInFolderCollectionByContact {
+		public IEnumerable<EmailMessageData> EmailMessageDataCollectionByOwner {
 			get;
 			set;
 		}
 
-		public IEnumerable<EmailMessageData> EmailMessageDataCollectionByOwner {
+		public IEnumerable<ContactInFolder> ContactInFolderCollectionByContact {
 			get;
 			set;
 		}
@@ -1111,6 +1121,11 @@
 		}
 
 		public IEnumerable<CampaignTarget> CampaignTargetCollectionByContact {
+			get;
+			set;
+		}
+
+		public IEnumerable<UsrRealtyVisitFreedomUI> UsrRealtyVisitFreedomUICollectionByUsrManager {
 			get;
 			set;
 		}

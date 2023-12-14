@@ -3527,7 +3527,7 @@
 					Owner = this,
 					Type = "ProcessSchemaToken",
 					Name = "AttachLeadToProcessScriptTaskQualificationSubProcessToken",
-					SchemaElementUId = new Guid("13a45b0a-6b52-4482-9c6d-27c6467c6994"),
+					SchemaElementUId = new Guid("2f638656-0a72-40d1-86d1-e4765eca1ace"),
 					CreatedInSchemaUId = InternalSchemaUId,
 					ExecutedEventHandler = OnExecuted,
 				});
@@ -3542,7 +3542,7 @@
 					Owner = this,
 					Type = "ProcessSchemaToken",
 					Name = "ExclusiveGatewayStageDistributionSubProcessToken",
-					SchemaElementUId = new Guid("2b53739c-3e73-46f4-ba54-b81b52bc16a0"),
+					SchemaElementUId = new Guid("8cddefab-e481-4867-b8ef-edbe59afd826"),
 					CreatedInSchemaUId = InternalSchemaUId,
 					ExecutedEventHandler = OnExecuted,
 				});
@@ -3557,7 +3557,7 @@
 					Owner = this,
 					Type = "ProcessSchemaToken",
 					Name = "ExclusiveGatewayStageHandoffSubProcessToken",
-					SchemaElementUId = new Guid("0250c117-da80-4c0f-99c9-09593676047b"),
+					SchemaElementUId = new Guid("eeda6c19-bbf8-4c6d-9012-c21a85284fde"),
 					CreatedInSchemaUId = InternalSchemaUId,
 					ExecutedEventHandler = OnExecuted,
 				});
@@ -3572,7 +3572,7 @@
 					Owner = this,
 					Type = "ProcessSchemaToken",
 					Name = "ExclusiveGatewayStageAwaitingSalesSubProcessToken",
-					SchemaElementUId = new Guid("bdfd66a7-09d6-4136-9221-92f47cf9b32c"),
+					SchemaElementUId = new Guid("87146b69-66a6-45e8-9f23-6d6b68100fde"),
 					CreatedInSchemaUId = InternalSchemaUId,
 					ExecutedEventHandler = OnExecuted,
 				});

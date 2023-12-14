@@ -1974,7 +1974,7 @@
 			};
 			parametrizedElement.Parameters.Add(bodyConfigParameter);
 			var createActivityParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("09a93c2b-915a-470a-a80c-0c680d44c1d1"),
+				UId = new Guid("41eb5d51-76ca-43f4-b7c3-a4dc53996e0b"),
 				ContainerUId = new Guid("39fd1969-f920-4b4f-8953-8d8f00efac7c"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -4060,7 +4060,7 @@
 			MetaPathParameterValues.Add("95428372-753c-42d5-b08f-5a8e7695dfa8", () => EmailSendUserTask.EmailTemplateEntityId);
 			MetaPathParameterValues.Add("126ba0f1-9346-426c-865c-079a6d0e9101", () => EmailSendUserTask.Body);
 			MetaPathParameterValues.Add("c828d5b0-a444-4243-a108-cd25dd3dd2a0", () => EmailSendUserTask.BodyConfig);
-			MetaPathParameterValues.Add("09a93c2b-915a-470a-a80c-0c680d44c1d1", () => EmailSendUserTask.CreateActivity);
+			MetaPathParameterValues.Add("41eb5d51-76ca-43f4-b7c3-a4dc53996e0b", () => EmailSendUserTask.CreateActivity);
 			MetaPathParameterValues.Add("b976035c-f70e-41b8-b529-d345c403d06c", () => EmailSendUserTask.Recipient1);
 			MetaPathParameterValues.Add("48c8cbfc-612a-4dab-b34f-c3eb75382329", () => EmailSendUserTask.OmniChat);
 		}

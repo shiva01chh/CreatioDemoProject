@@ -2421,7 +2421,7 @@
 					Owner = this,
 					Type = "ProcessSchemaToken",
 					Name = "StartSecondTimerProcessingScriptTaskSubProcessSendEmailToken",
-					SchemaElementUId = new Guid("05264c7f-5c3c-425e-9b8d-33aba16690c1"),
+					SchemaElementUId = new Guid("82a63c2f-c2f6-4038-9bff-edaa9cd75111"),
 					CreatedInSchemaUId = InternalSchemaUId,
 					ExecutedEventHandler = OnExecuted,
 				});

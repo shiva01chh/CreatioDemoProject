@@ -1,0 +1,693 @@
+2023-12-14 11:42:06,381 --> PackageDBStorage.Load
+2023-12-14 11:42:08,286 <-- PackageDBStorage.Load
+2023-12-14 12:06:14,413 --> PackageDBStorage.Load
+2023-12-14 12:06:14,461 <-- PackageDBStorage.Load
+2023-12-14 12:06:17,507 --> PackageDBStorage.Load
+2023-12-14 12:06:17,544 <-- PackageDBStorage.Load
+2023-12-14 12:07:38,039 --> PackageDBStorage.Load
+2023-12-14 12:07:38,073 <-- PackageDBStorage.Load
+2023-12-14 12:28:39,122 --> PackageDBStorage.Load
+2023-12-14 12:28:45,732 <-- PackageDBStorage.Load
+2023-12-14 12:28:46,637 --> PackageDBStorage.Load
+2023-12-14 12:28:46,670 <-- PackageDBStorage.Load
+2023-12-14 12:30:36,514 --> PackageDBStorage.Load
+2023-12-14 12:30:41,127 <-- PackageDBStorage.Load
+2023-12-14 12:30:42,071 --> PackageDBStorage.Load
+2023-12-14 12:30:42,104 <-- PackageDBStorage.Load
+2023-12-14 13:08:32,719 --> PackageDBStorage.Load
+2023-12-14 13:08:37,359 <-- PackageDBStorage.Load
+2023-12-14 13:08:38,413 --> PackageDBStorage.Load
+2023-12-14 13:08:38,447 <-- PackageDBStorage.Load
+2023-12-14 13:08:42,410 --> PackageDBStorage.Load
+2023-12-14 13:08:46,414 <-- PackageDBStorage.Load
+2023-12-14 13:08:47,581 --> PackageDBStorage.Load
+2023-12-14 13:08:47,615 <-- PackageDBStorage.Load
+2023-12-14 13:08:49,877 --> PackageDBStorage.Load
+2023-12-14 13:08:50,720 <-- PackageDBStorage.Load
+2023-12-14 13:09:12,906 --> PackageDBStorage.Load
+2023-12-14 13:09:12,961 <-- PackageDBStorage.Load
+2023-12-14 13:11:21,130 --> PackageDBStorage.Load
+2023-12-14 13:11:21,163 <-- PackageDBStorage.Load
+2023-12-14 13:12:52,590 --> PackageDBStorage.Load
+2023-12-14 13:12:57,574 <-- PackageDBStorage.Load
+2023-12-14 13:12:57,879 --> PackageDBStorage.Load
+2023-12-14 13:12:57,915 <-- PackageDBStorage.Load
+2023-12-14 13:12:58,033 --> PackageDBStorage.Load
+2023-12-14 13:12:58,067 <-- PackageDBStorage.Load
+2023-12-14 13:13:34,449 --> PackageDBStorage.Load
+2023-12-14 13:13:38,508 <-- PackageDBStorage.Load
+2023-12-14 13:13:39,569 --> PackageDBStorage.Load
+2023-12-14 13:13:39,624 <-- PackageDBStorage.Load
+2023-12-14 13:13:39,707 --> PackageDBStorage.Load
+2023-12-14 13:13:43,915 <-- PackageDBStorage.Load
+2023-12-14 13:13:45,548 --> PackageDBStorage.Load
+2023-12-14 13:13:46,273 <-- PackageDBStorage.Load
+2023-12-14 13:15:20,517 --> PackageDBStorage.Load
+2023-12-14 13:15:20,552 <-- PackageDBStorage.Load
+2023-12-14 13:26:46,587 --> PackageDBStorage.Load
+2023-12-14 13:26:51,031 <-- PackageDBStorage.Load
+2023-12-14 13:26:51,934 --> PackageDBStorage.Load
+2023-12-14 13:26:51,969 <-- PackageDBStorage.Load
+2023-12-14 13:26:51,994 --> PackageDBStorage.Load
+2023-12-14 13:26:52,027 <-- PackageDBStorage.Load
+2023-12-14 13:27:54,427 --> PackageDBStorage.Load
+2023-12-14 13:27:58,769 <-- PackageDBStorage.Load
+2023-12-14 13:27:59,228 --> PackageDBStorage.Load
+2023-12-14 13:27:59,262 <-- PackageDBStorage.Load
+2023-12-14 13:27:59,287 --> PackageDBStorage.Load
+2023-12-14 13:27:59,322 <-- PackageDBStorage.Load
+2023-12-14 13:28:25,939 --> PackageDBStorage.Load
+2023-12-14 13:28:30,173 <-- PackageDBStorage.Load
+2023-12-14 13:28:30,588 --> PackageDBStorage.Load
+2023-12-14 13:28:30,622 <-- PackageDBStorage.Load
+2023-12-14 13:28:30,646 --> PackageDBStorage.Load
+2023-12-14 13:28:30,680 <-- PackageDBStorage.Load
+2023-12-14 13:30:38,216 --> PackageDBStorage.Load
+2023-12-14 13:30:42,448 <-- PackageDBStorage.Load
+2023-12-14 13:30:42,855 --> PackageDBStorage.Load
+2023-12-14 13:30:42,889 <-- PackageDBStorage.Load
+2023-12-14 13:30:42,915 --> PackageDBStorage.Load
+2023-12-14 13:30:42,951 <-- PackageDBStorage.Load
+2023-12-14 13:38:04,207 --> PackageDBStorage.Load
+2023-12-14 13:38:04,253 <-- PackageDBStorage.Load
+2023-12-14 13:38:04,329 --> PackageDBStorage.Load
+2023-12-14 13:38:04,372 <-- PackageDBStorage.Load
+2023-12-14 13:38:08,222 --> PackageDBStorage.Load
+2023-12-14 13:38:12,347 <-- PackageDBStorage.Load
+2023-12-14 13:38:14,116 --> PackageDBStorage.Load
+2023-12-14 13:38:14,149 <-- PackageDBStorage.Load
+2023-12-14 13:38:18,823 --> PackageDBStorage.Load
+2023-12-14 13:38:23,068 <-- PackageDBStorage.Load
+2023-12-14 13:38:24,155 --> PackageDBStorage.Load
+2023-12-14 13:38:24,189 <-- PackageDBStorage.Load
+2023-12-14 13:38:25,730 --> PackageDBStorage.Load
+2023-12-14 13:38:26,529 <-- PackageDBStorage.Load
+2023-12-14 15:31:17,288 --> PackageStorageComposer.Compose
+2023-12-14 15:31:17,288 --> PackageZipFileStorage.Load
+2023-12-14 15:31:17,288 --> PackageZipFileStorage.UnZipPackages
+2023-12-14 15:31:17,331 <-- PackageZipFileStorage.UnZipPackages
+2023-12-14 15:31:17,339 --> PackageZipFileStorage.LoadSchemaProperties
+2023-12-14 15:31:17,339 <-- PackageZipFileStorage.LoadSchemaProperties
+2023-12-14 15:31:17,339 <-- PackageZipFileStorage.Load
+2023-12-14 15:31:17,339 --> PackageDBStorage.Load
+2023-12-14 15:31:21,041 <-- PackageDBStorage.Load
+2023-12-14 15:31:21,053 --> PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 15:31:21,053 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 15:31:21,065 --> PackageDBStorage.ActualizePackageResourcesState
+2023-12-14 15:31:21,065 <-- PackageDBStorage.ActualizePackageResourcesState
+2023-12-14 15:31:21,065 <-- PackageStorageComposer.Compose
+2023-12-14 15:31:21,193 --> PackageZipFileStorage.Load
+2023-12-14 15:31:21,193 --> PackageZipFileStorage.UnZipPackages
+2023-12-14 15:31:21,193 <-- PackageZipFileStorage.UnZipPackages
+2023-12-14 15:31:21,203 <-- PackageZipFileStorage.Load
+2023-12-14 15:31:21,206 --> PackageStorageComposer.Compose
+2023-12-14 15:31:21,206 --> PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 15:31:21,206 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 15:31:21,206 --> IntermediatePackageStorage.ActualizePackageResourcesState
+2023-12-14 15:31:21,206 <-- IntermediatePackageStorage.ActualizePackageResourcesState
+2023-12-14 15:31:21,206 <-- PackageStorageComposer.Compose
+2023-12-14 15:31:21,250 --> PackageZipFileStorage.Load
+2023-12-14 15:31:21,250 --> PackageZipFileStorage.UnZipPackages
+2023-12-14 15:31:21,250 <-- PackageZipFileStorage.UnZipPackages
+2023-12-14 15:31:21,250 <-- PackageZipFileStorage.Load
+2023-12-14 15:31:22,584 --> PackageZipFileStorage.Load
+2023-12-14 15:31:22,584 --> PackageZipFileStorage.UnZipPackages
+2023-12-14 15:31:22,584 <-- PackageZipFileStorage.UnZipPackages
+2023-12-14 15:31:22,587 <-- PackageZipFileStorage.Load
+2023-12-14 15:31:22,594 --> PackageStorageComposer.Compose
+2023-12-14 15:31:22,594 --> PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 15:31:22,594 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 15:31:22,594 --> IntermediatePackageStorage.ActualizePackageResourcesState
+2023-12-14 15:31:22,594 <-- IntermediatePackageStorage.ActualizePackageResourcesState
+2023-12-14 15:31:22,594 <-- PackageStorageComposer.Compose
+2023-12-14 15:31:22,684 --> PackageDBStorageInternal.SavePackage - GlbDataBinding
+2023-12-14 15:31:22,701 --> PackageDBStorage.Load
+2023-12-14 15:31:22,729 <-- PackageDBStorage.Load
+2023-12-14 15:31:22,987 <-- PackageDBStorageInternal.SavePackage - GlbDataBinding
+2023-12-14 15:31:23,127 Added - 1 en-US resource values for schema 'GlbDataBindingService'
+2023-12-14 15:31:23,127 Added - 1 ru-RU resource values for schema 'GlbDataBindingHelper'
+2023-12-14 15:31:23,131 Added - 2 en-US resource values for schema 'GlbDataBindingHelper'
+2023-12-14 15:31:23,183 Added - 20 ru-RU resource values for schema 'GlbDataBindingMixin'
+2023-12-14 15:31:23,183 Added - 22 en-US resource values for schema 'GlbDataBindingMixin'
+2023-12-14 15:31:25,088 InstallColumnLookupValues. Count (total): 1
+2023-12-14 15:31:25,088 Count (by package [06b2f9c5-2217-4cca-9749-77d954e77765]): 2
+2023-12-14 15:31:25,088 Count (by schema [SysAdminOperationGrantee]): 1
+2023-12-14 15:31:25,096 Count (by schema [SysAdminOperation]): 2
+2023-12-14 15:31:27,403 --> PackageDBStorage.Load
+2023-12-14 15:31:31,715 <-- PackageDBStorage.Load
+2023-12-14 15:31:31,860 --> PackageDBStorage.Load
+2023-12-14 15:31:36,124 <-- PackageDBStorage.Load
+2023-12-14 15:47:50,194 --> PackageZipFileStorage.Load
+2023-12-14 15:47:50,194 --> PackageZipFileStorage.UnZipPackages
+2023-12-14 15:47:50,194 <-- PackageZipFileStorage.UnZipPackages
+2023-12-14 15:47:50,194 <-- PackageZipFileStorage.Load
+2023-12-14 15:47:50,245 --> PackageDBStorage.Load
+2023-12-14 15:47:50,752 <-- PackageDBStorage.Load
+2023-12-14 15:47:50,754 --> PackageDBStorageInternal.Load
+2023-12-14 15:47:54,907 <-- PackageDBStorageInternal.Load
+2023-12-14 15:47:54,958 --> PackageStorageComposer.Compose
+2023-12-14 15:47:54,958 --> PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 15:47:54,958 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 15:47:54,958 --> IntermediatePackageStorage.ActualizePackageResourcesState
+2023-12-14 15:47:54,958 <-- IntermediatePackageStorage.ActualizePackageResourcesState
+2023-12-14 15:47:54,958 <-- PackageStorageComposer.Compose
+2023-12-14 15:48:05,977 --> PackageDBStorageInternal.DeletePackage - GlbDataBinding
+2023-12-14 15:48:06,499 <-- PackageDBStorageInternal.DeletePackage - GlbDataBinding
+2023-12-14 15:48:07,087 InstallColumnLookupValues. Count (total): 0
+2023-12-14 15:48:07,486 --> PackageDBStorage.Load
+2023-12-14 15:48:11,689 <-- PackageDBStorage.Load
+2023-12-14 15:48:11,767 --> PackageDBStorage.Load
+2023-12-14 15:48:16,008 <-- PackageDBStorage.Load
+2023-12-14 15:54:04,325 --> PackageDBStorage.Load
+2023-12-14 15:54:04,358 <-- PackageDBStorage.Load
+2023-12-14 15:54:21,207 --> PackageDBStorageInternal.Load
+2023-12-14 15:54:25,651 <-- PackageDBStorageInternal.Load
+2023-12-14 15:54:25,702 --> PackageStorageComposer.Compose
+2023-12-14 15:54:25,702 --> PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 15:54:25,702 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 15:54:25,702 --> IntermediatePackageStorage.ActualizePackageResourcesState
+2023-12-14 15:54:25,702 <-- IntermediatePackageStorage.ActualizePackageResourcesState
+2023-12-14 15:54:25,702 <-- PackageStorageComposer.Compose
+2023-12-14 15:54:36,920 --> PackageDBStorageInternal.DeletePackage - UsrApp_8kawftb
+2023-12-14 15:54:37,162 <-- PackageDBStorageInternal.DeletePackage - UsrApp_8kawftb
+2023-12-14 15:55:40,003 --> PackageDBStorage.Load
+2023-12-14 15:55:40,048 <-- PackageDBStorage.Load
+2023-12-14 15:55:40,055 --> PackageDBStorage.Load
+2023-12-14 15:55:40,092 <-- PackageDBStorage.Load
+2023-12-14 15:56:48,725 --> PackageDBStorage.Load
+2023-12-14 15:56:52,905 <-- PackageDBStorage.Load
+2023-12-14 15:56:53,563 --> PackageDBStorage.Load
+2023-12-14 15:56:53,597 <-- PackageDBStorage.Load
+2023-12-14 15:56:53,620 --> PackageDBStorage.Load
+2023-12-14 15:56:53,656 <-- PackageDBStorage.Load
+2023-12-14 16:03:42,586 --> PackageStorageComposer.Compose
+2023-12-14 16:03:42,586 --> PackageZipFileStorage.Load
+2023-12-14 16:03:42,586 --> PackageZipFileStorage.UnZipPackages
+2023-12-14 16:03:42,586 <-- PackageZipFileStorage.UnZipPackages
+2023-12-14 16:03:42,593 --> PackageZipFileStorage.LoadSchemaProperties
+2023-12-14 16:03:42,593 <-- PackageZipFileStorage.LoadSchemaProperties
+2023-12-14 16:03:42,593 <-- PackageZipFileStorage.Load
+2023-12-14 16:03:42,593 --> PackageDBStorage.Load
+2023-12-14 16:03:46,044 <-- PackageDBStorage.Load
+2023-12-14 16:03:46,044 --> PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 16:03:46,044 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 16:03:46,054 --> PackageDBStorage.ActualizePackageResourcesState
+2023-12-14 16:03:46,054 <-- PackageDBStorage.ActualizePackageResourcesState
+2023-12-14 16:03:46,054 <-- PackageStorageComposer.Compose
+2023-12-14 16:03:46,087 --> PackageZipFileStorage.Load
+2023-12-14 16:03:46,087 --> PackageZipFileStorage.UnZipPackages
+2023-12-14 16:03:46,087 <-- PackageZipFileStorage.UnZipPackages
+2023-12-14 16:03:46,120 <-- PackageZipFileStorage.Load
+2023-12-14 16:03:46,120 --> PackageStorageComposer.Compose
+2023-12-14 16:03:46,120 --> PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 16:03:46,120 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 16:03:46,120 --> IntermediatePackageStorage.ActualizePackageResourcesState
+2023-12-14 16:03:46,120 <-- IntermediatePackageStorage.ActualizePackageResourcesState
+2023-12-14 16:03:46,120 <-- PackageStorageComposer.Compose
+2023-12-14 16:03:46,150 --> PackageZipFileStorage.Load
+2023-12-14 16:03:46,150 --> PackageZipFileStorage.UnZipPackages
+2023-12-14 16:03:46,150 <-- PackageZipFileStorage.UnZipPackages
+2023-12-14 16:03:46,150 <-- PackageZipFileStorage.Load
+2023-12-14 16:03:46,952 --> PackageZipFileStorage.Load
+2023-12-14 16:03:46,952 --> PackageZipFileStorage.UnZipPackages
+2023-12-14 16:03:46,952 <-- PackageZipFileStorage.UnZipPackages
+2023-12-14 16:03:46,954 <-- PackageZipFileStorage.Load
+2023-12-14 16:03:46,954 --> PackageStorageComposer.Compose
+2023-12-14 16:03:46,954 --> PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 16:03:46,954 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 16:03:46,954 --> IntermediatePackageStorage.ActualizePackageResourcesState
+2023-12-14 16:03:46,954 <-- IntermediatePackageStorage.ActualizePackageResourcesState
+2023-12-14 16:03:46,954 <-- PackageStorageComposer.Compose
+2023-12-14 16:03:46,993 --> PackageDBStorageInternal.SavePackage - GlbDataBinding
+2023-12-14 16:03:46,997 --> PackageDBStorage.Load
+2023-12-14 16:03:47,024 <-- PackageDBStorage.Load
+2023-12-14 16:03:47,207 <-- PackageDBStorageInternal.SavePackage - GlbDataBinding
+2023-12-14 16:03:47,242 Added - 1 en-US resource values for schema 'GlbDataBindingService'
+2023-12-14 16:03:47,242 Added - 1 ru-RU resource values for schema 'GlbDataBindingHelper'
+2023-12-14 16:03:47,255 Added - 2 en-US resource values for schema 'GlbDataBindingHelper'
+2023-12-14 16:03:47,294 Added - 20 ru-RU resource values for schema 'GlbDataBindingMixin'
+2023-12-14 16:03:47,300 Added - 22 en-US resource values for schema 'GlbDataBindingMixin'
+2023-12-14 16:03:48,547 InstallColumnLookupValues. Count (total): 1
+2023-12-14 16:03:48,547 Count (by package [06b2f9c5-2217-4cca-9749-77d954e77765]): 2
+2023-12-14 16:03:48,547 Count (by schema [SysAdminOperationGrantee]): 1
+2023-12-14 16:03:48,551 Count (by schema [SysAdminOperation]): 2
+2023-12-14 16:03:50,666 --> PackageDBStorage.Load
+2023-12-14 16:03:55,151 <-- PackageDBStorage.Load
+2023-12-14 16:03:55,226 --> PackageDBStorage.Load
+2023-12-14 16:03:59,429 <-- PackageDBStorage.Load
+2023-12-14 16:06:15,427 --> PackageDBStorageInternal.Load
+2023-12-14 16:06:19,639 <-- PackageDBStorageInternal.Load
+2023-12-14 16:06:19,690 --> PackageStorageComposer.Compose
+2023-12-14 16:06:19,690 --> PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 16:06:19,690 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 16:06:19,690 --> IntermediatePackageStorage.ActualizePackageResourcesState
+2023-12-14 16:06:19,690 <-- IntermediatePackageStorage.ActualizePackageResourcesState
+2023-12-14 16:06:19,690 <-- PackageStorageComposer.Compose
+2023-12-14 16:06:30,563 --> PackageDBStorageInternal.DeletePackage - GlbDataBinding
+2023-12-14 16:06:31,110 <-- PackageDBStorageInternal.DeletePackage - GlbDataBinding
+2023-12-14 16:06:31,963 --> PackageDBStorage.Load
+2023-12-14 16:06:36,136 <-- PackageDBStorage.Load
+2023-12-14 16:06:36,225 --> PackageDBStorage.Load
+2023-12-14 16:06:40,441 <-- PackageDBStorage.Load
+2023-12-14 16:09:06,971 --> PackageDBStorage.Load
+2023-12-14 16:09:11,279 <-- PackageDBStorage.Load
+2023-12-14 16:09:12,048 --> PackageDBStorage.Load
+2023-12-14 16:09:12,082 <-- PackageDBStorage.Load
+2023-12-14 16:09:12,662 --> PackageDBStorage.Load
+2023-12-14 16:09:12,696 <-- PackageDBStorage.Load
+2023-12-14 16:09:24,939 --> PackageDBStorage.Load
+2023-12-14 16:09:29,061 <-- PackageDBStorage.Load
+2023-12-14 16:09:29,128 --> PackageDBStorage.Load
+2023-12-14 16:09:33,410 <-- PackageDBStorage.Load
+2023-12-14 16:12:03,760 --> PackageDBStorage.Load
+2023-12-14 16:12:04,627 <-- PackageDBStorage.Load
+2023-12-14 16:15:25,678 --> PackageInstallUtilities.LoadPackagesToFileSystem
+2023-12-14 16:15:25,678 --> PackageStorageComposer.Compose
+2023-12-14 16:15:25,678 --> PackageFileDesignModeDBStorage.Load
+2023-12-14 16:15:31,903 <-- PackageFileDesignModeDBStorage.Load
+2023-12-14 16:15:31,903 --> PackageFileDesignModeStorage.Load
+2023-12-14 16:15:31,926 <-- PackageFileDesignModeStorage.Load
+2023-12-14 16:15:31,927 --> PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 16:15:31,941 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-14 16:15:31,950 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-14 16:15:31,952 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-14 16:15:31,952 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 16:15:31,964 --> PackageFileDesignModeStorage.ActualizePackageResourcesState
+2023-12-14 16:15:31,964 <-- PackageFileDesignModeStorage.ActualizePackageResourcesState
+2023-12-14 16:15:31,964 <-- PackageStorageComposer.Compose
+2023-12-14 16:15:31,987 --> PackageFileDesignModeStorage.Save: Packages [329] Schemas [8511] ReferenceAssemblies [35] SqlScripts [1536] PackageData [5253] SchemaResources [155472] CoreResources [0]
+2023-12-14 16:15:31,990 --> PackageFileDesignModeStorage.MarkNotEditablePackagesAsNotChanged
+2023-12-14 16:15:31,990 <-- PackageFileDesignModeStorage.MarkNotEditablePackagesAsNotChanged
+2023-12-14 16:15:31,990 --> PackageFileDesignModeStorage.DeletePackageItems - GuidedDev
+2023-12-14 16:15:31,996 <-- PackageFileDesignModeStorage.DeletePackageItems - GuidedDev
+2023-12-14 16:15:31,996 --> PackageFileDesignModeStorage.DeletePackageItems - Custom
+2023-12-14 16:15:31,996 <-- PackageFileDesignModeStorage.DeletePackageItems - Custom
+2023-12-14 16:15:31,996 --> PackageFileDesignModeStorage.UpdatePackage - GuidedDev
+2023-12-14 16:15:31,996 --> PackageFileDesignModeStorage.SavePackage - GuidedDev
+2023-12-14 16:15:31,996 --> PackageFileDesignModeStorage.SavePackageDescriptor - GuidedDev
+2023-12-14 16:15:32,000 <-- PackageFileDesignModeStorage.SavePackageDescriptor - GuidedDev
+2023-12-14 16:15:32,000 --> PackageFileDesignModeStorage.SaveStandalonePackageSpecificFiles - GuidedDev
+2023-12-14 16:15:32,009 <-- PackageFileDesignModeStorage.SaveStandalonePackageSpecificFiles - GuidedDev
+2023-12-14 16:15:32,009 --> PackageFileDesignModeStorage.SavePackageSchemas - GuidedDev
+2023-12-14 16:15:32,033 <-- PackageFileDesignModeStorage.SavePackageSchemas - GuidedDev
+2023-12-14 16:15:32,192 --> PackageFileDesignModeStorage.SavePackageReferenceAssemblies - GuidedDev
+2023-12-14 16:15:32,192 <-- PackageFileDesignModeStorage.SavePackageReferenceAssemblies - GuidedDev
+2023-12-14 16:15:32,192 --> PackageFileDesignModeStorage.SavePackageSqlScripts - GuidedDev
+2023-12-14 16:15:32,199 <-- PackageFileDesignModeStorage.SavePackageSqlScripts - GuidedDev
+2023-12-14 16:15:32,199 --> PackageFileDesignModeStorage.SavePackageData - GuidedDev
+2023-12-14 16:15:32,254 <-- PackageFileDesignModeStorage.SavePackageData - GuidedDev
+2023-12-14 16:15:32,254 <-- PackageFileDesignModeStorage.SavePackage - GuidedDev
+2023-12-14 16:15:32,254 <-- PackageFileDesignModeStorage.UpdatePackage - GuidedDev
+2023-12-14 16:15:32,254 --> PackageFileDesignModeStorage.SavePackage - UsrRealtyFreedomUI
+2023-12-14 16:15:32,254 --> PackageFileDesignModeStorage.SavePackageDescriptor - UsrRealtyFreedomUI
+2023-12-14 16:15:32,254 <-- PackageFileDesignModeStorage.SavePackageDescriptor - UsrRealtyFreedomUI
+2023-12-14 16:15:32,254 --> PackageFileDesignModeStorage.SaveStandalonePackageSpecificFiles - UsrRealtyFreedomUI
+2023-12-14 16:15:32,254 <-- PackageFileDesignModeStorage.SaveStandalonePackageSpecificFiles - UsrRealtyFreedomUI
+2023-12-14 16:15:32,254 --> PackageFileDesignModeStorage.SavePackageSchemas - UsrRealtyFreedomUI
+2023-12-14 16:15:32,316 <-- PackageFileDesignModeStorage.SavePackageSchemas - UsrRealtyFreedomUI
+2023-12-14 16:15:32,851 --> PackageFileDesignModeStorage.SavePackageReferenceAssemblies - UsrRealtyFreedomUI
+2023-12-14 16:15:32,851 <-- PackageFileDesignModeStorage.SavePackageReferenceAssemblies - UsrRealtyFreedomUI
+2023-12-14 16:15:32,851 --> PackageFileDesignModeStorage.SavePackageSqlScripts - UsrRealtyFreedomUI
+2023-12-14 16:15:32,851 <-- PackageFileDesignModeStorage.SavePackageSqlScripts - UsrRealtyFreedomUI
+2023-12-14 16:15:32,851 --> PackageFileDesignModeStorage.SavePackageData - UsrRealtyFreedomUI
+2023-12-14 16:15:32,910 <-- PackageFileDesignModeStorage.SavePackageData - UsrRealtyFreedomUI
+2023-12-14 16:15:32,910 <-- PackageFileDesignModeStorage.SavePackage - UsrRealtyFreedomUI
+2023-12-14 16:15:32,910 --> PackageFileDesignModeStorage.UpdatePackage - Custom
+2023-12-14 16:15:32,910 --> PackageFileDesignModeStorage.SavePackage - Custom
+2023-12-14 16:15:32,910 --> PackageFileDesignModeStorage.SavePackageDescriptor - Custom
+2023-12-14 16:15:32,910 <-- PackageFileDesignModeStorage.SavePackageDescriptor - Custom
+2023-12-14 16:15:32,910 --> PackageFileDesignModeStorage.SavePackageSchemas - Custom
+2023-12-14 16:15:32,910 <-- PackageFileDesignModeStorage.SavePackageSchemas - Custom
+2023-12-14 16:15:32,917 --> PackageFileDesignModeStorage.SavePackageReferenceAssemblies - Custom
+2023-12-14 16:15:32,917 <-- PackageFileDesignModeStorage.SavePackageReferenceAssemblies - Custom
+2023-12-14 16:15:32,917 --> PackageFileDesignModeStorage.SavePackageSqlScripts - Custom
+2023-12-14 16:15:32,917 <-- PackageFileDesignModeStorage.SavePackageSqlScripts - Custom
+2023-12-14 16:15:32,917 --> PackageFileDesignModeStorage.SavePackageData - Custom
+2023-12-14 16:15:32,917 <-- PackageFileDesignModeStorage.SavePackageData - Custom
+2023-12-14 16:15:32,917 <-- PackageFileDesignModeStorage.SavePackage - Custom
+2023-12-14 16:15:32,917 <-- PackageFileDesignModeStorage.UpdatePackage - Custom
+2023-12-14 16:15:33,621 <-- PackageFileDesignModeStorage.Save
+2023-12-14 16:15:33,621 --> PackageInstallUtilities.UpdatePackagesAutogeneratedContent
+2023-12-14 16:15:33,621 --> PackageDBStorage.Load
+2023-12-14 16:15:38,025 <-- PackageDBStorage.Load
+2023-12-14 16:15:41,008 --> PackageInstallUtilities.UpdateWorkspaceSolution
+2023-12-14 16:15:41,008 --> PackageDBStorage.Load
+2023-12-14 16:15:45,394 <-- PackageDBStorage.Load
+2023-12-14 16:15:48,010 <-- PackageInstallUtilities.UpdateWorkspaceSolution
+2023-12-14 16:15:48,010 <-- PackageInstallUtilities.UpdatePackagesAutogeneratedContent
+2023-12-14 16:15:48,010 <-- PackageInstallUtilities.LoadPackagesToFileSystem
+2023-12-14 16:15:58,899 --> PackageInstallUtilities.LoadPackagesToDB
+2023-12-14 16:15:58,899 --> PackageFileDesignModeStorage.Load
+2023-12-14 16:15:58,919 <-- PackageFileDesignModeStorage.Load
+2023-12-14 16:15:58,919 --> PackageFileDesignModeDBStorage.Load
+2023-12-14 16:16:03,626 <-- PackageFileDesignModeDBStorage.Load
+2023-12-14 16:16:03,632 --> PackageStorageComposer.Compose
+2023-12-14 16:16:03,632 --> PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 16:16:03,632 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-14 16:16:03,632 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-14 16:16:03,636 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-14 16:16:03,636 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-14 16:16:03,636 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 16:16:03,646 --> PackageFileDesignModeDBStorage.ActualizePackageResourcesState
+2023-12-14 16:16:03,656 <-- PackageFileDesignModeDBStorage.ActualizePackageResourcesState
+2023-12-14 16:16:03,656 <-- PackageStorageComposer.Compose
+2023-12-14 16:16:03,656 --> PackageFileDesignModeDBStorage.Save: Packages [0] Schemas [0] ReferenceAssemblies [0] SqlScripts [0] PackageData [0] SchemaResources [0] CoreResources [0]
+2023-12-14 16:16:04,136 InstallColumnLookupValues. Count (total): 0
+2023-12-14 16:16:04,247 <-- PackageFileDesignModeDBStorage.Save
+2023-12-14 16:16:04,247 <-- PackageInstallUtilities.LoadPackagesToDB
+2023-12-14 16:17:45,248 --> PackageDBStorage.Load
+2023-12-14 16:17:45,285 <-- PackageDBStorage.Load
+2023-12-14 16:18:15,535 --> PackageInstallUtilities.LoadPackagesToFileSystem
+2023-12-14 16:18:15,535 --> PackageStorageComposer.Compose
+2023-12-14 16:18:15,535 --> PackageFileDesignModeDBStorage.Load
+2023-12-14 16:18:19,959 <-- PackageFileDesignModeDBStorage.Load
+2023-12-14 16:18:19,959 --> PackageFileDesignModeStorage.Load
+2023-12-14 16:18:19,997 <-- PackageFileDesignModeStorage.Load
+2023-12-14 16:18:19,997 --> PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 16:18:20,006 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-14 16:18:20,006 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-14 16:18:20,006 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-14 16:18:20,011 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-14 16:18:20,011 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 16:18:20,019 --> PackageFileDesignModeStorage.ActualizePackageResourcesState
+2023-12-14 16:18:20,019 <-- PackageFileDesignModeStorage.ActualizePackageResourcesState
+2023-12-14 16:18:20,019 <-- PackageStorageComposer.Compose
+2023-12-14 16:18:20,030 --> PackageFileDesignModeStorage.Save: Packages [327] Schemas [8497] ReferenceAssemblies [35] SqlScripts [1535] PackageData [5240] SchemaResources [155264] CoreResources [0]
+2023-12-14 16:18:20,030 --> PackageFileDesignModeStorage.MarkNotEditablePackagesAsNotChanged
+2023-12-14 16:18:20,030 <-- PackageFileDesignModeStorage.MarkNotEditablePackagesAsNotChanged
+2023-12-14 16:18:20,030 --> PackageFileDesignModeStorage.DeletePackageItems - UsrRealtyFreedomUI
+2023-12-14 16:18:20,030 <-- PackageFileDesignModeStorage.DeletePackageItems - UsrRealtyFreedomUI
+2023-12-14 16:18:20,030 --> PackageFileDesignModeStorage.UpdatePackage - UsrRealtyFreedomUI
+2023-12-14 16:18:20,030 --> PackageFileDesignModeStorage.SavePackage - UsrRealtyFreedomUI
+2023-12-14 16:18:20,030 --> PackageFileDesignModeStorage.SavePackageDescriptor - UsrRealtyFreedomUI
+2023-12-14 16:18:20,030 <-- PackageFileDesignModeStorage.SavePackageDescriptor - UsrRealtyFreedomUI
+2023-12-14 16:18:20,030 --> PackageFileDesignModeStorage.SaveStandalonePackageSpecificFiles - UsrRealtyFreedomUI
+2023-12-14 16:18:20,030 <-- PackageFileDesignModeStorage.SaveStandalonePackageSpecificFiles - UsrRealtyFreedomUI
+2023-12-14 16:18:20,030 --> PackageFileDesignModeStorage.SavePackageSchemas - UsrRealtyFreedomUI
+2023-12-14 16:18:20,030 <-- PackageFileDesignModeStorage.SavePackageSchemas - UsrRealtyFreedomUI
+2023-12-14 16:18:20,423 --> PackageFileDesignModeStorage.SavePackageReferenceAssemblies - UsrRealtyFreedomUI
+2023-12-14 16:18:20,423 <-- PackageFileDesignModeStorage.SavePackageReferenceAssemblies - UsrRealtyFreedomUI
+2023-12-14 16:18:20,423 --> PackageFileDesignModeStorage.SavePackageSqlScripts - UsrRealtyFreedomUI
+2023-12-14 16:18:20,423 <-- PackageFileDesignModeStorage.SavePackageSqlScripts - UsrRealtyFreedomUI
+2023-12-14 16:18:20,423 --> PackageFileDesignModeStorage.SavePackageData - UsrRealtyFreedomUI
+2023-12-14 16:18:20,433 <-- PackageFileDesignModeStorage.SavePackageData - UsrRealtyFreedomUI
+2023-12-14 16:18:20,433 <-- PackageFileDesignModeStorage.SavePackage - UsrRealtyFreedomUI
+2023-12-14 16:18:20,433 <-- PackageFileDesignModeStorage.UpdatePackage - UsrRealtyFreedomUI
+2023-12-14 16:18:20,927 <-- PackageFileDesignModeStorage.Save
+2023-12-14 16:18:20,927 --> PackageInstallUtilities.UpdatePackagesAutogeneratedContent
+2023-12-14 16:18:20,927 --> PackageDBStorage.Load
+2023-12-14 16:18:25,513 <-- PackageDBStorage.Load
+2023-12-14 16:18:28,149 --> PackageInstallUtilities.UpdateWorkspaceSolution
+2023-12-14 16:18:28,149 --> PackageDBStorage.Load
+2023-12-14 16:18:32,713 <-- PackageDBStorage.Load
+2023-12-14 16:18:36,134 <-- PackageInstallUtilities.UpdateWorkspaceSolution
+2023-12-14 16:18:36,134 <-- PackageInstallUtilities.UpdatePackagesAutogeneratedContent
+2023-12-14 16:18:36,134 <-- PackageInstallUtilities.LoadPackagesToFileSystem
+2023-12-14 16:18:48,713 --> PackageInstallUtilities.LoadPackagesToFileSystem
+2023-12-14 16:18:48,713 --> PackageStorageComposer.Compose
+2023-12-14 16:18:48,713 --> PackageFileDesignModeDBStorage.Load
+2023-12-14 16:18:52,901 <-- PackageFileDesignModeDBStorage.Load
+2023-12-14 16:18:52,901 --> PackageFileDesignModeStorage.Load
+2023-12-14 16:18:52,914 <-- PackageFileDesignModeStorage.Load
+2023-12-14 16:18:52,914 --> PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 16:18:52,923 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-14 16:18:52,923 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-14 16:18:52,923 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-14 16:18:52,926 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-14 16:18:52,926 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 16:18:52,935 --> PackageFileDesignModeStorage.ActualizePackageResourcesState
+2023-12-14 16:18:52,935 <-- PackageFileDesignModeStorage.ActualizePackageResourcesState
+2023-12-14 16:18:52,935 <-- PackageStorageComposer.Compose
+2023-12-14 16:18:52,945 --> PackageFileDesignModeStorage.Save: Packages [326] Schemas [8497] ReferenceAssemblies [35] SqlScripts [1535] PackageData [5239] SchemaResources [155264] CoreResources [0]
+2023-12-14 16:18:52,945 --> PackageFileDesignModeStorage.MarkNotEditablePackagesAsNotChanged
+2023-12-14 16:18:52,945 <-- PackageFileDesignModeStorage.MarkNotEditablePackagesAsNotChanged
+2023-12-14 16:18:52,945 <-- PackageFileDesignModeStorage.Save
+2023-12-14 16:18:52,945 <-- PackageInstallUtilities.LoadPackagesToFileSystem
+2023-12-14 16:28:08,351 --> PackageDBStorage.Load
+2023-12-14 16:28:08,393 <-- PackageDBStorage.Load
+2023-12-14 16:28:08,431 --> PackageDBStorage.Load
+2023-12-14 16:28:08,466 <-- PackageDBStorage.Load
+2023-12-14 16:29:57,592 --> PackageDBStorage.Load
+2023-12-14 16:30:03,126 <-- PackageDBStorage.Load
+2023-12-14 16:30:05,125 --> PackageDBStorage.Load
+2023-12-14 16:30:05,159 <-- PackageDBStorage.Load
+2023-12-14 16:30:06,503 --> PackageDBStorage.Load
+2023-12-14 16:30:10,713 <-- PackageDBStorage.Load
+2023-12-14 16:30:11,223 --> PackageDBStorage.Load
+2023-12-14 16:30:11,263 <-- PackageDBStorage.Load
+2023-12-14 16:30:11,304 --> PackageDBStorage.Load
+2023-12-14 16:30:11,338 <-- PackageDBStorage.Load
+2023-12-14 16:30:28,592 --> PackageInstallUtilities.LoadPackagesToFileSystem
+2023-12-14 16:30:28,592 --> PackageStorageComposer.Compose
+2023-12-14 16:30:28,592 --> PackageFileDesignModeDBStorage.Load
+2023-12-14 16:30:32,958 <-- PackageFileDesignModeDBStorage.Load
+2023-12-14 16:30:32,958 --> PackageFileDesignModeStorage.Load
+2023-12-14 16:30:32,977 <-- PackageFileDesignModeStorage.Load
+2023-12-14 16:30:32,977 --> PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 16:30:32,986 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-14 16:30:32,986 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-14 16:30:32,986 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-14 16:30:32,990 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-14 16:30:32,990 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 16:30:32,997 --> PackageFileDesignModeStorage.ActualizePackageResourcesState
+2023-12-14 16:30:32,997 <-- PackageFileDesignModeStorage.ActualizePackageResourcesState
+2023-12-14 16:30:32,997 <-- PackageStorageComposer.Compose
+2023-12-14 16:30:33,009 --> PackageFileDesignModeStorage.Save: Packages [327] Schemas [8498] ReferenceAssemblies [35] SqlScripts [1535] PackageData [5239] SchemaResources [155264] CoreResources [0]
+2023-12-14 16:30:33,009 --> PackageFileDesignModeStorage.MarkNotEditablePackagesAsNotChanged
+2023-12-14 16:30:33,009 <-- PackageFileDesignModeStorage.MarkNotEditablePackagesAsNotChanged
+2023-12-14 16:30:33,009 --> PackageFileDesignModeStorage.DeletePackageItems - UsrRealtyFreedomUI
+2023-12-14 16:30:33,009 <-- PackageFileDesignModeStorage.DeletePackageItems - UsrRealtyFreedomUI
+2023-12-14 16:30:33,009 --> PackageFileDesignModeStorage.UpdatePackage - UsrRealtyFreedomUI
+2023-12-14 16:30:33,009 --> PackageFileDesignModeStorage.SavePackage - UsrRealtyFreedomUI
+2023-12-14 16:30:33,009 --> PackageFileDesignModeStorage.SavePackageDescriptor - UsrRealtyFreedomUI
+2023-12-14 16:30:33,009 <-- PackageFileDesignModeStorage.SavePackageDescriptor - UsrRealtyFreedomUI
+2023-12-14 16:30:33,009 --> PackageFileDesignModeStorage.SaveStandalonePackageSpecificFiles - UsrRealtyFreedomUI
+2023-12-14 16:30:33,013 <-- PackageFileDesignModeStorage.SaveStandalonePackageSpecificFiles - UsrRealtyFreedomUI
+2023-12-14 16:30:33,013 --> PackageFileDesignModeStorage.SavePackageSchemas - UsrRealtyFreedomUI
+2023-12-14 16:30:33,016 <-- PackageFileDesignModeStorage.SavePackageSchemas - UsrRealtyFreedomUI
+2023-12-14 16:30:33,393 --> PackageFileDesignModeStorage.SavePackageReferenceAssemblies - UsrRealtyFreedomUI
+2023-12-14 16:30:33,393 <-- PackageFileDesignModeStorage.SavePackageReferenceAssemblies - UsrRealtyFreedomUI
+2023-12-14 16:30:33,393 --> PackageFileDesignModeStorage.SavePackageSqlScripts - UsrRealtyFreedomUI
+2023-12-14 16:30:33,393 <-- PackageFileDesignModeStorage.SavePackageSqlScripts - UsrRealtyFreedomUI
+2023-12-14 16:30:33,393 --> PackageFileDesignModeStorage.SavePackageData - UsrRealtyFreedomUI
+2023-12-14 16:30:33,393 <-- PackageFileDesignModeStorage.SavePackageData - UsrRealtyFreedomUI
+2023-12-14 16:30:33,393 <-- PackageFileDesignModeStorage.SavePackage - UsrRealtyFreedomUI
+2023-12-14 16:30:33,393 <-- PackageFileDesignModeStorage.UpdatePackage - UsrRealtyFreedomUI
+2023-12-14 16:30:33,847 <-- PackageFileDesignModeStorage.Save
+2023-12-14 16:30:33,847 --> PackageInstallUtilities.UpdatePackagesAutogeneratedContent
+2023-12-14 16:30:33,847 --> PackageDBStorage.Load
+2023-12-14 16:30:38,298 <-- PackageDBStorage.Load
+2023-12-14 16:30:39,884 --> PackageInstallUtilities.UpdateWorkspaceSolution
+2023-12-14 16:30:39,884 --> PackageDBStorage.Load
+2023-12-14 16:30:44,074 <-- PackageDBStorage.Load
+2023-12-14 16:30:48,252 <-- PackageInstallUtilities.UpdateWorkspaceSolution
+2023-12-14 16:30:48,252 <-- PackageInstallUtilities.UpdatePackagesAutogeneratedContent
+2023-12-14 16:30:48,252 <-- PackageInstallUtilities.LoadPackagesToFileSystem
+2023-12-14 16:32:23,740 --> PackageDBStorage.Load
+2023-12-14 16:32:23,775 <-- PackageDBStorage.Load
+2023-12-14 16:32:23,832 --> PackageDBStorage.Load
+2023-12-14 16:32:23,870 <-- PackageDBStorage.Load
+2023-12-14 16:33:38,863 --> PackageDBStorage.Load
+2023-12-14 16:33:43,388 <-- PackageDBStorage.Load
+2023-12-14 16:33:44,008 --> PackageDBStorage.Load
+2023-12-14 16:33:44,042 <-- PackageDBStorage.Load
+2023-12-14 16:33:45,610 --> PackageDBStorage.Load
+2023-12-14 16:33:46,395 <-- PackageDBStorage.Load
+2023-12-14 16:39:00,169 --> PackageDBStorage.Load
+2023-12-14 16:39:00,204 <-- PackageDBStorage.Load
+2023-12-14 16:40:47,529 --> PackageDBStorage.Load
+2023-12-14 16:40:47,570 <-- PackageDBStorage.Load
+2023-12-14 16:41:05,173 --> PackageDBStorage.Load
+2023-12-14 16:41:05,207 <-- PackageDBStorage.Load
+2023-12-14 16:41:09,682 --> PackageDBStorage.Load
+2023-12-14 16:41:13,869 <-- PackageDBStorage.Load
+2023-12-14 16:41:13,938 --> PackageDBStorage.Load
+2023-12-14 16:41:18,110 <-- PackageDBStorage.Load
+2023-12-14 16:43:47,163 --> PackageDBStorage.Load
+2023-12-14 16:43:47,734 <-- PackageDBStorage.Load
+2023-12-14 16:44:11,318 --> PackageInstallUtilities.LoadPackagesToDB
+2023-12-14 16:44:11,319 --> PackageFileDesignModeStorage.Load
+2023-12-14 16:44:11,368 <-- PackageFileDesignModeStorage.Load
+2023-12-14 16:44:11,368 --> PackageFileDesignModeDBStorage.Load
+2023-12-14 16:44:15,985 <-- PackageFileDesignModeDBStorage.Load
+2023-12-14 16:44:15,995 --> PackageStorageComposer.Compose
+2023-12-14 16:44:15,995 --> PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 16:44:16,002 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-14 16:44:16,011 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-14 16:44:16,014 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-14 16:44:16,014 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-14 16:44:16,014 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 16:44:16,029 --> PackageFileDesignModeDBStorage.ActualizePackageResourcesState
+2023-12-14 16:44:16,039 <-- PackageFileDesignModeDBStorage.ActualizePackageResourcesState
+2023-12-14 16:44:16,039 <-- PackageStorageComposer.Compose
+2023-12-14 16:44:16,039 --> PackageFileDesignModeDBStorage.Save: Packages [1] Schemas [2] ReferenceAssemblies [0] SqlScripts [0] PackageData [2] SchemaResources [19] CoreResources [0]
+2023-12-14 16:44:16,248 --> PackageFileDesignModeDBStorage.SavePackage - UsrRealtyFreedomUI
+2023-12-14 16:44:16,535 <-- PackageFileDesignModeDBStorage.SavePackage - UsrRealtyFreedomUI
+2023-12-14 16:44:16,630 Added - 1 fr-FR resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 16:44:16,630 Added - 1 it-IT resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 16:44:16,630 Added - 1 cs-CZ resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 16:44:16,630 Added - 1 ar-SA resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 16:44:16,630 Added - 1 ko-KR resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 16:44:16,630 Added - 1 th-TH resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 16:44:16,630 Added - 1 pt-BR resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 16:44:16,630 Added - 1 vi-VN resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 16:44:16,630 Added - 1 pl-PL resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 16:44:16,630 Added - 1 fa-IR resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 16:44:16,635 Added - 1 es-ES resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 16:44:16,635 Added - 1 pt-PT resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 16:44:16,635 Added - 1 sv-SE resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 16:44:16,635 Added - 1 he-IL resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 16:44:16,635 Added - 1 sq-AL resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 16:44:16,635 Added - 1 ro-RO resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 16:44:16,635 Added - 1 de-DE resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 16:44:16,635 Added - 1 nl-NL resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 16:44:16,635 Added - 1 uk-UA resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 16:44:20,735 InstallColumnLookupValues. Count (total): 1
+2023-12-14 16:44:20,735 Count (by package [0a5fd6f6-4122-4c7b-87ec-16cf2f86dc0b]): 1
+2023-12-14 16:44:20,735 Count (by schema [Lookup]): 20
+2023-12-14 16:44:21,626 <-- PackageFileDesignModeDBStorage.Save
+2023-12-14 16:44:21,626 <-- PackageInstallUtilities.LoadPackagesToDB
+2023-12-14 18:15:23,305 --> PackageDBStorage.Load
+2023-12-14 18:15:28,597 <-- PackageDBStorage.Load
+2023-12-14 18:15:29,253 --> PackageDBStorage.Load
+2023-12-14 18:15:29,287 <-- PackageDBStorage.Load
+2023-12-14 18:15:29,331 --> PackageDBStorage.Load
+2023-12-14 18:15:29,365 <-- PackageDBStorage.Load
+2023-12-14 18:20:33,491 --> PackageStorageComposer.Compose
+2023-12-14 18:20:33,491 --> PackageZipFileStorage.Load
+2023-12-14 18:20:33,491 --> PackageZipFileStorage.UnZipPackages
+2023-12-14 18:20:33,520 <-- PackageZipFileStorage.UnZipPackages
+2023-12-14 18:20:33,523 --> PackageZipFileStorage.LoadSchemaProperties
+2023-12-14 18:20:33,523 <-- PackageZipFileStorage.LoadSchemaProperties
+2023-12-14 18:20:33,523 <-- PackageZipFileStorage.Load
+2023-12-14 18:20:33,523 --> PackageDBStorage.Load
+2023-12-14 18:20:36,771 <-- PackageDBStorage.Load
+2023-12-14 18:20:36,771 --> PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 18:20:36,771 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 18:20:36,780 --> PackageDBStorage.ActualizePackageResourcesState
+2023-12-14 18:20:36,780 <-- PackageDBStorage.ActualizePackageResourcesState
+2023-12-14 18:20:36,780 <-- PackageStorageComposer.Compose
+2023-12-14 18:20:36,843 --> PackageZipFileStorage.Load
+2023-12-14 18:20:36,843 --> PackageZipFileStorage.UnZipPackages
+2023-12-14 18:20:36,843 <-- PackageZipFileStorage.UnZipPackages
+2023-12-14 18:20:36,843 <-- PackageZipFileStorage.Load
+2023-12-14 18:20:36,848 --> PackageStorageComposer.Compose
+2023-12-14 18:20:36,848 --> PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 18:20:36,848 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 18:20:36,848 --> IntermediatePackageStorage.ActualizePackageResourcesState
+2023-12-14 18:20:36,848 <-- IntermediatePackageStorage.ActualizePackageResourcesState
+2023-12-14 18:20:36,848 <-- PackageStorageComposer.Compose
+2023-12-14 18:20:36,882 --> PackageZipFileStorage.Load
+2023-12-14 18:20:36,882 --> PackageZipFileStorage.UnZipPackages
+2023-12-14 18:20:36,882 <-- PackageZipFileStorage.UnZipPackages
+2023-12-14 18:20:36,882 <-- PackageZipFileStorage.Load
+2023-12-14 18:20:38,451 --> PackageZipFileStorage.Load
+2023-12-14 18:20:38,451 --> PackageZipFileStorage.UnZipPackages
+2023-12-14 18:20:38,451 <-- PackageZipFileStorage.UnZipPackages
+2023-12-14 18:20:38,451 <-- PackageZipFileStorage.Load
+2023-12-14 18:20:38,458 --> PackageStorageComposer.Compose
+2023-12-14 18:20:38,458 --> PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 18:20:38,458 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 18:20:38,458 --> IntermediatePackageStorage.ActualizePackageResourcesState
+2023-12-14 18:20:38,458 <-- IntermediatePackageStorage.ActualizePackageResourcesState
+2023-12-14 18:20:38,458 <-- PackageStorageComposer.Compose
+2023-12-14 18:20:38,521 --> PackageDBStorageInternal.SavePackage - CSL_MaintenanceTools
+2023-12-14 18:20:38,529 --> PackageDBStorage.Load
+2023-12-14 18:20:38,557 <-- PackageDBStorage.Load
+2023-12-14 18:20:38,664 <-- PackageDBStorageInternal.SavePackage - CSL_MaintenanceTools
+2023-12-14 18:20:39,118 Added - 27 fr-FR resource values for schema 'SystemDesigner'
+2023-12-14 18:20:39,125 Added - 30 en-US resource values for schema 'SystemDesigner'
+2023-12-14 18:20:39,879 InstallColumnLookupValues. Count (total): 0
+2023-12-14 18:20:57,543 --> PackageStorageComposer.Compose
+2023-12-14 18:20:57,543 --> PackageZipFileStorage.Load
+2023-12-14 18:20:57,543 --> PackageZipFileStorage.UnZipPackages
+2023-12-14 18:20:57,579 <-- PackageZipFileStorage.UnZipPackages
+2023-12-14 18:20:57,579 --> PackageZipFileStorage.LoadSchemaProperties
+2023-12-14 18:20:57,579 <-- PackageZipFileStorage.LoadSchemaProperties
+2023-12-14 18:20:57,579 <-- PackageZipFileStorage.Load
+2023-12-14 18:20:57,579 --> PackageDBStorage.Load
+2023-12-14 18:21:00,735 <-- PackageDBStorage.Load
+2023-12-14 18:21:00,735 --> PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 18:21:00,735 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 18:21:00,744 --> PackageDBStorage.ActualizePackageResourcesState
+2023-12-14 18:21:00,744 <-- PackageDBStorage.ActualizePackageResourcesState
+2023-12-14 18:21:00,744 <-- PackageStorageComposer.Compose
+2023-12-14 18:21:00,823 --> PackageZipFileStorage.Load
+2023-12-14 18:21:00,823 --> PackageZipFileStorage.UnZipPackages
+2023-12-14 18:21:00,823 <-- PackageZipFileStorage.UnZipPackages
+2023-12-14 18:21:00,828 <-- PackageZipFileStorage.Load
+2023-12-14 18:21:00,828 --> PackageStorageComposer.Compose
+2023-12-14 18:21:00,828 --> PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 18:21:00,828 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 18:21:00,828 --> IntermediatePackageStorage.ActualizePackageResourcesState
+2023-12-14 18:21:00,828 <-- IntermediatePackageStorage.ActualizePackageResourcesState
+2023-12-14 18:21:00,828 <-- PackageStorageComposer.Compose
+2023-12-14 18:21:00,872 --> PackageZipFileStorage.Load
+2023-12-14 18:21:00,872 --> PackageZipFileStorage.UnZipPackages
+2023-12-14 18:21:00,872 <-- PackageZipFileStorage.UnZipPackages
+2023-12-14 18:21:00,872 <-- PackageZipFileStorage.Load
+2023-12-14 18:21:01,398 --> PackageZipFileStorage.Load
+2023-12-14 18:21:01,398 --> PackageZipFileStorage.UnZipPackages
+2023-12-14 18:21:01,398 <-- PackageZipFileStorage.UnZipPackages
+2023-12-14 18:21:01,398 <-- PackageZipFileStorage.Load
+2023-12-14 18:21:01,402 --> PackageStorageComposer.Compose
+2023-12-14 18:21:01,402 --> PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 18:21:01,402 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 18:21:01,402 --> IntermediatePackageStorage.ActualizePackageResourcesState
+2023-12-14 18:21:01,402 <-- IntermediatePackageStorage.ActualizePackageResourcesState
+2023-12-14 18:21:01,402 <-- PackageStorageComposer.Compose
+2023-12-14 18:21:01,438 --> PackageDBStorageInternal.SavePackage - GlbDataBinding
+2023-12-14 18:21:01,440 --> PackageDBStorage.Load
+2023-12-14 18:21:01,467 <-- PackageDBStorage.Load
+2023-12-14 18:21:01,684 <-- PackageDBStorageInternal.SavePackage - GlbDataBinding
+2023-12-14 18:21:01,705 Added - 1 en-US resource values for schema 'GlbDataBindingService'
+2023-12-14 18:21:01,705 Added - 1 ru-RU resource values for schema 'GlbDataBindingHelper'
+2023-12-14 18:21:01,710 Added - 2 en-US resource values for schema 'GlbDataBindingHelper'
+2023-12-14 18:21:01,749 Added - 20 ru-RU resource values for schema 'GlbDataBindingMixin'
+2023-12-14 18:21:01,753 Added - 22 en-US resource values for schema 'GlbDataBindingMixin'
+2023-12-14 18:21:03,232 InstallColumnLookupValues. Count (total): 1
+2023-12-14 18:21:03,232 Count (by package [06b2f9c5-2217-4cca-9749-77d954e77765]): 2
+2023-12-14 18:21:03,232 Count (by schema [SysAdminOperationGrantee]): 1
+2023-12-14 18:21:03,236 Count (by schema [SysAdminOperation]): 2
+2023-12-14 18:21:05,449 --> PackageDBStorage.Load
+2023-12-14 18:21:09,535 <-- PackageDBStorage.Load
+2023-12-14 18:21:09,634 --> PackageDBStorage.Load
+2023-12-14 18:21:13,669 <-- PackageDBStorage.Load
+2023-12-14 18:22:27,277 --> PackageDBStorageInternal.Load
+2023-12-14 18:22:31,377 <-- PackageDBStorageInternal.Load
+2023-12-14 18:22:31,427 --> PackageStorageComposer.Compose
+2023-12-14 18:22:31,427 --> PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 18:22:31,427 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 18:22:31,427 --> IntermediatePackageStorage.ActualizePackageResourcesState
+2023-12-14 18:22:31,427 <-- IntermediatePackageStorage.ActualizePackageResourcesState
+2023-12-14 18:22:31,427 <-- PackageStorageComposer.Compose
+2023-12-14 18:22:42,272 --> PackageDBStorageInternal.DeletePackage - GlbDataBinding
+2023-12-14 18:22:42,838 <-- PackageDBStorageInternal.DeletePackage - GlbDataBinding
+2023-12-14 18:22:43,673 --> PackageDBStorage.Load
+2023-12-14 18:22:47,661 <-- PackageDBStorage.Load
+2023-12-14 18:22:47,742 --> PackageDBStorage.Load
+2023-12-14 18:22:51,905 <-- PackageDBStorage.Load
+2023-12-14 18:24:49,013 --> PackageDBStorage.Load
+2023-12-14 18:24:49,591 <-- PackageDBStorage.Load
+2023-12-14 18:25:38,242 --> PackageDBStorage.Load
+2023-12-14 18:25:38,807 <-- PackageDBStorage.Load
+2023-12-14 18:36:42,629 --> PackageDBStorage.Load
+2023-12-14 18:36:47,690 <-- PackageDBStorage.Load
+2023-12-14 18:36:48,563 --> PackageDBStorage.Load
+2023-12-14 18:36:48,607 <-- PackageDBStorage.Load
+2023-12-14 18:40:54,241 --> PackageDBStorage.Load
+2023-12-14 18:40:58,773 <-- PackageDBStorage.Load
+2023-12-14 18:40:59,262 --> PackageDBStorage.Load
+2023-12-14 18:40:59,296 <-- PackageDBStorage.Load
+2023-12-14 18:45:44,050 --> PackageDBStorage.Load
+2023-12-14 18:45:44,596 <-- PackageDBStorage.Load
+2023-12-14 18:48:01,487 --> PackageDBStorage.Load
+2023-12-14 18:48:05,686 <-- PackageDBStorage.Load
+2023-12-14 18:48:06,152 --> PackageDBStorage.Load
+2023-12-14 18:48:06,185 <-- PackageDBStorage.Load
+2023-12-14 18:48:06,209 --> PackageDBStorage.Load
+2023-12-14 18:48:06,244 <-- PackageDBStorage.Load
+2023-12-14 18:52:40,583 --> PackageDBStorage.Load
+2023-12-14 18:52:45,254 <-- PackageDBStorage.Load
+2023-12-14 18:52:45,846 --> PackageDBStorage.Load
+2023-12-14 18:52:45,886 <-- PackageDBStorage.Load

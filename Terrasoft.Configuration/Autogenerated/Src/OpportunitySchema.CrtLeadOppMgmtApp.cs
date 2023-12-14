@@ -29,7 +29,7 @@
 	#region Class: Opportunity_CrtLeadOppMgmtApp_TerrasoftSchema
 
 	/// <exclude/>
-	public class Opportunity_CrtLeadOppMgmtApp_TerrasoftSchema : Terrasoft.Configuration.Opportunity_CoreLeadOpportunity_TerrasoftSchema
+	public class Opportunity_CrtLeadOppMgmtApp_TerrasoftSchema : Terrasoft.Configuration.Opportunity_CrtMLOpportunityScoring_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -272,7 +272,7 @@
 	/// <summary>
 	/// Opportunity.
 	/// </summary>
-	public class Opportunity_CrtLeadOppMgmtApp_Terrasoft : Terrasoft.Configuration.Opportunity_CoreLeadOpportunity_Terrasoft
+	public class Opportunity_CrtLeadOppMgmtApp_Terrasoft : Terrasoft.Configuration.Opportunity_CrtMLOpportunityScoring_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -503,7 +503,7 @@
 	#region Class: Opportunity_CrtLeadOppMgmtAppEventsProcess
 
 	/// <exclude/>
-	public partial class Opportunity_CrtLeadOppMgmtAppEventsProcess<TEntity> : Terrasoft.Configuration.Opportunity_CoreLeadOpportunityEventsProcess<TEntity> where TEntity : Opportunity_CrtLeadOppMgmtApp_Terrasoft
+	public partial class Opportunity_CrtLeadOppMgmtAppEventsProcess<TEntity> : Terrasoft.Configuration.Opportunity_CrtMLOpportunityScoringEventsProcess<TEntity> where TEntity : Opportunity_CrtLeadOppMgmtApp_Terrasoft
 	{
 
 		public Opportunity_CrtLeadOppMgmtAppEventsProcess(UserConnection userConnection)

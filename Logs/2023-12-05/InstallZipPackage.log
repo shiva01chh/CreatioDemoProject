@@ -1,0 +1,325 @@
+2023-12-05 11:58:36,823 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Configuration build started
+2023-12-05 11:58:36,837 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Current schemas info loaded
+2023-12-05 11:58:38,240 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - New schemas info loaded
+2023-12-05 11:58:38,983 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Configuration state loaded
+2023-12-05 11:58:38,987 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Configuration server content generation started
+2023-12-05 11:58:38,987 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Configuration server content generated
+2023-12-05 11:58:39,038 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Meta info file updated
+2023-12-05 11:58:39,052 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - File content generation started
+2023-12-05 11:58:39,864 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - File content descriptors obtained
+2023-12-05 11:58:39,877 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - File content descriptors generated
+2023-12-05 11:58:39,889 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - File content bootstraps generated
+2023-12-05 11:58:39,889 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Configuration build finished
+2023-12-05 13:21:44,469 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildStarted - Configuration build started
+2023-12-05 13:21:44,494 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Current schemas info loaded
+2023-12-05 13:21:46,157 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-05 13:21:46,951 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Configuration state loaded
+2023-12-05 13:21:46,956 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generation started
+2023-12-05 13:21:46,959 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generated
+2023-12-05 13:21:47,020 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage UpdateMetaInfo - Meta info file updated
+2023-12-05 13:21:47,032 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content generation started
+2023-12-05 13:21:48,181 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors obtained
+2023-12-05 13:21:48,196 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors generated
+2023-12-05 13:21:48,210 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content bootstraps generated
+2023-12-05 13:21:48,210 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildFinished - Configuration build finished
+2023-12-05 13:23:45,294 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Configuration build started
+2023-12-05 13:23:45,317 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Current schemas info loaded
+2023-12-05 13:23:45,598 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - New schemas info loaded
+2023-12-05 13:23:46,324 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Configuration state loaded
+2023-12-05 13:23:46,328 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Configuration server content generation started
+2023-12-05 13:23:46,351 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Configuration server content generated
+2023-12-05 13:23:46,479 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Meta info file updated
+2023-12-05 13:23:46,486 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - File content generation started
+2023-12-05 13:23:46,967 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - File content descriptors obtained
+2023-12-05 13:23:46,975 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - File content descriptors generated
+2023-12-05 13:23:46,982 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - File content bootstraps generated
+2023-12-05 13:23:46,982 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Configuration build finished
+2023-12-05 18:19:31,520 [.NET ThreadPool Worker] ERROR Supervisor InstallZipPackage InvokeWithLogging - System.IO.FileNotFoundException: Error occured when attempting to download the package archive from the 'file:///tmp//root/app/AppCreation/Unzip/%FFpCode%FFz' repository to the '/tmp//root/app/AppCreation/Packages' local folder
+ ---> System.Net.WebException: Could not find file '/tmp/root/app/AppCreation/Unzip/￿pCode￿z'.
+ ---> System.Net.WebException: Could not find file '/tmp/root/app/AppCreation/Unzip/￿pCode￿z'.
+ ---> System.IO.FileNotFoundException: Could not find file '/tmp/root/app/AppCreation/Unzip/￿pCode￿z'.
+File name: '/tmp/root/app/AppCreation/Unzip/￿pCode￿z'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean useAsync)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean useAsync)
+   at System.Net.FileWebRequest.CreateResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebRequest.CreateResponse()
+   at System.Net.FileWebRequest.<>c.<BeginGetResponse>b__59_0(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.FileWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.FileWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.DownloadBits(WebRequest request, Stream writeStream)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Terrasoft.Core.Packages.PackageWebClient.DownloadFile(Uri address, String fileName) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageWebClient.cs:line 33
+   at Terrasoft.Core.Packages.PackageZipFileStorage.DownloadZipPackage(String packageFileName, String destination) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageZipFileStorage.cs:line 70
+   at Terrasoft.Core.Packages.PackageZipFileStorage.DownloadZipPackage(String packageFileName, String destination) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageZipFileStorage.cs:line 75
+   at Terrasoft.Core.Packages.PackageZipFileStorage.UnZipPackages() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageZipFileStorage.cs:line 161
+   at Terrasoft.Core.Packages.PackageZipFileStorage.UnZipPackages(Boolean reuseUnzippedPackages) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageZipFileStorage.cs:line 188
+   at Terrasoft.Core.Packages.PackageZipFileStorage.LoadInternal() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageZipFileStorage.cs:line 134
+   at Terrasoft.Core.Packages.PackageStorage.Load() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageStorage.cs:line 558
+   at Terrasoft.Core.Applications.Creation.AppTemplateLoader.LoadAppTemplatePackages(AppTemplateInfo templateInfo) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core.Applications/Creation/AppTemplateLoader.cs:line 237
+   at Terrasoft.Core.Applications.Creation.AppCreator.CreateAppFromTemplate(NewAppFullInfo appFullInfo) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core.Applications/Creation/AppCreator.cs:line 264
+   at Terrasoft.Core.Applications.Creation.AppCreator.Create(INewAppInfo appInfo) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core.Applications/Creation/AppCreator.cs:line 331
+   at Terrasoft.Core.ServiceModelContract.PackageInstaller.AppInstallerServiceInternal.<>c__DisplayClass27_0.<CreateApp>b__0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core.ServiceModelContract/PackageInstaller/AppInstallerServiceInternal.cs:line 324
+   at Terrasoft.Core.ServiceModelContract.PackageInstaller.BaseInstallerServiceInternal.InvokeWithLogging[TResult](Func`1 action) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core.ServiceModelContract/PackageInstaller/BaseInstallerServiceInternal.cs:line 105
+2023-12-05 18:19:54,500 [.NET ThreadPool Worker] ERROR Supervisor InstallZipPackage InvokeWithLogging - System.IO.FileNotFoundException: Error occured when attempting to download the package archive from the 'file:///tmp//root/app/AppCreation/Unzip/%FFpCode%FFz' repository to the '/tmp//root/app/AppCreation/Packages' local folder
+ ---> System.Net.WebException: Could not find file '/tmp/root/app/AppCreation/Unzip/￿pCode￿z'.
+ ---> System.Net.WebException: Could not find file '/tmp/root/app/AppCreation/Unzip/￿pCode￿z'.
+ ---> System.IO.FileNotFoundException: Could not find file '/tmp/root/app/AppCreation/Unzip/￿pCode￿z'.
+File name: '/tmp/root/app/AppCreation/Unzip/￿pCode￿z'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean useAsync)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean useAsync)
+   at System.Net.FileWebRequest.CreateResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebRequest.CreateResponse()
+   at System.Net.FileWebRequest.<>c.<BeginGetResponse>b__59_0(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.FileWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.FileWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.DownloadBits(WebRequest request, Stream writeStream)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Terrasoft.Core.Packages.PackageWebClient.DownloadFile(Uri address, String fileName) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageWebClient.cs:line 33
+   at Terrasoft.Core.Packages.PackageZipFileStorage.DownloadZipPackage(String packageFileName, String destination) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageZipFileStorage.cs:line 70
+   at Terrasoft.Core.Packages.PackageZipFileStorage.DownloadZipPackage(String packageFileName, String destination) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageZipFileStorage.cs:line 75
+   at Terrasoft.Core.Packages.PackageZipFileStorage.UnZipPackages() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageZipFileStorage.cs:line 161
+   at Terrasoft.Core.Packages.PackageZipFileStorage.UnZipPackages(Boolean reuseUnzippedPackages) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageZipFileStorage.cs:line 188
+   at Terrasoft.Core.Packages.PackageZipFileStorage.LoadInternal() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageZipFileStorage.cs:line 134
+   at Terrasoft.Core.Packages.PackageStorage.Load() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageStorage.cs:line 558
+   at Terrasoft.Core.Applications.Creation.AppTemplateLoader.LoadAppTemplatePackages(AppTemplateInfo templateInfo) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core.Applications/Creation/AppTemplateLoader.cs:line 237
+   at Terrasoft.Core.Applications.Creation.AppCreator.CreateAppFromTemplate(NewAppFullInfo appFullInfo) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core.Applications/Creation/AppCreator.cs:line 264
+   at Terrasoft.Core.Applications.Creation.AppCreator.Create(INewAppInfo appInfo) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core.Applications/Creation/AppCreator.cs:line 331
+   at Terrasoft.Core.ServiceModelContract.PackageInstaller.AppInstallerServiceInternal.<>c__DisplayClass27_0.<CreateApp>b__0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core.ServiceModelContract/PackageInstaller/AppInstallerServiceInternal.cs:line 324
+   at Terrasoft.Core.ServiceModelContract.PackageInstaller.BaseInstallerServiceInternal.InvokeWithLogging[TResult](Func`1 action) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core.ServiceModelContract/PackageInstaller/BaseInstallerServiceInternal.cs:line 105
+2023-12-05 18:33:39,190 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Configuration build started
+2023-12-05 18:33:39,202 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Current schemas info loaded
+2023-12-05 18:33:39,548 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - New schemas info loaded
+2023-12-05 18:33:40,140 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Configuration state loaded
+2023-12-05 18:33:40,144 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Configuration server content generation started
+2023-12-05 18:33:40,144 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Configuration server content generated
+2023-12-05 18:33:40,215 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Meta info file updated
+2023-12-05 18:33:40,220 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - File content generation started
+2023-12-05 18:33:41,213 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - File content descriptors obtained
+2023-12-05 18:33:41,221 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - File content descriptors generated
+2023-12-05 18:33:41,229 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - File content bootstraps generated
+2023-12-05 18:33:41,230 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Configuration build finished
+2023-12-05 18:35:39,142 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Configuration build started
+2023-12-05 18:35:39,157 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Current schemas info loaded
+2023-12-05 18:35:40,176 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - New schemas info loaded
+2023-12-05 18:35:40,874 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Configuration state loaded
+2023-12-05 18:35:40,878 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Configuration server content generation started
+2023-12-05 18:35:40,878 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Configuration server content generated
+2023-12-05 18:35:40,958 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Meta info file updated
+2023-12-05 18:35:40,967 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - File content generation started
+2023-12-05 18:35:41,705 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - File content descriptors obtained
+2023-12-05 18:35:41,713 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - File content descriptors generated
+2023-12-05 18:35:41,729 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - File content bootstraps generated
+2023-12-05 18:35:41,729 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Configuration build finished
+2023-12-05 18:38:28,838 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildStarted - Configuration build started
+2023-12-05 18:38:28,853 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Current schemas info loaded
+2023-12-05 18:38:30,369 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-05 18:38:30,895 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Configuration state loaded
+2023-12-05 18:38:30,895 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildAllServerContent - Configuration server content generation started
+2023-12-05 18:38:56,321 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildAllServerContent - Configuration server content generated
+2023-12-05 18:38:56,391 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage UpdateMetaInfo - Meta info file updated
+2023-12-05 18:38:56,391 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content generation started
+2023-12-05 18:38:56,792 [.NET ThreadPool Worker] ERROR Supervisor InstallZipPackage LogError - System.IO.FileNotFoundException: Error occured when attempting to download the package archive from the 'file:///tmp//root/app/AppCreation/Unzip/%FFpCode%FFz' repository to the '/tmp//root/app/AppCreation/Packages' local folder
+ ---> System.Net.WebException: Could not find file '/tmp/root/app/AppCreation/Unzip/￿pCode￿z'.
+ ---> System.Net.WebException: Could not find file '/tmp/root/app/AppCreation/Unzip/￿pCode￿z'.
+ ---> System.IO.FileNotFoundException: Could not find file '/tmp/root/app/AppCreation/Unzip/￿pCode￿z'.
+File name: '/tmp/root/app/AppCreation/Unzip/￿pCode￿z'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean useAsync)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean useAsync)
+   at System.Net.FileWebRequest.CreateResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebRequest.CreateResponse()
+   at System.Net.FileWebRequest.<>c.<BeginGetResponse>b__59_0(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.FileWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.FileWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.DownloadBits(WebRequest request, Stream writeStream)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Terrasoft.Core.Packages.PackageWebClient.DownloadFile(Uri address, String fileName) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageWebClient.cs:line 33
+   at Terrasoft.Core.Packages.PackageZipFileStorage.DownloadZipPackage(String packageFileName, String destination) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageZipFileStorage.cs:line 70
+   at Terrasoft.Core.Packages.PackageZipFileStorage.DownloadZipPackage(String packageFileName, String destination) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageZipFileStorage.cs:line 75
+   at Terrasoft.Core.Packages.PackageZipFileStorage.UnZipPackages() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageZipFileStorage.cs:line 161
+   at Terrasoft.Core.Packages.PackageZipFileStorage.UnZipPackages(Boolean reuseUnzippedPackages) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageZipFileStorage.cs:line 188
+   at Terrasoft.Core.Packages.PackageZipFileStorage.LoadInternal() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageZipFileStorage.cs:line 134
+   at Terrasoft.Core.Packages.PackageStorage.Load() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageStorage.cs:line 558
+   at Terrasoft.Core.Applications.Creation.AppTemplateLoader.LoadAppTemplatePackages(AppTemplateInfo templateInfo) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core.Applications/Creation/AppTemplateLoader.cs:line 237
+   at Terrasoft.Core.Applications.Creation.AppCreator.CreateAppFromTemplate(NewAppFullInfo appFullInfo) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core.Applications/Creation/AppCreator.cs:line 264
+   at Terrasoft.Core.Applications.Creation.AppCreator.Create(INewAppInfo appInfo) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core.Applications/Creation/AppCreator.cs:line 331
+   at Terrasoft.Core.ServiceModelContract.PackageInstaller.AppInstallerServiceInternal.<>c__DisplayClass27_0.<CreateApp>b__0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core.ServiceModelContract/PackageInstaller/AppInstallerServiceInternal.cs:line 324
+   at Terrasoft.Core.ServiceModelContract.PackageInstaller.BaseInstallerServiceInternal.InvokeWithLogging[TResult](Func`1 action) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core.ServiceModelContract/PackageInstaller/BaseInstallerServiceInternal.cs:line 105
+2023-12-05 18:38:57,374 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors obtained
+2023-12-05 18:38:57,374 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors generated
+2023-12-05 18:38:57,378 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content bootstraps generated
+2023-12-05 18:38:57,378 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildFinished - Configuration build finished
+2023-12-05 18:41:06,922 [.NET ThreadPool Worker] ERROR Supervisor InstallZipPackage LogError - System.IO.FileNotFoundException: Error occured when attempting to download the package archive from the 'file:///tmp//root/app/AppCreation/Unzip/%FFpCode%FFz' repository to the '/tmp//root/app/AppCreation/Packages' local folder
+ ---> System.Net.WebException: Could not find file '/tmp/root/app/AppCreation/Unzip/￿pCode￿z'.
+ ---> System.Net.WebException: Could not find file '/tmp/root/app/AppCreation/Unzip/￿pCode￿z'.
+ ---> System.IO.FileNotFoundException: Could not find file '/tmp/root/app/AppCreation/Unzip/￿pCode￿z'.
+File name: '/tmp/root/app/AppCreation/Unzip/￿pCode￿z'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean useAsync)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean useAsync)
+   at System.Net.FileWebRequest.CreateResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebRequest.CreateResponse()
+   at System.Net.FileWebRequest.<>c.<BeginGetResponse>b__59_0(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.FileWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.FileWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.DownloadBits(WebRequest request, Stream writeStream)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Terrasoft.Core.Packages.PackageWebClient.DownloadFile(Uri address, String fileName) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageWebClient.cs:line 33
+   at Terrasoft.Core.Packages.PackageZipFileStorage.DownloadZipPackage(String packageFileName, String destination) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageZipFileStorage.cs:line 70
+   at Terrasoft.Core.Packages.PackageZipFileStorage.DownloadZipPackage(String packageFileName, String destination) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageZipFileStorage.cs:line 75
+   at Terrasoft.Core.Packages.PackageZipFileStorage.UnZipPackages() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageZipFileStorage.cs:line 161
+   at Terrasoft.Core.Packages.PackageZipFileStorage.UnZipPackages(Boolean reuseUnzippedPackages) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageZipFileStorage.cs:line 188
+   at Terrasoft.Core.Packages.PackageZipFileStorage.LoadInternal() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageZipFileStorage.cs:line 134
+   at Terrasoft.Core.Packages.PackageStorage.Load() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageStorage.cs:line 558
+   at Terrasoft.Core.Applications.Creation.AppTemplateLoader.LoadAppTemplatePackages(AppTemplateInfo templateInfo) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core.Applications/Creation/AppTemplateLoader.cs:line 237
+   at Terrasoft.Core.Applications.Creation.AppCreator.CreateAppFromTemplate(NewAppFullInfo appFullInfo) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core.Applications/Creation/AppCreator.cs:line 264
+   at Terrasoft.Core.Applications.Creation.AppCreator.Create(INewAppInfo appInfo) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core.Applications/Creation/AppCreator.cs:line 331
+   at Terrasoft.Core.ServiceModelContract.PackageInstaller.AppInstallerServiceInternal.<>c__DisplayClass27_0.<CreateApp>b__0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core.ServiceModelContract/PackageInstaller/AppInstallerServiceInternal.cs:line 324
+   at Terrasoft.Core.ServiceModelContract.PackageInstaller.BaseInstallerServiceInternal.InvokeWithLogging[TResult](Func`1 action) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core.ServiceModelContract/PackageInstaller/BaseInstallerServiceInternal.cs:line 105
+2023-12-05 18:48:40,099 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildStarted - Configuration build started
+2023-12-05 18:48:40,112 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Current schemas info loaded
+2023-12-05 18:48:41,522 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-05 18:48:42,097 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Configuration state loaded
+2023-12-05 18:48:42,097 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildAllServerContent - Configuration server content generation started
+2023-12-05 18:49:00,721 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildAllServerContent - Configuration server content generated
+2023-12-05 18:49:00,773 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage UpdateMetaInfo - Meta info file updated
+2023-12-05 18:49:00,774 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content generation started
+2023-12-05 18:49:01,766 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors obtained
+2023-12-05 18:49:01,766 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors generated
+2023-12-05 18:49:01,770 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content bootstraps generated
+2023-12-05 18:49:01,770 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildFinished - Configuration build finished
+2023-12-05 18:50:30,312 [.NET ThreadPool Worker] ERROR Supervisor InstallZipPackage LogError - System.IO.FileNotFoundException: Error occured when attempting to download the package archive from the 'file:///tmp//root/app/AppCreation/Unzip/%FFpCode%FFz' repository to the '/tmp//root/app/AppCreation/Packages' local folder
+ ---> System.Net.WebException: Could not find file '/tmp/root/app/AppCreation/Unzip/￿pCode￿z'.
+ ---> System.Net.WebException: Could not find file '/tmp/root/app/AppCreation/Unzip/￿pCode￿z'.
+ ---> System.IO.FileNotFoundException: Could not find file '/tmp/root/app/AppCreation/Unzip/￿pCode￿z'.
+File name: '/tmp/root/app/AppCreation/Unzip/￿pCode￿z'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean useAsync)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean useAsync)
+   at System.Net.FileWebRequest.CreateResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebRequest.CreateResponse()
+   at System.Net.FileWebRequest.<>c.<BeginGetResponse>b__59_0(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.FileWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.FileWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.DownloadBits(WebRequest request, Stream writeStream)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Terrasoft.Core.Packages.PackageWebClient.DownloadFile(Uri address, String fileName) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageWebClient.cs:line 33
+   at Terrasoft.Core.Packages.PackageZipFileStorage.DownloadZipPackage(String packageFileName, String destination) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageZipFileStorage.cs:line 70
+   at Terrasoft.Core.Packages.PackageZipFileStorage.DownloadZipPackage(String packageFileName, String destination) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageZipFileStorage.cs:line 75
+   at Terrasoft.Core.Packages.PackageZipFileStorage.UnZipPackages() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageZipFileStorage.cs:line 161
+   at Terrasoft.Core.Packages.PackageZipFileStorage.UnZipPackages(Boolean reuseUnzippedPackages) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageZipFileStorage.cs:line 188
+   at Terrasoft.Core.Packages.PackageZipFileStorage.LoadInternal() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageZipFileStorage.cs:line 134
+   at Terrasoft.Core.Packages.PackageStorage.Load() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageStorage.cs:line 558
+   at Terrasoft.Core.Applications.Creation.AppTemplateLoader.LoadAppTemplatePackages(AppTemplateInfo templateInfo) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core.Applications/Creation/AppTemplateLoader.cs:line 237
+   at Terrasoft.Core.Applications.Creation.AppCreator.CreateAppFromTemplate(NewAppFullInfo appFullInfo) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core.Applications/Creation/AppCreator.cs:line 264
+   at Terrasoft.Core.Applications.Creation.AppCreator.Create(INewAppInfo appInfo) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core.Applications/Creation/AppCreator.cs:line 331
+   at Terrasoft.Core.ServiceModelContract.PackageInstaller.AppInstallerServiceInternal.<>c__DisplayClass27_0.<CreateApp>b__0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core.ServiceModelContract/PackageInstaller/AppInstallerServiceInternal.cs:line 324
+   at Terrasoft.Core.ServiceModelContract.PackageInstaller.BaseInstallerServiceInternal.InvokeWithLogging[TResult](Func`1 action) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core.ServiceModelContract/PackageInstaller/BaseInstallerServiceInternal.cs:line 105
+2023-12-05 18:52:12,990 [.NET ThreadPool Worker] ERROR Supervisor InstallZipPackage LogError - System.IO.FileNotFoundException: Error occured when attempting to download the package archive from the 'file:///tmp//root/app/AppCreation/Unzip/%FFpCode%FFz' repository to the '/tmp//root/app/AppCreation/Packages' local folder
+ ---> System.Net.WebException: Could not find file '/tmp/root/app/AppCreation/Unzip/￿pCode￿z'.
+ ---> System.Net.WebException: Could not find file '/tmp/root/app/AppCreation/Unzip/￿pCode￿z'.
+ ---> System.IO.FileNotFoundException: Could not find file '/tmp/root/app/AppCreation/Unzip/￿pCode￿z'.
+File name: '/tmp/root/app/AppCreation/Unzip/￿pCode￿z'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean useAsync)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean useAsync)
+   at System.Net.FileWebRequest.CreateResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebRequest.CreateResponse()
+   at System.Net.FileWebRequest.<>c.<BeginGetResponse>b__59_0(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.FileWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.FileWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.DownloadBits(WebRequest request, Stream writeStream)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Terrasoft.Core.Packages.PackageWebClient.DownloadFile(Uri address, String fileName) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageWebClient.cs:line 33
+   at Terrasoft.Core.Packages.PackageZipFileStorage.DownloadZipPackage(String packageFileName, String destination) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageZipFileStorage.cs:line 70
+   at Terrasoft.Core.Packages.PackageZipFileStorage.DownloadZipPackage(String packageFileName, String destination) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageZipFileStorage.cs:line 75
+   at Terrasoft.Core.Packages.PackageZipFileStorage.UnZipPackages() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageZipFileStorage.cs:line 161
+   at Terrasoft.Core.Packages.PackageZipFileStorage.UnZipPackages(Boolean reuseUnzippedPackages) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageZipFileStorage.cs:line 188
+   at Terrasoft.Core.Packages.PackageZipFileStorage.LoadInternal() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageZipFileStorage.cs:line 134
+   at Terrasoft.Core.Packages.PackageStorage.Load() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core/Packages/PackageStorage.cs:line 558
+   at Terrasoft.Core.Applications.Creation.AppTemplateLoader.LoadAppTemplatePackages(AppTemplateInfo templateInfo) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core.Applications/Creation/AppTemplateLoader.cs:line 237
+   at Terrasoft.Core.Applications.Creation.AppCreator.CreateAppFromTemplate(NewAppFullInfo appFullInfo) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core.Applications/Creation/AppCreator.cs:line 264
+   at Terrasoft.Core.Applications.Creation.AppCreator.Create(INewAppInfo appInfo) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core.Applications/Creation/AppCreator.cs:line 331
+   at Terrasoft.Core.ServiceModelContract.PackageInstaller.AppInstallerServiceInternal.<>c__DisplayClass27_0.<CreateApp>b__0() in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core.ServiceModelContract/PackageInstaller/AppInstallerServiceInternal.cs:line 324
+   at Terrasoft.Core.ServiceModelContract.PackageInstaller.BaseInstallerServiceInternal.InvokeWithLogging[TResult](Func`1 action) in /opt/buildagent/work/ApplicationCoreLinux/TSBpm/Src/Lib/Terrasoft.Core.ServiceModelContract/PackageInstaller/BaseInstallerServiceInternal.cs:line 105

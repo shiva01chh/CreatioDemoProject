@@ -31,7 +31,7 @@
 	#region Class: SysAdminUnitSchema
 
 	/// <exclude/>
-	public class SysAdminUnitSchema : Terrasoft.Configuration.SysAdminUnit_Translation_TerrasoftSchema
+	public class SysAdminUnitSchema : Terrasoft.Configuration.SysAdminUnit_SSP_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -200,7 +200,7 @@
 	/// <summary>
 	/// System administration object.
 	/// </summary>
-	public class SysAdminUnit : Terrasoft.Configuration.SysAdminUnit_Translation_Terrasoft
+	public class SysAdminUnit : Terrasoft.Configuration.SysAdminUnit_SSP_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -293,7 +293,7 @@
 	#region Class: SysAdminUnit_LDAPEventsProcess
 
 	/// <exclude/>
-	public partial class SysAdminUnit_LDAPEventsProcess<TEntity> : Terrasoft.Configuration.SysAdminUnit_TranslationEventsProcess<TEntity> where TEntity : SysAdminUnit
+	public partial class SysAdminUnit_LDAPEventsProcess<TEntity> : Terrasoft.Configuration.SysAdminUnit_SSPEventsProcess<TEntity> where TEntity : SysAdminUnit
 	{
 
 		public SysAdminUnit_LDAPEventsProcess(UserConnection userConnection)

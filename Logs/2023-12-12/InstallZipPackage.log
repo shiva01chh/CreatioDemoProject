@@ -1,0 +1,80 @@
+2023-12-12 18:54:40,986 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Configuration build started
+2023-12-12 18:54:40,999 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Current schemas info loaded
+2023-12-12 18:54:42,511 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - New schemas info loaded
+2023-12-12 18:54:43,192 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Configuration state loaded
+2023-12-12 18:54:43,195 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Configuration server content generation started
+2023-12-12 18:54:43,195 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Configuration server content generated
+2023-12-12 18:54:43,246 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Meta info file updated
+2023-12-12 18:54:43,261 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - File content generation started
+2023-12-12 18:54:44,227 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - File content descriptors obtained
+2023-12-12 18:54:44,242 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - File content descriptors generated
+2023-12-12 18:54:44,254 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - File content bootstraps generated
+2023-12-12 18:54:44,254 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Configuration build finished
+2023-12-12 19:02:13,770 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Skipped - Loading packages from database (new application)
+2023-12-12 19:02:13,772 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Composing packages
+2023-12-12 19:02:14,038 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Schema "UsrRealtyFreedomUI" saved in package "UsrRealtyFreedomUI"
+2023-12-12 19:02:14,064 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Schema "UsrRealtyFreedomUI_Detail" saved in package "UsrRealtyFreedomUI"
+2023-12-12 19:02:14,101 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Schema "UsrRealtyFreedomUI_ListPage" saved in package "UsrRealtyFreedomUI"
+2023-12-12 19:02:14,123 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Schema "UsrRealtyFreedomUI_FormPage" saved in package "UsrRealtyFreedomUI"
+2023-12-12 19:02:14,134 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Schema "UsrRealtyFreedomUIRelatedPage" saved in package "UsrRealtyFreedomUI"
+2023-12-12 19:02:14,230 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Schema data "SysModule_UsrRealtyFreedomUI" saved in package "UsrRealtyFreedomUI"
+2023-12-12 19:02:14,255 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Schema data "SysWorkplace_MyApps" saved in package "UsrRealtyFreedomUI"
+2023-12-12 19:02:14,271 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Schema data "SysImage_SectionIcon_UsrRealtyFreedomUI" saved in package "UsrRealtyFreedomUI"
+2023-12-12 19:02:14,276 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Schema data "SysAdminUnitInWorkplace_MyApps" saved in package "UsrRealtyFreedomUI"
+2023-12-12 19:02:14,283 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Schema data "SysModuleEntity_UsrRealtyFreedomUI" saved in package "UsrRealtyFreedomUI"
+2023-12-12 19:02:14,291 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Schema data "SysModuleInWorkplace_UsrRealtyFreedomUI" saved in package "UsrRealtyFreedomUI"
+2023-12-12 19:02:14,301 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Schema data "SysDetail_UsrRealtyFreedomUI" saved in package "UsrRealtyFreedomUI"
+2023-12-12 19:02:14,304 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Package "UsrRealtyFreedomUI" saved
+2023-12-12 19:02:14,327 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage LogInfo - Added - dependencies of package "UsrRealtyFreedomUI"
+2023-12-12 19:02:14,706 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageResourceSaved - Added - resources in package "UsrRealtyFreedomUI"
+2023-12-12 19:02:15,090 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnSchemasCaptionLocalizationSaved - Added - schema caption localizations in package "UsrRealtyFreedomUI"
+2023-12-12 19:02:15,331 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageHierarchyUpdating - Package hierarchy actualization is started
+2023-12-12 19:02:15,898 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageHierarchyUpdated - Package hierarchy actualization is completed. Affected records: 111
+2023-12-12 19:02:15,900 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageHierarchySaved - Package hierarchy updated
+2023-12-12 19:02:16,231 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallStart - Updating tables structure in database
+2023-12-12 19:02:16,346 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "UsrRealtyFreedomUI_Detail" from package UsrRealtyFreedomUI generated
+2023-12-12 19:02:16,738 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnSchemaDBActionsAdded - Actions added for schema "UsrRealtyFreedomUI" from package "UsrRealtyFreedomUI" in 0.259 sec
+2023-12-12 19:02:16,864 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "UsrRealtyFreedomUI" from package UsrRealtyFreedomUI generated
+2023-12-12 19:02:16,974 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "UsrRealtyFreedomUIRelatedPage" from package UsrRealtyFreedomUI generated
+2023-12-12 19:02:17,019 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "UsrRealtyFreedomUI_FormPage" from package UsrRealtyFreedomUI generated
+2023-12-12 19:02:17,064 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "UsrRealtyFreedomUI_ListPage" from package UsrRealtyFreedomUI generated
+2023-12-12 19:02:17,121 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "UsrRealtyFreedomUI" from package  generated
+2023-12-12 19:02:17,152 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallStart - Updating modified schemas
+2023-12-12 19:02:17,152 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallFinish - Updated modified schemas
+2023-12-12 19:02:17,212 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Structure saved: UsrRealtyFreedomUI from package UsrRealtyFreedomUI
+2023-12-12 19:02:17,315 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallStart - Installing data
+2023-12-12 19:02:17,590 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Data "SysModule_UsrRealtyFreedomUI" from package "UsrRealtyFreedomUI" installed
+2023-12-12 19:02:17,766 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Data "SysWorkplace_MyApps" from package "UsrRealtyFreedomUI" installed
+2023-12-12 19:02:17,813 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Data "SysImage_SectionIcon_UsrRealtyFreedomUI" from package "UsrRealtyFreedomUI" installed
+2023-12-12 19:02:17,929 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Data "SysAdminUnitInWorkplace_MyApps" from package "UsrRealtyFreedomUI" installed
+2023-12-12 19:02:17,979 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Data "SysModuleEntity_UsrRealtyFreedomUI" from package "UsrRealtyFreedomUI" installed
+2023-12-12 19:02:18,084 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Data "SysModuleInWorkplace_UsrRealtyFreedomUI" from package "UsrRealtyFreedomUI" installed
+2023-12-12 19:02:18,174 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Data "SysDetail_UsrRealtyFreedomUI" from package "UsrRealtyFreedomUI" installed
+2023-12-12 19:02:18,193 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Lookup values "SysWorkplace_MyApps" from package "UsrRealtyFreedomUI" installed
+2023-12-12 19:02:18,270 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Lookup values "SysModule_UsrRealtyFreedomUI" from package "UsrRealtyFreedomUI" installed
+2023-12-12 19:02:18,290 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Lookup values "SysModuleInWorkplace_UsrRealtyFreedomUI" from package "UsrRealtyFreedomUI" installed
+2023-12-12 19:02:18,311 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Lookup values "SysAdminUnitInWorkplace_MyApps" from package "UsrRealtyFreedomUI" installed
+2023-12-12 19:02:18,327 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildStarted - Configuration build started
+2023-12-12 19:02:18,348 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Current schemas info loaded
+2023-12-12 19:02:18,760 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-12 19:02:19,379 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Configuration state loaded
+2023-12-12 19:02:19,382 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generation started
+2023-12-12 19:02:19,431 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generated
+2023-12-12 19:02:19,498 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage UpdateMetaInfo - Meta info file updated
+2023-12-12 19:02:19,505 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content generation started
+2023-12-12 19:02:20,187 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors obtained
+2023-12-12 19:02:20,199 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors generated
+2023-12-12 19:02:20,210 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content bootstraps generated
+2023-12-12 19:02:20,210 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildFinished - Configuration build finished
+2023-12-12 20:23:02,520 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildStarted - Configuration build started
+2023-12-12 20:23:02,536 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Current schemas info loaded
+2023-12-12 20:23:03,093 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-12 20:23:03,706 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Configuration state loaded
+2023-12-12 20:23:03,706 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generation started
+2023-12-12 20:23:03,729 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generated
+2023-12-12 20:23:03,780 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage UpdateMetaInfo - Meta info file updated
+2023-12-12 20:23:03,780 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content generation started
+2023-12-12 20:23:04,439 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors obtained
+2023-12-12 20:23:04,463 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors generated
+2023-12-12 20:23:04,492 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content bootstraps generated
+2023-12-12 20:23:04,492 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildFinished - Configuration build finished

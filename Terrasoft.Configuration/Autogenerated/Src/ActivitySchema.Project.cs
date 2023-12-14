@@ -34,7 +34,7 @@
 	#region Class: Activity_Project_TerrasoftSchema
 
 	/// <exclude/>
-	public class Activity_Project_TerrasoftSchema : Terrasoft.Configuration.Activity_CoreContracts_TerrasoftSchema
+	public class Activity_Project_TerrasoftSchema : Terrasoft.Configuration.Activity_CrtContract_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -490,7 +490,7 @@
 	/// <summary>
 	/// Activity.
 	/// </summary>
-	public class Activity_Project_Terrasoft : Terrasoft.Configuration.Activity_CoreContracts_Terrasoft
+	public class Activity_Project_Terrasoft : Terrasoft.Configuration.Activity_CrtContract_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -591,7 +591,7 @@
 	#region Class: Activity_ProjectEventsProcess
 
 	/// <exclude/>
-	public partial class Activity_ProjectEventsProcess<TEntity> : Terrasoft.Configuration.Activity_CoreContractsEventsProcess<TEntity> where TEntity : Activity_Project_Terrasoft
+	public partial class Activity_ProjectEventsProcess<TEntity> : Terrasoft.Configuration.Activity_CrtContractEventsProcess<TEntity> where TEntity : Activity_Project_Terrasoft
 	{
 
 		public Activity_ProjectEventsProcess(UserConnection userConnection)

@@ -29,7 +29,7 @@
 	#region Class: Document_Document_TerrasoftSchema
 
 	/// <exclude/>
-	public class Document_Document_TerrasoftSchema : Terrasoft.Configuration.Document_CrtOrderDocument_TerrasoftSchema
+	public class Document_Document_TerrasoftSchema : Terrasoft.Configuration.Document_CrtContractDocument_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -109,7 +109,7 @@
 	/// <summary>
 	/// Document.
 	/// </summary>
-	public class Document_Document_Terrasoft : Terrasoft.Configuration.Document_CrtOrderDocument_Terrasoft
+	public class Document_Document_Terrasoft : Terrasoft.Configuration.Document_CrtContractDocument_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -162,7 +162,7 @@
 	#region Class: Document_DocumentEventsProcess
 
 	/// <exclude/>
-	public partial class Document_DocumentEventsProcess<TEntity> : Terrasoft.Configuration.Document_CrtOrderDocumentEventsProcess<TEntity> where TEntity : Document_Document_Terrasoft
+	public partial class Document_DocumentEventsProcess<TEntity> : Terrasoft.Configuration.Document_CrtContractDocumentEventsProcess<TEntity> where TEntity : Document_Document_Terrasoft
 	{
 
 		#region Class: GenerateNumberUserTaskFlowElement

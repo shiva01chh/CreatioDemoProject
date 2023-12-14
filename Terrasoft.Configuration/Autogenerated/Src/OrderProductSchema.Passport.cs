@@ -30,7 +30,7 @@
 	#region Class: OrderProduct_Passport_TerrasoftSchema
 
 	/// <exclude/>
-	public class OrderProduct_Passport_TerrasoftSchema : Terrasoft.Configuration.OrderProduct_CrtOrderContract_TerrasoftSchema
+	public class OrderProduct_Passport_TerrasoftSchema : Terrasoft.Configuration.OrderProduct_CrtProductCatalogueInOrder_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -110,7 +110,7 @@
 	/// <summary>
 	/// Product in order.
 	/// </summary>
-	public class OrderProduct_Passport_Terrasoft : Terrasoft.Configuration.OrderProduct_CrtOrderContract_Terrasoft
+	public class OrderProduct_Passport_Terrasoft : Terrasoft.Configuration.OrderProduct_CrtProductCatalogueInOrder_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -163,7 +163,7 @@
 	#region Class: OrderProduct_PassportEventsProcess
 
 	/// <exclude/>
-	public partial class OrderProduct_PassportEventsProcess<TEntity> : Terrasoft.Configuration.OrderProduct_CrtOrderContractEventsProcess<TEntity> where TEntity : OrderProduct_Passport_Terrasoft
+	public partial class OrderProduct_PassportEventsProcess<TEntity> : Terrasoft.Configuration.OrderProduct_CrtProductCatalogueInOrderEventsProcess<TEntity> where TEntity : OrderProduct_Passport_Terrasoft
 	{
 
 		public OrderProduct_PassportEventsProcess(UserConnection userConnection)

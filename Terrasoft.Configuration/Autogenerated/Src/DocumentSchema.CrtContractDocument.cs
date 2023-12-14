@@ -29,7 +29,7 @@
 	#region Class: Document_CrtContractDocument_TerrasoftSchema
 
 	/// <exclude/>
-	public class Document_CrtContractDocument_TerrasoftSchema : Terrasoft.Configuration.Document_CrtDocument_TerrasoftSchema
+	public class Document_CrtContractDocument_TerrasoftSchema : Terrasoft.Configuration.Document_CrtOrderDocument_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -124,7 +124,7 @@
 	/// <summary>
 	/// Document.
 	/// </summary>
-	public class Document_CrtContractDocument_Terrasoft : Terrasoft.Configuration.Document_CrtDocument_Terrasoft
+	public class Document_CrtContractDocument_Terrasoft : Terrasoft.Configuration.Document_CrtOrderDocument_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -212,7 +212,7 @@
 	#region Class: Document_CrtContractDocumentEventsProcess
 
 	/// <exclude/>
-	public partial class Document_CrtContractDocumentEventsProcess<TEntity> : Terrasoft.Configuration.Document_CrtDocumentEventsProcess<TEntity> where TEntity : Document_CrtContractDocument_Terrasoft
+	public partial class Document_CrtContractDocumentEventsProcess<TEntity> : Terrasoft.Configuration.Document_CrtOrderDocumentEventsProcess<TEntity> where TEntity : Document_CrtContractDocument_Terrasoft
 	{
 
 		public Document_CrtContractDocumentEventsProcess(UserConnection userConnection)

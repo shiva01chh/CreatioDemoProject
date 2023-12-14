@@ -31,7 +31,7 @@
 	#region Class: Order_Passport_TerrasoftSchema
 
 	/// <exclude/>
-	public class Order_Passport_TerrasoftSchema : Terrasoft.Configuration.Order_CrtOCMInLeadOppMgmt_TerrasoftSchema
+	public class Order_Passport_TerrasoftSchema : Terrasoft.Configuration.Order_Order_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -111,7 +111,7 @@
 	/// <summary>
 	/// Order.
 	/// </summary>
-	public class Order_Passport_Terrasoft : Terrasoft.Configuration.Order_CrtOCMInLeadOppMgmt_Terrasoft
+	public class Order_Passport_Terrasoft : Terrasoft.Configuration.Order_Order_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -164,7 +164,7 @@
 	#region Class: Order_PassportEventsProcess
 
 	/// <exclude/>
-	public partial class Order_PassportEventsProcess<TEntity> : Terrasoft.Configuration.Order_CrtOCMInLeadOppMgmtEventsProcess<TEntity> where TEntity : Order_Passport_Terrasoft
+	public partial class Order_PassportEventsProcess<TEntity> : Terrasoft.Configuration.Order_OrderEventsProcess<TEntity> where TEntity : Order_Passport_Terrasoft
 	{
 
 		public Order_PassportEventsProcess(UserConnection userConnection)

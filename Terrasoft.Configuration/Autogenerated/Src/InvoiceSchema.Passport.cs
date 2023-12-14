@@ -31,7 +31,7 @@
 	#region Class: Invoice_Passport_TerrasoftSchema
 
 	/// <exclude/>
-	public class Invoice_Passport_TerrasoftSchema : Terrasoft.Configuration.Invoice_Invoice_TerrasoftSchema
+	public class Invoice_Passport_TerrasoftSchema : Terrasoft.Configuration.Invoice_PRMPortal_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -111,7 +111,7 @@
 	/// <summary>
 	/// Invoice.
 	/// </summary>
-	public class Invoice_Passport_Terrasoft : Terrasoft.Configuration.Invoice_Invoice_Terrasoft
+	public class Invoice_Passport_Terrasoft : Terrasoft.Configuration.Invoice_PRMPortal_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -164,7 +164,7 @@
 	#region Class: Invoice_PassportEventsProcess
 
 	/// <exclude/>
-	public partial class Invoice_PassportEventsProcess<TEntity> : Terrasoft.Configuration.Invoice_InvoiceEventsProcess<TEntity> where TEntity : Invoice_Passport_Terrasoft
+	public partial class Invoice_PassportEventsProcess<TEntity> : Terrasoft.Configuration.Invoice_PRMPortalEventsProcess<TEntity> where TEntity : Invoice_Passport_Terrasoft
 	{
 
 		public Invoice_PassportEventsProcess(UserConnection userConnection)

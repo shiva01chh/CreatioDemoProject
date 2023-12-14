@@ -385,7 +385,7 @@
 			};
 			parametrizedElement.Parameters.Add(searchDetailSelectButtonCaptionParameter);
 			var defaultContactNameParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("14ebc99e-49b1-4112-9e87-f0e87fb2d228"),
+				UId = new Guid("8edb437e-e69b-4c5d-93de-2e9411a00fab"),
 				ContainerUId = new Guid("ce61b40c-b899-46ad-92ac-8cab8c7271ec"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = new Guid("0cce7e8b-c985-435f-8005-0c0ee9b342c6"),
@@ -1706,7 +1706,7 @@
 			parametrizedElement.Parameters.Add(projectParameter);
 			var activityPriorityParameter = new ProcessSchemaParameter(this) {
 				ReferenceSchemaUId = new Guid("b934f48c-5dea-49b9-bde3-697cb4be5d8b"),
-				UId = new Guid("d6bfb56f-4b80-4fac-ae2f-69fbb63e7777"),
+				UId = new Guid("e16fca69-02c9-4511-bcc3-c9edf013fbbb"),
 				ContainerUId = new Guid("da92b821-ad75-4fa5-8e66-93d4755fd2f7"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -1733,7 +1733,7 @@
 			};
 			parametrizedElement.Parameters.Add(activityPriorityParameter);
 			var createActivityParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("e03e5027-7399-4dfa-99d4-1c81af649d0d"),
+				UId = new Guid("2e53aaf3-89e2-460c-98b8-67abc0ffcf7f"),
 				ContainerUId = new Guid("da92b821-ad75-4fa5-8e66-93d4755fd2f7"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -1784,7 +1784,7 @@
 			};
 			branchingDecisionsParameter.SourceValue = new ProcessSchemaParameterValue(branchingDecisionsParameter) {
 				Source = ProcessSchemaParameterValueSource.ConstValue,
-				Value = Encoding.UTF8.GetString(Compressor.UnZip(new byte[] { 31,139,8,0,0,0,0,0,0,3,141,143,81,107,194,48,20,133,255,202,8,62,246,74,210,38,77,226,171,50,16,68,124,112,194,24,123,184,73,111,88,89,93,165,169,131,41,253,239,75,29,12,101,108,236,237,194,57,223,229,124,103,54,233,63,14,196,102,108,75,93,135,177,13,253,116,222,118,52,221,116,173,167,24,167,171,214,99,83,159,208,53,180,193,14,247,212,83,183,195,230,72,113,85,199,62,187,187,197,88,198,38,239,151,148,205,158,206,108,217,211,254,97,89,165,239,42,248,194,150,198,128,181,5,129,212,202,1,82,80,32,52,121,157,11,237,49,20,9,30,187,103,118,249,144,32,161,117,33,131,81,160,180,115,32,43,94,128,149,188,4,93,150,85,40,115,239,16,75,54,100,108,157,102,93,115,11,242,117,172,219,55,62,134,115,60,244,233,30,243,58,174,252,105,247,85,234,187,35,101,223,196,99,26,156,186,11,10,243,23,242,175,116,51,99,155,170,108,24,178,107,31,163,173,42,132,148,160,148,229,32,75,97,192,152,170,2,228,70,89,149,59,93,229,225,135,79,142,65,8,17,44,16,55,57,72,142,2,92,144,28,140,43,165,231,9,243,168,255,242,17,255,246,89,183,191,235,220,99,19,71,159,231,225,19,215,213,61,109,253,1,0,0 })),
+				Value = Encoding.UTF8.GetString(Compressor.UnZip(new byte[] { 31,139,8,0,0,0,0,0,0,3,141,143,77,107,2,49,20,69,255,74,9,46,39,146,100,242,233,86,41,8,34,46,172,80,74,23,47,153,23,58,116,236,200,100,44,84,153,255,222,140,133,162,148,150,238,30,220,123,30,247,156,201,164,255,56,32,153,145,45,118,29,164,54,246,211,121,219,225,116,211,181,1,83,154,174,218,0,77,125,2,223,224,6,58,216,99,143,221,14,154,35,166,85,157,250,226,238,22,35,5,153,188,95,82,50,123,58,147,101,143,251,135,101,149,191,187,146,107,109,29,82,175,98,69,165,42,21,181,130,59,42,203,16,141,55,96,181,83,25,30,187,103,114,249,144,33,110,76,41,163,85,84,25,239,169,172,88,73,157,100,154,26,173,171,168,69,240,0,154,12,5,89,231,89,215,220,2,67,157,234,246,141,141,225,28,14,125,190,199,188,78,171,112,218,125,149,250,238,136,197,55,241,152,7,231,238,2,227,252,5,195,43,222,204,216,230,42,25,134,226,218,39,42,89,90,30,129,50,139,217,71,27,160,222,58,65,53,42,225,125,37,100,16,248,195,71,64,228,156,71,71,145,89,65,37,3,78,125,148,140,90,175,101,96,78,137,0,230,47,31,254,111,159,117,251,187,206,61,52,105,244,121,30,62,1,202,253,214,126,253,1,0,0 })),
 				MetaPath = null,
 				ModifiedInSchemaUId = new Guid("583ad5c9-1de9-4bb4-b37d-2f226fecca4b")
 			};
@@ -2831,7 +2831,7 @@
 			};
 			parametrizedElement.Parameters.Add(releaseParameter);
 			var createActivityParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("904e5080-a72a-4e05-a35f-03a81d09f963"),
+				UId = new Guid("a71a0187-ca3e-40a1-80a2-dd911b8c6926"),
 				ContainerUId = new Guid("3aa6b74f-7e82-42be-9030-19e3b79c9749"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -2859,7 +2859,7 @@
 			parametrizedElement.Parameters.Add(createActivityParameter);
 			var activityPriorityParameter = new ProcessSchemaParameter(this) {
 				ReferenceSchemaUId = new Guid("b934f48c-5dea-49b9-bde3-697cb4be5d8b"),
-				UId = new Guid("46ea0411-68c9-4581-8b7a-7da7cb007443"),
+				UId = new Guid("58850ad6-1d0e-4a21-ae49-eb8031838300"),
 				ContainerUId = new Guid("3aa6b74f-7e82-42be-9030-19e3b79c9749"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -4177,7 +4177,7 @@
 			parametrizedElement.Parameters.Add(projectParameter);
 			var activityPriorityParameter = new ProcessSchemaParameter(this) {
 				ReferenceSchemaUId = new Guid("b934f48c-5dea-49b9-bde3-697cb4be5d8b"),
-				UId = new Guid("433829bb-8d35-4c16-876c-cc9c1b60effe"),
+				UId = new Guid("c84aba4c-5cb6-41d0-bf54-5655024fe529"),
 				ContainerUId = new Guid("2bf73f22-54fe-4a50-ab84-3dee99b6973d"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -4204,7 +4204,7 @@
 			};
 			parametrizedElement.Parameters.Add(activityPriorityParameter);
 			var createActivityParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("30979761-742d-4833-b7ac-cfbe9607f757"),
+				UId = new Guid("97a4457d-2432-4aa0-9bd9-f553b99611b5"),
 				ContainerUId = new Guid("2bf73f22-54fe-4a50-ab84-3dee99b6973d"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -5192,7 +5192,7 @@
 			public override LocalizableString BranchingDecisions {
 				get {
 					if (_branchingDecisions == null) {
-						var zippedData = new byte[] { 31,139,8,0,0,0,0,0,0,3,157,143,61,107,195,48,16,64,255,74,17,25,125,65,178,245,153,53,161,16,8,37,67,154,165,116,56,201,39,106,234,212,193,114,10,77,240,127,175,156,46,9,133,14,221,4,239,222,157,222,133,205,134,175,35,177,5,219,81,223,99,234,226,48,95,118,61,205,183,125,23,40,165,249,166,11,216,54,103,244,45,109,177,199,3,13,212,239,177,61,81,218,52,105,40,30,238,53,86,176,217,231,149,178,197,203,133,173,7,58,60,175,235,188,93,197,80,57,109,45,56,87,17,72,163,60,32,69,5,194,80,48,165,48,1,99,149,229,105,246,194,174,27,178,36,140,169,100,180,10,148,241,30,100,205,43,112,146,107,48,90,215,81,151,193,35,106,54,22,236,41,127,235,214,91,81,104,82,211,125,240,9,46,241,56,228,247,196,155,180,9,231,253,207,208,208,159,40,211,21,197,229,27,133,119,186,59,188,203,144,141,99,113,91,96,141,83,149,144,18,148,114,28,164,22,22,172,173,107,64,110,149,83,165,55,117,25,127,21,148,24,133,16,209,1,113,91,130,228,40,192,71,201,193,122,45,3,207,90,64,243,87,129,248,111,193,35,182,105,74,120,29,191,1,185,137,224,98,226,1,0,0 };
+						var zippedData = new byte[] { 31,139,8,0,0,0,0,0,0,3,157,143,77,107,2,49,16,134,255,74,9,30,55,146,100,243,233,85,41,8,82,60,88,47,165,135,73,118,66,151,174,93,73,214,66,149,253,239,205,218,139,82,232,161,183,129,103,222,119,230,185,144,217,240,117,68,178,32,59,76,9,114,31,135,249,178,79,56,223,166,62,96,206,243,77,31,160,107,207,224,59,220,66,130,3,14,152,246,208,157,48,111,218,60,84,15,247,49,82,145,217,231,149,146,197,203,133,172,7,60,60,175,155,210,238,106,174,181,117,72,189,138,13,149,170,86,212,10,238,168,172,67,52,222,128,213,78,149,240,180,123,33,215,134,18,226,198,212,50,90,69,149,241,158,202,134,213,212,73,166,169,209,186,137,90,4,15,160,201,88,145,167,242,214,109,110,133,161,205,109,255,193,38,184,132,227,80,230,137,183,121,19,206,251,159,165,33,157,176,208,21,198,229,27,134,119,188,59,188,43,144,140,99,117,107,16,149,172,45,143,64,153,197,98,160,13,80,111,157,160,26,149,240,190,17,50,8,252,101,32,32,114,206,163,163,200,172,160,146,1,167,62,74,70,173,215,50,48,167,68,0,243,151,1,255,175,193,35,116,121,82,120,29,191,1,237,203,255,215,226,1,0,0 };
 						string serializedData =
 							Encoding.UTF8.GetString(Compressor.UnZip(zippedData));
 						LocalizableParameterValuesList dataList =
@@ -5756,7 +5756,7 @@
 					Owner = this,
 					Type = "ProcessSchemaToken",
 					Name = "Start1ContactIdentificationToken",
-					SchemaElementUId = new Guid("00b76e22-df77-4f5f-848c-6d60ac7cd008"),
+					SchemaElementUId = new Guid("66f615c6-679e-4ee3-acad-53ab620f62a0"),
 					CreatedInSchemaUId = InternalSchemaUId,
 					ExecutedEventHandler = OnExecuted,
 				});
@@ -5892,7 +5892,7 @@
 			MetaPathParameterValues.Add("4af2691c-1763-4fc0-bb7d-f286b330f5c9", () => ContactIdentification.AccountSelected);
 			MetaPathParameterValues.Add("72eed8c3-6c81-47fe-80f6-1e03e64d181a", () => ContactIdentification.CreateContactButtonCaption);
 			MetaPathParameterValues.Add("70898dfa-7bc3-4733-9077-90399d21aa15", () => ContactIdentification.SearchDetailSelectButtonCaption);
-			MetaPathParameterValues.Add("14ebc99e-49b1-4112-9e87-f0e87fb2d228", () => ContactIdentification.DefaultContactName);
+			MetaPathParameterValues.Add("8edb437e-e69b-4c5d-93de-2e9411a00fab", () => ContactIdentification.DefaultContactName);
 			MetaPathParameterValues.Add("cc60e6ad-de03-4561-b0ef-dc6660e33b11", () => OpenEditPageUserTask1.ObjectSchemaId);
 			MetaPathParameterValues.Add("f3e69a81-b379-4a4b-a562-84b5eea41a3a", () => OpenEditPageUserTask1.PageSchemaId);
 			MetaPathParameterValues.Add("f64d65f5-f1a1-4d95-b24b-798f0ca456c8", () => OpenEditPageUserTask1.EditMode);
@@ -5940,8 +5940,8 @@
 			MetaPathParameterValues.Add("a5f4be1a-5cce-4ae8-b725-313f9ef531fa", () => OpenEditPageUserTask1.Change);
 			MetaPathParameterValues.Add("008316f9-efc0-427d-855d-f2bc3983e119", () => OpenEditPageUserTask1.Release);
 			MetaPathParameterValues.Add("28185a19-88ee-4be5-83fa-18f00be27b35", () => OpenEditPageUserTask1.Project);
-			MetaPathParameterValues.Add("d6bfb56f-4b80-4fac-ae2f-69fbb63e7777", () => OpenEditPageUserTask1.ActivityPriority);
-			MetaPathParameterValues.Add("e03e5027-7399-4dfa-99d4-1c81af649d0d", () => OpenEditPageUserTask1.CreateActivity);
+			MetaPathParameterValues.Add("e16fca69-02c9-4511-bcc3-c9edf013fbbb", () => OpenEditPageUserTask1.ActivityPriority);
+			MetaPathParameterValues.Add("2e53aaf3-89e2-460c-98b8-67abc0ffcf7f", () => OpenEditPageUserTask1.CreateActivity);
 			MetaPathParameterValues.Add("242fc279-4701-420c-9817-ff9bf2bd25de", () => UserQuestionUserTask1.BranchingDecisions);
 			MetaPathParameterValues.Add("c7ea1f8f-9bc8-4754-9565-95b1b7ed85fb", () => UserQuestionUserTask1.ResultDecisions);
 			MetaPathParameterValues.Add("5865056c-667d-4196-bfb2-93ab9bb3f880", () => UserQuestionUserTask1.DecisionMode);
@@ -5981,8 +5981,8 @@
 			MetaPathParameterValues.Add("3bfd9e82-741d-4a59-8eff-f6ff59f595d5", () => UserQuestionUserTask1.Problem);
 			MetaPathParameterValues.Add("4e974ee6-3919-4099-8fdb-109651dec5d2", () => UserQuestionUserTask1.Change);
 			MetaPathParameterValues.Add("38921604-2793-4ae7-ba81-6f8e05508efd", () => UserQuestionUserTask1.Release);
-			MetaPathParameterValues.Add("904e5080-a72a-4e05-a35f-03a81d09f963", () => UserQuestionUserTask1.CreateActivity);
-			MetaPathParameterValues.Add("46ea0411-68c9-4581-8b7a-7da7cb007443", () => UserQuestionUserTask1.ActivityPriority);
+			MetaPathParameterValues.Add("a71a0187-ca3e-40a1-80a2-dd911b8c6926", () => UserQuestionUserTask1.CreateActivity);
+			MetaPathParameterValues.Add("58850ad6-1d0e-4a21-ae49-eb8031838300", () => UserQuestionUserTask1.ActivityPriority);
 			MetaPathParameterValues.Add("bf89ef1c-af66-4671-bc99-ab29e04ef274", () => OpenEditPageUserTask2.ObjectSchemaId);
 			MetaPathParameterValues.Add("e76aa928-2b7a-4c0e-9fe3-65b1b3dbdc96", () => OpenEditPageUserTask2.PageSchemaId);
 			MetaPathParameterValues.Add("e585f4f1-f6d9-4588-8568-f275845f7776", () => OpenEditPageUserTask2.EditMode);
@@ -6030,8 +6030,8 @@
 			MetaPathParameterValues.Add("b7a6ab9a-067b-45bf-846a-c2b2683f7f7c", () => OpenEditPageUserTask2.Change);
 			MetaPathParameterValues.Add("654c811c-8d84-4c85-8879-6f2252212386", () => OpenEditPageUserTask2.Release);
 			MetaPathParameterValues.Add("6a71e918-e32c-49c8-adc8-825211514808", () => OpenEditPageUserTask2.Project);
-			MetaPathParameterValues.Add("433829bb-8d35-4c16-876c-cc9c1b60effe", () => OpenEditPageUserTask2.ActivityPriority);
-			MetaPathParameterValues.Add("30979761-742d-4833-b7ac-cfbe9607f757", () => OpenEditPageUserTask2.CreateActivity);
+			MetaPathParameterValues.Add("c84aba4c-5cb6-41d0-bf54-5655024fe529", () => OpenEditPageUserTask2.ActivityPriority);
+			MetaPathParameterValues.Add("97a4457d-2432-4aa0-9bd9-f553b99611b5", () => OpenEditPageUserTask2.CreateActivity);
 		}
 
 		protected override void ApplyPropertiesDataValues(DataReader reader) {

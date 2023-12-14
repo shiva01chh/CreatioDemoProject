@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "1c20b777-582d-4502-9a93-a7f321d51140",
+    "Name": "UsrRealtyFreedomUIRelatedPage",
+    "ModifiedOnUtc": "\/Date(1702387934000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Realty (Freedom UI) (Page settings)",
+    "DependsOn": []
+  }
+}

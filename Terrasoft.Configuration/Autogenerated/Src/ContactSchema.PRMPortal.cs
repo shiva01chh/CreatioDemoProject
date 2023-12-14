@@ -32,7 +32,7 @@
 	#region Class: Contact_PRMPortal_TerrasoftSchema
 
 	/// <exclude/>
-	public class Contact_PRMPortal_TerrasoftSchema : Terrasoft.Configuration.Contact_CrtMLLeadConversion_TerrasoftSchema
+	public class Contact_PRMPortal_TerrasoftSchema : Terrasoft.Configuration.Contact_CrtTouchPointInC360_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -112,7 +112,7 @@
 	/// <summary>
 	/// Contact.
 	/// </summary>
-	public class Contact_PRMPortal_Terrasoft : Terrasoft.Configuration.Contact_CrtMLLeadConversion_Terrasoft
+	public class Contact_PRMPortal_Terrasoft : Terrasoft.Configuration.Contact_CrtTouchPointInC360_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -161,7 +161,7 @@
 	#region Class: Contact_PRMPortalEventsProcess
 
 	/// <exclude/>
-	public partial class Contact_PRMPortalEventsProcess<TEntity> : Terrasoft.Configuration.Contact_CrtMLLeadConversionEventsProcess<TEntity> where TEntity : Contact_PRMPortal_Terrasoft
+	public partial class Contact_PRMPortalEventsProcess<TEntity> : Terrasoft.Configuration.Contact_CrtTouchPointInC360EventsProcess<TEntity> where TEntity : Contact_PRMPortal_Terrasoft
 	{
 
 		public Contact_PRMPortalEventsProcess(UserConnection userConnection)

@@ -1407,7 +1407,7 @@
 			parametrizedElement.Parameters.Add(projectParameter);
 			var activityPriorityParameter = new ProcessSchemaParameter(this) {
 				ReferenceSchemaUId = new Guid("b934f48c-5dea-49b9-bde3-697cb4be5d8b"),
-				UId = new Guid("08668e85-1c87-4643-add4-27168a44f574"),
+				UId = new Guid("7d053d98-16f9-4938-8997-62e85080d425"),
 				ContainerUId = new Guid("f1a1e116-6123-4a56-9344-3526a839225c"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -1434,7 +1434,7 @@
 			};
 			parametrizedElement.Parameters.Add(activityPriorityParameter);
 			var createActivityParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("8e654ec1-5d28-48e0-a3d1-ce8ab81354cb"),
+				UId = new Guid("76229feb-8067-4bc9-b6ee-48c0917bbf34"),
 				ContainerUId = new Guid("f1a1e116-6123-4a56-9344-3526a839225c"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -1628,7 +1628,7 @@
 			};
 			parametrizedElement.Parameters.Add(recordIdParameter);
 			var considerTimeInFilterParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("14de2c31-f2fd-4883-aa50-232208d997a7"),
+				UId = new Guid("a93693b9-5d4a-4d53-b0fa-d0b99eea32a2"),
 				ContainerUId = new Guid("7c141fed-2ab7-4b81-aaf7-05788f198103"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -2707,15 +2707,15 @@
 			MetaPathParameterValues.Add("5bd2622b-1a31-47db-9cc6-ef0f1d28d691", () => OpenEditPageUserTask1.Change);
 			MetaPathParameterValues.Add("6eb2abed-f54f-4366-b8c5-7433e0d5803b", () => OpenEditPageUserTask1.Release);
 			MetaPathParameterValues.Add("f7032715-9611-4c85-ba14-fd6be7ecb408", () => OpenEditPageUserTask1.Project);
-			MetaPathParameterValues.Add("08668e85-1c87-4643-add4-27168a44f574", () => OpenEditPageUserTask1.ActivityPriority);
-			MetaPathParameterValues.Add("8e654ec1-5d28-48e0-a3d1-ce8ab81354cb", () => OpenEditPageUserTask1.CreateActivity);
+			MetaPathParameterValues.Add("7d053d98-16f9-4938-8997-62e85080d425", () => OpenEditPageUserTask1.ActivityPriority);
+			MetaPathParameterValues.Add("76229feb-8067-4bc9-b6ee-48c0917bbf34", () => OpenEditPageUserTask1.CreateActivity);
 			MetaPathParameterValues.Add("e6c68d49-3a67-4c77-af1f-5ebc245cef08", () => AddDataUserTask1.EntitySchemaId);
 			MetaPathParameterValues.Add("f0e3fb86-16b6-43cd-bf28-e690dfa14675", () => AddDataUserTask1.DataSourceFilters);
 			MetaPathParameterValues.Add("21a0db48-c769-44b9-bca9-1e4a8e5d8196", () => AddDataUserTask1.RecordAddMode);
 			MetaPathParameterValues.Add("98e598ab-767c-4f41-b9d0-7f528e24771c", () => AddDataUserTask1.FilterEntitySchemaId);
 			MetaPathParameterValues.Add("9aee3d4d-32c8-472c-b908-f40aee815e2b", () => AddDataUserTask1.RecordDefValues);
 			MetaPathParameterValues.Add("79d72c86-b946-4e74-b82c-577c9d0709aa", () => AddDataUserTask1.RecordId);
-			MetaPathParameterValues.Add("14de2c31-f2fd-4883-aa50-232208d997a7", () => AddDataUserTask1.ConsiderTimeInFilter);
+			MetaPathParameterValues.Add("a93693b9-5d4a-4d53-b0fa-d0b99eea32a2", () => AddDataUserTask1.ConsiderTimeInFilter);
 		}
 
 		protected override void ApplyPropertiesDataValues(DataReader reader) {

@@ -1,0 +1,4 @@
+2023-12-12 18:49:50,384 [1] INFO  ProcessMaintenanceLog Register - ProcessMaintenanceJob removed.
+2023-12-12 18:49:50,398 [1] INFO  ProcessMaintenanceLog Register - ProcessMaintenanceJob scheduled with 5 minutes frequency.
+2023-12-12 18:54:56,033 [1] INFO  ProcessMaintenanceLog Register - ProcessMaintenanceJob removed.
+2023-12-12 18:54:56,042 [1] INFO  ProcessMaintenanceLog Register - ProcessMaintenanceJob scheduled with 5 minutes frequency.

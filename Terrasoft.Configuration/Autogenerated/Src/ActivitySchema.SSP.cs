@@ -33,7 +33,7 @@
 	#region Class: Activity_SSP_TerrasoftSchema
 
 	/// <exclude/>
-	public class Activity_SSP_TerrasoftSchema : Terrasoft.Configuration.Activity_Timeline_TerrasoftSchema
+	public class Activity_SSP_TerrasoftSchema : Terrasoft.Configuration.Activity_Exchange_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -113,7 +113,7 @@
 	/// <summary>
 	/// Activity.
 	/// </summary>
-	public class Activity_SSP_Terrasoft : Terrasoft.Configuration.Activity_Timeline_Terrasoft
+	public class Activity_SSP_Terrasoft : Terrasoft.Configuration.Activity_Exchange_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -162,7 +162,7 @@
 	#region Class: Activity_SSPEventsProcess
 
 	/// <exclude/>
-	public partial class Activity_SSPEventsProcess<TEntity> : Terrasoft.Configuration.Activity_TimelineEventsProcess<TEntity> where TEntity : Activity_SSP_Terrasoft
+	public partial class Activity_SSPEventsProcess<TEntity> : Terrasoft.Configuration.Activity_ExchangeEventsProcess<TEntity> where TEntity : Activity_SSP_Terrasoft
 	{
 
 		public Activity_SSPEventsProcess(UserConnection userConnection)

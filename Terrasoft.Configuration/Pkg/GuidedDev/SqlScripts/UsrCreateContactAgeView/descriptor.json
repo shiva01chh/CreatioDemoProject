@@ -1,0 +1,11 @@
+﻿{
+  "SqlScript": {
+    "UId": "d8a2ce79-74dd-abb0-5387-4c4f10e35bfe",
+    "Name": "UsrCreateContactAgeView",
+    "DBEngineType": 2,
+    "InstallType": 0,
+    "ModifiedOnUtc": "\/Date(1701695218000)\/",
+    "BackwardCompatibilityConfirmed": false,
+    "DependsOn": []
+  }
+}

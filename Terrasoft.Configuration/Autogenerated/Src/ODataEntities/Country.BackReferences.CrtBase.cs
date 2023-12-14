@@ -115,6 +115,11 @@
 			set;
 		}
 
+		public IEnumerable<UsrRealtyFreedomUI> UsrRealtyFreedomUICollectionByUsrCountry {
+			get;
+			set;
+		}
+
 		public IEnumerable<VwClientAddress> VwClientAddressCollectionByCountry {
 			get;
 			set;

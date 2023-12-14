@@ -1,0 +1,603 @@
+2023-12-14 13:08:47,705 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildStarted - Configuration build started
+2023-12-14 13:08:47,737 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Current schemas info loaded
+2023-12-14 13:08:48,306 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-14 13:08:48,980 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Configuration state loaded
+2023-12-14 13:08:48,984 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generation started
+2023-12-14 13:08:49,043 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generated
+2023-12-14 13:08:49,130 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage UpdateMetaInfo - Meta info file updated
+2023-12-14 13:08:49,147 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content generation started
+2023-12-14 13:08:49,725 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors obtained
+2023-12-14 13:08:49,744 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors generated
+2023-12-14 13:08:49,756 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content bootstraps generated
+2023-12-14 13:08:49,756 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildFinished - Configuration build finished
+2023-12-14 13:12:58,067 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildStarted - Configuration build started
+2023-12-14 13:12:58,083 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Current schemas info loaded
+2023-12-14 13:12:58,539 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-14 13:12:59,121 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Configuration state loaded
+2023-12-14 13:12:59,121 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generation started
+2023-12-14 13:12:59,121 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generated
+2023-12-14 13:12:59,184 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage UpdateMetaInfo - Meta info file updated
+2023-12-14 13:12:59,184 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content generation started
+2023-12-14 13:12:59,739 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors obtained
+2023-12-14 13:12:59,746 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors generated
+2023-12-14 13:12:59,746 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content bootstraps generated
+2023-12-14 13:12:59,750 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildFinished - Configuration build finished
+2023-12-14 13:13:44,152 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildStarted - Configuration build started
+2023-12-14 13:13:44,163 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Current schemas info loaded
+2023-12-14 13:13:44,410 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-14 13:13:45,037 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Configuration state loaded
+2023-12-14 13:13:45,037 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generation started
+2023-12-14 13:13:45,062 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generated
+2023-12-14 13:13:45,111 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage UpdateMetaInfo - Meta info file updated
+2023-12-14 13:13:45,111 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content generation started
+2023-12-14 13:13:45,515 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors obtained
+2023-12-14 13:13:45,519 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors generated
+2023-12-14 13:13:45,523 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content bootstraps generated
+2023-12-14 13:13:45,523 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildFinished - Configuration build finished
+2023-12-14 13:26:52,027 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildStarted - Configuration build started
+2023-12-14 13:26:52,044 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Current schemas info loaded
+2023-12-14 13:26:52,462 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-14 13:26:53,055 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Configuration state loaded
+2023-12-14 13:26:53,055 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generation started
+2023-12-14 13:26:53,055 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generated
+2023-12-14 13:26:53,113 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage UpdateMetaInfo - Meta info file updated
+2023-12-14 13:26:53,113 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content generation started
+2023-12-14 13:26:53,534 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors obtained
+2023-12-14 13:26:53,544 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors generated
+2023-12-14 13:26:53,544 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content bootstraps generated
+2023-12-14 13:26:53,544 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildFinished - Configuration build finished
+2023-12-14 13:27:59,322 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildStarted - Configuration build started
+2023-12-14 13:27:59,332 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Current schemas info loaded
+2023-12-14 13:27:59,613 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-14 13:28:00,217 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Configuration state loaded
+2023-12-14 13:28:00,218 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generation started
+2023-12-14 13:28:00,218 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generated
+2023-12-14 13:28:00,269 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Meta info file updated
+2023-12-14 13:28:00,269 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content generation started
+2023-12-14 13:28:00,779 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors obtained
+2023-12-14 13:28:00,779 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors generated
+2023-12-14 13:28:00,779 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content bootstraps generated
+2023-12-14 13:28:00,779 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <BuildChangedAsync>b__52_0 - Configuration build finished
+2023-12-14 13:28:30,680 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedAsync - Configuration build started
+2023-12-14 13:28:30,691 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Current schemas info loaded
+2023-12-14 13:28:30,944 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-14 13:28:31,532 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration state loaded
+2023-12-14 13:28:31,532 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration server content generation started
+2023-12-14 13:28:31,532 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration server content generated
+2023-12-14 13:28:31,581 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Meta info file updated
+2023-12-14 13:28:31,581 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content generation started
+2023-12-14 13:28:32,082 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors obtained
+2023-12-14 13:28:32,083 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors generated
+2023-12-14 13:28:32,083 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content bootstraps generated
+2023-12-14 13:28:32,083 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <BuildChangedAsync>b__52_0 - Configuration build finished
+2023-12-14 13:30:42,951 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedAsync - Configuration build started
+2023-12-14 13:30:42,962 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Current schemas info loaded
+2023-12-14 13:30:43,243 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-14 13:30:43,853 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration state loaded
+2023-12-14 13:30:43,853 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration server content generation started
+2023-12-14 13:30:43,853 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration server content generated
+2023-12-14 13:30:43,902 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Meta info file updated
+2023-12-14 13:30:43,902 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content generation started
+2023-12-14 13:30:44,374 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors obtained
+2023-12-14 13:30:44,374 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors generated
+2023-12-14 13:30:44,374 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content bootstraps generated
+2023-12-14 13:30:44,374 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <BuildChangedAsync>b__52_0 - Configuration build finished
+2023-12-14 13:38:24,257 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedAsync - Configuration build started
+2023-12-14 13:38:24,268 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Current schemas info loaded
+2023-12-14 13:38:24,529 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-14 13:38:25,107 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration state loaded
+2023-12-14 13:38:25,107 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration server content generation started
+2023-12-14 13:38:25,137 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration server content generated
+2023-12-14 13:38:25,184 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Meta info file updated
+2023-12-14 13:38:25,184 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content generation started
+2023-12-14 13:38:25,711 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors obtained
+2023-12-14 13:38:25,711 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ExecutionContextCallback - File content descriptors generated
+2023-12-14 13:38:25,711 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ExecutionContextCallback - File content bootstraps generated
+2023-12-14 13:38:25,711 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <BuildChangedAsync>b__52_0 - Configuration build finished
+2023-12-14 15:31:17,181 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage UploadNonChunkedFile - Loading file: GlbDataBinding.zip 100%
+2023-12-14 15:31:17,273 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <Validate>b__0 - Packages validation started
+2023-12-14 15:31:21,068 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <Validate>b__0 - Packages have been validated
+2023-12-14 15:31:21,109 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <CreateBackup>b__0 - Configuration backup started.
+2023-12-14 15:31:21,193 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Load - Loading packages from archive
+2023-12-14 15:31:21,203 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <Load>b__0 - Package "GlbDataBinding" loaded
+2023-12-14 15:31:21,206 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <CreateBackup>b__0 - Configuration backup successfully created.
+2023-12-14 15:31:21,250 [.NET ThreadPool Worker] WARN Supervisor InstallZipPackage <InstallApp>b__0 - Application install from file started. Application name: GlbDataBinding. Code: GlbDataBinding.
+2023-12-14 15:31:21,250 [.NET ThreadPool Worker] WARN Supervisor InstallZipPackage <InstallApp>b__0 - Preparing packages for installation
+2023-12-14 15:31:22,584 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Load - Loading packages from archive
+2023-12-14 15:31:22,587 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <Load>b__0 - Package "GlbDataBinding" loaded
+2023-12-14 15:31:22,593 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetTargetPackages - Skipped - Loading packages from database (new application)
+2023-12-14 15:31:22,594 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ComposesPackages - Composing packages
+2023-12-14 15:31:22,817 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "BaseSectionV2" saved in package "GlbDataBinding"
+2023-12-14 15:31:22,826 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "SysSettingsSection" saved in package "GlbDataBinding"
+2023-12-14 15:31:22,835 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "GlbDataBindingService" saved in package "GlbDataBinding"
+2023-12-14 15:31:22,839 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "GlbDataBindingHelper" saved in package "GlbDataBinding"
+2023-12-14 15:31:22,848 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "BasePageV2" saved in package "GlbDataBinding"
+2023-12-14 15:31:22,854 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "SysAdminOperationSectionV2" saved in package "GlbDataBinding"
+2023-12-14 15:31:22,859 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "BaseLookupConfigurationSection" saved in package "GlbDataBinding"
+2023-12-14 15:31:22,864 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "SysWorkplacePageV2" saved in package "GlbDataBinding"
+2023-12-14 15:31:22,870 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "SysAdminUnitSectionV2" saved in package "GlbDataBinding"
+2023-12-14 15:31:22,875 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "SysSettingPage" saved in package "GlbDataBinding"
+2023-12-14 15:31:22,880 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "LookupSection" saved in package "GlbDataBinding"
+2023-12-14 15:31:22,885 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "SysAdminOperationPageV2" saved in package "GlbDataBinding"
+2023-12-14 15:31:22,890 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "SysWorkplaceSectionV2" saved in package "GlbDataBinding"
+2023-12-14 15:31:22,899 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "GlbDataBindingMixin" saved in package "GlbDataBinding"
+2023-12-14 15:31:22,904 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "BaseGridDetailV2" saved in package "GlbDataBinding"
+2023-12-14 15:31:22,910 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "LookupEditPage" saved in package "GlbDataBinding"
+2023-12-14 15:31:22,961 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaDataSaved - Schema data "SysAdminOperationGrantee_GlbCanCreateDataBinding" saved in package "GlbDataBinding"
+2023-12-14 15:31:22,984 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaDataSaved - Schema data "SysAdminOperation_GlbCanCreateDataBinding" saved in package "GlbDataBinding"
+2023-12-14 15:31:22,987 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSaved - Package "GlbDataBinding" saved
+2023-12-14 15:31:23,068 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageDependenciesSaved - Added - dependencies of package "GlbDataBinding"
+2023-12-14 15:31:23,189 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageResourceSaved - Added - resources in package "GlbDataBinding"
+2023-12-14 15:31:23,801 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnSchemasCaptionLocalizationSaved - Added - schema caption localizations in package "GlbDataBinding"
+2023-12-14 15:31:23,936 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageHierarchyUpdating - Package hierarchy actualization is started
+2023-12-14 15:31:24,406 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageHierarchyUpdated - Package hierarchy actualization is completed. Affected records: 26
+2023-12-14 15:31:24,406 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageHierarchySaved - Package hierarchy updated
+2023-12-14 15:31:24,416 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallStart - Updating tables structure in database
+2023-12-14 15:31:24,512 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallStart - Installing data
+2023-12-14 15:31:24,964 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Data "SysAdminOperationGrantee_GlbCanCreateDataBinding" from package "GlbDataBinding" installed
+2023-12-14 15:31:25,085 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Data "SysAdminOperation_GlbCanCreateDataBinding" from package "GlbDataBinding" installed
+2023-12-14 15:31:25,096 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Lookup values "SysAdminOperationGrantee_GlbCanCreateDataBinding" from package "GlbDataBinding" installed
+2023-12-14 15:31:25,121 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Lookup values "SysAdminOperation_GlbCanCreateDataBinding" from package "GlbDataBinding" installed
+2023-12-14 15:31:25,659 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "BaseGridDetailV2" from package GlbDataBinding generated
+2023-12-14 15:31:25,830 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "SysAdminOperationPageV2" from package GlbDataBinding generated
+2023-12-14 15:31:25,975 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "SysSettingsSection" from package GlbDataBinding generated
+2023-12-14 15:31:26,185 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "LookupSection" from package GlbDataBinding generated
+2023-12-14 15:31:26,304 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "SysAdminOperationSectionV2" from package GlbDataBinding generated
+2023-12-14 15:31:26,350 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "LookupEditPage" from package GlbDataBinding generated
+2023-12-14 15:31:26,679 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "BaseLookupConfigurationSection" from package GlbDataBinding generated
+2023-12-14 15:31:26,778 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "SysAdminUnitSectionV2" from package GlbDataBinding generated
+2023-12-14 15:31:26,804 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "BasePageV2" from package GlbDataBinding generated
+2023-12-14 15:31:26,902 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "SysWorkplacePageV2" from package GlbDataBinding generated
+2023-12-14 15:31:27,103 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "BaseSectionV2" from package GlbDataBinding generated
+2023-12-14 15:31:27,131 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "GlbDataBindingMixin" from package GlbDataBinding generated
+2023-12-14 15:31:27,226 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "SysWorkplaceSectionV2" from package GlbDataBinding generated
+2023-12-14 15:31:27,328 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "GlbDataBindingHelper" from package GlbDataBinding generated
+2023-12-14 15:31:27,367 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "GlbDataBindingService" from package GlbDataBinding generated
+2023-12-14 15:31:27,385 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "SysSettingPage" from package GlbDataBinding generated
+2023-12-14 15:31:27,391 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallStart - Updating modified schemas
+2023-12-14 15:31:27,391 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallFinish - Updated modified schemas
+2023-12-14 15:31:27,400 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Save - Compiling configuration dll
+2023-12-14 15:32:28,246 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Save - Errors and (or) warnings occurred while compiling configuration dll
+2023-12-14 15:32:28,256 [.NET ThreadPool Worker] ERROR Supervisor InstallZipPackage LogCompilerResult - /home/shivangi/Shivangi/Shivangi's-workspace/creatio_october_traning/app/Terrasoft.Configuration/Autogenerated/Src/GlbDataBindingService.GlbDataBinding.cs(29,11) error CS0234: The type or namespace name 'Text' does not exist in the namespace 'ServiceStack' (are you missing an assembly reference?)
+2023-12-14 15:32:28,256 [.NET ThreadPool Worker] ERROR Supervisor InstallZipPackage LogCompilerResult - /home/shivangi/Shivangi/Shivangi's-workspace/creatio_october_traning/app/Terrasoft.Configuration/Autogenerated/Src/InvoiceSchema.PRMPortal.cs(279,5) error CS0103: The name 'CleanInvoiceIdInSupplyPayment' does not exist in the current context
+2023-12-14 15:32:28,256 [.NET ThreadPool Worker] ERROR Supervisor InstallZipPackage LogCompilerResult - /home/shivangi/Shivangi/Shivangi's-workspace/creatio_october_traning/app/Terrasoft.Configuration/Autogenerated/Src/InvoiceSchema.PRMPortal.cs(265,28) error CS0103: The name 'GetOrderAmountHelper' does not exist in the current context
+2023-12-14 15:32:28,258 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedAsync - Configuration build started
+2023-12-14 15:32:28,282 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Current schemas info loaded
+2023-12-14 15:32:29,830 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-14 15:32:30,404 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration state loaded
+2023-12-14 15:32:30,404 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration server content generation started
+2023-12-14 15:32:30,404 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration server content generated
+2023-12-14 15:32:30,461 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Meta info file updated
+2023-12-14 15:32:30,461 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Start - File content generation started
+2023-12-14 15:32:31,697 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Start - File content descriptors obtained
+2023-12-14 15:32:31,703 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ExecutionContextCallback - File content descriptors generated
+2023-12-14 15:32:31,703 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ExecutionContextCallback - File content bootstraps generated
+2023-12-14 15:32:31,703 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <BuildChangedAsync>b__52_0 - Configuration build finished
+2023-12-14 15:32:31,811 [.NET ThreadPool Worker] WARN Supervisor InstallZipPackage LogWarn - When application installed, an error(s) occured
+2023-12-14 15:47:50,191 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <RestoreFromBackup>b__0 - Configuration restoring from backup started
+2023-12-14 15:47:50,194 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Load - Loading packages from archive
+2023-12-14 15:47:50,752 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Load - Loading packages from database
+2023-12-14 15:47:54,958 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ComposesPackages - Composing packages
+2023-12-14 15:48:06,499 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSaved - Package "GlbDataBinding" saved
+2023-12-14 15:48:06,647 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageHierarchyUpdating - Package hierarchy actualization is started
+2023-12-14 15:48:07,001 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageHierarchyUpdated - Package hierarchy actualization is completed. Affected records: 0
+2023-12-14 15:48:07,002 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageHierarchySaved - Package hierarchy updated
+2023-12-14 15:48:07,002 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallStart - Updating tables structure in database
+2023-12-14 15:48:07,002 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GenerateSchemaAdditionalSources - Updating modified schemas
+2023-12-14 15:48:07,002 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GenerateSchemaAdditionalSources - Updated modified schemas
+2023-12-14 15:48:07,087 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallStart - Installing data
+2023-12-14 15:48:07,486 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Save - Compiling configuration dll
+2023-12-14 15:50:27,413 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedAsync - Configuration build started
+2023-12-14 15:50:27,425 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Current schemas info loaded
+2023-12-14 15:50:28,610 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-14 15:50:29,205 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration state loaded
+2023-12-14 15:50:29,205 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration server content generation started
+2023-12-14 15:50:29,205 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration server content generated
+2023-12-14 15:50:30,896 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Meta info file updated
+2023-12-14 15:50:30,896 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Start - File content generation started
+2023-12-14 15:50:31,811 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Start - File content descriptors obtained
+2023-12-14 15:50:31,811 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ExecutionContextCallback - File content descriptors generated
+2023-12-14 15:50:31,814 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ExecutionContextCallback - File content bootstraps generated
+2023-12-14 15:50:31,814 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <BuildChangedAsync>b__52_0 - Configuration build finished
+2023-12-14 15:50:32,004 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <RestoreFromBackup>b__0 - Configuration restoring from backup finished
+2023-12-14 15:54:20,801 [.NET ThreadPool Worker] WARN Supervisor InstallZipPackage LogWarn - Uninstall application
+2023-12-14 15:54:21,207 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Load - Loading packages from database
+2023-12-14 15:54:25,701 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ComposesPackages - Composing packages
+2023-12-14 15:54:37,162 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ProcessPackage - Package "UsrApp_8kawftb" saved
+2023-12-14 15:54:37,306 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageHierarchyUpdating - Package hierarchy actualization is started
+2023-12-14 15:54:37,645 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageHierarchyUpdated - Package hierarchy actualization is completed. Affected records: 0
+2023-12-14 15:54:37,646 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageHierarchySaved - Package hierarchy updated
+2023-12-14 15:54:37,646 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GenerateSchemaAdditionalSources - Updating modified schemas
+2023-12-14 15:54:37,646 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GenerateSchemaAdditionalSources - Updated modified schemas
+2023-12-14 15:54:38,030 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedAsync - Configuration build started
+2023-12-14 15:54:38,040 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Current schemas info loaded
+2023-12-14 15:54:38,291 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-14 15:54:38,875 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration state loaded
+2023-12-14 15:54:38,875 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration server content generation started
+2023-12-14 15:54:38,875 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration server content generated
+2023-12-14 15:54:38,921 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Meta info file updated
+2023-12-14 15:54:38,921 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Start - File content generation started
+2023-12-14 15:54:39,430 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Start - File content descriptors obtained
+2023-12-14 15:54:39,432 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ExecutionContextCallback - File content descriptors generated
+2023-12-14 15:54:39,432 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ExecutionContextCallback - File content bootstraps generated
+2023-12-14 15:54:39,432 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <BuildChangedAsync>b__52_0 - Configuration build finished
+2023-12-14 15:54:39,434 [.NET ThreadPool Worker] WARN Supervisor InstallZipPackage LogWarn - Application uninstalled successfully
+2023-12-14 15:56:53,656 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedAsync - Configuration build started
+2023-12-14 15:56:53,668 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Current schemas info loaded
+2023-12-14 15:56:53,928 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-14 15:56:54,490 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration state loaded
+2023-12-14 15:56:54,490 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration server content generation started
+2023-12-14 15:56:54,490 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration server content generated
+2023-12-14 15:56:54,542 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Meta info file updated
+2023-12-14 15:56:54,542 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Start - File content generation started
+2023-12-14 15:56:55,008 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Start - File content descriptors obtained
+2023-12-14 15:56:55,008 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ExecutionContextCallback - File content descriptors generated
+2023-12-14 15:56:55,011 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ExecutionContextCallback - File content bootstraps generated
+2023-12-14 15:56:55,011 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <BuildChangedAsync>b__52_0 - Configuration build finished
+2023-12-14 16:03:42,537 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage UploadNonChunkedFile - Loading file: GlbDataBinding (1).zip 100%
+2023-12-14 16:03:42,581 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <Validate>b__0 - Packages validation started
+2023-12-14 16:03:46,054 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <Validate>b__0 - Packages have been validated
+2023-12-14 16:03:46,086 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <CreateBackup>b__0 - Configuration backup started.
+2023-12-14 16:03:46,087 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Load - Loading packages from archive
+2023-12-14 16:03:46,120 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <Load>b__0 - Package "GlbDataBinding" loaded
+2023-12-14 16:03:46,120 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <CreateBackup>b__0 - Configuration backup successfully created.
+2023-12-14 16:03:46,149 [.NET ThreadPool Worker] WARN Supervisor InstallZipPackage <InstallApp>b__0 - Application install from file started. Application name: GlbDataBinding (1). Code: GlbDataBinding (1).
+2023-12-14 16:03:46,149 [.NET ThreadPool Worker] WARN Supervisor InstallZipPackage <InstallApp>b__0 - Preparing packages for installation
+2023-12-14 16:03:46,952 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Load - Loading packages from archive
+2023-12-14 16:03:46,954 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <Load>b__0 - Package "GlbDataBinding" loaded
+2023-12-14 16:03:46,954 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetTargetPackages - Skipped - Loading packages from database (new application)
+2023-12-14 16:03:46,954 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ComposesPackages - Composing packages
+2023-12-14 16:03:47,087 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "BaseSectionV2" saved in package "GlbDataBinding"
+2023-12-14 16:03:47,093 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "SysSettingsSection" saved in package "GlbDataBinding"
+2023-12-14 16:03:47,101 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "GlbDataBindingService" saved in package "GlbDataBinding"
+2023-12-14 16:03:47,106 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "GlbDataBindingHelper" saved in package "GlbDataBinding"
+2023-12-14 16:03:47,113 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "BasePageV2" saved in package "GlbDataBinding"
+2023-12-14 16:03:47,119 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "SysAdminOperationSectionV2" saved in package "GlbDataBinding"
+2023-12-14 16:03:47,124 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "BaseLookupConfigurationSection" saved in package "GlbDataBinding"
+2023-12-14 16:03:47,128 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "SysWorkplacePageV2" saved in package "GlbDataBinding"
+2023-12-14 16:03:47,135 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "SysAdminUnitSectionV2" saved in package "GlbDataBinding"
+2023-12-14 16:03:47,141 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "SysSettingPage" saved in package "GlbDataBinding"
+2023-12-14 16:03:47,145 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "LookupSection" saved in package "GlbDataBinding"
+2023-12-14 16:03:47,151 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "SysAdminOperationPageV2" saved in package "GlbDataBinding"
+2023-12-14 16:03:47,156 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "SysWorkplaceSectionV2" saved in package "GlbDataBinding"
+2023-12-14 16:03:47,161 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "GlbDataBindingMixin" saved in package "GlbDataBinding"
+2023-12-14 16:03:47,166 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "BaseGridDetailV2" saved in package "GlbDataBinding"
+2023-12-14 16:03:47,171 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "LookupEditPage" saved in package "GlbDataBinding"
+2023-12-14 16:03:47,191 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage SavePackageSchemaDatas - Schema data "SysAdminOperationGrantee_GlbCanCreateDataBinding" saved in package "GlbDataBinding"
+2023-12-14 16:03:47,207 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage SavePackageSchemaDatas - Schema data "SysAdminOperation_GlbCanCreateDataBinding" saved in package "GlbDataBinding"
+2023-12-14 16:03:47,207 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ProcessPackage - Package "GlbDataBinding" saved
+2023-12-14 16:03:47,216 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage SaveDependencies - Added - dependencies of package "GlbDataBinding"
+2023-12-14 16:03:47,302 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <SaveSchemaResources>b__0 - Added - resources in package "GlbDataBinding"
+2023-12-14 16:03:47,853 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage SavePackagesSchemasCaptionLocalization - Added - schema caption localizations in package "GlbDataBinding"
+2023-12-14 16:03:47,984 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageHierarchyUpdating - Package hierarchy actualization is started
+2023-12-14 16:03:48,361 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageHierarchyUpdated - Package hierarchy actualization is completed. Affected records: 26
+2023-12-14 16:03:48,361 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageHierarchySaved - Package hierarchy updated
+2023-12-14 16:03:48,362 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallStart - Updating tables structure in database
+2023-12-14 16:03:48,449 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallStart - Installing data
+2023-12-14 16:03:48,497 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "SysAdminOperationGrantee_GlbCanCreateDataBinding" from package "GlbDataBinding" installed
+2023-12-14 16:03:48,547 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "SysAdminOperation_GlbCanCreateDataBinding" from package "GlbDataBinding" installed
+2023-12-14 16:03:48,551 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage InstallColumnLookupValues - Lookup values "SysAdminOperationGrantee_GlbCanCreateDataBinding" from package "GlbDataBinding" installed
+2023-12-14 16:03:48,573 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage InstallColumnLookupValues - Lookup values "SysAdminOperation_GlbCanCreateDataBinding" from package "GlbDataBinding" installed
+2023-12-14 16:03:49,531 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "SysAdminOperationPageV2" from package GlbDataBinding generated
+2023-12-14 16:03:49,635 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "SysSettingsSection" from package GlbDataBinding generated
+2023-12-14 16:03:49,652 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "LookupEditPage" from package GlbDataBinding generated
+2023-12-14 16:03:49,737 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "BasePageV2" from package GlbDataBinding generated
+2023-12-14 16:03:49,791 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "BaseGridDetailV2" from package GlbDataBinding generated
+2023-12-14 16:03:49,856 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "SysAdminOperationSectionV2" from package GlbDataBinding generated
+2023-12-14 16:03:49,963 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "SysWorkplacePageV2" from package GlbDataBinding generated
+2023-12-14 16:03:50,002 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "LookupSection" from package GlbDataBinding generated
+2023-12-14 16:03:50,101 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "SysSettingPage" from package GlbDataBinding generated
+2023-12-14 16:03:50,244 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage InstallSchemaAssociatedData - Schema source code "BaseLookupConfigurationSection" from package GlbDataBinding generated
+2023-12-14 16:03:50,313 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage InstallSchemaAssociatedData - Schema source code "SysWorkplaceSectionV2" from package GlbDataBinding generated
+2023-12-14 16:03:50,442 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage InstallSchemaAssociatedData - Schema source code "BaseSectionV2" from package GlbDataBinding generated
+2023-12-14 16:03:50,465 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage InstallSchemaAssociatedData - Schema source code "GlbDataBindingMixin" from package GlbDataBinding generated
+2023-12-14 16:03:50,592 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <InstallSchemasAssociatedDataFromSelect>b__0 - Schema source code "SysAdminUnitSectionV2" from package GlbDataBinding generated
+2023-12-14 16:03:50,640 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <InstallSchemasAssociatedDataFromSelect>b__0 - Schema source code "GlbDataBindingService" from package GlbDataBinding generated
+2023-12-14 16:03:50,666 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <InstallSchemasAssociatedDataFromSelect>b__0 - Schema source code "GlbDataBindingHelper" from package GlbDataBinding generated
+2023-12-14 16:03:50,666 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GenerateSchemaAdditionalSources - Updating modified schemas
+2023-12-14 16:03:50,666 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GenerateSchemaAdditionalSources - Updated modified schemas
+2023-12-14 16:03:50,666 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Save - Compiling configuration dll
+2023-12-14 16:04:52,450 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Save - Errors and (or) warnings occurred while compiling configuration dll
+2023-12-14 16:04:52,452 [.NET ThreadPool Worker] ERROR Supervisor InstallZipPackage LogCompilerResult - /home/shivangi/Shivangi/Shivangi's-workspace/creatio_october_traning/app/Terrasoft.Configuration/Autogenerated/Src/GlbDataBindingService.GlbDataBinding.cs(29,11) error CS0234: The type or namespace name 'Text' does not exist in the namespace 'ServiceStack' (are you missing an assembly reference?)
+2023-12-14 16:04:52,452 [.NET ThreadPool Worker] ERROR Supervisor InstallZipPackage LogCompilerResult - /home/shivangi/Shivangi/Shivangi's-workspace/creatio_october_traning/app/Terrasoft.Configuration/Autogenerated/Src/InvoiceSchema.PRMPortal.cs(279,5) error CS0103: The name 'CleanInvoiceIdInSupplyPayment' does not exist in the current context
+2023-12-14 16:04:52,455 [.NET ThreadPool Worker] ERROR Supervisor InstallZipPackage LogCompilerResult - /home/shivangi/Shivangi/Shivangi's-workspace/creatio_october_traning/app/Terrasoft.Configuration/Autogenerated/Src/InvoiceSchema.PRMPortal.cs(265,28) error CS0103: The name 'GetOrderAmountHelper' does not exist in the current context
+2023-12-14 16:04:52,455 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedAsync - Configuration build started
+2023-12-14 16:04:52,498 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Current schemas info loaded
+2023-12-14 16:04:53,974 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-14 16:04:54,568 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration state loaded
+2023-12-14 16:04:54,568 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration server content generation started
+2023-12-14 16:04:54,568 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration server content generated
+2023-12-14 16:04:54,621 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Meta info file updated
+2023-12-14 16:04:54,621 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Start - File content generation started
+2023-12-14 16:04:56,028 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Start - File content descriptors obtained
+2023-12-14 16:04:56,034 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ExecutionContextCallback - File content descriptors generated
+2023-12-14 16:04:56,034 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ExecutionContextCallback - File content bootstraps generated
+2023-12-14 16:04:56,034 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <BuildChangedAsync>b__52_0 - Configuration build finished
+2023-12-14 16:04:56,082 [.NET ThreadPool Worker] WARN Supervisor InstallZipPackage LogWarn - When application installed, an error(s) occured
+2023-12-14 16:06:15,031 [.NET ThreadPool Worker] WARN Supervisor InstallZipPackage LogWarn - Uninstall application
+2023-12-14 16:06:15,427 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Load - Loading packages from database
+2023-12-14 16:06:19,689 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ComposesPackages - Composing packages
+2023-12-14 16:06:31,110 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ProcessPackage - Package "GlbDataBinding" saved
+2023-12-14 16:06:31,252 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageHierarchyUpdating - Package hierarchy actualization is started
+2023-12-14 16:06:31,589 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageHierarchyUpdated - Package hierarchy actualization is completed. Affected records: 0
+2023-12-14 16:06:31,589 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageHierarchySaved - Package hierarchy updated
+2023-12-14 16:06:31,590 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GenerateSchemaAdditionalSources - Updating modified schemas
+2023-12-14 16:06:31,590 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GenerateSchemaAdditionalSources - Updated modified schemas
+2023-12-14 16:06:31,963 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Save - Compiling configuration dll
+2023-12-14 16:08:46,545 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedAsync - Configuration build started
+2023-12-14 16:08:46,559 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Current schemas info loaded
+2023-12-14 16:08:47,508 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-14 16:08:48,073 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration state loaded
+2023-12-14 16:08:48,073 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration server content generation started
+2023-12-14 16:08:48,073 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration server content generated
+2023-12-14 16:08:50,564 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Meta info file updated
+2023-12-14 16:08:50,571 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Start - File content generation started
+2023-12-14 16:08:51,635 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Start - File content descriptors obtained
+2023-12-14 16:08:51,635 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ExecutionContextCallback - File content descriptors generated
+2023-12-14 16:08:51,639 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ExecutionContextCallback - File content bootstraps generated
+2023-12-14 16:08:51,639 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <BuildChangedAsync>b__52_0 - Configuration build finished
+2023-12-14 16:08:51,647 [.NET ThreadPool Worker] WARN Supervisor InstallZipPackage LogWarn - Application uninstalled successfully
+2023-12-14 16:09:12,696 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedAsync - Configuration build started
+2023-12-14 16:09:12,707 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Current schemas info loaded
+2023-12-14 16:09:12,974 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-14 16:09:13,507 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration state loaded
+2023-12-14 16:09:13,507 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration server content generation started
+2023-12-14 16:09:13,507 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration server content generated
+2023-12-14 16:09:13,554 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Meta info file updated
+2023-12-14 16:09:13,554 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Start - File content generation started
+2023-12-14 16:09:14,105 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Start - File content descriptors obtained
+2023-12-14 16:09:14,107 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ExecutionContextCallback - File content descriptors generated
+2023-12-14 16:09:14,107 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ExecutionContextCallback - File content bootstraps generated
+2023-12-14 16:09:14,107 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <BuildChangedAsync>b__52_0 - Configuration build finished
+2023-12-14 16:11:54,806 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedAsync - Configuration build started
+2023-12-14 16:11:54,820 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Current schemas info loaded
+2023-12-14 16:11:55,862 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-14 16:11:56,405 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration state loaded
+2023-12-14 16:11:56,405 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration server content generation started
+2023-12-14 16:11:56,405 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration server content generated
+2023-12-14 16:11:56,455 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Meta info file updated
+2023-12-14 16:11:56,455 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Start - File content generation started
+2023-12-14 16:11:57,043 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Start - File content descriptors obtained
+2023-12-14 16:11:57,048 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ExecutionContextCallback - File content descriptors generated
+2023-12-14 16:11:57,048 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ExecutionContextCallback - File content bootstraps generated
+2023-12-14 16:11:57,048 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <BuildChangedAsync>b__52_0 - Configuration build finished
+2023-12-14 16:30:11,338 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildStarted - Configuration build started
+2023-12-14 16:30:11,370 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Current schemas info loaded
+2023-12-14 16:30:11,826 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-14 16:30:12,516 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Configuration state loaded
+2023-12-14 16:30:12,521 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generation started
+2023-12-14 16:30:12,844 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generated
+2023-12-14 16:30:12,909 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage UpdateMetaInfo - Meta info file updated
+2023-12-14 16:30:12,920 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content generation started
+2023-12-14 16:30:13,368 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors obtained
+2023-12-14 16:30:13,378 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors generated
+2023-12-14 16:30:13,386 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content bootstraps generated
+2023-12-14 16:30:13,387 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildFinished - Configuration build finished
+2023-12-14 16:33:44,114 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildStarted - Configuration build started
+2023-12-14 16:33:44,125 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Current schemas info loaded
+2023-12-14 16:33:44,384 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-14 16:33:45,004 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Configuration state loaded
+2023-12-14 16:33:45,004 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generation started
+2023-12-14 16:33:45,066 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generated
+2023-12-14 16:33:45,115 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage UpdateMetaInfo - Meta info file updated
+2023-12-14 16:33:45,115 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content generation started
+2023-12-14 16:33:45,551 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors obtained
+2023-12-14 16:33:45,551 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors generated
+2023-12-14 16:33:45,555 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content bootstraps generated
+2023-12-14 16:33:45,555 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildFinished - Configuration build finished
+2023-12-14 16:43:37,990 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildStarted - Configuration build started
+2023-12-14 16:43:38,001 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Current schemas info loaded
+2023-12-14 16:43:39,067 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-14 16:43:39,600 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Configuration state loaded
+2023-12-14 16:43:39,600 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generation started
+2023-12-14 16:43:39,600 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generated
+2023-12-14 16:43:39,647 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage UpdateMetaInfo - Meta info file updated
+2023-12-14 16:43:39,647 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content generation started
+2023-12-14 16:43:40,281 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors obtained
+2023-12-14 16:43:40,285 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors generated
+2023-12-14 16:43:40,287 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content bootstraps generated
+2023-12-14 16:43:40,287 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildFinished - Configuration build finished
+2023-12-14 18:15:29,366 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildStarted - Configuration build started
+2023-12-14 18:15:29,386 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Current schemas info loaded
+2023-12-14 18:15:29,719 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-14 18:15:30,299 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Configuration state loaded
+2023-12-14 18:15:30,302 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generation started
+2023-12-14 18:15:30,338 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generated
+2023-12-14 18:15:30,401 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage UpdateMetaInfo - Meta info file updated
+2023-12-14 18:15:30,406 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content generation started
+2023-12-14 18:15:30,878 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors obtained
+2023-12-14 18:15:30,887 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors generated
+2023-12-14 18:15:30,893 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content bootstraps generated
+2023-12-14 18:15:30,893 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildFinished - Configuration build finished
+2023-12-14 18:20:33,354 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage UploadNonChunkedFile - Loading file: CSL_MaintenanceTools.zip 100%
+2023-12-14 18:20:33,484 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <Validate>b__0 - Packages validation started
+2023-12-14 18:20:36,780 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <Validate>b__0 - Packages have been validated
+2023-12-14 18:20:36,813 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <CreateBackup>b__0 - Configuration backup started.
+2023-12-14 18:20:36,843 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Load - Loading packages from archive
+2023-12-14 18:20:36,843 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <Load>b__0 - Package "CSL_MaintenanceTools" loaded
+2023-12-14 18:20:36,848 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <CreateBackup>b__0 - Configuration backup successfully created.
+2023-12-14 18:20:36,882 [.NET ThreadPool Worker] WARN Supervisor InstallZipPackage <InstallApp>b__0 - Application install from file started. Application name: CSL_MaintenanceTools. Code: CSL_MaintenanceTools.
+2023-12-14 18:20:36,882 [.NET ThreadPool Worker] WARN Supervisor InstallZipPackage <InstallApp>b__0 - Preparing packages for installation
+2023-12-14 18:20:38,451 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Load - Loading packages from archive
+2023-12-14 18:20:38,451 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <Load>b__0 - Package "CSL_MaintenanceTools" loaded
+2023-12-14 18:20:38,457 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetTargetPackages - Skipped - Loading packages from database (new application)
+2023-12-14 18:20:38,458 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ComposesPackages - Composing packages
+2023-12-14 18:20:38,658 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "SystemDesigner" saved in package "CSL_MaintenanceTools"
+2023-12-14 18:20:38,664 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnFileContentChanged - Files saved in package "CSL_MaintenanceTools"
+2023-12-14 18:20:38,664 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSaved - Package "CSL_MaintenanceTools" saved
+2023-12-14 18:20:38,670 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageDependenciesSaved - Added - dependencies of package "CSL_MaintenanceTools"
+2023-12-14 18:20:39,127 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageResourceSaved - Added - resources in package "CSL_MaintenanceTools"
+2023-12-14 18:20:39,203 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnSchemasCaptionLocalizationSaved - Added - schema caption localizations in package "CSL_MaintenanceTools"
+2023-12-14 18:20:39,337 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageHierarchyUpdating - Package hierarchy actualization is started
+2023-12-14 18:20:39,779 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageHierarchyUpdated - Package hierarchy actualization is completed. Affected records: 26
+2023-12-14 18:20:39,779 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageHierarchySaved - Package hierarchy updated
+2023-12-14 18:20:39,783 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallStart - Updating tables structure in database
+2023-12-14 18:20:39,873 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallStart - Installing data
+2023-12-14 18:20:41,148 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "SystemDesigner" from package CSL_MaintenanceTools generated
+2023-12-14 18:20:41,148 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallStart - Updating modified schemas
+2023-12-14 18:20:41,148 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallFinish - Updated modified schemas
+2023-12-14 18:20:41,155 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildStarted - Configuration build started
+2023-12-14 18:20:41,165 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Current schemas info loaded
+2023-12-14 18:20:41,423 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-14 18:20:41,975 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Configuration state loaded
+2023-12-14 18:20:41,975 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generation started
+2023-12-14 18:20:41,975 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generated
+2023-12-14 18:20:42,028 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage UpdateMetaInfo - Meta info file updated
+2023-12-14 18:20:42,028 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content generation started
+2023-12-14 18:20:42,526 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors obtained
+2023-12-14 18:20:42,528 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors generated
+2023-12-14 18:20:42,528 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content bootstraps generated
+2023-12-14 18:20:42,528 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildFinished - Configuration build finished
+2023-12-14 18:20:42,594 [.NET ThreadPool Worker] WARN Supervisor InstallZipPackage LogWarn - Application installed successfully
+2023-12-14 18:20:57,504 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage UploadNonChunkedFile - Loading file: GlbDataBinding.zip 100%
+2023-12-14 18:20:57,543 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <Validate>b__0 - Packages validation started
+2023-12-14 18:21:00,744 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <Validate>b__0 - Packages have been validated
+2023-12-14 18:21:00,821 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <CreateBackup>b__0 - Configuration backup started.
+2023-12-14 18:21:00,823 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Load - Loading packages from archive
+2023-12-14 18:21:00,828 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <Load>b__0 - Package "GlbDataBinding" loaded
+2023-12-14 18:21:00,828 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <CreateBackup>b__0 - Configuration backup successfully created.
+2023-12-14 18:21:00,872 [.NET ThreadPool Worker] WARN Supervisor InstallZipPackage <InstallApp>b__0 - Application install from file started. Application name: GlbDataBinding. Code: GlbDataBinding.
+2023-12-14 18:21:00,872 [.NET ThreadPool Worker] WARN Supervisor InstallZipPackage <InstallApp>b__0 - Preparing packages for installation
+2023-12-14 18:21:01,398 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Load - Loading packages from archive
+2023-12-14 18:21:01,398 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <Load>b__0 - Package "GlbDataBinding" loaded
+2023-12-14 18:21:01,398 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetTargetPackages - Skipped - Loading packages from database (new application)
+2023-12-14 18:21:01,402 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ComposesPackages - Composing packages
+2023-12-14 18:21:01,528 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "BaseSectionV2" saved in package "GlbDataBinding"
+2023-12-14 18:21:01,538 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "SysSettingsSection" saved in package "GlbDataBinding"
+2023-12-14 18:21:01,544 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "GlbDataBindingService" saved in package "GlbDataBinding"
+2023-12-14 18:21:01,569 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "GlbDataBindingHelper" saved in package "GlbDataBinding"
+2023-12-14 18:21:01,575 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "BasePageV2" saved in package "GlbDataBinding"
+2023-12-14 18:21:01,581 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "SysAdminOperationSectionV2" saved in package "GlbDataBinding"
+2023-12-14 18:21:01,588 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "BaseLookupConfigurationSection" saved in package "GlbDataBinding"
+2023-12-14 18:21:01,594 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "SysWorkplacePageV2" saved in package "GlbDataBinding"
+2023-12-14 18:21:01,599 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "SysAdminUnitSectionV2" saved in package "GlbDataBinding"
+2023-12-14 18:21:01,606 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "SysSettingPage" saved in package "GlbDataBinding"
+2023-12-14 18:21:01,613 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "LookupSection" saved in package "GlbDataBinding"
+2023-12-14 18:21:01,621 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "SysAdminOperationPageV2" saved in package "GlbDataBinding"
+2023-12-14 18:21:01,629 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "SysWorkplaceSectionV2" saved in package "GlbDataBinding"
+2023-12-14 18:21:01,635 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "GlbDataBindingMixin" saved in package "GlbDataBinding"
+2023-12-14 18:21:01,640 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "BaseGridDetailV2" saved in package "GlbDataBinding"
+2023-12-14 18:21:01,646 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "LookupEditPage" saved in package "GlbDataBinding"
+2023-12-14 18:21:01,667 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaDataSaved - Schema data "SysAdminOperationGrantee_GlbCanCreateDataBinding" saved in package "GlbDataBinding"
+2023-12-14 18:21:01,684 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSchemaDataSaved - Schema data "SysAdminOperation_GlbCanCreateDataBinding" saved in package "GlbDataBinding"
+2023-12-14 18:21:01,684 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSaved - Package "GlbDataBinding" saved
+2023-12-14 18:21:01,692 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageDependenciesSaved - Added - dependencies of package "GlbDataBinding"
+2023-12-14 18:21:01,755 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageResourceSaved - Added - resources in package "GlbDataBinding"
+2023-12-14 18:21:02,299 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage SavePackagesSchemasCaptionLocalization - Added - schema caption localizations in package "GlbDataBinding"
+2023-12-14 18:21:02,427 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageHierarchyUpdating - Package hierarchy actualization is started
+2023-12-14 18:21:02,790 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageHierarchyUpdated - Package hierarchy actualization is completed. Affected records: 26
+2023-12-14 18:21:02,790 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageHierarchySaved - Package hierarchy updated
+2023-12-14 18:21:02,790 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallStart - Updating tables structure in database
+2023-12-14 18:21:02,879 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallStart - Installing data
+2023-12-14 18:21:03,127 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "SysAdminOperationGrantee_GlbCanCreateDataBinding" from package "GlbDataBinding" installed
+2023-12-14 18:21:03,232 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "SysAdminOperation_GlbCanCreateDataBinding" from package "GlbDataBinding" installed
+2023-12-14 18:21:03,236 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage InstallColumnLookupValues - Lookup values "SysAdminOperationGrantee_GlbCanCreateDataBinding" from package "GlbDataBinding" installed
+2023-12-14 18:21:03,259 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage InstallColumnLookupValues - Lookup values "SysAdminOperation_GlbCanCreateDataBinding" from package "GlbDataBinding" installed
+2023-12-14 18:21:03,957 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "BaseGridDetailV2" from package GlbDataBinding generated
+2023-12-14 18:21:04,072 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "SysAdminOperationPageV2" from package GlbDataBinding generated
+2023-12-14 18:21:04,196 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "SysSettingsSection" from package GlbDataBinding generated
+2023-12-14 18:21:04,304 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "SysWorkplacePageV2" from package GlbDataBinding generated
+2023-12-14 18:21:04,372 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "LookupSection" from package GlbDataBinding generated
+2023-12-14 18:21:04,676 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "BaseLookupConfigurationSection" from package GlbDataBinding generated
+2023-12-14 18:21:04,697 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "SysAdminUnitSectionV2" from package GlbDataBinding generated
+2023-12-14 18:21:04,827 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "LookupEditPage" from package GlbDataBinding generated
+2023-12-14 18:21:04,844 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "SysSettingPage" from package GlbDataBinding generated
+2023-12-14 18:21:04,912 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "BasePageV2" from package GlbDataBinding generated
+2023-12-14 18:21:05,140 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "SysWorkplaceSectionV2" from package GlbDataBinding generated
+2023-12-14 18:21:05,191 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "BaseSectionV2" from package GlbDataBinding generated
+2023-12-14 18:21:05,213 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "GlbDataBindingMixin" from package GlbDataBinding generated
+2023-12-14 18:21:05,397 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "GlbDataBindingHelper" from package GlbDataBinding generated
+2023-12-14 18:21:05,422 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "GlbDataBindingService" from package GlbDataBinding generated
+2023-12-14 18:21:05,444 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "SysAdminOperationSectionV2" from package GlbDataBinding generated
+2023-12-14 18:21:05,444 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GenerateSchemaAdditionalSources - Updating modified schemas
+2023-12-14 18:21:05,444 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GenerateSchemaAdditionalSources - Updated modified schemas
+2023-12-14 18:21:05,444 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Save - Compiling configuration dll
+2023-12-14 18:22:06,112 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Save - Errors and (or) warnings occurred while compiling configuration dll
+2023-12-14 18:22:06,112 [.NET ThreadPool Worker] ERROR Supervisor InstallZipPackage LogCompilerResult - /home/shivangi/Shivangi/Shivangi's-workspace/creatio_october_traning/app/Terrasoft.Configuration/Autogenerated/Src/GlbDataBindingService.GlbDataBinding.cs(29,11) error CS0234: The type or namespace name 'Text' does not exist in the namespace 'ServiceStack' (are you missing an assembly reference?)
+2023-12-14 18:22:06,114 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildStarted - Configuration build started
+2023-12-14 18:22:06,132 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Current schemas info loaded
+2023-12-14 18:22:07,261 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-14 18:22:07,826 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Configuration state loaded
+2023-12-14 18:22:07,826 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generation started
+2023-12-14 18:22:07,826 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generated
+2023-12-14 18:22:07,881 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage UpdateMetaInfo - Meta info file updated
+2023-12-14 18:22:07,881 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content generation started
+2023-12-14 18:22:09,528 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors obtained
+2023-12-14 18:22:09,543 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors generated
+2023-12-14 18:22:09,543 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content bootstraps generated
+2023-12-14 18:22:09,543 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildFinished - Configuration build finished
+2023-12-14 18:22:09,620 [.NET ThreadPool Worker] WARN Supervisor InstallZipPackage LogWarn - When application installed, an error(s) occured
+2023-12-14 18:22:26,828 [.NET ThreadPool Worker] WARN Supervisor InstallZipPackage LogWarn - Uninstall application
+2023-12-14 18:22:27,277 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Load - Loading packages from database
+2023-12-14 18:22:31,427 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ComposesPackages - Composing packages
+2023-12-14 18:22:42,838 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageSaved - Package "GlbDataBinding" saved
+2023-12-14 18:22:42,972 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageHierarchyUpdating - Package hierarchy actualization is started
+2023-12-14 18:22:43,310 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageHierarchyUpdated - Package hierarchy actualization is completed. Affected records: 0
+2023-12-14 18:22:43,310 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage OnPackageHierarchySaved - Package hierarchy updated
+2023-12-14 18:22:43,310 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GenerateSchemaAdditionalSources - Updating modified schemas
+2023-12-14 18:22:43,310 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GenerateSchemaAdditionalSources - Updated modified schemas
+2023-12-14 18:22:43,673 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Save - Compiling configuration dll
+2023-12-14 18:23:34,995 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage Save - Errors and (or) warnings occurred while compiling configuration dll
+2023-12-14 18:23:34,995 [.NET ThreadPool Worker] ERROR Supervisor InstallZipPackage LogCompilerResult - /home/shivangi/Shivangi/Shivangi's-workspace/creatio_october_traning/app/Terrasoft.Configuration/Autogenerated/Src/InvoiceSchema.PRMPortal.cs(265,28) error CS0103: The name 'GetOrderAmountHelper' does not exist in the current context
+2023-12-14 18:23:34,995 [.NET ThreadPool Worker] ERROR Supervisor InstallZipPackage LogCompilerResult - /home/shivangi/Shivangi/Shivangi's-workspace/creatio_october_traning/app/Terrasoft.Configuration/Autogenerated/Src/InvoiceSchema.PRMPortal.cs(279,5) error CS0103: The name 'CleanInvoiceIdInSupplyPayment' does not exist in the current context
+2023-12-14 18:23:34,995 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildStarted - Configuration build started
+2023-12-14 18:23:35,012 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Current schemas info loaded
+2023-12-14 18:23:35,336 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-14 18:23:35,904 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Configuration state loaded
+2023-12-14 18:23:35,904 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generation started
+2023-12-14 18:23:35,904 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generated
+2023-12-14 18:23:38,313 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage UpdateMetaInfo - Meta info file updated
+2023-12-14 18:23:38,313 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content generation started
+2023-12-14 18:23:38,866 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors obtained
+2023-12-14 18:23:38,869 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors generated
+2023-12-14 18:23:38,871 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content bootstraps generated
+2023-12-14 18:23:38,871 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildFinished - Configuration build finished
+2023-12-14 18:23:38,871 [.NET ThreadPool Worker] WARN Supervisor InstallZipPackage LogWarn - Application uninstalled successfully
+2023-12-14 18:36:48,607 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ConfigurationBuildStarted - Configuration build started
+2023-12-14 18:36:48,626 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Current schemas info loaded
+2023-12-14 18:36:49,069 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-14 18:36:49,593 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Configuration state loaded
+2023-12-14 18:36:49,593 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generation started
+2023-12-14 18:36:49,593 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generated
+2023-12-14 18:36:49,644 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage UpdateMetaInfo - Meta info file updated
+2023-12-14 18:36:49,644 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content generation started
+2023-12-14 18:36:50,037 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors obtained
+2023-12-14 18:36:50,038 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors generated
+2023-12-14 18:36:50,038 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content bootstraps generated
+2023-12-14 18:36:50,038 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <BuildChangedAsync>b__52_0 - Configuration build finished
+2023-12-14 18:40:59,296 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedAsync - Configuration build started
+2023-12-14 18:40:59,306 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Current schemas info loaded
+2023-12-14 18:40:59,584 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-14 18:41:00,157 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration state loaded
+2023-12-14 18:41:00,157 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration server content generation started
+2023-12-14 18:41:00,157 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration server content generated
+2023-12-14 18:41:00,207 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Meta info file updated
+2023-12-14 18:41:00,207 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content generation started
+2023-12-14 18:41:00,629 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors obtained
+2023-12-14 18:41:00,631 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors generated
+2023-12-14 18:41:00,631 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content bootstraps generated
+2023-12-14 18:41:00,631 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <BuildChangedAsync>b__52_0 - Configuration build finished
+2023-12-14 18:48:06,244 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedAsync - Configuration build started
+2023-12-14 18:48:06,264 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Current schemas info loaded
+2023-12-14 18:48:06,537 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-14 18:48:07,091 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration state loaded
+2023-12-14 18:48:07,091 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration server content generation started
+2023-12-14 18:48:07,091 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration server content generated
+2023-12-14 18:48:07,159 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Meta info file updated
+2023-12-14 18:48:07,159 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content generation started
+2023-12-14 18:48:07,716 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors obtained
+2023-12-14 18:48:07,718 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors generated
+2023-12-14 18:48:07,718 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content bootstraps generated
+2023-12-14 18:48:07,718 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <BuildChangedAsync>b__52_0 - Configuration build finished
+2023-12-14 18:52:45,886 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage BuildChangedAsync - Configuration build started
+2023-12-14 18:52:45,899 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Current schemas info loaded
+2023-12-14 18:52:46,391 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2023-12-14 18:52:46,951 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration state loaded
+2023-12-14 18:52:46,951 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration server content generation started
+2023-12-14 18:52:46,951 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Configuration server content generated
+2023-12-14 18:52:47,010 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - Meta info file updated
+2023-12-14 18:52:47,010 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content generation started
+2023-12-14 18:52:47,463 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors obtained
+2023-12-14 18:52:47,467 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ExecutionContextCallback - File content descriptors generated
+2023-12-14 18:52:47,467 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage ExecutionContextCallback - File content bootstraps generated
+2023-12-14 18:52:47,467 [.NET ThreadPool Worker] INFO Supervisor InstallZipPackage <BuildChangedAsync>b__52_0 - Configuration build finished

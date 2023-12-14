@@ -172,7 +172,7 @@
 
 		protected virtual void InitializeAuthProcessParameters(IParametrizedProcessSchemaElement parametrizedElement) {
 			var pageInstanceIdParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("df1ba85e-2ba4-4e4b-b8db-6aee0758e2d4"),
+				UId = new Guid("c6d453c0-097d-4541-9fc1-30d14190ed65"),
 				ContainerUId = new Guid("d8bd8424-9b94-482f-9040-b83f89fd4a96"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -199,7 +199,7 @@
 			};
 			parametrizedElement.Parameters.Add(pageInstanceIdParameter);
 			var activeTreeGridCurrentRowIdParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("753af01e-2f12-4a0e-bfd1-998dae937936"),
+				UId = new Guid("45252fef-b18f-43bc-9a1c-e5dee830472a"),
 				ContainerUId = new Guid("d8bd8424-9b94-482f-9040-b83f89fd4a96"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -226,7 +226,7 @@
 			};
 			parametrizedElement.Parameters.Add(activeTreeGridCurrentRowIdParameter);
 			var userTokenParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("c9056998-85ed-4503-a956-667b5c1c7780"),
+				UId = new Guid("34bbb6c6-52bd-4683-8bf0-8084fa45ec25"),
 				ContainerUId = new Guid("d8bd8424-9b94-482f-9040-b83f89fd4a96"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -253,7 +253,7 @@
 			};
 			parametrizedElement.Parameters.Add(userTokenParameter);
 			var activeTreeGridClientIdParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("9bb87614-b415-4de7-b05d-a690bd4281cd"),
+				UId = new Guid("4a4a61f4-05da-4325-a33d-a86a818207c1"),
 				ContainerUId = new Guid("d8bd8424-9b94-482f-9040-b83f89fd4a96"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -280,7 +280,7 @@
 			};
 			parametrizedElement.Parameters.Add(activeTreeGridClientIdParameter);
 			var integrationProcessIdParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("d0115017-4f35-49f4-8ca2-38d122cd68dd"),
+				UId = new Guid("4c21acc1-582e-44ba-b5f1-16e353862059"),
 				ContainerUId = new Guid("d8bd8424-9b94-482f-9040-b83f89fd4a96"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -307,7 +307,7 @@
 			};
 			parametrizedElement.Parameters.Add(integrationProcessIdParameter);
 			var syncProcessResultParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("db56d736-96c3-4d57-8613-722bed3cfc7c"),
+				UId = new Guid("54d0e5ca-fdc2-4335-a557-c7d2121cdfed"),
 				ContainerUId = new Guid("d8bd8424-9b94-482f-9040-b83f89fd4a96"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -334,7 +334,7 @@
 			};
 			parametrizedElement.Parameters.Add(syncProcessResultParameter);
 			var synchronizationAuthenticationErrorMessageParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("15e54173-6d83-455a-9375-c18d98ae5873"),
+				UId = new Guid("3eb3abd6-ec75-4e96-a2b6-dade768f0464"),
 				ContainerUId = new Guid("d8bd8424-9b94-482f-9040-b83f89fd4a96"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = new Guid("74528743-3768-4ea1-98c1-af5d8111ed6d"),
@@ -1026,7 +1026,7 @@
 					Owner = this,
 					Type = "ProcessSchemaToken",
 					Name = "ScriptPrepareAuthProcessToken",
-					SchemaElementUId = new Guid("a2947e50-f13f-49a1-b82f-82c1dd423298"),
+					SchemaElementUId = new Guid("e05dbb6a-be5f-4a5d-8156-165d1f829d64"),
 					CreatedInSchemaUId = InternalSchemaUId,
 					ExecutedEventHandler = OnExecuted,
 				});
@@ -1121,13 +1121,13 @@
 			MetaPathParameterValues.Add("40af7848-4cd2-4e02-9e01-b7e9a916a162", () => GotoExit);
 			MetaPathParameterValues.Add("d9f0492f-ce0f-4c60-a69b-b0001d125269", () => SyncResult);
 			MetaPathParameterValues.Add("f4f699d1-8aea-4333-8cb0-404a75b70750", () => FillSettingsLS);
-			MetaPathParameterValues.Add("df1ba85e-2ba4-4e4b-b8db-6aee0758e2d4", () => AuthProcess.PageInstanceId);
-			MetaPathParameterValues.Add("753af01e-2f12-4a0e-bfd1-998dae937936", () => AuthProcess.ActiveTreeGridCurrentRowId);
-			MetaPathParameterValues.Add("c9056998-85ed-4503-a956-667b5c1c7780", () => AuthProcess.UserToken);
-			MetaPathParameterValues.Add("9bb87614-b415-4de7-b05d-a690bd4281cd", () => AuthProcess.ActiveTreeGridClientId);
-			MetaPathParameterValues.Add("d0115017-4f35-49f4-8ca2-38d122cd68dd", () => AuthProcess.IntegrationProcessId);
-			MetaPathParameterValues.Add("db56d736-96c3-4d57-8613-722bed3cfc7c", () => AuthProcess.SyncProcessResult);
-			MetaPathParameterValues.Add("15e54173-6d83-455a-9375-c18d98ae5873", () => AuthProcess.SynchronizationAuthenticationErrorMessage);
+			MetaPathParameterValues.Add("c6d453c0-097d-4541-9fc1-30d14190ed65", () => AuthProcess.PageInstanceId);
+			MetaPathParameterValues.Add("45252fef-b18f-43bc-9a1c-e5dee830472a", () => AuthProcess.ActiveTreeGridCurrentRowId);
+			MetaPathParameterValues.Add("34bbb6c6-52bd-4683-8bf0-8084fa45ec25", () => AuthProcess.UserToken);
+			MetaPathParameterValues.Add("4a4a61f4-05da-4325-a33d-a86a818207c1", () => AuthProcess.ActiveTreeGridClientId);
+			MetaPathParameterValues.Add("4c21acc1-582e-44ba-b5f1-16e353862059", () => AuthProcess.IntegrationProcessId);
+			MetaPathParameterValues.Add("54d0e5ca-fdc2-4335-a557-c7d2121cdfed", () => AuthProcess.SyncProcessResult);
+			MetaPathParameterValues.Add("3eb3abd6-ec75-4e96-a2b6-dade768f0464", () => AuthProcess.SynchronizationAuthenticationErrorMessage);
 		}
 
 		protected override void ApplyPropertiesDataValues(DataReader reader) {

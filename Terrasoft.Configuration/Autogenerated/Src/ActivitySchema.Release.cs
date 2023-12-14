@@ -35,7 +35,7 @@
 	#region Class: Activity_Release_TerrasoftSchema
 
 	/// <exclude/>
-	public class Activity_Release_TerrasoftSchema : Terrasoft.Configuration.Activity_Change_TerrasoftSchema
+	public class Activity_Release_TerrasoftSchema : Terrasoft.Configuration.Activity_PRMPortal_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -162,7 +162,7 @@
 	/// <summary>
 	/// Activity.
 	/// </summary>
-	public class Activity_Release_Terrasoft : Terrasoft.Configuration.Activity_Change_Terrasoft
+	public class Activity_Release_Terrasoft : Terrasoft.Configuration.Activity_PRMPortal_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -250,7 +250,7 @@
 	#region Class: Activity_ReleaseEventsProcess
 
 	/// <exclude/>
-	public partial class Activity_ReleaseEventsProcess<TEntity> : Terrasoft.Configuration.Activity_ChangeEventsProcess<TEntity> where TEntity : Activity_Release_Terrasoft
+	public partial class Activity_ReleaseEventsProcess<TEntity> : Terrasoft.Configuration.Activity_PRMPortalEventsProcess<TEntity> where TEntity : Activity_Release_Terrasoft
 	{
 
 		public Activity_ReleaseEventsProcess(UserConnection userConnection)

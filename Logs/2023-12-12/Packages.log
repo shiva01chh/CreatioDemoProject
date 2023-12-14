@@ -1,0 +1,10 @@
+2023-12-12 18:52:05,176 Operation [Build] started
+2023-12-12 18:54:40,983 Operation [Build] took 155 s 806 ms
+2023-12-12 19:02:06,854 Creating storage directory [/tmp//root/app/AppCreation/Packages]
+2023-12-12 19:02:06,854 Downloading file [%AppCode%.gz]
+2023-12-12 19:02:06,857 Unzipping [/tmp//root/app/AppCreation/Packages/%AppCode%.gz]
+2023-12-12 19:02:06,893 Unzipped [/tmp//root/app/AppCreation/Packages/%AppCode%.gz] to [/tmp//root/app/AppCreation/Packages/%AppCode%]
+2023-12-12 19:02:15,907 Generating schema sources count [5]: [UsrRealtyFreedomUI.UsrRealtyFreedomUI, UsrRealtyFreedomUI.UsrRealtyFreedomUI_Detail, UsrRealtyFreedomUI.UsrRealtyFreedomUI_ListPage, UsrRealtyFreedomUI.UsrRealtyFreedomUI_FormPage, UsrRealtyFreedomUI.UsrRealtyFreedomUIRelatedPage]
+2023-12-12 19:02:17,146 Generated schema sources count [5]
+2023-12-12 20:22:55,811 InstallStart: SchemaDBStructure
+2023-12-12 20:22:56,613 InstallFinish: SchemaDBStructure

@@ -29,7 +29,7 @@
 	#region Class: Lead_CrtMLLeadScoring_TerrasoftSchema
 
 	/// <exclude/>
-	public class Lead_CrtMLLeadScoring_TerrasoftSchema : Terrasoft.Configuration.Lead_Lead_TerrasoftSchema
+	public class Lead_CrtMLLeadScoring_TerrasoftSchema : Terrasoft.Configuration.Lead_CrtLead_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -169,7 +169,7 @@
 	/// <summary>
 	/// Lead.
 	/// </summary>
-	public class Lead_CrtMLLeadScoring_Terrasoft : Terrasoft.Configuration.Lead_Lead_Terrasoft
+	public class Lead_CrtMLLeadScoring_Terrasoft : Terrasoft.Configuration.Lead_CrtLead_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -246,7 +246,7 @@
 	#region Class: Lead_CrtMLLeadScoringEventsProcess
 
 	/// <exclude/>
-	public partial class Lead_CrtMLLeadScoringEventsProcess<TEntity> : Terrasoft.Configuration.Lead_LeadEventsProcess<TEntity> where TEntity : Lead_CrtMLLeadScoring_Terrasoft
+	public partial class Lead_CrtMLLeadScoringEventsProcess<TEntity> : Terrasoft.Configuration.Lead_CrtLeadEventsProcess<TEntity> where TEntity : Lead_CrtMLLeadScoring_Terrasoft
 	{
 
 		public Lead_CrtMLLeadScoringEventsProcess(UserConnection userConnection)

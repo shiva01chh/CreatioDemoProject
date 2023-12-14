@@ -33,7 +33,7 @@
 	#region Class: Activity_CrtOpportunity_TerrasoftSchema
 
 	/// <exclude/>
-	public class Activity_CrtOpportunity_TerrasoftSchema : Terrasoft.Configuration.Activity_OperatorSingleWindow_TerrasoftSchema
+	public class Activity_CrtOpportunity_TerrasoftSchema : Terrasoft.Configuration.Activity_CaseService_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -160,7 +160,7 @@
 	/// <summary>
 	/// Activity.
 	/// </summary>
-	public class Activity_CrtOpportunity_Terrasoft : Terrasoft.Configuration.Activity_OperatorSingleWindow_Terrasoft
+	public class Activity_CrtOpportunity_Terrasoft : Terrasoft.Configuration.Activity_CaseService_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -248,7 +248,7 @@
 	#region Class: Activity_CrtOpportunityEventsProcess
 
 	/// <exclude/>
-	public partial class Activity_CrtOpportunityEventsProcess<TEntity> : Terrasoft.Configuration.Activity_OperatorSingleWindowEventsProcess<TEntity> where TEntity : Activity_CrtOpportunity_Terrasoft
+	public partial class Activity_CrtOpportunityEventsProcess<TEntity> : Terrasoft.Configuration.Activity_CaseServiceEventsProcess<TEntity> where TEntity : Activity_CrtOpportunity_Terrasoft
 	{
 
 		public Activity_CrtOpportunityEventsProcess(UserConnection userConnection)

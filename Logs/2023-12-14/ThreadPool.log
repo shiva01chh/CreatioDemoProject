@@ -1,0 +1,18 @@
+2023-12-14 11:42:03,865 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 6
+workerThreads => 100 result = True
+
+2023-12-14 16:12:01,520 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 6
+workerThreads => 100 result = True
+
+2023-12-14 16:43:44,537 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 6
+workerThreads => 100 result = True
+
+2023-12-14 18:24:46,569 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 6
+workerThreads => 100 result = True
+
+2023-12-14 18:25:36,425 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 6
+workerThreads => 100 result = True
+
+2023-12-14 18:45:42,173 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 6
+workerThreads => 100 result = True
+

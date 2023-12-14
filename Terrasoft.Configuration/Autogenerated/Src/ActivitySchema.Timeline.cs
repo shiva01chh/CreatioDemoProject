@@ -33,7 +33,7 @@
 	#region Class: Activity_Timeline_TerrasoftSchema
 
 	/// <exclude/>
-	public class Activity_Timeline_TerrasoftSchema : Terrasoft.Configuration.Activity_Exchange_TerrasoftSchema
+	public class Activity_Timeline_TerrasoftSchema : Terrasoft.Configuration.Activity_CrtUIv2_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -113,7 +113,7 @@
 	/// <summary>
 	/// Activity.
 	/// </summary>
-	public class Activity_Timeline_Terrasoft : Terrasoft.Configuration.Activity_Exchange_Terrasoft
+	public class Activity_Timeline_Terrasoft : Terrasoft.Configuration.Activity_CrtUIv2_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -162,7 +162,7 @@
 	#region Class: Activity_TimelineEventsProcess
 
 	/// <exclude/>
-	public partial class Activity_TimelineEventsProcess<TEntity> : Terrasoft.Configuration.Activity_ExchangeEventsProcess<TEntity> where TEntity : Activity_Timeline_Terrasoft
+	public partial class Activity_TimelineEventsProcess<TEntity> : Terrasoft.Configuration.Activity_CrtUIv2EventsProcess<TEntity> where TEntity : Activity_Timeline_Terrasoft
 	{
 
 		public Activity_TimelineEventsProcess(UserConnection userConnection)

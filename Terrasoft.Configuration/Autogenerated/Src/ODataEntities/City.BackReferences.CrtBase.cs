@@ -95,6 +95,11 @@
 			set;
 		}
 
+		public IEnumerable<UsrRealtyFreedomUI> UsrRealtyFreedomUICollectionByUsrCity {
+			get;
+			set;
+		}
+
 		public IEnumerable<VwClientAddress> VwClientAddressCollectionByCity {
 			get;
 			set;

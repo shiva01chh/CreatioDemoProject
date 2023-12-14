@@ -1,0 +1,21 @@
+2023-12-04 18:57:10,616 [.NET ThreadPool Worker] ERROR Supervisor Client.ClientLogger Post - user: Supervisor/7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+ file: http://localhost:5000/Shell/polyfills.0f1cd00feec2e3b6.js
+ line: 36
+ column: 1198
+ message: Uncaught 42P01: relation "public.UsrVwContactAgeDays" does not exist 
+ date: Mon Dec 04 2023 18:57:10 GMT+0530 (India Standard Time)
+ stack: undefined
+2023-12-04 18:57:27,871 [.NET ThreadPool Worker] ERROR Supervisor Client.ClientLogger Post - user: Supervisor/7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+ file: http://localhost:5000/Shell/polyfills.0f1cd00feec2e3b6.js
+ line: 36
+ column: 1198
+ message: Uncaught 42P01: relation "public.UsrVwContactAgeDays" does not exist 
+ date: Mon Dec 04 2023 18:57:27 GMT+0530 (India Standard Time)
+ stack: undefined
+2023-12-04 18:57:33,981 [.NET ThreadPool Worker] ERROR Supervisor Client.ClientLogger Post - user: Supervisor/7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+ file: http://localhost:5000/Shell/polyfills.0f1cd00feec2e3b6.js
+ line: 36
+ column: 1198
+ message: Uncaught 42P01: relation "public.UsrVwContactAgeDays" does not exist 
+ date: Mon Dec 04 2023 18:57:33 GMT+0530 (India Standard Time)
+ stack: undefined

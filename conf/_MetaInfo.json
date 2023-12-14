@@ -1,6 +1,6 @@
 ﻿{
-	"ConfigurationAssemblyVersion": 2,
-	"ConfigurationHash": "c5350ef2a91743ba85348410053a6469",
+	"ConfigurationAssemblyVersion": 27,
+	"ConfigurationHash": "9b7953810cc34cd8966d606427cbd74a",
 	"IsStaticContentGenerated": true,
 	"SchemasPublishInfo": [
 		{
@@ -412,6 +412,26 @@
 			"ManagerName": "AddonSchemaManager",
 			"SchemaName": "UISwitcher_ListPageBusinessRule",
 			"Hash": "e1cc4f8c1ebbf8140e5a27de43e89498"
+		},
+		{
+			"ManagerName": "AddonSchemaManager",
+			"SchemaName": "UsrRealtyFreedomUI_FormPageBusinessRule",
+			"Hash": "8c64f1cc2b5a235e4292a06e162a5ac6cbf7e519cafb8564b925e9ee7bfcb5e5"
+		},
+		{
+			"ManagerName": "AddonSchemaManager",
+			"SchemaName": "UsrRealtyFreedomUIBusinessRule",
+			"Hash": "3b2a17025ae32d0015a9f325cfd6a58a1312608abbe0299aab9a1c20d3b1ee17"
+		},
+		{
+			"ManagerName": "AddonSchemaManager",
+			"SchemaName": "UsrRealtyFreedomUIRelatedPage",
+			"Hash": "3d97cce32fd2672fbeb1a1b124ecfaee7db3fade9a93c03a06e7d2238f0760c8"
+		},
+		{
+			"ManagerName": "AddonSchemaManager",
+			"SchemaName": "UsrRealtyVisitFreedomUIRelatedPage",
+			"Hash": "03f394046c1ac2131b9c5dcef2496938d51706c76cfa19e76ee75bf9448ff500"
 		},
 		{
 			"ManagerName": "AddonSchemaManager",
@@ -16891,7 +16911,7 @@
 		{
 			"ManagerName": "ClientUnitSchemaManager",
 			"SchemaName": "SystemDesigner",
-			"Hash": "c1dc63c90c4dec9d0df2dafba1f93d44"
+			"Hash": "394d96aebba3d573099b0249a0a79e01"
 		},
 		{
 			"ManagerName": "ClientUnitSchemaManager",
@@ -17442,6 +17462,26 @@
 			"ManagerName": "ClientUnitSchemaManager",
 			"SchemaName": "UserTaskPropertiesPage",
 			"Hash": "dbd9e5d1cf25cd180f73ae4b0c8dfe26"
+		},
+		{
+			"ManagerName": "ClientUnitSchemaManager",
+			"SchemaName": "UsrRealtyFreedomUI_Detail",
+			"Hash": "6763a1388ec3120c30786ccdcfabda7e218afcba40e845f02b3698b2c96453f3"
+		},
+		{
+			"ManagerName": "ClientUnitSchemaManager",
+			"SchemaName": "UsrRealtyFreedomUI_FormPage",
+			"Hash": "dc46ec8bcf3837be48bf3fb15f6753ddd73f7e751e8accb52f3f7d37bf369db4"
+		},
+		{
+			"ManagerName": "ClientUnitSchemaManager",
+			"SchemaName": "UsrRealtyFreedomUI_ListPage",
+			"Hash": "8ad568b3276e8397b16022941b9185cb344fea719f4f08f36313ea3a88ca0a95"
+		},
+		{
+			"ManagerName": "ClientUnitSchemaManager",
+			"SchemaName": "UsrRealtyVisitPage",
+			"Hash": "983bed66f324b22a04e28a5fc83054c434290a5a7921b550137b495165039e53"
 		},
 		{
 			"ManagerName": "ClientUnitSchemaManager",
@@ -24270,6 +24310,36 @@
 		},
 		{
 			"ManagerName": "EntitySchemaManager",
+			"SchemaName": "UsrRealtyFreedomUI",
+			"Hash": "ef511e9ff572e5ea03f0c2a6e2c3707cbe00aa33f689f73ac7067d244f2cb584"
+		},
+		{
+			"ManagerName": "EntitySchemaManager",
+			"SchemaName": "UsrRealtyOfferTypeFreedomUI",
+			"Hash": "122b370ea80f26b47b99a227e0b664683e79e5aab8a8a2801bf5ebdfb40fd842"
+		},
+		{
+			"ManagerName": "EntitySchemaManager",
+			"SchemaName": "UsrRealtyTypeClassic",
+			"Hash": "0af7c689877a4f5bcffa5f2ee7841eb8ba90eb2ff7fca2459d1f131da78e6025"
+		},
+		{
+			"ManagerName": "EntitySchemaManager",
+			"SchemaName": "UsrRealtyTypeFreedomUI",
+			"Hash": "acddc27180927668d72204406fe58dbce631e011b4e49dba796077911b199910"
+		},
+		{
+			"ManagerName": "EntitySchemaManager",
+			"SchemaName": "UsrRealtyVisitFreedomUI",
+			"Hash": "b6c7cd26a1be311e6ac9cd48d5484dddd81e371e258fc2ba55f3760e4dd5ff3a"
+		},
+		{
+			"ManagerName": "EntitySchemaManager",
+			"SchemaName": "UsrVwContactAgeDays",
+			"Hash": "271a2c9cb4b9a676e673eef1bd74eb0d303092e0c83a794252e4be6f5b58e629"
+		},
+		{
+			"ManagerName": "EntitySchemaManager",
 			"SchemaName": "VideoHelp",
 			"Hash": "25db9488ccaea4b9c4ad26732a9252b6"
 		},
@@ -26382,6 +26452,11 @@
 			"ManagerName": "ProcessSchemaManager",
 			"SchemaName": "UserSessionProcess",
 			"Hash": "92cbb6717509d01a268714325a904b27"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "UsrTestProcess",
+			"Hash": "12db54a8677b0d156e8ca77442addc8fc9eaf471eeaa709f97db69a28eff1648"
 		},
 		{
 			"ManagerName": "ProcessSchemaManager",

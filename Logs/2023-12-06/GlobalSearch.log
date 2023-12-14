@@ -1,0 +1,15 @@
+2023-12-06 11:54:06,564 [1] INFO  RunGlobalSearchConfigJob - Prepare GlobalSearchConfigsJob
+2023-12-06 11:54:06,571 [1] INFO  RemoveJobs - RemoveJobs GlobalSearchGroup 0 successfully
+2023-12-06 11:54:06,614 [1] INFO  RunGlobalSearchConfigJob - GlobalSearchConfigsJob started successfully
+2023-12-06 11:56:05,899 [.NET ThreadPool Worker] INFO  RunJobExecutor - Global search config job started
+2023-12-06 11:56:05,900 [.NET ThreadPool Worker] INFO  Execute - GlobalSearch_V2 feature is False
+2023-12-06 15:33:21,178 [1] INFO  RunGlobalSearchConfigJob - Prepare GlobalSearchConfigsJob
+2023-12-06 15:33:21,186 [1] INFO  RemoveJobs - RemoveJobs GlobalSearchGroup 0 successfully
+2023-12-06 15:33:21,227 [1] INFO  RunGlobalSearchConfigJob - GlobalSearchConfigsJob started successfully
+2023-12-06 15:35:20,606 [.NET ThreadPool Worker] INFO  Execute - Global search config job started
+2023-12-06 15:35:20,615 [.NET ThreadPool Worker] INFO  Execute - GlobalSearch_V2 feature is False
+2023-12-06 15:38:40,759 [1] INFO  RunGlobalSearchConfigJob - Prepare GlobalSearchConfigsJob
+2023-12-06 15:38:40,767 [1] INFO  RemoveJobs - RemoveJobs GlobalSearchGroup 0 successfully
+2023-12-06 15:38:40,796 [1] INFO  RunGlobalSearchConfigJob - GlobalSearchConfigsJob started successfully
+2023-12-06 15:40:39,712 [.NET ThreadPool Worker] INFO  RunJobExecutor - Global search config job started
+2023-12-06 15:40:39,714 [.NET ThreadPool Worker] INFO  Execute - GlobalSearch_V2 feature is False

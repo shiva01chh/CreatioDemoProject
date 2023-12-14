@@ -29,7 +29,7 @@
 	#region Class: OrderProduct_Order_TerrasoftSchema
 
 	/// <exclude/>
-	public class OrderProduct_Order_TerrasoftSchema : Terrasoft.Configuration.OrderProduct_CrtProductCatalogueInOrder_TerrasoftSchema
+	public class OrderProduct_Order_TerrasoftSchema : Terrasoft.Configuration.OrderProduct_CrtOrderContract_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -109,7 +109,7 @@
 	/// <summary>
 	/// Product in order.
 	/// </summary>
-	public class OrderProduct_Order_Terrasoft : Terrasoft.Configuration.OrderProduct_CrtProductCatalogueInOrder_Terrasoft
+	public class OrderProduct_Order_Terrasoft : Terrasoft.Configuration.OrderProduct_CrtOrderContract_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -163,7 +163,7 @@
 	#region Class: OrderProduct_OrderEventsProcess
 
 	/// <exclude/>
-	public partial class OrderProduct_OrderEventsProcess<TEntity> : Terrasoft.Configuration.OrderProduct_CrtProductCatalogueInOrderEventsProcess<TEntity> where TEntity : OrderProduct_Order_Terrasoft
+	public partial class OrderProduct_OrderEventsProcess<TEntity> : Terrasoft.Configuration.OrderProduct_CrtOrderContractEventsProcess<TEntity> where TEntity : OrderProduct_Order_Terrasoft
 	{
 
 		public OrderProduct_OrderEventsProcess(UserConnection userConnection)

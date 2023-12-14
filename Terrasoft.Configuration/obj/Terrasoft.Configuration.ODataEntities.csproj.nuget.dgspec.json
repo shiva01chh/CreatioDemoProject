@@ -10,11 +10,11 @@
         "projectUniqueName": "/home/shivangi/Shivangi/Shivangi's-workspace/creatio_october_traning/app/Terrasoft.Configuration/Terrasoft.Configuration.ODataEntities.csproj",
         "projectName": "Terrasoft.Configuration.ODataEntities",
         "projectPath": "/home/shivangi/Shivangi/Shivangi's-workspace/creatio_october_traning/app/Terrasoft.Configuration/Terrasoft.Configuration.ODataEntities.csproj",
-        "packagesPath": "/home/shivangi/.nuget/packages/",
+        "packagesPath": "/root/.nuget/packages/",
         "outputPath": "/home/shivangi/Shivangi/Shivangi's-workspace/creatio_october_traning/app/Terrasoft.Configuration/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/shivangi/.nuget/NuGet/NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
