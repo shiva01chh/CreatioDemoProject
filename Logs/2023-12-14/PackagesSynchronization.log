@@ -691,3 +691,93 @@
 2023-12-14 18:52:45,254 <-- PackageDBStorage.Load
 2023-12-14 18:52:45,846 --> PackageDBStorage.Load
 2023-12-14 18:52:45,886 <-- PackageDBStorage.Load
+2023-12-14 19:38:41,912 --> PackageDBStorage.Load
+2023-12-14 19:38:43,669 <-- PackageDBStorage.Load
+2023-12-14 19:49:37,706 --> PackageInstallUtilities.LoadPackagesToDB
+2023-12-14 19:49:37,706 --> PackageFileDesignModeStorage.Load
+2023-12-14 19:49:37,897 <-- PackageFileDesignModeStorage.Load
+2023-12-14 19:49:37,897 --> PackageFileDesignModeDBStorage.Load
+2023-12-14 19:49:44,808 <-- PackageFileDesignModeDBStorage.Load
+2023-12-14 19:49:44,821 --> PackageStorageComposer.Compose
+2023-12-14 19:49:44,822 --> PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 19:49:44,828 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-14 19:49:44,837 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-14 19:49:44,840 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-14 19:49:44,840 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-14 19:49:44,840 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-14 19:49:44,852 --> PackageFileDesignModeDBStorage.ActualizePackageResourcesState
+2023-12-14 19:49:44,861 <-- PackageFileDesignModeDBStorage.ActualizePackageResourcesState
+2023-12-14 19:49:44,861 <-- PackageStorageComposer.Compose
+2023-12-14 19:49:44,864 --> PackageFileDesignModeDBStorage.Save: Packages [2] Schemas [1] ReferenceAssemblies [0] SqlScripts [0] PackageData [0] SchemaResources [19] CoreResources [0]
+2023-12-14 19:49:45,214 --> PackageFileDesignModeDBStorage.SavePackage - Custom
+2023-12-14 19:49:45,265 <-- PackageFileDesignModeDBStorage.SavePackage - Custom
+2023-12-14 19:49:45,266 --> PackageFileDesignModeDBStorage.SavePackage - UsrRealtyFreedomUI
+2023-12-14 19:49:45,344 <-- PackageFileDesignModeDBStorage.SavePackage - UsrRealtyFreedomUI
+2023-12-14 19:49:45,576 Deleted - 0 he-IL resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 19:49:45,576 Changed - 0 he-IL resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,576 Added - 0 he-IL resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,593 Deleted - 0 nl-NL resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 19:49:45,593 Changed - 0 nl-NL resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,593 Added - 0 nl-NL resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,598 Deleted - 0 vi-VN resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 19:49:45,598 Changed - 0 vi-VN resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,598 Added - 0 vi-VN resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,602 Deleted - 0 fr-FR resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 19:49:45,602 Changed - 0 fr-FR resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,602 Added - 0 fr-FR resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,607 Deleted - 0 th-TH resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 19:49:45,607 Changed - 0 th-TH resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,607 Added - 0 th-TH resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,612 Deleted - 0 ro-RO resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 19:49:45,612 Changed - 0 ro-RO resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,612 Added - 0 ro-RO resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,616 Deleted - 0 pt-PT resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 19:49:45,616 Changed - 0 pt-PT resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,616 Added - 0 pt-PT resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,620 Deleted - 0 uk-UA resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 19:49:45,620 Changed - 0 uk-UA resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,620 Added - 0 uk-UA resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,624 Deleted - 0 it-IT resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 19:49:45,624 Changed - 0 it-IT resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,624 Added - 0 it-IT resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,628 Deleted - 0 sv-SE resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 19:49:45,628 Changed - 0 sv-SE resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,628 Added - 0 sv-SE resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,632 Deleted - 0 cs-CZ resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 19:49:45,632 Changed - 0 cs-CZ resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,632 Added - 0 cs-CZ resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,636 Deleted - 0 pt-BR resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 19:49:45,636 Changed - 0 pt-BR resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,636 Added - 0 pt-BR resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,640 Deleted - 0 es-ES resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 19:49:45,640 Changed - 0 es-ES resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,640 Added - 0 es-ES resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,644 Deleted - 0 de-DE resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 19:49:45,644 Changed - 0 de-DE resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,644 Added - 0 de-DE resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,648 Deleted - 0 sq-AL resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 19:49:45,648 Changed - 0 sq-AL resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,648 Added - 0 sq-AL resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,652 Deleted - 0 pl-PL resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 19:49:45,652 Changed - 0 pl-PL resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,652 Added - 0 pl-PL resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,656 Deleted - 0 ar-SA resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 19:49:45,656 Changed - 0 ar-SA resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,656 Added - 0 ar-SA resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,660 Deleted - 0 fa-IR resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 19:49:45,660 Changed - 0 fa-IR resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,660 Added - 0 fa-IR resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,664 Deleted - 0 ko-KR resource values for schema 'UsrRealtyOfferTypeFreedomUI'
+2023-12-14 19:49:45,664 Changed - 0 ko-KR resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:45,664 Added - 0 ko-KR resource values for schema 'UsrRealtyOfferTypeFreedomUI''
+2023-12-14 19:49:47,230 InstallColumnLookupValues. Count (total): 0
+2023-12-14 19:49:48,673 <-- PackageFileDesignModeDBStorage.Save
+2023-12-14 19:49:48,673 <-- PackageInstallUtilities.LoadPackagesToDB
+2023-12-14 19:49:59,527 --> PackageDBStorage.Load
+2023-12-14 19:50:03,910 <-- PackageDBStorage.Load
+2023-12-14 19:50:04,004 --> PackageDBStorage.Load
+2023-12-14 19:50:08,040 <-- PackageDBStorage.Load
+2023-12-14 20:57:39,391 --> PackageDBStorage.Load
+2023-12-14 20:57:50,416 <-- PackageDBStorage.Load
+2023-12-14 20:57:51,755 --> PackageDBStorage.Load
+2023-12-14 20:57:51,806 <-- PackageDBStorage.Load

@@ -275,6 +275,11 @@
 			set;
 		}
 
+		public IEnumerable<UsrRealtyClassicFolder> UsrRealtyClassicFolderCollectionByFolderType {
+			get;
+			set;
+		}
+
 		public IEnumerable<VwFolderInCampaign> VwFolderInCampaignCollectionByFolderType {
 			get;
 			set;

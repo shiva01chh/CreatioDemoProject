@@ -29,7 +29,7 @@
 	#region Class: FormSubmitSchema
 
 	/// <exclude/>
-	public class FormSubmitSchema : Terrasoft.Configuration.FormSubmit_CrtEventInTouchPoint_TerrasoftSchema
+	public class FormSubmitSchema : Terrasoft.Configuration.FormSubmit_CrtEngagementInBulkEmail_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -125,7 +125,7 @@
 	/// <summary>
 	/// Submitted form.
 	/// </summary>
-	public class FormSubmit : Terrasoft.Configuration.FormSubmit_CrtEventInTouchPoint_Terrasoft
+	public class FormSubmit : Terrasoft.Configuration.FormSubmit_CrtEngagementInBulkEmail_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -213,7 +213,7 @@
 	#region Class: FormSubmit_CrtDigitalAdsInC360EventsProcess
 
 	/// <exclude/>
-	public partial class FormSubmit_CrtDigitalAdsInC360EventsProcess<TEntity> : Terrasoft.Configuration.FormSubmit_CrtEventInTouchPointEventsProcess<TEntity> where TEntity : FormSubmit
+	public partial class FormSubmit_CrtDigitalAdsInC360EventsProcess<TEntity> : Terrasoft.Configuration.FormSubmit_CrtEngagementInBulkEmailEventsProcess<TEntity> where TEntity : FormSubmit
 	{
 
 		public FormSubmit_CrtDigitalAdsInC360EventsProcess(UserConnection userConnection)

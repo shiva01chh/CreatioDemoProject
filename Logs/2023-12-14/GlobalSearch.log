@@ -13,3 +13,8 @@
 2023-12-14 16:43:52,201 [1] INFO  RunGlobalSearchConfigJob - GlobalSearchConfigsJob started successfully
 2023-12-14 16:45:51,469 [.NET ThreadPool Worker] INFO  RunJobExecutor - Global search config job started
 2023-12-14 16:45:51,469 [.NET ThreadPool Worker] INFO  Execute - GlobalSearch_V2 feature is False
+2023-12-14 19:38:48,179 [1] INFO  RunGlobalSearchConfigJob - Prepare GlobalSearchConfigsJob
+2023-12-14 19:38:48,187 [1] INFO  RemoveJobs - RemoveJobs GlobalSearchGroup 0 successfully
+2023-12-14 19:38:48,223 [1] INFO  RunGlobalSearchConfigJob - GlobalSearchConfigsJob started successfully
+2023-12-14 19:40:47,919 [.NET ThreadPool Worker] INFO  RunJobExecutor - Global search config job started
+2023-12-14 19:40:47,919 [.NET ThreadPool Worker] INFO  Execute - GlobalSearch_V2 feature is False

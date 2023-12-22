@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="pl-PL">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.ChangeInvoice.Value" Value="Faktura została wygenerowana dla płatności. Czy chcesz zmodyfikować dane faktury?" />
+			<Item Name="LocalizableStrings.ChangeQueueItemDateButtonCaption.Value" Value="Odłóż do" />
+			<Item Name="LocalizableStrings.CreateContract.Value" Value="Nowy kontrakt na podstawie zlecenia" />
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Caption" Value="Nowa faktura na podstawie zlecenia" />
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Value" Value="Nowa faktura na podstawie zlecenia" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Caption" Value="CreateInvoiceFromOrderProcessNotSet" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Value" Value="SysSetting CreateInvoiceFromOrderProcess does not contain any process value." />
+			<Item Name="LocalizableStrings.ESNTabCaption.Value" Value="Kanał" />
+			<Item Name="LocalizableStrings.FileNotesTabCaption.Value" Value="Załączniki i notatki" />
+			<Item Name="LocalizableStrings.LeadTabCaption.Value" Value="Leady" />
+			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="Connect the ordered products to contract?" />
+			<Item Name="LocalizableStrings.MultipleQueueItemsFoundError.Value" Value="Więcej niż jeden element kolejki podłączony do procesu. Identyfikator procesu: {0}" />
+			<Item Name="LocalizableStrings.OpportunityCaption.Value" Value="Szansa sprzedaży" />
+			<Item Name="LocalizableStrings.OpportunityTip.Value" Value="An opportunity for which the order was created. The lookups are filtered by the contact and account specified in the order" />
+			<Item Name="LocalizableStrings.OrderPassportTabCaption.Value" Value="Order details" />
+			<Item Name="LocalizableStrings.PostponeQueueItemButtonCaption.Value" Value="Ponowna kolejka" />
+			<Item Name="LocalizableStrings.PostponeQueueItemError.Value" Value="Nie można ponownie umieścić elementu w kolejce. Komunikat o błędzie: {0}" />
+			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="Wszystko" />
+			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="Wybierz" />
+			<Item Name="LocalizableStrings.QueueItemIsEmptyError.Value" Value="Strona nie jest połączona z elementem kolejki pulpitu konsultanta. Akcja anulowana." />
+			<Item Name="LocalizableStrings.QueueItemPostponeFailedMessage.Value" Value="Nie można ponownie umieścić elementu w kolejce" />
+			<Item Name="LocalizableStrings.QueueItemPostponeSucceedMessage.Value" Value="Pomyślnie ponownie zakolejkowne" />
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="Śledź kanał informacji" />
+			<Item Name="LocalizableStrings.SubscribedInformationDialog.Value" Value="Od tej chwili śledzisz następujący kanał: {0}" />
+			<Item Name="LocalizableStrings.TimelineTabCaption.Value" Value="Timeline" />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="Zakończ śledzenie kanału" />
+			<Item Name="LocalizableStrings.UnsubscribedInformationDialog.Value" Value="Przestałeś śledzić kanał: {0}" />
+		</Items>
+	</Group>
+</Resources>

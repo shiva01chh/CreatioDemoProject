@@ -1,0 +1,121 @@
+2023-12-15 12:04:51,320 [1] WARN  Terrasoft.WebHost.Application OnAfterConfigure - Application starting
+2023-12-15 12:04:56,337 [1] INFO  Terrasoft.Core.InMemoryPubSubServer .ctor - InMemoryPubSubServer started.
+2023-12-15 12:04:57,104 [.NET ThreadPool Worker] INFO  Creatio.Messaging.MessageBus.RabbitMQ.Actors.OperationModeDispatcherActor OnReceive - OperationModeDispatcher initialized
+2023-12-15 12:04:57,106 [1] INFO  Terrasoft.WebHost.Application StartApplicationScheduler - Starting scheduler...
+2023-12-15 12:04:57,180 [1] INFO  Terrasoft.WebHost.Application StartApplicationScheduler - Scheduler started
+2023-12-15 12:04:57,285 [1] INFO  Terrasoft.WebHost.Startup <MapODataServiceRoute>b__12_0 - OData service initialized successfully
+2023-12-15 12:04:57,906 [1] WARN  Terrasoft.WebHost.Application OnStart - Application started
+2023-12-15 13:07:21,357 [.NET ThreadPool Worker] INFO  Terrasoft.Core.ActorSystem.Tasks.TaskExecutorActor OnReceive - Background task [Terrasoft.Core.CodeGeneration.GenerateAllSchemasSourcesBackgroundTask] run time: 00:20:30.8555235, parameters: null
+2023-12-15 18:58:36,854 [.NET Signal Handler] WARN  Terrasoft.WebHost.Application <Register>b__12_0 - Application_End
+2023-12-15 18:58:37,216 [.NET ThreadPool Worker] INFO  Terrasoft.Core.EventBuffering.BufferPool RunFromThreadPoolDispatchLoop - Disabling buffering.
+2023-12-15 18:58:37,847 [.NET ThreadPool Worker] INFO  Terrasoft.Core.InMemoryPubSubServer ExecutionContextCallback - InMemoryPubSubServer stopped.
+2023-12-15 19:10:40,603 [1] WARN  Terrasoft.WebHost.Application OnAfterConfigure - Application starting
+2023-12-15 19:10:44,585 [1] INFO  Terrasoft.Core.InMemoryPubSubServer .ctor - InMemoryPubSubServer started.
+2023-12-15 19:10:45,154 [1] INFO  Terrasoft.WebHost.Application StartApplicationScheduler - Starting scheduler...
+2023-12-15 19:10:45,154 [.NET ThreadPool Worker] INFO  Creatio.Messaging.MessageBus.RabbitMQ.Actors.OperationModeDispatcherActor OnReceive - OperationModeDispatcher initialized
+2023-12-15 19:10:45,230 [1] INFO  Terrasoft.WebHost.Application StartApplicationScheduler - Scheduler started
+2023-12-15 19:10:45,249 [1] INFO  Terrasoft.WebHost.Startup <MapODataServiceRoute>b__12_0 - OData service initialized successfully
+2023-12-15 19:10:45,908 [1] WARN  Terrasoft.WebHost.Application OnStart - Application started
+2023-12-15 19:30:35,094 [1] WARN  Terrasoft.WebHost.Application OnAfterConfigure - Application starting
+2023-12-15 19:30:40,118 [1] INFO  Terrasoft.Core.InMemoryPubSubServer .ctor - InMemoryPubSubServer started.
+2023-12-15 19:30:40,711 [1] INFO  Terrasoft.WebHost.Application StartApplicationScheduler - Starting scheduler...
+2023-12-15 19:30:40,711 [.NET ThreadPool Worker] INFO  Creatio.Messaging.MessageBus.RabbitMQ.Actors.OperationModeDispatcherActor OnReceive - OperationModeDispatcher initialized
+2023-12-15 19:30:40,786 [1] INFO  Terrasoft.WebHost.Application StartApplicationScheduler - Scheduler started
+2023-12-15 19:30:40,807 [1] INFO  Terrasoft.WebHost.Startup <MapODataServiceRoute>b__12_0 - OData service initialized successfully
+2023-12-15 19:30:41,502 [1] WARN  Terrasoft.WebHost.Application OnStart - Application started
+2023-12-15 19:56:17,911 [.NET ThreadPool Worker] INFO  Terrasoft.Core.ActorSystem.Tasks.TaskExecutorActor OnReceive - Background task [Terrasoft.Core.CodeGeneration.GenerateAllSchemasSourcesBackgroundTask] run time: 00:23:12.6786846, parameters: null
+2023-12-15 20:19:43,751 [1] WARN  Terrasoft.WebHost.Application OnAfterConfigure - Application starting
+2023-12-15 20:19:48,583 [1] INFO  Terrasoft.Core.InMemoryPubSubServer .ctor - InMemoryPubSubServer started.
+2023-12-15 20:19:49,689 [1] INFO  Terrasoft.WebHost.Application StartApplicationScheduler - Starting scheduler...
+2023-12-15 20:19:49,689 [.NET ThreadPool Worker] INFO  Creatio.Messaging.MessageBus.RabbitMQ.Actors.OperationModeDispatcherActor OnReceive - OperationModeDispatcher initialized
+2023-12-15 20:19:49,767 [1] INFO  Terrasoft.WebHost.Application StartApplicationScheduler - Scheduler started
+2023-12-15 20:19:49,790 [1] INFO  Terrasoft.WebHost.Startup <MapODataServiceRoute>b__12_0 - OData service initialized successfully
+2023-12-15 20:19:50,900 [1] WARN  Terrasoft.WebHost.Application OnStart - Application started
+2023-12-15 20:22:40,444 [1] WARN  Terrasoft.WebHost.Application OnAfterConfigure - Application starting
+2023-12-15 20:22:43,003 [1] INFO  Terrasoft.Core.InMemoryPubSubServer .ctor - InMemoryPubSubServer started.
+2023-12-15 20:22:43,560 [1] INFO  Terrasoft.WebHost.Application StartApplicationScheduler - Starting scheduler...
+2023-12-15 20:22:43,581 [.NET ThreadPool Worker] INFO  Creatio.Messaging.MessageBus.RabbitMQ.Actors.OperationModeDispatcherActor OnReceive - OperationModeDispatcher initialized
+2023-12-15 20:22:43,644 [1] INFO  Terrasoft.WebHost.Application StartApplicationScheduler - Scheduler started
+2023-12-15 20:22:43,661 [1] INFO  Terrasoft.WebHost.Startup <MapODataServiceRoute>b__12_0 - OData service initialized successfully
+2023-12-15 20:22:43,911 [.NET ThreadPool Worker] INFO  Terrasoft.Core.InMemoryPubSubServer MoveNext - InMemoryPubSubServer stopped.
+2023-12-15 20:25:28,768 [.NET ThreadPool Worker] WARN  Terrasoft.WebHost.Application OnShutdown - Application_End
+2023-12-15 20:25:28,907 [.NET ThreadPool Worker] INFO  Terrasoft.Core.EventBuffering.BufferPool RunFromThreadPoolDispatchLoop - Disabling buffering.
+2023-12-15 20:25:28,909 [.NET ThreadPool Worker] INFO  Terrasoft.Core.EventBuffering.BufferPool RunFromThreadPoolDispatchLoop - Disabled buffering of Terrasoft.Core.Process.EventBuffering.IProcessEventWriter(free: 1, rent: 0)
+2023-12-15 20:25:29,248 [.NET ThreadPool Worker] INFO  Terrasoft.Core.InMemoryPubSubServer ExecutionContextCallback - InMemoryPubSubServer stopped.
+2023-12-15 20:25:32,042 [1] WARN  Terrasoft.WebHost.Application OnAfterConfigure - Application starting
+2023-12-15 20:25:36,811 [1] INFO  Terrasoft.Core.InMemoryPubSubServer .ctor - InMemoryPubSubServer started.
+2023-12-15 20:25:38,448 [1] INFO  Terrasoft.WebHost.Application StartApplicationScheduler - Starting scheduler...
+2023-12-15 20:25:38,448 [.NET ThreadPool Worker] INFO  Creatio.Messaging.MessageBus.RabbitMQ.Actors.OperationModeDispatcherActor OnReceive - OperationModeDispatcher initialized
+2023-12-15 20:25:38,526 [1] INFO  Terrasoft.WebHost.Application StartApplicationScheduler - Scheduler started
+2023-12-15 20:25:38,545 [1] INFO  Terrasoft.WebHost.Startup <MapODataServiceRoute>b__12_0 - OData service initialized successfully
+2023-12-15 20:25:40,166 [1] INFO  Mailing CreateInstance - [ActiveContactsHandler.CreateInstance]: Job ActualizeActiveContacts for process ActualizeActiveContactsProcess scheduled
+2023-12-15 20:25:40,166 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of ActiveContactsHandler created.
+2023-12-15 20:25:40,171 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of CESWebHooksHandler created.
+2023-12-15 20:25:40,175 [1] INFO  Mailing CreateInstance - [ScheduledMailingsHandler.CreateInstance]: Job MandrillScheduledMailing for process ScheduleMassMailing with interval 1 scheduled
+2023-12-15 20:25:40,175 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of ScheduledMailingsHandler created.
+2023-12-15 20:25:40,179 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of MandrillAnaliticsHandler created.
+2023-12-15 20:25:40,185 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of MandrillRecipientsHandler created.
+2023-12-15 20:25:40,185 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of MandrillWebHooksHandler created.
+2023-12-15 20:25:40,190 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of ArchiveBulkEmailTargetHandler created.
+2023-12-15 20:25:43,420 [1] WARN  Terrasoft.WebHost.Application OnStart - Application started
+2023-12-15 20:26:26,991 [.NET ThreadPool Worker] INFO Supervisor Terrasoft.Core.FeatureToggling.DbFeatureProvider AddOrUpdate - Merged duplicate 'UsePersistentFileImport' admin unit feature value. AdminUnitId = '7f3b869f-34f3-4f20-ab4d-7480a5fdf647'
+2023-12-15 20:26:26,993 [.NET ThreadPool Worker] INFO Supervisor Terrasoft.Core.FeatureToggling.DbFeatureProvider AddOrUpdate - Merged duplicate 'DisableRedirectToShell' admin unit feature value. AdminUnitId = '7f3b869f-34f3-4f20-ab4d-7480a5fdf647'
+2023-12-15 20:26:27,396 [.NET ThreadPool Worker] INFO Supervisor Terrasoft.Core.FeatureToggling.FeatureChangedNotificationHandler MoveNext - Handling  feature state change to 
+2023-12-15 20:27:45,385 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [OWxWOhjf5E6lpu94e5OrIw.job] [CalendarFailoverJob] started.
+2023-12-15 20:27:45,394 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [OWxWOhjf5E6lpu94e5OrIw.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2023-12-15 20:27:45,394 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [OWxWOhjf5E6lpu94e5OrIw.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2023-12-15 20:27:45,397 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [OWxWOhjf5E6lpu94e5OrIw.job] [CalendarFailoverJob] ended.
+2023-12-15 20:42:45,407 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [P1eszLtik0OrW57rSfRkg.job] [CalendarFailoverJob] started.
+2023-12-15 20:42:45,411 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [P1eszLtik0OrW57rSfRkg.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2023-12-15 20:42:45,411 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [P1eszLtik0OrW57rSfRkg.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2023-12-15 20:42:45,411 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [P1eszLtik0OrW57rSfRkg.job] [CalendarFailoverJob] ended.
+2023-12-15 20:43:31,977 [.NET ThreadPool Worker] INFO Supervisor AppInfoSynchronization GetAppInfo - App "fb4d1326-805b-4d73-856a-9b026bebefea" contains 0 editable primary packages, auto adjustment skipped (auto adjustment is True, editable packages count is 0)
+2023-12-15 20:43:31,984 [.NET ThreadPool Worker] INFO Supervisor AppInfoSynchronization GetAppInfo - App "fb4d1326-805b-4d73-856a-9b026bebefea" contains 0 editable primary packages, auto adjustment skipped (auto adjustment is True, editable packages count is 0)
+2023-12-15 20:57:45,413 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [QdDXupeSvEikMj5aigLCA.job] [CalendarFailoverJob] started.
+2023-12-15 20:57:45,418 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [QdDXupeSvEikMj5aigLCA.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2023-12-15 20:57:45,418 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [QdDXupeSvEikMj5aigLCA.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2023-12-15 20:57:45,418 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [QdDXupeSvEikMj5aigLCA.job] [CalendarFailoverJob] ended.
+2023-12-15 21:06:16,386 [.NET ThreadPool Worker] INFO  Terrasoft.Core.ActorSystem.Tasks.TaskExecutorActor OnReceive - Background task [Terrasoft.Core.CodeGeneration.GenerateAllSchemasSourcesBackgroundTask] run time: 00:22:28.4759755, parameters: null
+2023-12-15 21:10:00,701 [1] WARN  Terrasoft.WebHost.Application OnAfterConfigure - Application starting
+2023-12-15 21:10:08,552 [1] INFO  Terrasoft.Core.InMemoryPubSubServer .ctor - InMemoryPubSubServer started.
+2023-12-15 21:10:10,363 [1] INFO  Terrasoft.WebHost.Application StartApplicationScheduler - Starting scheduler...
+2023-12-15 21:10:10,363 [.NET ThreadPool Worker] INFO  Creatio.Messaging.MessageBus.RabbitMQ.Actors.OperationModeDispatcherActor OnReceive - OperationModeDispatcher initialized
+2023-12-15 21:10:10,446 [1] INFO  Terrasoft.WebHost.Application StartApplicationScheduler - Scheduler started
+2023-12-15 21:10:10,466 [1] INFO  Terrasoft.WebHost.Startup <MapODataServiceRoute>b__12_0 - OData service initialized successfully
+2023-12-15 21:10:13,220 [1] INFO  Mailing CreateInstance - [ActiveContactsHandler.CreateInstance]: Job ActualizeActiveContacts for process ActualizeActiveContactsProcess scheduled
+2023-12-15 21:10:13,220 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of ActiveContactsHandler created.
+2023-12-15 21:10:13,223 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of CESWebHooksHandler created.
+2023-12-15 21:10:13,226 [1] INFO  Mailing CreateInstance - [ScheduledMailingsHandler.CreateInstance]: Job MandrillScheduledMailing for process ScheduleMassMailing with interval 1 scheduled
+2023-12-15 21:10:13,226 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of ScheduledMailingsHandler created.
+2023-12-15 21:10:13,226 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of MandrillAnaliticsHandler created.
+2023-12-15 21:10:13,231 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of MandrillRecipientsHandler created.
+2023-12-15 21:10:13,231 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of MandrillWebHooksHandler created.
+2023-12-15 21:10:13,234 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of ArchiveBulkEmailTargetHandler created.
+2023-12-15 21:10:17,377 [1] WARN  Terrasoft.WebHost.Application OnStart - Application started
+2023-12-15 21:12:45,391 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [tHRxrtA1nkmBZMgo9hA31w.job] [CalendarFailoverJob] started.
+2023-12-15 21:12:45,424 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [tHRxrtA1nkmBZMgo9hA31w.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2023-12-15 21:12:45,424 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [tHRxrtA1nkmBZMgo9hA31w.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2023-12-15 21:12:45,428 [.NET ThreadPool Worker] INFO  Calendar LogInfo - [tHRxrtA1nkmBZMgo9hA31w.job] [CalendarFailoverJob] ended.
+2023-12-15 21:14:02,924 [.NET ThreadPool Worker] WARN Supervisor Terrasoft.Core.Configuration.SysWorkspace TryPublishOnPubSubChannel - Publish notification to channel SysWorkspaceChanged
+2023-12-15 21:14:05,975 [.NET ThreadPool Worker] WARN  Terrasoft.WebHost.Application OnShutdown - Application_End
+2023-12-15 21:14:06,105 [.NET ThreadPool Worker] INFO  Terrasoft.Core.EventBuffering.BufferPool RunFromThreadPoolDispatchLoop - Disabling buffering.
+2023-12-15 21:14:06,105 [.NET ThreadPool Worker] INFO  Terrasoft.Core.EventBuffering.BufferPool RunFromThreadPoolDispatchLoop - Disabled buffering of Terrasoft.Core.Process.EventBuffering.IProcessEventWriter(free: 1, rent: 0)
+2023-12-15 21:14:06,856 [.NET ThreadPool Worker] INFO  Terrasoft.Core.InMemoryPubSubServer ExecutionContextCallback - InMemoryPubSubServer stopped.
+2023-12-15 21:14:09,174 [1] WARN  Terrasoft.WebHost.Application OnAfterConfigure - Application starting
+2023-12-15 21:14:14,004 [1] INFO  Terrasoft.Core.InMemoryPubSubServer .ctor - InMemoryPubSubServer started.
+2023-12-15 21:14:15,550 [.NET ThreadPool Worker] INFO  Creatio.Messaging.MessageBus.RabbitMQ.Actors.OperationModeDispatcherActor OnReceive - OperationModeDispatcher initialized
+2023-12-15 21:14:15,550 [1] INFO  Terrasoft.WebHost.Application StartApplicationScheduler - Starting scheduler...
+2023-12-15 21:14:15,626 [1] INFO  Terrasoft.WebHost.Application StartApplicationScheduler - Scheduler started
+2023-12-15 21:14:15,653 [1] INFO  Terrasoft.WebHost.Startup <MapODataServiceRoute>b__12_0 - OData service initialized successfully
+2023-12-15 21:14:17,232 [1] INFO  Mailing CreateInstance - [ActiveContactsHandler.CreateInstance]: Job ActualizeActiveContacts for process ActualizeActiveContactsProcess scheduled
+2023-12-15 21:14:17,232 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of ActiveContactsHandler created.
+2023-12-15 21:14:17,235 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of CESWebHooksHandler created.
+2023-12-15 21:14:17,235 [1] INFO  Mailing CreateInstance - [ScheduledMailingsHandler.CreateInstance]: Job MandrillScheduledMailing for process ScheduleMassMailing with interval 1 scheduled
+2023-12-15 21:14:17,237 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of ScheduledMailingsHandler created.
+2023-12-15 21:14:17,237 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of MandrillAnaliticsHandler created.
+2023-12-15 21:14:17,243 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of MandrillRecipientsHandler created.
+2023-12-15 21:14:17,243 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of MandrillWebHooksHandler created.
+2023-12-15 21:14:17,246 [1] INFO  Mailing ActivateHandlers - MailingHandlersUtilities.Instance of ArchiveBulkEmailTargetHandler created.
+2023-12-15 21:14:20,686 [1] WARN  Terrasoft.WebHost.Application OnStart - Application started
+2023-12-15 21:14:44,899 [.NET ThreadPool Worker] INFO Supervisor Terrasoft.Core.FeatureToggling.DbFeatureProvider AddOrUpdate - Merged duplicate 'UsePersistentFileImport' admin unit feature value. AdminUnitId = '7f3b869f-34f3-4f20-ab4d-7480a5fdf647'
+2023-12-15 21:15:18,552 [.NET ThreadPool Worker] INFO Supervisor Terrasoft.Core.FeatureToggling.FeatureChangedNotificationHandler MoveNext - Handling  feature state change to 

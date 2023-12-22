@@ -29,7 +29,7 @@
 	#region Class: OpportunitySchema
 
 	/// <exclude/>
-	public class OpportunitySchema : Terrasoft.Configuration.Opportunity_PRMPortal_TerrasoftSchema
+	public class OpportunitySchema : Terrasoft.Configuration.Opportunity_OpportunityManagement_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -109,7 +109,7 @@
 	/// <summary>
 	/// Opportunity.
 	/// </summary>
-	public class Opportunity : Terrasoft.Configuration.Opportunity_PRMPortal_Terrasoft
+	public class Opportunity : Terrasoft.Configuration.Opportunity_OpportunityManagement_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -158,7 +158,7 @@
 	#region Class: Opportunity_SalesEnterpriseEventsProcess
 
 	/// <exclude/>
-	public partial class Opportunity_SalesEnterpriseEventsProcess<TEntity> : Terrasoft.Configuration.Opportunity_PRMPortalEventsProcess<TEntity> where TEntity : Opportunity
+	public partial class Opportunity_SalesEnterpriseEventsProcess<TEntity> : Terrasoft.Configuration.Opportunity_OpportunityManagementEventsProcess<TEntity> where TEntity : Opportunity
 	{
 
 		public Opportunity_SalesEnterpriseEventsProcess(UserConnection userConnection)

@@ -1,0 +1,8 @@
+2023-12-18 15:45:22,903 [.NET ThreadPool Worker] DEBUG Supervisor NewLoadingData - LoadDate performance: Filter without search elapsed = 00:00:00.0029344
+2023-12-18 15:45:22,907 [.NET ThreadPool Worker] DEBUG Supervisor NewLoadingData - LoadDate performance: Filter without search elapsed = 00:00:00.0026623
+2023-12-18 15:45:22,914 [.NET ThreadPool Worker] DEBUG Supervisor NewLoadingData - LoadDate performance: Filter without search elapsed = 00:00:00.0070666
+2023-12-18 15:45:22,930 [.NET ThreadPool Worker] DEBUG Supervisor LoadData - LoadDate performance: Filter without search elapsed = 00:00:00.0139491
+2023-12-18 15:45:22,937 [.NET ThreadPool Worker] DEBUG Supervisor LoadData - LoadDate performance: Filter without search elapsed = 00:00:00.0065642
+2023-12-18 15:45:22,965 [.NET ThreadPool Worker] DEBUG Supervisor NewLoadingData - LoadDate performance: Filter without search elapsed = 00:00:00.0204788
+2023-12-18 15:45:22,965 [.NET ThreadPool Worker] DEBUG Supervisor NewLoadingData - LoadDate performance: Filter without search elapsed = 00:00:00.0026783
+2023-12-18 15:45:22,986 [.NET ThreadPool Worker] DEBUG Supervisor NewLoadingData - LoadDate performance: Filter without search elapsed = 00:00:00.0180610

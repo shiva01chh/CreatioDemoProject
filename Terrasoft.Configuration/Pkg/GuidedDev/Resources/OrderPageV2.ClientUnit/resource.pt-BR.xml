@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="pt-BR">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.ChangeInvoice.Value" Value="Uma fatura foi gerada para o pagamento. Deseja modificar os dados da fatura?" />
+			<Item Name="LocalizableStrings.ChangeQueueItemDateButtonCaption.Value" Value="Adiar até" />
+			<Item Name="LocalizableStrings.CreateContract.Value" Value="Novo contrato com base no pedido" />
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Caption" Value="Nova fatura com base neste pedido" />
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Value" Value="Nova fatura com base neste pedido" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Caption" Value="CreateInvoiceFromOrderProcessNotSet" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Value" Value="SysSetting CreateInvoiceFromOrderProcess não contém nenhum valor do processo." />
+			<Item Name="LocalizableStrings.ESNTabCaption.Value" Value="Feed" />
+			<Item Name="LocalizableStrings.FileNotesTabCaption.Value" Value="Anexos e notas" />
+			<Item Name="LocalizableStrings.LeadTabCaption.Value" Value="Leads" />
+			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="Conectar os produtos pedidos ao contrato?" />
+			<Item Name="LocalizableStrings.MultipleQueueItemsFoundError.Value" Value="Mais de um elemento de filas conectado ao processo. Identidade do processo: {0}" />
+			<Item Name="LocalizableStrings.OpportunityCaption.Value" Value="Oportunidade" />
+			<Item Name="LocalizableStrings.OpportunityTip.Value" Value="Uma oportunidade para a qual o pedido foi criado. As pesquisas são filtradas pelo contato e pela conta especificados no pedido" />
+			<Item Name="LocalizableStrings.OrderPassportTabCaption.Value" Value="Detalhes do pedido" />
+			<Item Name="LocalizableStrings.PostponeQueueItemButtonCaption.Value" Value="Re-enfileirar" />
+			<Item Name="LocalizableStrings.PostponeQueueItemError.Value" Value="Não foi possível re-enfileirar o item na fila. Mensagem de erro: {0}" />
+			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="Todos" />
+			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="Selecionar" />
+			<Item Name="LocalizableStrings.QueueItemIsEmptyError.Value" Value="A página não está conectada ao elemento da fila do desktop do agente. Ação cancelada." />
+			<Item Name="LocalizableStrings.QueueItemPostponeFailedMessage.Value" Value="Não foi possível re-enfileirar o item na fila" />
+			<Item Name="LocalizableStrings.QueueItemPostponeSucceedMessage.Value" Value="Re-enfileirado com sucesso" />
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="Seguir o feed" />
+			<Item Name="LocalizableStrings.SubscribedInformationDialog.Value" Value="Você agora está seguindo o feed: {0}" />
+			<Item Name="LocalizableStrings.TimelineTabCaption.Value" Value="Linha do tempo" />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="Deixar de seguir o feed" />
+			<Item Name="LocalizableStrings.UnsubscribedInformationDialog.Value" Value="Você deixou de seguir o feed: {0}" />
+		</Items>
+	</Group>
+</Resources>

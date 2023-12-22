@@ -1,0 +1,6 @@
+2023-12-19 11:25:37,539 [.NET ThreadPool Worker] INFO Supervisor Terrasoft.Core.LicManager GetUserLicensesRedistributions - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2023-12-19 13:36:38,581 [.NET ThreadPool Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2023-12-19 15:07:37,497 [.NET ThreadPool Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2023-12-19 18:12:05,499 [.NET ThreadPool Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2023-12-19 18:51:02,641 [.NET ThreadPool Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2023-12-19 20:20:17,327 [.NET ThreadPool Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647

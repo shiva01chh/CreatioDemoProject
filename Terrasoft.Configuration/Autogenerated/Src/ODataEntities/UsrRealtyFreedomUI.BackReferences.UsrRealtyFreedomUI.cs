@@ -166,7 +166,7 @@
 		}
 
 		/// <summary>
-		/// Area.sqft.
+		/// Area, sqft.
 		/// </summary>
 		public Decimal UsrArea {
 			get {
@@ -376,6 +376,9 @@
 			}
 		}
 
+		/// <summary>
+		/// Commission, USD.
+		/// </summary>
 		public Decimal UsrCommissionUSD {
 			get {
 				return GetTypedColumnValue<Decimal>("UsrCommissionUSD");

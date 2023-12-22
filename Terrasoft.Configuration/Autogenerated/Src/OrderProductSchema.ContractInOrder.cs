@@ -26,23 +26,23 @@
 	using Terrasoft.UI.WebControls.Controls;
 	using Terrasoft.UI.WebControls.Utilities.Json.Converters;
 
-	#region Class: OrderProduct_ContractInOrder_TerrasoftSchema
+	#region Class: OrderProductSchema
 
 	/// <exclude/>
-	public class OrderProduct_ContractInOrder_TerrasoftSchema : Terrasoft.Configuration.OrderProduct_Passport_TerrasoftSchema
+	public class OrderProductSchema : Terrasoft.Configuration.OrderProduct_PRMOrder_TerrasoftSchema
 	{
 
 		#region Constructors: Public
 
-		public OrderProduct_ContractInOrder_TerrasoftSchema(EntitySchemaManager entitySchemaManager)
+		public OrderProductSchema(EntitySchemaManager entitySchemaManager)
 			: base(entitySchemaManager) {
 		}
 
-		public OrderProduct_ContractInOrder_TerrasoftSchema(OrderProduct_ContractInOrder_TerrasoftSchema source, bool isShallowClone)
+		public OrderProductSchema(OrderProductSchema source, bool isShallowClone)
 			: base(source, isShallowClone) {
 		}
 
-		public OrderProduct_ContractInOrder_TerrasoftSchema(OrderProduct_ContractInOrder_TerrasoftSchema source)
+		public OrderProductSchema(OrderProductSchema source)
 			: base(source) {
 		}
 
@@ -53,7 +53,7 @@
 		protected override void InitializeProperties() {
 			base.InitializeProperties();
 			RealUId = new Guid("3e122dc6-b034-4ad1-b055-80dfcc862f3e");
-			Name = "OrderProduct_ContractInOrder_Terrasoft";
+			Name = "OrderProduct";
 			ParentSchemaUId = new Guid("a31247aa-b718-40ed-982e-5b569d7d7b0e");
 			ExtendParent = true;
 			CreatedInPackageId = new Guid("143ed6c8-334b-4846-a5dc-2c0b65e53c84");
@@ -78,7 +78,7 @@
 		#region Methods: Public
 
 		public override Entity CreateEntity(UserConnection userConnection) {
-			return new OrderProduct_ContractInOrder_Terrasoft(userConnection) {Schema = this};
+			return new OrderProduct(userConnection) {Schema = this};
 		}
 
 		public override EmbeddedProcess CreateEventsProcess(UserConnection userConnection) {
@@ -86,11 +86,11 @@
 		}
 
 		public override object Clone() {
-			return new OrderProduct_ContractInOrder_TerrasoftSchema(this);
+			return new OrderProductSchema(this);
 		}
 
 		public override EntitySchema CloneShallow() {
-			return new OrderProduct_ContractInOrder_TerrasoftSchema(this, true);
+			return new OrderProductSchema(this, true);
 		}
 
 		public override void GetParentRealUIds(Collection<Guid> realUIds) {
@@ -104,22 +104,22 @@
 
 	#endregion
 
-	#region Class: OrderProduct_ContractInOrder_Terrasoft
+	#region Class: OrderProduct
 
 	/// <summary>
 	/// Product in order.
 	/// </summary>
-	public class OrderProduct_ContractInOrder_Terrasoft : Terrasoft.Configuration.OrderProduct_Passport_Terrasoft
+	public class OrderProduct : Terrasoft.Configuration.OrderProduct_PRMOrder_Terrasoft
 	{
 
 		#region Constructors: Public
 
-		public OrderProduct_ContractInOrder_Terrasoft(UserConnection userConnection)
+		public OrderProduct(UserConnection userConnection)
 			: base(userConnection) {
-			SchemaName = "OrderProduct_ContractInOrder_Terrasoft";
+			SchemaName = "OrderProduct";
 		}
 
-		public OrderProduct_ContractInOrder_Terrasoft(OrderProduct_ContractInOrder_Terrasoft source)
+		public OrderProduct(OrderProduct source)
 			: base(source) {
 		}
 
@@ -138,9 +138,9 @@
 		#region Methods: Protected
 
 		protected override void InitializeThrowEvents() {
-			Saved += (s, e) => ThrowEvent("OrderProduct_ContractInOrder_TerrasoftSaved", e);
-			Saving += (s, e) => ThrowEvent("OrderProduct_ContractInOrder_TerrasoftSaving", e);
-			Validating += (s, e) => ThrowEvent("OrderProduct_ContractInOrder_TerrasoftValidating", e);
+			Saved += (s, e) => ThrowEvent("OrderProductSaved", e);
+			Saving += (s, e) => ThrowEvent("OrderProductSaving", e);
+			Validating += (s, e) => ThrowEvent("OrderProductValidating", e);
 			base.InitializeThrowEvents();
 		}
 
@@ -149,7 +149,7 @@
 		#region Methods: Public
 
 		public override object Clone() {
-			return new OrderProduct_ContractInOrder_Terrasoft(this);
+			return new OrderProduct(this);
 		}
 
 		#endregion
@@ -161,7 +161,7 @@
 	#region Class: OrderProduct_ContractInOrderEventsProcess
 
 	/// <exclude/>
-	public partial class OrderProduct_ContractInOrderEventsProcess<TEntity> : Terrasoft.Configuration.OrderProduct_PassportEventsProcess<TEntity> where TEntity : OrderProduct_ContractInOrder_Terrasoft
+	public partial class OrderProduct_ContractInOrderEventsProcess<TEntity> : Terrasoft.Configuration.OrderProduct_PRMOrderEventsProcess<TEntity> where TEntity : OrderProduct
 	{
 
 		public OrderProduct_ContractInOrderEventsProcess(UserConnection userConnection)
@@ -242,10 +242,25 @@
 	#region Class: OrderProduct_ContractInOrderEventsProcess
 
 	/// <exclude/>
-	public class OrderProduct_ContractInOrderEventsProcess : OrderProduct_ContractInOrderEventsProcess<OrderProduct_ContractInOrder_Terrasoft>
+	public class OrderProduct_ContractInOrderEventsProcess : OrderProduct_ContractInOrderEventsProcess<OrderProduct>
 	{
 
 		public OrderProduct_ContractInOrderEventsProcess(UserConnection userConnection)
+			: base(userConnection) {
+		}
+
+	}
+
+	#endregion
+
+
+	#region Class: OrderProductEventsProcess
+
+	/// <exclude/>
+	public class OrderProductEventsProcess : OrderProduct_ContractInOrderEventsProcess
+	{
+
+		public OrderProductEventsProcess(UserConnection userConnection)
 			: base(userConnection) {
 		}
 

@@ -30,6 +30,11 @@
 
 		#region Properties: Public
 
+		public IEnumerable<UsrRealtyClassic> UsrRealtyClassicCollectionByUsrType {
+			get;
+			set;
+		}
+
 		/// <summary>
 		/// Id.
 		/// </summary>

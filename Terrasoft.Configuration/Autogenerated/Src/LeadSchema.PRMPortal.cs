@@ -30,7 +30,7 @@
 	#region Class: Lead_PRMPortal_TerrasoftSchema
 
 	/// <exclude/>
-	public class Lead_PRMPortal_TerrasoftSchema : Terrasoft.Configuration.Lead_OpportunityManagement_TerrasoftSchema
+	public class Lead_PRMPortal_TerrasoftSchema : Terrasoft.Configuration.Lead_CoreLeadOpportunity_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -142,7 +142,7 @@
 	/// <summary>
 	/// Lead.
 	/// </summary>
-	public class Lead_PRMPortal_Terrasoft : Terrasoft.Configuration.Lead_OpportunityManagement_Terrasoft
+	public class Lead_PRMPortal_Terrasoft : Terrasoft.Configuration.Lead_CoreLeadOpportunity_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -196,7 +196,7 @@
 	#region Class: Lead_PRMPortalEventsProcess
 
 	/// <exclude/>
-	public partial class Lead_PRMPortalEventsProcess<TEntity> : Terrasoft.Configuration.Lead_OpportunityManagementEventsProcess<TEntity> where TEntity : Lead_PRMPortal_Terrasoft
+	public partial class Lead_PRMPortalEventsProcess<TEntity> : Terrasoft.Configuration.Lead_CoreLeadOpportunityEventsProcess<TEntity> where TEntity : Lead_PRMPortal_Terrasoft
 	{
 
 		public Lead_PRMPortalEventsProcess(UserConnection userConnection)

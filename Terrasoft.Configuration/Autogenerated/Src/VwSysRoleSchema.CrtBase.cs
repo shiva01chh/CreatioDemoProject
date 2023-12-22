@@ -71,15 +71,15 @@
 
 		protected override EntitySchemaColumn CreateNameColumn() {
 			EntitySchemaColumn column = base.CreateNameColumn();
-			column.ModifiedInSchemaUId = new Guid("1f424900-3d1a-4ffe-badd-a76e62ed952b");
 			column.IsLocalizable = false;
+			column.ModifiedInSchemaUId = new Guid("1f424900-3d1a-4ffe-badd-a76e62ed952b");
 			return column;
 		}
 
 		protected override EntitySchemaColumn CreateDescriptionColumn() {
 			EntitySchemaColumn column = base.CreateDescriptionColumn();
-			column.ModifiedInSchemaUId = new Guid("1f424900-3d1a-4ffe-badd-a76e62ed952b");
 			column.IsLocalizable = false;
+			column.ModifiedInSchemaUId = new Guid("1f424900-3d1a-4ffe-badd-a76e62ed952b");
 			return column;
 		}
 

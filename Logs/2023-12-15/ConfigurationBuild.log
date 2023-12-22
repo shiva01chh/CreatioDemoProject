@@ -1,0 +1,42 @@
+2023-12-15 12:12:56,277 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild .ctor - Operation [BuildChanged] started
+2023-12-15 12:12:58,376 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild LogGenerationResult - Schema count: 0
+2023-12-15 12:12:58,378 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild .ctor - Operation [GenerateFileContentDescriptors] started
+2023-12-15 12:12:59,256 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild Stop - Operation [GenerateFileContentDescriptors] took 0 s 877 ms
+2023-12-15 12:12:59,256 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild .ctor - Operation [GenerateFileContentBootstraps] started
+2023-12-15 12:12:59,263 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild Stop - Operation [GenerateFileContentBootstraps] took 0 s 6 ms
+2023-12-15 12:12:59,263 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild Stop - Operation [BuildChanged] took 2 s 986 ms
+2023-12-15 12:32:39,708 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild .ctor - Operation [BuildChanged] started
+2023-12-15 12:32:42,495 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild LogGenerationResult - Schema count: 0
+2023-12-15 12:32:42,495 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild .ctor - Operation [GenerateFileContentDescriptors] started
+2023-12-15 12:32:43,999 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild Stop - Operation [GenerateFileContentDescriptors] took 1 s 503 ms
+2023-12-15 12:32:43,999 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild .ctor - Operation [GenerateFileContentBootstraps] started
+2023-12-15 12:32:44,003 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild Stop - Operation [GenerateFileContentBootstraps] took 0 s 4 ms
+2023-12-15 12:32:44,003 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild Stop - Operation [BuildChanged] took 4 s 295 ms
+2023-12-15 12:40:55,178 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild .ctor - Operation [BuildChanged] started
+2023-12-15 12:40:57,104 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild LogGenerationResult - Schema count: 0
+2023-12-15 12:40:57,104 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild .ctor - Operation [GenerateFileContentDescriptors] started
+2023-12-15 12:40:58,065 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild Stop - Operation [GenerateFileContentDescriptors] took 0 s 959 ms
+2023-12-15 12:40:58,065 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild .ctor - Operation [GenerateFileContentBootstraps] started
+2023-12-15 12:40:58,066 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild Stop - Operation [GenerateFileContentBootstraps] took 0 s 1 ms
+2023-12-15 12:40:58,066 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild Stop - Operation [BuildChanged] took 2 s 888 ms
+2023-12-15 20:25:24,184 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild .ctor - Operation [BuildChanged] started
+2023-12-15 20:25:27,177 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild LogGenerationResult - Schema count: 0
+2023-12-15 20:25:27,177 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild .ctor - Operation [GenerateFileContentDescriptors] started
+2023-12-15 20:25:28,287 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild Stop - Operation [GenerateFileContentDescriptors] took 1 s 107 ms
+2023-12-15 20:25:28,287 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild .ctor - Operation [GenerateFileContentBootstraps] started
+2023-12-15 20:25:28,307 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild Stop - Operation [GenerateFileContentBootstraps] took 0 s 19 ms
+2023-12-15 20:25:28,309 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild Stop - Operation [BuildChanged] took 4 s 124 ms
+2023-12-15 20:43:29,890 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild .ctor - Operation [BuildChanged] started
+2023-12-15 20:43:31,230 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild LogGenerationResult - Schema count: 0
+2023-12-15 20:43:31,230 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild .ctor - Operation [GenerateFileContentDescriptors] started
+2023-12-15 20:43:31,685 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild Stop - Operation [GenerateFileContentDescriptors] took 0 s 453 ms
+2023-12-15 20:43:31,685 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild .ctor - Operation [GenerateFileContentBootstraps] started
+2023-12-15 20:43:31,691 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild Stop - Operation [GenerateFileContentBootstraps] took 0 s 5 ms
+2023-12-15 20:43:31,691 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild Stop - Operation [BuildChanged] took 1 s 801 ms
+2023-12-15 21:14:02,954 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild .ctor - Operation [BuildChanged] started
+2023-12-15 21:14:04,684 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild LogGenerationResult - Schema count: 0
+2023-12-15 21:14:04,686 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild .ctor - Operation [GenerateFileContentDescriptors] started
+2023-12-15 21:14:05,834 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild Stop - Operation [GenerateFileContentDescriptors] took 1 s 147 ms
+2023-12-15 21:14:05,834 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild .ctor - Operation [GenerateFileContentBootstraps] started
+2023-12-15 21:14:05,840 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild Stop - Operation [GenerateFileContentBootstraps] took 0 s 5 ms
+2023-12-15 21:14:05,840 [.NET ThreadPool Worker] INFO Supervisor ConfigurationBuild Stop - Operation [BuildChanged] took 2 s 886 ms

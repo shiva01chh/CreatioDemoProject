@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "0261ec08-a110-4e4a-bd23-478f263255ff",
+    "Name": "OrderPageV2",
+    "ModifiedOnUtc": "\/Date(1702884151000)\/",
+    "Parent": {
+      "UId": "23d86ac4-1d23-4314-a5e3-5da5e61b495a",
+      "Name": "OrderPageV2"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Order edit page"
+  }
+}

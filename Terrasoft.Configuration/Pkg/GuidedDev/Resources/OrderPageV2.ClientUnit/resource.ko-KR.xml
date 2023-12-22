@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ko-KR">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.ChangeInvoice.Value" Value="지불에 대한 송장이 생성되었습니다. 송장 데이터를 수정하시겠습니까?" />
+			<Item Name="LocalizableStrings.ChangeQueueItemDateButtonCaption.Value" Value="()까지 연기하기" />
+			<Item Name="LocalizableStrings.CreateContract.Value" Value="주문에 따른 새로운 계약" />
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Caption" Value="이 주문에 기반한 새로운 송장" />
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Value" Value="이 주문에 기반한 새로운 송장" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Caption" Value="CreateInvoiceFromOrderProcessNotSet" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Value" Value="시스템 설정 CreateInvoiceFromOrderProcess에 프로세스 값이 없습니다." />
+			<Item Name="LocalizableStrings.ESNTabCaption.Value" Value="피드" />
+			<Item Name="LocalizableStrings.FileNotesTabCaption.Value" Value="첨부 파일 및  메모" />
+			<Item Name="LocalizableStrings.LeadTabCaption.Value" Value="리드" />
+			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="주문한 제품을 계약서에 연결하시겠습니까?" />
+			<Item Name="LocalizableStrings.MultipleQueueItemsFoundError.Value" Value="프로세스에 둘 이상의 대기열 요소가 연결되어 있습니다. 프로세스 ID: {0}" />
+			<Item Name="LocalizableStrings.OpportunityCaption.Value" Value="기회" />
+			<Item Name="LocalizableStrings.OpportunityTip.Value" Value="주문이 생성된 기회입니다. 룩업은 주문에 지정된 연락처 및 계정으로 필터링됩니다." />
+			<Item Name="LocalizableStrings.OrderPassportTabCaption.Value" Value="주문 세부 사항" />
+			<Item Name="LocalizableStrings.PostponeQueueItemButtonCaption.Value" Value="재큐" />
+			<Item Name="LocalizableStrings.PostponeQueueItemError.Value" Value="항목을 다시 큐에 넣을 수 없습니다. 오류 메시지: {0}" />
+			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="모든" />
+			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="선택" />
+			<Item Name="LocalizableStrings.QueueItemIsEmptyError.Value" Value="페이지가 에이전트 데스크톱 대기열 요소에 연결되어 있지 않습니다. 작업이 취소되었습니다." />
+			<Item Name="LocalizableStrings.QueueItemPostponeFailedMessage.Value" Value="항목을 다시 큐에 넣을 수 없습니다" />
+			<Item Name="LocalizableStrings.QueueItemPostponeSucceedMessage.Value" Value="다시 대기열에 포함됨" />
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="피드를 따라" />
+			<Item Name="LocalizableStrings.SubscribedInformationDialog.Value" Value="이제 피드를 따르고 있습니다. {0}" />
+			<Item Name="LocalizableStrings.TimelineTabCaption.Value" Value="연대표" />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="피드 팔로우 해제" />
+			<Item Name="LocalizableStrings.UnsubscribedInformationDialog.Value" Value="다음 피드를 중지했습니다. {0}" />
+		</Items>
+	</Group>
+</Resources>

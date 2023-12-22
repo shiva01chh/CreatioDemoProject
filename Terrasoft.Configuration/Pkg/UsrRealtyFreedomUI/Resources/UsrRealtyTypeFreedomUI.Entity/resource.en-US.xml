@@ -2,8 +2,7 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="Realty type (FreedomUi)" />
-			<Item Name="EventsProcessSchema.Caption" Value="Business process" />
+			<Item Name="Caption" Value="Realty type" />
 		</Items>
 	</Group>
 </Resources>

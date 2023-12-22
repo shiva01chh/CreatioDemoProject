@@ -311,7 +311,7 @@
 			};
 			parametrizedElement.Parameters.Add(finishNotificationTextParameter);
 			var isNeedToNotifyUserParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("9f6c439c-41ef-4e53-9e31-cd7a7d0fd128"),
+				UId = new Guid("7fc518f7-ba2c-4926-a425-482c161b8314"),
 				ContainerUId = new Guid("845629d7-6a9f-47ae-8c06-0703688e57ce"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -1173,7 +1173,7 @@
 					Owner = this,
 					Type = "ProcessSchemaToken",
 					Name = "ExclusiveGateway2ActualizeContactAgeSubprocessToken",
-					SchemaElementUId = new Guid("3b0bdd19-1e41-41b6-b84a-253c964886a9"),
+					SchemaElementUId = new Guid("dc63dc62-82ef-4db1-b565-9afb2b385520"),
 					CreatedInSchemaUId = InternalSchemaUId,
 					ExecutedEventHandler = OnExecuted,
 				});
@@ -1188,7 +1188,7 @@
 					Owner = this,
 					Type = "ProcessSchemaToken",
 					Name = "ActualizeContactAgeSubprocessAgeActualizationJobRestartSubprocessToken",
-					SchemaElementUId = new Guid("fc74ab16-fc79-4982-900d-2dd083d6172f"),
+					SchemaElementUId = new Guid("a5df07fb-5cf6-44fa-80d8-64d65def1966"),
 					CreatedInSchemaUId = InternalSchemaUId,
 					ExecutedEventHandler = OnExecuted,
 				});
@@ -1293,7 +1293,7 @@
 			MetaPathParameterValues.Add("58d04aab-c253-4412-b17d-85ca88ac5282", () => ActualizeContactAgeSubprocess.ChunkProcessingDelay);
 			MetaPathParameterValues.Add("eb4853be-8ed3-4d0c-af70-8aeb7a37838c", () => ActualizeContactAgeSubprocess.StartNotificationText);
 			MetaPathParameterValues.Add("dbd06a9a-0b70-4daf-a78c-4130ef618340", () => ActualizeContactAgeSubprocess.FinishNotificationText);
-			MetaPathParameterValues.Add("9f6c439c-41ef-4e53-9e31-cd7a7d0fd128", () => ActualizeContactAgeSubprocess.IsNeedToNotifyUser);
+			MetaPathParameterValues.Add("7fc518f7-ba2c-4926-a425-482c161b8314", () => ActualizeContactAgeSubprocess.IsNeedToNotifyUser);
 			MetaPathParameterValues.Add("0357bba3-0fc5-403f-9b01-2df8ff753ca7", () => IntermediateCatchTimer1.StartOffset);
 		}
 

@@ -31,7 +31,7 @@
 	#region Class: SysAdminUnit_SSP_TerrasoftSchema
 
 	/// <exclude/>
-	public class SysAdminUnit_SSP_TerrasoftSchema : Terrasoft.Configuration.SysAdminUnit_Translation_TerrasoftSchema
+	public class SysAdminUnit_SSP_TerrasoftSchema : Terrasoft.Configuration.SysAdminUnit_CrtBase_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -200,7 +200,7 @@
 	/// <summary>
 	/// System administration object.
 	/// </summary>
-	public class SysAdminUnit_SSP_Terrasoft : Terrasoft.Configuration.SysAdminUnit_Translation_Terrasoft
+	public class SysAdminUnit_SSP_Terrasoft : Terrasoft.Configuration.SysAdminUnit_CrtBase_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -288,7 +288,7 @@
 	#region Class: SysAdminUnit_SSPEventsProcess
 
 	/// <exclude/>
-	public partial class SysAdminUnit_SSPEventsProcess<TEntity> : Terrasoft.Configuration.SysAdminUnit_TranslationEventsProcess<TEntity> where TEntity : SysAdminUnit_SSP_Terrasoft
+	public partial class SysAdminUnit_SSPEventsProcess<TEntity> : Terrasoft.Configuration.SysAdminUnit_CrtBaseEventsProcess<TEntity> where TEntity : SysAdminUnit_SSP_Terrasoft
 	{
 
 		public SysAdminUnit_SSPEventsProcess(UserConnection userConnection)

@@ -192,7 +192,7 @@
 	#region Class: UsrRealtyVisitFreedomUI
 
 	/// <summary>
-	/// Realty visit (FreedomUI).
+	/// Realty visit .
 	/// </summary>
 	public class UsrRealtyVisitFreedomUI : Terrasoft.Configuration.BaseEntity
 	{
@@ -475,6 +475,11 @@
 	{
 
 		#region Methods: Public
+
+		public override void LocalMessageExecuting(EntityChangeType changeType) {
+			var lmHelper = new Terrasoft.Configuration.LocalMessageHelper(this.Entity, UserConnection, changeType);
+			lmHelper.CreateLocalMessage();
+		}
 
 		#endregion
 

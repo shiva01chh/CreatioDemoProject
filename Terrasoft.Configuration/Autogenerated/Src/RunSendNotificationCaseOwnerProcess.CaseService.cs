@@ -2087,7 +2087,7 @@
 					Owner = this,
 					Type = "ProcessSchemaToken",
 					Name = "ExclusiveGateway1SubProcess1Token",
-					SchemaElementUId = new Guid("e0f9a20f-ccea-4d3a-88a8-798ee1efad41"),
+					SchemaElementUId = new Guid("5944d6e4-41bc-4807-bc1b-9b3b23d85429"),
 					CreatedInSchemaUId = InternalSchemaUId,
 					ExecutedEventHandler = OnExecuted,
 				});

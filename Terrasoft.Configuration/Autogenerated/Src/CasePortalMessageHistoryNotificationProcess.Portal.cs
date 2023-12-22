@@ -176,7 +176,7 @@
 			};
 			parametrizedElement.Parameters.Add(senderEmailParameter);
 			var subjectParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("2bfa5912-5e17-4616-a146-2ef2cfd43ba4"),
+				UId = new Guid("bbc96c4f-5b9d-416d-a18a-4a09672eed0b"),
 				ContainerUId = new Guid("5487fda2-b472-45f4-b69d-8042a08c72b9"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -203,7 +203,7 @@
 			};
 			parametrizedElement.Parameters.Add(subjectParameter);
 			var parentActivityIdParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("18e00ad6-351a-4733-b76b-4a986dec9c02"),
+				UId = new Guid("d5c57469-eb5b-4cd4-81bd-c9ce16f1bf41"),
 				ContainerUId = new Guid("5487fda2-b472-45f4-b69d-8042a08c72b9"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -314,7 +314,7 @@
 			};
 			parametrizedElement.Parameters.Add(caseIdParameter);
 			var subjectCaptionParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("e6be1e1f-1d2f-4cf2-b469-139161c4e84c"),
+				UId = new Guid("0109e150-93ea-4548-a1dc-5dfd9b41c994"),
 				ContainerUId = new Guid("26357527-d117-40e6-836e-88dcad4d1726"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = new Guid("33bac096-c819-4c57-86af-fe71bbb0cb56"),
@@ -341,7 +341,7 @@
 			};
 			parametrizedElement.Parameters.Add(subjectCaptionParameter);
 			var assigneeIsClearedParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("13150546-f9ce-4e03-b903-22fef4cc5918"),
+				UId = new Guid("67520a7f-5468-4b8b-869e-c0f71828b683"),
 				ContainerUId = new Guid("26357527-d117-40e6-836e-88dcad4d1726"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -832,7 +832,7 @@
 			};
 			parametrizedElement.Parameters.Add(ignoreDisplayValuesParameter);
 			var resultCompositeObjectListParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("db288835-b7df-4e26-a34d-8c5c297d8303"),
+				UId = new Guid("b3dd9c21-1eb2-4f0e-979f-290f19979915"),
 				ContainerUId = new Guid("801ca19e-32a1-4dd0-86c4-94f6d44efb9d"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -859,7 +859,7 @@
 			};
 			parametrizedElement.Parameters.Add(resultCompositeObjectListParameter);
 			var considerTimeInFilterParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("9b1e0f35-4eaf-43a6-8895-e108cd3ff734"),
+				UId = new Guid("33b16ed3-e6c9-414f-971a-491d39ebaa6e"),
 				ContainerUId = new Guid("801ca19e-32a1-4dd0-86c4-94f6d44efb9d"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -1801,7 +1801,7 @@
 					Owner = this,
 					Type = "ProcessSchemaToken",
 					Name = "ReadDataUserTask1SubProcessEmailSendToken",
-					SchemaElementUId = new Guid("7980201f-9fd3-46bf-8798-d14ec80aaaae"),
+					SchemaElementUId = new Guid("a175d78f-1e6c-45d7-b21e-7655afcac4c5"),
 					CreatedInSchemaUId = InternalSchemaUId,
 					ExecutedEventHandler = OnExecuted,
 				});
@@ -1816,7 +1816,7 @@
 					Owner = this,
 					Type = "ProcessSchemaToken",
 					Name = "ReadDataUserTask1SubProcessEmailSendFromPortalToken",
-					SchemaElementUId = new Guid("6e3b19a2-ebec-4d64-8119-d10a2f7fcec7"),
+					SchemaElementUId = new Guid("25a30ea2-2d2c-43d0-951f-965e11ba90c6"),
 					CreatedInSchemaUId = InternalSchemaUId,
 					ExecutedEventHandler = OnExecuted,
 				});
@@ -1913,8 +1913,8 @@
 			MetaPathParameterValues.Add("d18ae54e-9fdf-4bb7-b200-9ece5f40603b", () => SubProcessEmailSend.CaseId);
 			MetaPathParameterValues.Add("03c312c5-7b64-4476-ada2-9324437924d2", () => SubProcessEmailSend.TemplateId);
 			MetaPathParameterValues.Add("8eb22ddd-93e1-40d4-bd20-bcdb3643964b", () => SubProcessEmailSend.SenderEmail);
-			MetaPathParameterValues.Add("2bfa5912-5e17-4616-a146-2ef2cfd43ba4", () => SubProcessEmailSend.Subject);
-			MetaPathParameterValues.Add("18e00ad6-351a-4733-b76b-4a986dec9c02", () => SubProcessEmailSend.ParentActivityId);
+			MetaPathParameterValues.Add("bbc96c4f-5b9d-416d-a18a-4a09672eed0b", () => SubProcessEmailSend.Subject);
+			MetaPathParameterValues.Add("d5c57469-eb5b-4cd4-81bd-c9ce16f1bf41", () => SubProcessEmailSend.ParentActivityId);
 			MetaPathParameterValues.Add("1c839231-432e-4ae7-b985-18aab77e3ce2", () => ReadDataUserTask1.DataSourceFilters);
 			MetaPathParameterValues.Add("63e67c04-7f13-482d-8c89-337082ba72ab", () => ReadDataUserTask1.ResultType);
 			MetaPathParameterValues.Add("449fc4b1-5119-446c-84a1-ba9099adea3e", () => ReadDataUserTask1.ReadSomeTopRecords);
@@ -1932,13 +1932,13 @@
 			MetaPathParameterValues.Add("3c485674-96e7-4547-8a23-9566c858d20e", () => ReadDataUserTask1.ResultEntityCollection);
 			MetaPathParameterValues.Add("4677117f-e5d2-47cc-b779-53c720b43249", () => ReadDataUserTask1.EntityColumnMetaPathes);
 			MetaPathParameterValues.Add("7bf6a11a-ea1e-431a-b4ae-c665cb57a1b1", () => ReadDataUserTask1.IgnoreDisplayValues);
-			MetaPathParameterValues.Add("db288835-b7df-4e26-a34d-8c5c297d8303", () => ReadDataUserTask1.ResultCompositeObjectList);
-			MetaPathParameterValues.Add("9b1e0f35-4eaf-43a6-8895-e108cd3ff734", () => ReadDataUserTask1.ConsiderTimeInFilter);
+			MetaPathParameterValues.Add("b3dd9c21-1eb2-4f0e-979f-290f19979915", () => ReadDataUserTask1.ResultCompositeObjectList);
+			MetaPathParameterValues.Add("33b16ed3-e6c9-414f-971a-491d39ebaa6e", () => ReadDataUserTask1.ConsiderTimeInFilter);
 			MetaPathParameterValues.Add("5340039f-7871-4082-a0e0-e6362bb2dd10", () => SubProcessEmailSendFromPortal.ActivityId);
 			MetaPathParameterValues.Add("8f8b331b-115e-475c-b2e8-98f47254cbb0", () => SubProcessEmailSendFromPortal.CaseOwnerId);
 			MetaPathParameterValues.Add("799dca73-d934-40af-abba-ae02499a48b3", () => SubProcessEmailSendFromPortal.CaseId);
-			MetaPathParameterValues.Add("e6be1e1f-1d2f-4cf2-b469-139161c4e84c", () => SubProcessEmailSendFromPortal.SubjectCaption);
-			MetaPathParameterValues.Add("13150546-f9ce-4e03-b903-22fef4cc5918", () => SubProcessEmailSendFromPortal.AssigneeIsCleared);
+			MetaPathParameterValues.Add("0109e150-93ea-4548-a1dc-5dfd9b41c994", () => SubProcessEmailSendFromPortal.SubjectCaption);
+			MetaPathParameterValues.Add("67520a7f-5468-4b8b-869e-c0f71828b683", () => SubProcessEmailSendFromPortal.AssigneeIsCleared);
 		}
 
 		protected override void ApplyPropertiesDataValues(DataReader reader) {

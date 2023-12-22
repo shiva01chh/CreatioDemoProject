@@ -30,7 +30,7 @@
 	#region Class: Invoice_CrtOpportunityInvoice_TerrasoftSchema
 
 	/// <exclude/>
-	public class Invoice_CrtOpportunityInvoice_TerrasoftSchema : Terrasoft.Configuration.Invoice_Passport_TerrasoftSchema
+	public class Invoice_CrtOpportunityInvoice_TerrasoftSchema : Terrasoft.Configuration.Invoice_PRMPortal_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -176,7 +176,7 @@
 	/// <summary>
 	/// Invoice.
 	/// </summary>
-	public class Invoice_CrtOpportunityInvoice_Terrasoft : Terrasoft.Configuration.Invoice_Passport_Terrasoft
+	public class Invoice_CrtOpportunityInvoice_Terrasoft : Terrasoft.Configuration.Invoice_PRMPortal_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -267,7 +267,7 @@
 	#region Class: Invoice_CrtOpportunityInvoiceEventsProcess
 
 	/// <exclude/>
-	public partial class Invoice_CrtOpportunityInvoiceEventsProcess<TEntity> : Terrasoft.Configuration.Invoice_PassportEventsProcess<TEntity> where TEntity : Invoice_CrtOpportunityInvoice_Terrasoft
+	public partial class Invoice_CrtOpportunityInvoiceEventsProcess<TEntity> : Terrasoft.Configuration.Invoice_PRMPortalEventsProcess<TEntity> where TEntity : Invoice_CrtOpportunityInvoice_Terrasoft
 	{
 
 		public Invoice_CrtOpportunityInvoiceEventsProcess(UserConnection userConnection)

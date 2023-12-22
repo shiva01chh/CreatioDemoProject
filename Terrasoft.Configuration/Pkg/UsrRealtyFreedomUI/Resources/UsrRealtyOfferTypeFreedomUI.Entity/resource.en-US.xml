@@ -2,7 +2,7 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="Realty offer type (FreedomUI)" />
+			<Item Name="Caption" Value="Realty offer type " />
 			<Item Name="Columns.UsrCommissionPercent.Caption" Value="Commission percent from 0 to 100 " />
 		</Items>
 	</Group>

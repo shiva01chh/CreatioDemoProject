@@ -1,0 +1,410 @@
+2023-12-19 11:24:51,855 --> PackageDBStorage.Load
+2023-12-19 11:24:53,948 <-- PackageDBStorage.Load
+2023-12-19 12:25:22,665 --> PackageDBStorage.Load
+2023-12-19 12:25:22,699 <-- PackageDBStorage.Load
+2023-12-19 12:25:22,927 --> PackageDBStorage.Load
+2023-12-19 12:25:29,378 <-- PackageDBStorage.Load
+2023-12-19 12:25:38,164 --> PackageDBStorage.Load
+2023-12-19 12:25:42,234 <-- PackageDBStorage.Load
+2023-12-19 12:25:42,330 --> PackageDBStorage.Load
+2023-12-19 12:25:46,346 <-- PackageDBStorage.Load
+2023-12-19 12:28:24,450 --> PackageDBStorage.Load
+2023-12-19 12:28:25,030 <-- PackageDBStorage.Load
+2023-12-19 13:05:46,057 --> PackageDBStorage.Load
+2023-12-19 13:05:46,091 <-- PackageDBStorage.Load
+2023-12-19 13:09:07,817 --> PackageDBStorage.Load
+2023-12-19 13:09:07,850 <-- PackageDBStorage.Load
+2023-12-19 13:09:08,143 --> PackageDBStorage.Load
+2023-12-19 13:09:13,351 <-- PackageDBStorage.Load
+2023-12-19 13:18:48,028 --> PackageDBStorage.Load
+2023-12-19 13:18:53,059 <-- PackageDBStorage.Load
+2023-12-19 13:18:53,643 --> PackageDBStorage.Load
+2023-12-19 13:18:53,678 <-- PackageDBStorage.Load
+2023-12-19 13:18:53,737 --> PackageDBStorage.Load
+2023-12-19 13:18:53,771 <-- PackageDBStorage.Load
+2023-12-19 13:37:11,939 --> PackageDBStorage.Load
+2023-12-19 13:37:11,973 <-- PackageDBStorage.Load
+2023-12-19 13:38:41,641 --> PackageDBStorage.Load
+2023-12-19 13:38:49,478 <-- PackageDBStorage.Load
+2023-12-19 13:38:50,040 --> PackageDBStorage.Load
+2023-12-19 13:38:50,076 <-- PackageDBStorage.Load
+2023-12-19 13:38:50,105 --> PackageDBStorage.Load
+2023-12-19 13:38:50,149 <-- PackageDBStorage.Load
+2023-12-19 13:38:52,330 --> PackageDBStorage.Load
+2023-12-19 13:38:56,440 <-- PackageDBStorage.Load
+2023-12-19 15:27:41,730 --> PackageDBStorage.Load
+2023-12-19 15:27:47,778 <-- PackageDBStorage.Load
+2023-12-19 15:27:48,089 --> PackageDBStorage.Load
+2023-12-19 15:27:48,129 <-- PackageDBStorage.Load
+2023-12-19 15:27:48,156 --> PackageDBStorage.Load
+2023-12-19 15:27:48,196 <-- PackageDBStorage.Load
+2023-12-19 15:29:13,789 --> PackageDBStorage.Load
+2023-12-19 15:29:13,822 <-- PackageDBStorage.Load
+2023-12-19 15:29:13,852 --> PackageDBStorage.Load
+2023-12-19 15:29:17,995 <-- PackageDBStorage.Load
+2023-12-19 15:29:53,955 --> PackageDBStorage.Load
+2023-12-19 15:30:01,113 <-- PackageDBStorage.Load
+2023-12-19 15:30:02,232 --> PackageDBStorage.Load
+2023-12-19 15:30:02,266 <-- PackageDBStorage.Load
+2023-12-19 15:30:02,284 --> PackageDBStorage.Load
+2023-12-19 15:30:02,382 <-- PackageDBStorage.Load
+2023-12-19 15:32:04,967 --> PackageDBStorage.Load
+2023-12-19 15:32:05,000 <-- PackageDBStorage.Load
+2023-12-19 15:32:05,009 --> PackageDBStorage.Load
+2023-12-19 15:32:09,301 <-- PackageDBStorage.Load
+2023-12-19 15:50:33,676 --> PackageInstallUtilities.LoadPackagesToFileSystem
+2023-12-19 15:50:33,679 --> PackageStorageComposer.Compose
+2023-12-19 15:50:33,679 --> PackageFileDesignModeDBStorage.Load
+2023-12-19 15:50:38,804 <-- PackageFileDesignModeDBStorage.Load
+2023-12-19 15:50:38,804 --> PackageFileDesignModeStorage.Load
+2023-12-19 15:50:39,017 <-- PackageFileDesignModeStorage.Load
+2023-12-19 15:50:39,020 --> PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-19 15:50:39,044 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 15:50:39,056 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 15:50:39,059 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 15:50:39,059 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 15:50:39,059 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 15:50:39,059 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 15:50:39,059 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-19 15:50:39,085 --> PackageFileDesignModeStorage.ActualizePackageResourcesState
+2023-12-19 15:50:39,085 <-- PackageFileDesignModeStorage.ActualizePackageResourcesState
+2023-12-19 15:50:39,085 <-- PackageStorageComposer.Compose
+2023-12-19 15:50:39,115 --> PackageFileDesignModeStorage.Save: Packages [328] Schemas [8500] ReferenceAssemblies [35] SqlScripts [1535] PackageData [5239] SchemaResources [155266] CoreResources [0]
+2023-12-19 15:50:39,120 --> PackageFileDesignModeStorage.MarkNotEditablePackagesAsNotChanged
+2023-12-19 15:50:39,120 <-- PackageFileDesignModeStorage.MarkNotEditablePackagesAsNotChanged
+2023-12-19 15:50:39,120 --> PackageFileDesignModeStorage.DeletePackageItems - UsrRealtyFreedomUI
+2023-12-19 15:50:39,129 <-- PackageFileDesignModeStorage.DeletePackageItems - UsrRealtyFreedomUI
+2023-12-19 15:50:39,129 --> PackageFileDesignModeStorage.UpdatePackage - UsrRealtyFreedomUI
+2023-12-19 15:50:39,129 --> PackageFileDesignModeStorage.SavePackage - UsrRealtyFreedomUI
+2023-12-19 15:50:39,129 --> PackageFileDesignModeStorage.SavePackageDescriptor - UsrRealtyFreedomUI
+2023-12-19 15:50:39,134 <-- PackageFileDesignModeStorage.SavePackageDescriptor - UsrRealtyFreedomUI
+2023-12-19 15:50:39,134 --> PackageFileDesignModeStorage.SaveStandalonePackageSpecificFiles - UsrRealtyFreedomUI
+2023-12-19 15:50:39,183 <-- PackageFileDesignModeStorage.SaveStandalonePackageSpecificFiles - UsrRealtyFreedomUI
+2023-12-19 15:50:39,183 --> PackageFileDesignModeStorage.SavePackageSchemas - UsrRealtyFreedomUI
+2023-12-19 15:50:39,202 <-- PackageFileDesignModeStorage.SavePackageSchemas - UsrRealtyFreedomUI
+2023-12-19 15:50:39,722 --> PackageFileDesignModeStorage.SavePackageReferenceAssemblies - UsrRealtyFreedomUI
+2023-12-19 15:50:39,722 <-- PackageFileDesignModeStorage.SavePackageReferenceAssemblies - UsrRealtyFreedomUI
+2023-12-19 15:50:39,722 --> PackageFileDesignModeStorage.SavePackageSqlScripts - UsrRealtyFreedomUI
+2023-12-19 15:50:39,722 <-- PackageFileDesignModeStorage.SavePackageSqlScripts - UsrRealtyFreedomUI
+2023-12-19 15:50:39,722 --> PackageFileDesignModeStorage.SavePackageData - UsrRealtyFreedomUI
+2023-12-19 15:50:39,725 <-- PackageFileDesignModeStorage.SavePackageData - UsrRealtyFreedomUI
+2023-12-19 15:50:39,725 <-- PackageFileDesignModeStorage.SavePackage - UsrRealtyFreedomUI
+2023-12-19 15:50:39,725 <-- PackageFileDesignModeStorage.UpdatePackage - UsrRealtyFreedomUI
+2023-12-19 15:50:40,418 <-- PackageFileDesignModeStorage.Save
+2023-12-19 15:50:40,418 --> PackageInstallUtilities.UpdatePackagesAutogeneratedContent
+2023-12-19 15:50:40,418 --> PackageDBStorage.Load
+2023-12-19 15:50:44,946 <-- PackageDBStorage.Load
+2023-12-19 15:50:47,727 --> PackageInstallUtilities.UpdateWorkspaceSolution
+2023-12-19 15:50:47,727 --> PackageDBStorage.Load
+2023-12-19 15:50:52,304 <-- PackageDBStorage.Load
+2023-12-19 15:50:58,122 <-- PackageInstallUtilities.UpdateWorkspaceSolution
+2023-12-19 15:50:58,122 <-- PackageInstallUtilities.UpdatePackagesAutogeneratedContent
+2023-12-19 15:50:58,122 <-- PackageInstallUtilities.LoadPackagesToFileSystem
+2023-12-19 15:51:19,058 --> PackageDBStorage.Load
+2023-12-19 15:51:23,628 <-- PackageDBStorage.Load
+2023-12-19 15:51:23,764 --> PackageDBStorage.Load
+2023-12-19 15:51:28,275 <-- PackageDBStorage.Load
+2023-12-19 15:54:13,368 --> PackageDBStorage.Load
+2023-12-19 15:54:14,008 <-- PackageDBStorage.Load
+2023-12-19 16:10:03,309 --> PackageDBStorage.Load
+2023-12-19 16:10:03,344 <-- PackageDBStorage.Load
+2023-12-19 16:10:05,990 --> PackageDBStorage.Load
+2023-12-19 16:10:06,025 <-- PackageDBStorage.Load
+2023-12-19 18:27:36,646 --> PackageDBStorage.Load
+2023-12-19 18:27:43,916 <-- PackageDBStorage.Load
+2023-12-19 18:29:36,141 --> PackageDBStorage.Load
+2023-12-19 18:29:42,673 <-- PackageDBStorage.Load
+2023-12-19 18:29:43,022 --> PackageDBStorage.Load
+2023-12-19 18:29:47,465 <-- PackageDBStorage.Load
+2023-12-19 18:29:47,511 --> PackageDBStorage.Load
+2023-12-19 18:29:51,799 <-- PackageDBStorage.Load
+2023-12-19 18:30:22,448 --> PackageDBStorage.Load
+2023-12-19 18:30:23,093 <-- PackageDBStorage.Load
+2023-12-19 18:33:06,099 --> PackageDBStorage.Load
+2023-12-19 18:33:11,673 <-- PackageDBStorage.Load
+2023-12-19 18:33:12,161 --> PackageDBStorage.Load
+2023-12-19 18:33:16,286 <-- PackageDBStorage.Load
+2023-12-19 18:33:16,298 --> PackageDBStorage.Load
+2023-12-19 18:33:20,660 <-- PackageDBStorage.Load
+2023-12-19 18:33:42,781 --> PackageDBStorage.Load
+2023-12-19 18:33:43,321 <-- PackageDBStorage.Load
+2023-12-19 18:34:27,989 --> PackageDBStorage.Load
+2023-12-19 18:34:32,498 <-- PackageDBStorage.Load
+2023-12-19 18:34:33,020 --> PackageDBStorage.Load
+2023-12-19 18:34:37,223 <-- PackageDBStorage.Load
+2023-12-19 18:34:37,234 --> PackageDBStorage.Load
+2023-12-19 18:34:41,580 <-- PackageDBStorage.Load
+2023-12-19 18:34:59,372 --> PackageDBStorage.Load
+2023-12-19 18:34:59,980 <-- PackageDBStorage.Load
+2023-12-19 18:46:30,881 --> PackageDBStorage.Load
+2023-12-19 18:46:37,650 <-- PackageDBStorage.Load
+2023-12-19 18:46:37,768 --> PackageDBStorage.Load
+2023-12-19 18:46:42,080 <-- PackageDBStorage.Load
+2023-12-19 18:50:32,430 --> PackageDBStorage.Load
+2023-12-19 18:50:34,482 <-- PackageDBStorage.Load
+2023-12-19 18:51:36,753 --> PackageDBStorage.Load
+2023-12-19 18:51:43,367 <-- PackageDBStorage.Load
+2023-12-19 18:51:43,485 --> PackageDBStorage.Load
+2023-12-19 18:51:48,200 <-- PackageDBStorage.Load
+2023-12-19 18:54:26,221 --> PackageDBStorage.Load
+2023-12-19 18:54:26,761 <-- PackageDBStorage.Load
+2023-12-19 18:58:14,759 --> PackageInstallUtilities.LoadPackagesToFileSystem
+2023-12-19 18:58:14,761 --> PackageStorageComposer.Compose
+2023-12-19 18:58:14,761 --> PackageFileDesignModeDBStorage.Load
+2023-12-19 18:58:20,085 <-- PackageFileDesignModeDBStorage.Load
+2023-12-19 18:58:20,085 --> PackageFileDesignModeStorage.Load
+2023-12-19 18:58:20,147 <-- PackageFileDesignModeStorage.Load
+2023-12-19 18:58:20,149 --> PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-19 18:58:20,174 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 18:58:20,184 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 18:58:20,187 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 18:58:20,190 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 18:58:20,190 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 18:58:20,190 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 18:58:20,190 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-19 18:58:20,207 --> PackageFileDesignModeStorage.ActualizePackageResourcesState
+2023-12-19 18:58:20,207 <-- PackageFileDesignModeStorage.ActualizePackageResourcesState
+2023-12-19 18:58:20,207 <-- PackageStorageComposer.Compose
+2023-12-19 18:58:20,225 --> PackageFileDesignModeStorage.Save: Packages [327] Schemas [8498] ReferenceAssemblies [35] SqlScripts [1535] PackageData [5239] SchemaResources [155266] CoreResources [0]
+2023-12-19 18:58:20,228 --> PackageFileDesignModeStorage.MarkNotEditablePackagesAsNotChanged
+2023-12-19 18:58:20,228 <-- PackageFileDesignModeStorage.MarkNotEditablePackagesAsNotChanged
+2023-12-19 18:58:20,228 <-- PackageFileDesignModeStorage.Save
+2023-12-19 18:58:20,228 <-- PackageInstallUtilities.LoadPackagesToFileSystem
+2023-12-19 18:59:09,908 --> PackageInstallUtilities.LoadPackagesToDB
+2023-12-19 18:59:09,908 --> PackageFileDesignModeStorage.Load
+2023-12-19 18:59:09,937 <-- PackageFileDesignModeStorage.Load
+2023-12-19 18:59:09,937 --> PackageFileDesignModeDBStorage.Load
+2023-12-19 18:59:14,082 <-- PackageFileDesignModeDBStorage.Load
+2023-12-19 18:59:14,088 --> PackageStorageComposer.Compose
+2023-12-19 18:59:14,088 --> PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-19 18:59:14,088 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 18:59:14,088 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 18:59:14,093 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 18:59:14,093 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 18:59:14,100 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 18:59:14,100 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 18:59:14,100 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-19 18:59:14,113 --> PackageFileDesignModeDBStorage.ActualizePackageResourcesState
+2023-12-19 18:59:14,122 <-- PackageFileDesignModeDBStorage.ActualizePackageResourcesState
+2023-12-19 18:59:14,122 <-- PackageStorageComposer.Compose
+2023-12-19 18:59:14,122 --> PackageFileDesignModeDBStorage.Save: Packages [2] Schemas [9] ReferenceAssemblies [0] SqlScripts [0] PackageData [0] SchemaResources [20] CoreResources [0]
+2023-12-19 18:59:14,338 --> PackageFileDesignModeDBStorage.SavePackage - GuidedDev
+2023-12-19 18:59:14,474 <-- PackageFileDesignModeDBStorage.SavePackage - GuidedDev
+2023-12-19 18:59:14,474 --> PackageFileDesignModeDBStorage.SavePackage - UsrRealtyFreedomUI
+2023-12-19 18:59:14,520 <-- PackageFileDesignModeDBStorage.SavePackage - UsrRealtyFreedomUI
+2023-12-19 18:59:14,605 Added - 1 pt-BR resource values for schema 'UsrRealtyFreedomUIEvents'
+2023-12-19 18:59:14,605 Added - 1 he-IL resource values for schema 'UsrRealtyFreedomUIEvents'
+2023-12-19 18:59:14,605 Added - 1 fa-IR resource values for schema 'UsrRealtyFreedomUIEvents'
+2023-12-19 18:59:14,605 Added - 1 de-DE resource values for schema 'UsrRealtyFreedomUIEvents'
+2023-12-19 18:59:14,608 Added - 1 cs-CZ resource values for schema 'UsrRealtyFreedomUIEvents'
+2023-12-19 18:59:14,608 Added - 1 pl-PL resource values for schema 'UsrRealtyFreedomUIEvents'
+2023-12-19 18:59:14,608 Added - 1 fr-FR resource values for schema 'UsrRealtyFreedomUIEvents'
+2023-12-19 18:59:14,608 Added - 1 vi-VN resource values for schema 'UsrRealtyFreedomUIEvents'
+2023-12-19 18:59:14,608 Added - 1 uk-UA resource values for schema 'UsrRealtyFreedomUIEvents'
+2023-12-19 18:59:14,608 Added - 1 nl-NL resource values for schema 'UsrRealtyFreedomUIEvents'
+2023-12-19 18:59:14,613 Added - 1 it-IT resource values for schema 'UsrRealtyFreedomUIEvents'
+2023-12-19 18:59:14,613 Added - 1 ru-RU resource values for schema 'UsrRealtyFreedomUIEvents'
+2023-12-19 18:59:14,613 Added - 1 es-ES resource values for schema 'UsrRealtyFreedomUIEvents'
+2023-12-19 18:59:14,613 Added - 1 sv-SE resource values for schema 'UsrRealtyFreedomUIEvents'
+2023-12-19 18:59:14,613 Added - 1 ar-SA resource values for schema 'UsrRealtyFreedomUIEvents'
+2023-12-19 18:59:14,613 Added - 1 pt-PT resource values for schema 'UsrRealtyFreedomUIEvents'
+2023-12-19 18:59:14,613 Added - 1 th-TH resource values for schema 'UsrRealtyFreedomUIEvents'
+2023-12-19 18:59:14,617 Added - 1 sq-AL resource values for schema 'UsrRealtyFreedomUIEvents'
+2023-12-19 18:59:14,617 Added - 1 ko-KR resource values for schema 'UsrRealtyFreedomUIEvents'
+2023-12-19 18:59:14,634 Added - 1 ro-RO resource values for schema 'UsrRealtyFreedomUIEvents'
+2023-12-19 18:59:15,591 InstallColumnLookupValues. Count (total): 0
+2023-12-19 18:59:19,130 <-- PackageFileDesignModeDBStorage.Save
+2023-12-19 18:59:19,130 <-- PackageInstallUtilities.LoadPackagesToDB
+2023-12-19 18:59:37,260 --> PackageInstallUtilities.LoadPackagesToFileSystem
+2023-12-19 18:59:37,260 --> PackageStorageComposer.Compose
+2023-12-19 18:59:37,260 --> PackageFileDesignModeDBStorage.Load
+2023-12-19 18:59:41,560 <-- PackageFileDesignModeDBStorage.Load
+2023-12-19 18:59:41,560 --> PackageFileDesignModeStorage.Load
+2023-12-19 18:59:41,585 <-- PackageFileDesignModeStorage.Load
+2023-12-19 18:59:41,585 --> PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-19 18:59:41,600 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 18:59:41,600 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 18:59:41,605 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 18:59:41,605 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 18:59:41,605 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 18:59:41,605 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 18:59:41,605 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-19 18:59:41,614 --> PackageFileDesignModeStorage.ActualizePackageResourcesState
+2023-12-19 18:59:41,614 <-- PackageFileDesignModeStorage.ActualizePackageResourcesState
+2023-12-19 18:59:41,614 <-- PackageStorageComposer.Compose
+2023-12-19 18:59:41,624 --> PackageFileDesignModeStorage.Save: Packages [328] Schemas [8498] ReferenceAssemblies [35] SqlScripts [1535] PackageData [5239] SchemaResources [155286] CoreResources [0]
+2023-12-19 18:59:41,624 --> PackageFileDesignModeStorage.MarkNotEditablePackagesAsNotChanged
+2023-12-19 18:59:41,624 <-- PackageFileDesignModeStorage.MarkNotEditablePackagesAsNotChanged
+2023-12-19 18:59:41,624 --> PackageFileDesignModeStorage.DeletePackageItems - UsrRealtyFreedomUI
+2023-12-19 18:59:41,626 <-- PackageFileDesignModeStorage.DeletePackageItems - UsrRealtyFreedomUI
+2023-12-19 18:59:41,626 --> PackageFileDesignModeStorage.UpdatePackage - UsrRealtyFreedomUI
+2023-12-19 18:59:41,626 --> PackageFileDesignModeStorage.SavePackage - UsrRealtyFreedomUI
+2023-12-19 18:59:41,626 --> PackageFileDesignModeStorage.SavePackageDescriptor - UsrRealtyFreedomUI
+2023-12-19 18:59:41,636 <-- PackageFileDesignModeStorage.SavePackageDescriptor - UsrRealtyFreedomUI
+2023-12-19 18:59:41,636 --> PackageFileDesignModeStorage.SaveStandalonePackageSpecificFiles - UsrRealtyFreedomUI
+2023-12-19 18:59:41,647 <-- PackageFileDesignModeStorage.SaveStandalonePackageSpecificFiles - UsrRealtyFreedomUI
+2023-12-19 18:59:41,647 --> PackageFileDesignModeStorage.SavePackageSchemas - UsrRealtyFreedomUI
+2023-12-19 18:59:41,648 <-- PackageFileDesignModeStorage.SavePackageSchemas - UsrRealtyFreedomUI
+2023-12-19 18:59:42,633 --> PackageFileDesignModeStorage.SavePackageReferenceAssemblies - UsrRealtyFreedomUI
+2023-12-19 18:59:42,633 <-- PackageFileDesignModeStorage.SavePackageReferenceAssemblies - UsrRealtyFreedomUI
+2023-12-19 18:59:42,633 --> PackageFileDesignModeStorage.SavePackageSqlScripts - UsrRealtyFreedomUI
+2023-12-19 18:59:42,633 <-- PackageFileDesignModeStorage.SavePackageSqlScripts - UsrRealtyFreedomUI
+2023-12-19 18:59:42,633 --> PackageFileDesignModeStorage.SavePackageData - UsrRealtyFreedomUI
+2023-12-19 18:59:42,633 <-- PackageFileDesignModeStorage.SavePackageData - UsrRealtyFreedomUI
+2023-12-19 18:59:42,633 <-- PackageFileDesignModeStorage.SavePackage - UsrRealtyFreedomUI
+2023-12-19 18:59:42,633 <-- PackageFileDesignModeStorage.UpdatePackage - UsrRealtyFreedomUI
+2023-12-19 18:59:43,370 <-- PackageFileDesignModeStorage.Save
+2023-12-19 18:59:43,370 --> PackageInstallUtilities.UpdatePackagesAutogeneratedContent
+2023-12-19 18:59:43,370 --> PackageDBStorage.Load
+2023-12-19 18:59:47,655 <-- PackageDBStorage.Load
+2023-12-19 18:59:50,725 --> PackageInstallUtilities.UpdateWorkspaceSolution
+2023-12-19 18:59:50,725 --> PackageDBStorage.Load
+2023-12-19 18:59:55,057 <-- PackageDBStorage.Load
+2023-12-19 19:00:00,026 <-- PackageInstallUtilities.UpdateWorkspaceSolution
+2023-12-19 19:00:00,026 <-- PackageInstallUtilities.UpdatePackagesAutogeneratedContent
+2023-12-19 19:00:00,026 <-- PackageInstallUtilities.LoadPackagesToFileSystem
+2023-12-19 19:10:00,201 --> PackageDBStorage.Load
+2023-12-19 19:10:04,421 <-- PackageDBStorage.Load
+2023-12-19 19:10:47,348 --> PackageDBStorage.Load
+2023-12-19 19:10:51,844 <-- PackageDBStorage.Load
+2023-12-19 19:10:52,098 --> PackageDBStorage.Load
+2023-12-19 19:10:56,115 <-- PackageDBStorage.Load
+2023-12-19 19:10:56,119 --> PackageDBStorage.Load
+2023-12-19 19:11:00,410 <-- PackageDBStorage.Load
+2023-12-19 19:11:21,273 --> PackageDBStorage.Load
+2023-12-19 19:11:21,871 <-- PackageDBStorage.Load
+2023-12-19 20:20:26,295 --> PackageInstallUtilities.LoadPackagesToFileSystem
+2023-12-19 20:20:26,297 --> PackageStorageComposer.Compose
+2023-12-19 20:20:26,297 --> PackageFileDesignModeDBStorage.Load
+2023-12-19 20:20:31,309 <-- PackageFileDesignModeDBStorage.Load
+2023-12-19 20:20:31,309 --> PackageFileDesignModeStorage.Load
+2023-12-19 20:20:31,358 <-- PackageFileDesignModeStorage.Load
+2023-12-19 20:20:31,358 --> PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-19 20:20:31,383 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 20:20:31,393 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 20:20:31,397 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 20:20:31,400 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 20:20:31,400 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 20:20:31,400 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 20:20:31,400 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-19 20:20:31,416 --> PackageFileDesignModeStorage.ActualizePackageResourcesState
+2023-12-19 20:20:31,416 <-- PackageFileDesignModeStorage.ActualizePackageResourcesState
+2023-12-19 20:20:31,416 <-- PackageStorageComposer.Compose
+2023-12-19 20:20:31,435 --> PackageFileDesignModeStorage.Save: Packages [327] Schemas [8498] ReferenceAssemblies [35] SqlScripts [1535] PackageData [5239] SchemaResources [155266] CoreResources [0]
+2023-12-19 20:20:31,438 --> PackageFileDesignModeStorage.MarkNotEditablePackagesAsNotChanged
+2023-12-19 20:20:31,438 <-- PackageFileDesignModeStorage.MarkNotEditablePackagesAsNotChanged
+2023-12-19 20:20:31,440 <-- PackageFileDesignModeStorage.Save
+2023-12-19 20:20:31,440 <-- PackageInstallUtilities.LoadPackagesToFileSystem
+2023-12-19 20:20:39,468 --> PackageInstallUtilities.LoadPackagesToDB
+2023-12-19 20:20:39,468 --> PackageFileDesignModeStorage.Load
+2023-12-19 20:20:39,494 <-- PackageFileDesignModeStorage.Load
+2023-12-19 20:20:39,494 --> PackageFileDesignModeDBStorage.Load
+2023-12-19 20:20:44,430 <-- PackageFileDesignModeDBStorage.Load
+2023-12-19 20:20:44,437 --> PackageStorageComposer.Compose
+2023-12-19 20:20:44,437 --> PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-19 20:20:44,437 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 20:20:44,437 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 20:20:44,442 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 20:20:44,442 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 20:20:44,447 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 20:20:44,450 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 20:20:44,450 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-19 20:20:44,460 --> PackageFileDesignModeDBStorage.ActualizePackageResourcesState
+2023-12-19 20:20:44,469 <-- PackageFileDesignModeDBStorage.ActualizePackageResourcesState
+2023-12-19 20:20:44,469 <-- PackageStorageComposer.Compose
+2023-12-19 20:20:44,469 --> PackageFileDesignModeDBStorage.Save: Packages [1] Schemas [1] ReferenceAssemblies [0] SqlScripts [0] PackageData [0] SchemaResources [20] CoreResources [0]
+2023-12-19 20:20:44,678 --> PackageFileDesignModeDBStorage.SavePackage - UsrRealtyFreedomUI
+2023-12-19 20:20:44,826 <-- PackageFileDesignModeDBStorage.SavePackage - UsrRealtyFreedomUI
+2023-12-19 20:20:44,884 Added - 1 fr-FR resource values for schema 'UsrRealtyService'
+2023-12-19 20:20:44,884 Added - 1 vi-VN resource values for schema 'UsrRealtyService'
+2023-12-19 20:20:44,884 Added - 1 uk-UA resource values for schema 'UsrRealtyService'
+2023-12-19 20:20:44,884 Added - 1 th-TH resource values for schema 'UsrRealtyService'
+2023-12-19 20:20:44,986 Added - 1 ro-RO resource values for schema 'UsrRealtyService'
+2023-12-19 20:20:44,986 Added - 1 ru-RU resource values for schema 'UsrRealtyService'
+2023-12-19 20:20:44,986 Added - 1 he-IL resource values for schema 'UsrRealtyService'
+2023-12-19 20:20:44,986 Added - 1 es-ES resource values for schema 'UsrRealtyService'
+2023-12-19 20:20:44,986 Added - 1 sv-SE resource values for schema 'UsrRealtyService'
+2023-12-19 20:20:44,986 Added - 1 fa-IR resource values for schema 'UsrRealtyService'
+2023-12-19 20:20:44,986 Added - 1 it-IT resource values for schema 'UsrRealtyService'
+2023-12-19 20:20:44,986 Added - 1 ar-SA resource values for schema 'UsrRealtyService'
+2023-12-19 20:20:44,986 Added - 1 sq-AL resource values for schema 'UsrRealtyService'
+2023-12-19 20:20:44,986 Added - 1 cs-CZ resource values for schema 'UsrRealtyService'
+2023-12-19 20:20:44,986 Added - 1 pt-PT resource values for schema 'UsrRealtyService'
+2023-12-19 20:20:44,994 Added - 1 pt-BR resource values for schema 'UsrRealtyService'
+2023-12-19 20:20:44,994 Added - 1 de-DE resource values for schema 'UsrRealtyService'
+2023-12-19 20:20:44,994 Added - 1 pl-PL resource values for schema 'UsrRealtyService'
+2023-12-19 20:20:44,994 Added - 1 ko-KR resource values for schema 'UsrRealtyService'
+2023-12-19 20:20:44,994 Added - 1 nl-NL resource values for schema 'UsrRealtyService'
+2023-12-19 20:20:45,976 InstallColumnLookupValues. Count (total): 0
+2023-12-19 20:20:46,179 <-- PackageFileDesignModeDBStorage.Save
+2023-12-19 20:20:46,179 <-- PackageInstallUtilities.LoadPackagesToDB
+2023-12-19 20:20:55,795 --> PackageInstallUtilities.LoadPackagesToFileSystem
+2023-12-19 20:20:55,795 --> PackageStorageComposer.Compose
+2023-12-19 20:20:55,795 --> PackageFileDesignModeDBStorage.Load
+2023-12-19 20:21:00,273 <-- PackageFileDesignModeDBStorage.Load
+2023-12-19 20:21:00,273 --> PackageFileDesignModeStorage.Load
+2023-12-19 20:21:00,300 <-- PackageFileDesignModeStorage.Load
+2023-12-19 20:21:00,300 --> PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-19 20:21:00,317 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 20:21:00,317 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 20:21:00,324 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 20:21:00,326 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 20:21:00,326 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 20:21:00,326 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2023-12-19 20:21:00,326 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2023-12-19 20:21:00,334 --> PackageFileDesignModeStorage.ActualizePackageResourcesState
+2023-12-19 20:21:00,334 <-- PackageFileDesignModeStorage.ActualizePackageResourcesState
+2023-12-19 20:21:00,334 <-- PackageStorageComposer.Compose
+2023-12-19 20:21:00,346 --> PackageFileDesignModeStorage.Save: Packages [328] Schemas [8498] ReferenceAssemblies [35] SqlScripts [1535] PackageData [5239] SchemaResources [155286] CoreResources [0]
+2023-12-19 20:21:00,346 --> PackageFileDesignModeStorage.MarkNotEditablePackagesAsNotChanged
+2023-12-19 20:21:00,346 <-- PackageFileDesignModeStorage.MarkNotEditablePackagesAsNotChanged
+2023-12-19 20:21:00,346 --> PackageFileDesignModeStorage.DeletePackageItems - UsrRealtyFreedomUI
+2023-12-19 20:21:00,350 <-- PackageFileDesignModeStorage.DeletePackageItems - UsrRealtyFreedomUI
+2023-12-19 20:21:00,350 --> PackageFileDesignModeStorage.UpdatePackage - UsrRealtyFreedomUI
+2023-12-19 20:21:00,350 --> PackageFileDesignModeStorage.SavePackage - UsrRealtyFreedomUI
+2023-12-19 20:21:00,350 --> PackageFileDesignModeStorage.SavePackageDescriptor - UsrRealtyFreedomUI
+2023-12-19 20:21:00,354 <-- PackageFileDesignModeStorage.SavePackageDescriptor - UsrRealtyFreedomUI
+2023-12-19 20:21:00,354 --> PackageFileDesignModeStorage.SaveStandalonePackageSpecificFiles - UsrRealtyFreedomUI
+2023-12-19 20:21:00,363 <-- PackageFileDesignModeStorage.SaveStandalonePackageSpecificFiles - UsrRealtyFreedomUI
+2023-12-19 20:21:00,363 --> PackageFileDesignModeStorage.SavePackageSchemas - UsrRealtyFreedomUI
+2023-12-19 20:21:00,365 <-- PackageFileDesignModeStorage.SavePackageSchemas - UsrRealtyFreedomUI
+2023-12-19 20:21:01,140 --> PackageFileDesignModeStorage.SavePackageReferenceAssemblies - UsrRealtyFreedomUI
+2023-12-19 20:21:01,140 <-- PackageFileDesignModeStorage.SavePackageReferenceAssemblies - UsrRealtyFreedomUI
+2023-12-19 20:21:01,140 --> PackageFileDesignModeStorage.SavePackageSqlScripts - UsrRealtyFreedomUI
+2023-12-19 20:21:01,140 <-- PackageFileDesignModeStorage.SavePackageSqlScripts - UsrRealtyFreedomUI
+2023-12-19 20:21:01,140 --> PackageFileDesignModeStorage.SavePackageData - UsrRealtyFreedomUI
+2023-12-19 20:21:01,140 <-- PackageFileDesignModeStorage.SavePackageData - UsrRealtyFreedomUI
+2023-12-19 20:21:01,140 <-- PackageFileDesignModeStorage.SavePackage - UsrRealtyFreedomUI
+2023-12-19 20:21:01,140 <-- PackageFileDesignModeStorage.UpdatePackage - UsrRealtyFreedomUI
+2023-12-19 20:21:01,951 <-- PackageFileDesignModeStorage.Save
+2023-12-19 20:21:01,951 --> PackageInstallUtilities.UpdatePackagesAutogeneratedContent
+2023-12-19 20:21:01,951 --> PackageDBStorage.Load
+2023-12-19 20:21:06,366 <-- PackageDBStorage.Load
+2023-12-19 20:21:09,244 --> PackageInstallUtilities.UpdateWorkspaceSolution
+2023-12-19 20:21:09,244 --> PackageDBStorage.Load
+2023-12-19 20:21:13,357 <-- PackageDBStorage.Load
+2023-12-19 20:21:17,091 <-- PackageInstallUtilities.UpdateWorkspaceSolution
+2023-12-19 20:21:17,091 <-- PackageInstallUtilities.UpdatePackagesAutogeneratedContent
+2023-12-19 20:21:17,091 <-- PackageInstallUtilities.LoadPackagesToFileSystem
+2023-12-19 20:22:41,793 --> PackageDBStorage.Load
+2023-12-19 20:22:46,759 <-- PackageDBStorage.Load
+2023-12-19 20:22:46,767 --> PackageDBStorage.Load
+2023-12-19 20:22:51,040 <-- PackageDBStorage.Load
+2023-12-19 20:27:32,690 --> PackageDBStorage.Load
+2023-12-19 20:27:37,332 <-- PackageDBStorage.Load
+2023-12-19 20:27:38,151 --> PackageDBStorage.Load
+2023-12-19 20:27:38,199 <-- PackageDBStorage.Load
+2023-12-19 20:27:38,491 --> PackageDBStorage.Load
+2023-12-19 20:27:38,525 <-- PackageDBStorage.Load
+2023-12-19 20:28:34,176 --> PackageDBStorage.Load
+2023-12-19 20:28:38,243 <-- PackageDBStorage.Load
+2023-12-19 20:28:38,915 --> PackageDBStorage.Load
+2023-12-19 20:28:38,948 <-- PackageDBStorage.Load
+2023-12-19 20:28:38,974 --> PackageDBStorage.Load
+2023-12-19 20:28:39,008 <-- PackageDBStorage.Load
+2023-12-19 20:36:11,180 --> PackageDBStorage.Load
+2023-12-19 20:36:15,255 <-- PackageDBStorage.Load
+2023-12-19 20:36:15,731 --> PackageDBStorage.Load
+2023-12-19 20:36:15,764 <-- PackageDBStorage.Load
+2023-12-19 20:36:15,789 --> PackageDBStorage.Load
+2023-12-19 20:36:15,825 <-- PackageDBStorage.Load

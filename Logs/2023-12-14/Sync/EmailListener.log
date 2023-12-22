@@ -5939,3 +5939,1355 @@
 2023-12-14 19:20:12,155 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
 2023-12-14 19:20:12,170 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
 2023-12-14 19:20:12,170 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:21:12,085 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:21:12,085 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:21:12,086 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:21:12,090 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:21:12,090 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:21:12,090 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:21:12,090 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:21:12,090 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:21:12,090 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:21:12,090 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:21:12,090 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:21:12,099 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:21:12,099 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:22:12,087 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:22:12,087 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:22:12,087 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:22:12,094 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:22:12,094 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:22:12,094 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:22:12,094 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:22:12,094 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:22:12,094 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:22:12,094 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:22:12,094 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:22:12,101 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:22:12,101 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:23:12,087 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:23:12,087 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:23:12,087 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:23:12,099 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:23:12,099 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:23:12,099 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:23:12,099 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:23:12,099 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:23:12,099 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:23:12,099 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:23:12,099 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:23:12,106 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:23:12,106 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:24:12,084 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:24:12,084 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:24:12,084 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:24:12,092 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:24:12,092 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:24:12,092 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:24:12,092 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:24:12,092 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:24:12,095 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:24:12,095 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:24:12,095 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:24:12,102 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:24:12,102 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:25:12,118 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:25:12,123 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:25:12,123 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:25:12,139 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:25:12,139 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:25:12,139 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:25:12,139 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:25:12,139 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:25:12,139 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:25:12,139 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:25:12,139 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:25:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:25:12,147 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:26:12,117 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:26:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:26:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:26:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:26:12,147 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:26:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:26:12,147 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:26:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:26:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:26:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:26:12,147 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:26:12,162 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:26:12,162 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:27:12,102 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:27:12,102 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:27:12,102 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:27:12,120 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:27:12,120 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:27:12,120 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:27:12,120 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:27:12,120 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:27:12,123 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:27:12,123 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:27:12,123 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:27:12,138 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:27:12,138 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:28:12,086 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:28:12,086 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:28:12,086 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:28:12,093 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:28:12,093 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:28:12,094 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:28:12,094 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:28:12,094 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:28:12,094 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:28:12,094 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:28:12,094 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:28:12,102 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:28:12,102 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:29:12,121 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:29:12,124 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:29:12,124 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:29:12,135 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:29:12,135 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:29:12,135 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:29:12,135 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:29:12,135 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:29:12,135 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:29:12,135 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:29:12,135 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:29:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:29:12,146 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:30:12,117 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:30:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:30:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:30:12,152 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:30:12,152 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:30:12,152 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:30:12,152 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:30:12,156 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:30:12,156 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:30:12,156 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:30:12,156 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:30:12,177 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:30:12,177 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:31:12,087 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:31:12,087 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:31:12,087 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:31:12,095 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:31:12,095 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:31:12,095 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:31:12,095 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:31:12,095 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:31:12,095 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:31:12,095 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:31:12,095 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:31:12,104 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:31:12,104 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:32:12,121 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:32:12,126 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:32:12,126 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:32:12,148 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:32:12,148 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:32:12,148 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:32:12,148 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:32:12,148 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:32:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:32:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:32:12,151 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:32:12,163 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:32:12,163 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:33:12,114 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:33:12,120 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:33:12,120 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:33:12,143 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:33:12,143 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:33:12,143 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:33:12,143 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:33:12,143 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:33:12,143 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:33:12,143 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:33:12,146 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:33:12,159 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:33:12,159 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:34:12,118 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:34:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:34:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:34:12,136 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:34:12,136 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:34:12,136 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:34:12,136 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:34:12,136 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:34:12,138 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:34:12,138 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:34:12,138 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:34:12,148 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:34:12,148 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:35:12,089 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:35:12,091 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:35:12,091 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:35:12,099 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:35:12,099 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:35:12,099 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:35:12,099 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:35:12,102 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:35:12,102 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:35:12,102 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:35:12,102 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:35:12,116 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:35:12,116 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:36:12,104 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:36:12,108 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:36:12,108 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:36:12,127 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:36:12,127 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:36:12,127 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:36:12,127 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:36:12,127 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:36:12,127 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:36:12,127 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:36:12,127 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:36:12,141 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:36:12,141 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:40:47,576 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:40:47,583 [.NET ThreadPool Worker] DEBUG  DebugFormat - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:40:47,583 [.NET ThreadPool Worker] DEBUG  DebugFormat - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:40:47,658 [.NET ThreadPool Worker] DEBUG  DebugFormat - GetAllSynchronizableMailboxes ended
+2023-12-14 19:40:47,658 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:40:47,658 [.NET ThreadPool Worker] DEBUG  DebugFormat - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:40:47,658 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:40:47,658 [.NET ThreadPool Worker] DEBUG  DebugFormat - StartFailoverHandlers started
+2023-12-14 19:40:47,658 [.NET ThreadPool Worker] DEBUG  DebugFormat - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:40:47,658 [.NET ThreadPool Worker] DEBUG  DebugFormat - StartFailoverHandlers ended
+2023-12-14 19:40:47,658 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:40:47,674 [.NET ThreadPool Worker] DEBUG  DebugFormat - GetAllSynchronizableMailboxes ended
+2023-12-14 19:40:47,674 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:40:47,778 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:40:47,868 [.NET ThreadPool Worker] DEBUG  DebugFormat - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:40:47,868 [.NET ThreadPool Worker] DEBUG  DebugFormat - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:40:47,881 [.NET ThreadPool Worker] DEBUG  DebugFormat - GetAllSynchronizableMailboxes ended
+2023-12-14 19:40:47,881 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:40:47,881 [.NET ThreadPool Worker] DEBUG  DebugFormat - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:40:47,881 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:40:47,881 [.NET ThreadPool Worker] DEBUG  DebugFormat - StartFailoverHandlers started
+2023-12-14 19:40:47,882 [.NET ThreadPool Worker] DEBUG  DebugFormat - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:40:47,882 [.NET ThreadPool Worker] DEBUG  DebugFormat - StartFailoverHandlers ended
+2023-12-14 19:40:47,882 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:40:47,906 [.NET ThreadPool Worker] DEBUG  DebugFormat - GetAllSynchronizableMailboxes ended
+2023-12-14 19:40:47,906 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:40:48,055 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:40:48,055 [.NET ThreadPool Worker] DEBUG  DebugFormat - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:40:48,055 [.NET ThreadPool Worker] DEBUG  DebugFormat - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:40:48,063 [.NET ThreadPool Worker] DEBUG  DebugFormat - GetAllSynchronizableMailboxes ended
+2023-12-14 19:40:48,063 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:40:48,063 [.NET ThreadPool Worker] DEBUG  DebugFormat - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:40:48,063 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:40:48,063 [.NET ThreadPool Worker] DEBUG  DebugFormat - StartFailoverHandlers started
+2023-12-14 19:40:48,063 [.NET ThreadPool Worker] DEBUG  DebugFormat - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:40:48,063 [.NET ThreadPool Worker] DEBUG  DebugFormat - StartFailoverHandlers ended
+2023-12-14 19:40:48,063 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:40:48,071 [.NET ThreadPool Worker] DEBUG  DebugFormat - GetAllSynchronizableMailboxes ended
+2023-12-14 19:40:48,071 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:40:48,174 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:40:48,174 [.NET ThreadPool Worker] DEBUG  DebugFormat - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:40:48,174 [.NET ThreadPool Worker] DEBUG  DebugFormat - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:40:48,181 [.NET ThreadPool Worker] DEBUG  DebugFormat - GetAllSynchronizableMailboxes ended
+2023-12-14 19:40:48,181 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:40:48,181 [.NET ThreadPool Worker] DEBUG  DebugFormat - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:40:48,181 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:40:48,181 [.NET ThreadPool Worker] DEBUG  DebugFormat - StartFailoverHandlers started
+2023-12-14 19:40:48,182 [.NET ThreadPool Worker] DEBUG  DebugFormat - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:40:48,182 [.NET ThreadPool Worker] DEBUG  DebugFormat - StartFailoverHandlers ended
+2023-12-14 19:40:48,182 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:40:48,190 [.NET ThreadPool Worker] DEBUG  DebugFormat - GetAllSynchronizableMailboxes ended
+2023-12-14 19:40:48,190 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:41:12,114 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:41:12,120 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:41:12,120 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:41:12,142 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:41:12,142 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:41:12,142 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:41:12,142 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:41:12,142 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:41:12,142 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:41:12,142 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:41:12,142 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:41:12,158 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:41:12,158 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:42:12,100 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:42:12,100 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:42:12,100 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:42:12,106 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:42:12,106 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:42:12,106 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:42:12,106 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:42:12,106 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:42:12,106 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:42:12,106 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:42:12,106 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:42:12,116 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:42:12,116 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:43:12,117 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:43:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:43:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:43:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:43:12,151 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:43:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:43:12,151 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:43:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:43:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:43:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:43:12,154 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:43:12,167 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:43:12,167 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:44:12,118 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:44:12,123 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:44:12,123 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:44:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:44:12,147 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:44:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:44:12,147 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:44:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:44:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:44:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:44:12,147 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:44:12,164 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:44:12,164 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:45:12,118 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:45:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:45:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:45:12,142 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:45:12,142 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:45:12,142 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:45:12,142 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:45:12,142 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:45:12,142 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:45:12,142 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:45:12,142 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:45:12,157 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:45:12,157 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:46:12,114 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:46:12,118 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:46:12,118 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:46:12,136 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:46:12,136 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:46:12,136 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:46:12,136 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:46:12,136 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:46:12,136 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:46:12,136 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:46:12,136 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:46:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:46:12,147 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:47:12,085 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:47:12,087 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:47:12,087 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:47:12,092 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:47:12,092 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:47:12,092 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:47:12,092 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:47:12,092 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:47:12,094 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:47:12,094 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:47:12,094 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:47:12,100 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:47:12,100 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:48:12,114 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:48:12,118 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:48:12,118 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:48:12,139 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:48:12,139 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:48:12,139 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:48:12,139 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:48:12,139 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:48:12,139 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:48:12,139 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:48:12,139 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:48:12,152 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:48:12,152 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:49:12,086 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:49:12,086 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:49:12,086 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:49:12,093 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:49:12,093 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:49:12,093 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:49:12,093 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:49:12,093 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:49:12,093 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:49:12,094 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:49:12,094 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:49:12,101 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:49:12,101 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:50:12,086 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:50:12,115 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:50:12,115 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:50:12,197 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:50:12,197 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:50:12,197 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:50:12,197 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:50:12,197 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:50:12,199 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:50:12,199 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:50:12,199 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:50:12,206 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:50:12,206 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:51:12,094 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:51:12,094 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:51:12,094 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:51:12,182 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:51:12,182 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:51:12,182 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:51:12,182 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:51:12,182 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:51:12,182 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:51:12,182 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:51:12,182 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:51:12,230 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:51:12,230 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:52:12,114 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:52:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:52:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:52:12,152 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:52:12,152 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:52:12,152 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:52:12,152 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:52:12,152 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:52:12,152 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:52:12,152 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:52:12,152 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:52:12,163 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:52:12,163 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:53:12,114 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:53:12,118 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:53:12,118 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:53:12,142 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:53:12,142 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:53:12,142 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:53:12,142 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:53:12,142 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:53:12,142 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:53:12,142 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:53:12,142 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:53:12,176 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:53:12,176 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:54:12,114 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:54:12,118 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:54:12,118 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:54:12,149 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:54:12,149 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:54:12,149 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:54:12,149 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:54:12,149 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:54:12,149 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:54:12,149 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:54:12,149 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:54:12,163 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:54:12,163 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:55:12,118 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:55:12,123 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:55:12,123 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:55:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:55:12,147 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:55:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:55:12,147 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:55:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:55:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:55:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:55:12,147 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:55:12,165 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:55:12,165 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:56:12,116 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:56:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:56:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:56:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:56:12,151 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:56:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:56:12,151 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:56:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:56:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:56:12,154 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:56:12,154 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:56:12,167 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:56:12,167 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:57:12,114 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:57:12,118 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:57:12,118 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:57:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:57:12,147 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:57:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:57:12,147 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:57:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:57:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:57:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:57:12,147 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:57:12,162 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:57:12,162 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:58:12,117 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:58:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:58:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:58:12,150 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:58:12,150 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:58:12,150 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:58:12,150 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:58:12,150 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:58:12,150 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:58:12,150 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:58:12,150 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:58:12,167 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:58:12,167 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 19:59:12,117 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 19:59:12,123 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 19:59:12,123 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 19:59:12,153 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:59:12,153 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 19:59:12,153 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 19:59:12,153 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 19:59:12,153 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 19:59:12,155 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 19:59:12,155 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 19:59:12,155 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 19:59:12,170 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 19:59:12,170 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:00:12,113 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:00:12,118 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:00:12,118 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:00:12,145 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:00:12,145 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:00:12,145 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:00:12,145 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:00:12,145 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:00:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:00:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:00:12,147 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:00:12,160 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:00:12,160 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:01:12,117 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:01:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:01:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:01:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:01:12,146 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:01:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:01:12,146 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:01:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:01:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:01:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:01:12,146 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:01:12,163 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:01:12,163 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:02:12,114 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:02:12,118 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:02:12,118 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:02:12,140 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:02:12,142 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:02:12,142 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:02:12,142 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:02:12,142 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:02:12,142 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:02:12,142 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:02:12,142 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:02:12,171 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:02:12,171 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:03:12,118 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:03:12,123 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:03:12,123 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:03:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:03:12,151 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:03:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:03:12,151 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:03:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:03:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:03:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:03:12,151 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:03:12,165 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:03:12,165 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:04:12,117 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:04:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:04:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:04:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:04:12,147 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:04:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:04:12,147 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:04:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:04:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:04:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:04:12,147 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:04:12,162 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:04:12,162 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:05:12,118 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:05:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:05:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:05:12,145 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:05:12,146 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:05:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:05:12,146 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:05:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:05:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:05:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:05:12,146 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:05:12,167 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:05:12,167 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:06:12,116 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:06:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:06:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:06:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:06:12,147 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:06:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:06:12,147 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:06:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:06:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:06:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:06:12,150 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:06:12,161 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:06:12,161 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:07:12,118 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:07:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:07:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:07:12,152 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:07:12,152 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:07:12,152 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:07:12,152 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:07:12,152 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:07:12,154 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:07:12,154 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:07:12,154 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:07:12,170 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:07:12,170 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:08:12,104 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:08:12,104 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:08:12,104 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:08:12,110 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:08:12,110 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:08:12,110 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:08:12,110 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:08:12,110 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:08:12,110 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:08:12,110 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:08:12,110 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:08:12,117 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:08:12,117 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:09:12,118 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:09:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:09:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:09:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:09:12,146 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:09:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:09:12,146 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:09:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:09:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:09:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:09:12,146 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:09:12,171 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:09:12,171 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:10:12,116 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:10:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:10:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:10:12,144 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:10:12,144 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:10:12,144 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:10:12,144 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:10:12,144 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:10:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:10:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:10:12,147 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:10:12,168 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:10:12,168 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:11:12,117 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:11:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:11:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:11:12,154 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:11:12,154 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:11:12,154 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:11:12,154 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:11:12,154 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:11:12,154 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:11:12,154 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:11:12,154 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:11:12,171 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:11:12,171 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:12:12,120 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:12:12,125 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:12:12,126 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:12:12,152 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:12:12,152 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:12:12,152 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:12:12,152 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:12:12,152 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:12:12,154 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:12:12,154 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:12:12,154 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:12:12,167 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:12:12,167 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:13:12,118 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:13:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:13:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:13:12,153 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:13:12,153 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:13:12,153 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:13:12,154 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:13:12,154 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:13:12,154 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:13:12,154 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:13:12,154 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:13:12,170 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:13:12,170 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:14:12,118 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:14:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:14:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:14:12,150 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:14:12,150 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:14:12,150 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:14:12,150 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:14:12,150 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:14:12,150 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:14:12,150 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:14:12,150 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:14:12,166 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:14:12,166 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:15:12,116 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:15:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:15:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:15:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:15:12,147 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:15:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:15:12,147 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:15:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:15:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:15:12,147 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:15:12,147 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:15:12,160 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:15:12,160 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:16:12,116 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:16:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:16:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:16:12,150 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:16:12,150 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:16:12,150 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:16:12,150 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:16:12,150 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:16:12,150 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:16:12,150 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:16:12,150 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:16:12,166 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:16:12,166 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:17:12,117 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:17:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:17:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:17:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:17:12,151 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:17:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:17:12,151 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:17:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:17:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:17:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:17:12,151 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:17:12,170 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:17:12,170 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:18:12,116 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:18:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:18:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:18:12,152 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:18:12,152 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:18:12,152 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:18:12,152 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:18:12,152 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:18:12,154 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:18:12,154 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:18:12,154 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:18:12,167 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:18:12,167 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:19:12,116 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:19:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:19:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:19:12,149 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:19:12,149 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:19:12,149 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:19:12,149 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:19:12,149 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:19:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:19:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:19:12,151 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:19:12,165 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:19:12,165 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:20:12,116 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:20:12,119 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:20:12,119 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:20:12,126 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:20:12,126 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:20:12,126 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:20:12,126 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:20:12,126 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:20:12,126 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:20:12,126 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:20:12,126 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:20:12,131 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:20:12,131 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:21:12,116 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:21:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:21:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:21:12,148 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:21:12,148 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:21:12,148 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:21:12,148 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:21:12,148 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:21:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:21:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:21:12,151 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:21:12,164 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:21:12,164 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:22:12,099 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:22:12,099 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:22:12,099 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:22:12,107 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:22:12,107 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:22:12,107 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:22:12,107 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:22:12,107 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:22:12,110 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:22:12,110 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:22:12,110 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:22:12,119 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:22:12,119 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:23:12,118 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:23:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:23:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:23:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:23:12,151 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:23:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:23:12,151 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:23:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:23:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:23:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:23:12,151 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:23:12,165 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:23:12,165 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:24:12,116 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:24:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:24:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:24:12,155 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:24:12,155 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:24:12,155 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:24:12,155 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:24:12,155 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:24:12,155 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:24:12,158 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:24:12,158 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:24:12,171 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:24:12,171 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:25:12,117 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:25:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:25:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:25:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:25:12,146 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:25:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:25:12,146 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:25:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:25:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:25:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:25:12,146 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:25:12,170 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:25:12,170 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:26:12,116 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:26:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:26:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:26:12,152 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:26:12,152 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:26:12,152 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:26:12,152 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:26:12,152 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:26:12,154 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:26:12,154 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:26:12,154 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:26:12,170 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:26:12,170 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:27:12,118 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:27:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:27:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:27:12,152 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:27:12,152 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:27:12,152 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:27:12,152 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:27:12,152 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:27:12,154 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:27:12,154 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:27:12,154 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:27:12,167 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:27:12,167 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:28:12,118 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:28:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:28:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:28:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:28:12,146 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:28:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:28:12,146 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:28:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:28:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:28:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:28:12,146 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:28:12,166 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:28:12,166 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:29:12,116 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:29:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:29:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:29:12,149 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:29:12,150 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:29:12,150 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:29:12,150 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:29:12,150 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:29:12,150 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:29:12,150 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:29:12,150 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:29:12,165 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:29:12,165 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:30:12,116 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:30:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:30:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:30:12,144 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:30:12,146 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:30:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:30:12,146 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:30:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:30:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:30:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:30:12,146 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:30:12,166 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:30:12,166 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:31:12,116 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:31:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:31:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:31:12,150 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:31:12,150 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:31:12,150 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:31:12,150 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:31:12,150 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:31:12,150 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:31:12,150 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:31:12,150 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:31:12,166 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:31:12,166 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:32:12,119 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:32:12,119 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:32:12,119 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:32:12,126 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:32:12,126 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:32:12,126 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:32:12,126 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:32:12,126 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:32:12,126 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:32:12,126 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:32:12,126 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:32:12,134 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:32:12,134 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:33:12,118 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:33:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:33:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:33:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:33:12,151 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:33:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:33:12,151 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:33:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:33:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:33:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:33:12,151 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:33:12,166 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:33:12,166 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:34:12,122 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:34:12,126 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:34:12,126 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:34:12,154 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:34:12,154 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:34:12,154 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:34:12,154 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:34:12,154 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:34:12,154 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:34:12,154 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:34:12,154 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:34:12,170 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:34:12,170 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:35:12,117 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:35:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:35:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:35:12,149 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:35:12,150 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:35:12,150 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:35:12,150 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:35:12,150 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:35:12,150 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:35:12,150 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:35:12,150 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:35:12,166 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:35:12,166 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:36:12,117 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:36:12,121 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:36:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:36:12,148 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:36:12,148 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:36:12,148 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:36:12,148 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:36:12,148 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:36:12,148 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:36:12,148 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:36:12,149 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:36:12,162 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:36:12,162 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:37:12,104 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:37:12,104 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:37:12,106 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:37:12,111 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:37:12,111 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:37:12,111 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:37:12,111 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:37:12,111 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:37:12,111 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:37:12,111 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:37:12,111 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:37:12,118 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:37:12,118 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:38:12,085 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:38:12,086 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:38:12,086 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:38:12,092 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:38:12,092 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:38:12,092 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:38:12,092 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:38:12,092 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:38:12,092 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:38:12,092 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:38:12,092 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:38:12,100 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:38:12,100 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:39:12,085 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:39:12,086 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:39:12,086 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:39:12,091 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:39:12,091 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:39:12,091 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:39:12,091 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:39:12,091 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:39:12,091 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:39:12,091 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:39:12,091 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:39:12,099 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:39:12,099 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:40:12,088 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:40:12,088 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:40:12,090 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:40:12,102 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:40:12,106 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:40:12,106 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:40:12,106 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:40:12,106 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:40:12,106 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:40:12,106 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:40:12,106 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:40:12,115 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:40:12,115 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:41:12,096 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:41:12,098 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:41:12,098 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:41:12,106 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:41:12,106 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:41:12,106 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:41:12,106 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:41:12,106 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:41:12,106 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:41:12,106 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:41:12,106 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:41:12,114 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:41:12,114 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:42:12,085 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:42:12,086 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:42:12,086 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:42:12,091 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:42:12,091 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:42:12,091 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:42:12,091 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:42:12,091 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:42:12,091 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:42:12,091 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:42:12,091 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:42:12,099 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:42:12,099 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:43:12,085 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:43:12,086 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:43:12,086 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:43:12,090 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:43:12,090 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:43:12,090 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:43:12,090 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:43:12,090 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:43:12,090 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:43:12,090 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:43:12,090 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:43:12,098 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:43:12,098 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:44:12,107 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:44:12,107 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:44:12,107 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:44:12,117 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:44:12,117 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:44:12,117 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:44:12,117 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:44:12,117 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:44:12,118 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:44:12,118 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:44:12,118 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:44:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:44:12,122 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:45:12,118 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:45:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:45:12,122 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:45:12,139 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:45:12,139 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:45:12,139 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:45:12,139 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:45:12,139 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:45:12,142 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:45:12,142 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:45:12,142 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:45:12,246 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:45:12,246 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:46:12,085 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:46:12,086 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:46:12,086 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:46:12,091 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:46:12,091 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:46:12,091 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:46:12,091 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:46:12,091 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:46:12,091 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:46:12,091 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:46:12,091 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:46:12,098 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:46:12,098 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:47:12,085 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:47:12,128 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:47:12,128 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:47:12,135 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:47:12,135 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:47:12,135 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:47:12,135 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:47:12,135 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:47:12,135 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:47:12,135 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:47:12,135 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:47:12,143 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:47:12,143 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:48:12,090 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:48:12,090 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:48:12,090 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:48:12,103 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:48:12,103 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:48:12,103 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:48:12,103 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:48:12,103 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:48:12,103 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:48:12,103 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:48:12,103 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:48:12,112 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:48:12,112 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:49:12,101 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:49:12,103 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:49:12,103 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:49:12,110 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:49:12,110 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:49:12,110 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:49:12,110 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:49:12,110 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:49:12,110 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:49:12,110 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:49:12,110 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:49:12,118 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:49:12,118 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:50:12,109 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:50:12,111 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:50:12,111 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:50:12,125 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:50:12,125 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:50:12,125 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:50:12,125 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:50:12,125 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:50:12,126 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:50:12,126 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:50:12,126 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:50:12,130 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:50:12,130 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:51:12,126 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:51:12,126 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:51:12,126 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:51:12,138 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:51:12,138 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:51:12,138 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:51:12,138 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:51:12,138 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:51:12,138 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:51:12,138 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:51:12,138 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:51:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:51:12,151 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:52:12,086 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:52:12,086 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:52:12,086 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:52:12,092 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:52:12,092 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:52:12,092 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:52:12,092 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:52:12,092 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:52:12,094 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:52:12,094 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:52:12,094 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:52:12,102 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:52:12,102 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:53:12,113 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:53:12,116 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:53:12,116 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:53:12,126 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:53:12,126 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:53:12,126 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:53:12,126 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:53:12,126 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:53:12,126 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:53:12,126 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:53:12,126 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:53:12,135 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:53:12,135 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:54:12,085 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:54:12,085 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:54:12,085 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:54:12,092 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:54:12,092 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:54:12,092 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:54:12,092 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:54:12,092 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:54:12,092 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:54:12,092 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:54:12,092 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:54:12,100 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:54:12,100 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:55:12,101 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:55:12,103 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:55:12,103 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:55:12,109 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:55:12,109 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:55:12,109 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:55:12,109 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:55:12,109 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:55:12,110 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:55:12,110 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:55:12,110 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:55:12,115 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:55:12,115 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:56:12,090 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:56:12,090 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:56:12,090 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:56:12,103 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:56:12,103 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:56:12,103 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:56:12,103 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:56:12,103 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:56:12,103 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:56:12,103 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:56:12,103 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:56:12,114 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:56:12,114 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:57:12,097 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:57:12,109 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:57:12,110 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:57:12,132 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:57:12,132 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:57:12,132 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:57:12,132 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:57:12,132 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:57:12,132 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:57:12,132 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:57:12,132 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:57:12,140 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:57:12,140 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:58:25,575 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:58:25,678 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:58:25,682 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:58:25,890 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:58:25,890 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:58:25,890 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:58:25,890 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:58:25,890 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:58:25,890 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:58:25,890 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:58:25,890 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:58:25,903 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:58:25,903 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 20:59:12,090 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 20:59:12,094 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 20:59:12,094 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 20:59:12,118 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:59:12,118 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 20:59:12,118 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 20:59:12,118 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 20:59:12,118 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 20:59:12,118 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 20:59:12,118 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 20:59:12,118 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 20:59:12,127 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 20:59:12,127 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 21:00:12,084 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 21:00:12,084 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 21:00:12,084 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 21:00:12,096 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 21:00:12,096 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 21:00:12,096 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 21:00:12,096 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 21:00:12,096 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 21:00:12,096 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 21:00:12,096 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 21:00:12,096 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 21:00:12,115 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 21:00:12,115 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 21:01:12,114 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 21:01:12,120 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 21:01:12,120 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 21:01:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 21:01:12,146 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 21:01:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 21:01:12,146 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 21:01:12,146 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 21:01:12,150 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 21:01:12,150 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 21:01:12,150 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 21:01:12,158 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 21:01:12,158 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 21:02:12,125 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 21:02:12,130 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 21:02:12,130 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 21:02:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 21:02:12,151 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 21:02:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 21:02:12,151 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 21:02:12,151 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 21:02:12,154 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 21:02:12,154 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 21:02:12,154 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 21:02:12,166 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 21:02:12,166 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 21:03:12,114 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 21:03:12,118 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 21:03:12,118 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 21:03:12,143 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 21:03:12,143 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 21:03:12,143 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 21:03:12,143 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 21:03:12,143 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 21:03:12,143 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 21:03:12,143 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 21:03:12,143 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 21:03:12,157 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 21:03:12,157 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2023-12-14 21:04:12,095 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2023-12-14 21:04:12,095 [.NET ThreadPool Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2023-12-14 21:04:12,095 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2023-12-14 21:04:12,108 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 21:04:12,108 [.NET ThreadPool Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2023-12-14 21:04:12,108 [.NET ThreadPool Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2023-12-14 21:04:12,108 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2023-12-14 21:04:12,108 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2023-12-14 21:04:12,108 [.NET ThreadPool Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2023-12-14 21:04:12,108 [.NET ThreadPool Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2023-12-14 21:04:12,108 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2023-12-14 21:04:12,130 [.NET ThreadPool Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2023-12-14 21:04:12,130 [.NET ThreadPool Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.

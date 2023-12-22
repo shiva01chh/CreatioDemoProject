@@ -1,0 +1,11 @@
+2023-12-20 11:35:57,187 [.NET ThreadPool Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2023-12-20 13:53:11,029 [.NET ThreadPool Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2023-12-20 14:51:30,193 [.NET ThreadPool Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2023-12-20 15:12:30,858 [.NET ThreadPool Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2023-12-20 15:41:46,256 [.NET ThreadPool Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2023-12-20 16:39:02,501 [.NET ThreadPool Worker] INFO Supervisor Terrasoft.Core.LicManager GetUserLicensesRedistributions - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2023-12-20 18:09:30,650 [.NET ThreadPool Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2023-12-20 18:31:54,409 [.NET ThreadPool Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2023-12-20 18:32:00,660 [.NET ThreadPool Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2023-12-20 18:48:29,819 [.NET ThreadPool Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2023-12-20 19:11:33,887 [.NET ThreadPool Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647

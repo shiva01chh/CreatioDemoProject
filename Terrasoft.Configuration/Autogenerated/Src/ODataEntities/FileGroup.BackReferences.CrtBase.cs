@@ -245,6 +245,11 @@
 			set;
 		}
 
+		public IEnumerable<UsrRealtyClassicFile> UsrRealtyClassicFileCollectionByFileGroup {
+			get;
+			set;
+		}
+
 		public IEnumerable<VwProcessLibFile> VwProcessLibFileCollectionByFileGroup {
 			get;
 			set;

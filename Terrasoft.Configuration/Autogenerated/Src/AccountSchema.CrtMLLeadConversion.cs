@@ -27,23 +27,23 @@
 	using Terrasoft.UI.WebControls.Controls;
 	using Terrasoft.UI.WebControls.Utilities.Json.Converters;
 
-	#region Class: AccountSchema
+	#region Class: Account_CrtMLLeadConversion_TerrasoftSchema
 
 	/// <exclude/>
-	public class AccountSchema : Terrasoft.Configuration.Account_CrtCustomer360App_TerrasoftSchema
+	public class Account_CrtMLLeadConversion_TerrasoftSchema : Terrasoft.Configuration.Account_CrtCustomer360App_TerrasoftSchema
 	{
 
 		#region Constructors: Public
 
-		public AccountSchema(EntitySchemaManager entitySchemaManager)
+		public Account_CrtMLLeadConversion_TerrasoftSchema(EntitySchemaManager entitySchemaManager)
 			: base(entitySchemaManager) {
 		}
 
-		public AccountSchema(AccountSchema source, bool isShallowClone)
+		public Account_CrtMLLeadConversion_TerrasoftSchema(Account_CrtMLLeadConversion_TerrasoftSchema source, bool isShallowClone)
 			: base(source, isShallowClone) {
 		}
 
-		public AccountSchema(AccountSchema source)
+		public Account_CrtMLLeadConversion_TerrasoftSchema(Account_CrtMLLeadConversion_TerrasoftSchema source)
 			: base(source) {
 		}
 
@@ -81,7 +81,7 @@
 		protected override void InitializeProperties() {
 			base.InitializeProperties();
 			RealUId = new Guid("02ea6590-09d5-47c0-9fd1-af8ff16cf814");
-			Name = "Account";
+			Name = "Account_CrtMLLeadConversion_Terrasoft";
 			ParentSchemaUId = new Guid("25d7c1ab-1de0-4501-b402-02e0e5a72d6e");
 			ExtendParent = true;
 			CreatedInPackageId = new Guid("9025b0c2-d769-4cf8-b9b1-67afd440e08f");
@@ -125,7 +125,7 @@
 		#region Methods: Public
 
 		public override Entity CreateEntity(UserConnection userConnection) {
-			return new Account(userConnection) {Schema = this};
+			return new Account_CrtMLLeadConversion_Terrasoft(userConnection) {Schema = this};
 		}
 
 		public override EmbeddedProcess CreateEventsProcess(UserConnection userConnection) {
@@ -133,11 +133,11 @@
 		}
 
 		public override object Clone() {
-			return new AccountSchema(this);
+			return new Account_CrtMLLeadConversion_TerrasoftSchema(this);
 		}
 
 		public override EntitySchema CloneShallow() {
-			return new AccountSchema(this, true);
+			return new Account_CrtMLLeadConversion_TerrasoftSchema(this, true);
 		}
 
 		public override void GetParentRealUIds(Collection<Guid> realUIds) {
@@ -151,22 +151,22 @@
 
 	#endregion
 
-	#region Class: Account
+	#region Class: Account_CrtMLLeadConversion_Terrasoft
 
 	/// <summary>
 	/// Account.
 	/// </summary>
-	public class Account : Terrasoft.Configuration.Account_CrtCustomer360App_Terrasoft
+	public class Account_CrtMLLeadConversion_Terrasoft : Terrasoft.Configuration.Account_CrtCustomer360App_Terrasoft
 	{
 
 		#region Constructors: Public
 
-		public Account(UserConnection userConnection)
+		public Account_CrtMLLeadConversion_Terrasoft(UserConnection userConnection)
 			: base(userConnection) {
-			SchemaName = "Account";
+			SchemaName = "Account_CrtMLLeadConversion_Terrasoft";
 		}
 
-		public Account(Account source)
+		public Account_CrtMLLeadConversion_Terrasoft(Account_CrtMLLeadConversion_Terrasoft source)
 			: base(source) {
 		}
 
@@ -209,7 +209,7 @@
 		#region Methods: Public
 
 		public override object Clone() {
-			return new Account(this);
+			return new Account_CrtMLLeadConversion_Terrasoft(this);
 		}
 
 		#endregion
@@ -221,7 +221,7 @@
 	#region Class: Account_CrtMLLeadConversionEventsProcess
 
 	/// <exclude/>
-	public partial class Account_CrtMLLeadConversionEventsProcess<TEntity> : Terrasoft.Configuration.Account_CrtCustomer360AppEventsProcess<TEntity> where TEntity : Account
+	public partial class Account_CrtMLLeadConversionEventsProcess<TEntity> : Terrasoft.Configuration.Account_CrtCustomer360AppEventsProcess<TEntity> where TEntity : Account_CrtMLLeadConversion_Terrasoft
 	{
 
 		public Account_CrtMLLeadConversionEventsProcess(UserConnection userConnection)
@@ -302,7 +302,7 @@
 	#region Class: Account_CrtMLLeadConversionEventsProcess
 
 	/// <exclude/>
-	public class Account_CrtMLLeadConversionEventsProcess : Account_CrtMLLeadConversionEventsProcess<Account>
+	public class Account_CrtMLLeadConversionEventsProcess : Account_CrtMLLeadConversionEventsProcess<Account_CrtMLLeadConversion_Terrasoft>
 	{
 
 		public Account_CrtMLLeadConversionEventsProcess(UserConnection userConnection)
@@ -321,21 +321,6 @@
 		#region Methods: Public
 
 		#endregion
-
-	}
-
-	#endregion
-
-
-	#region Class: AccountEventsProcess
-
-	/// <exclude/>
-	public class AccountEventsProcess : Account_CrtMLLeadConversionEventsProcess
-	{
-
-		public AccountEventsProcess(UserConnection userConnection)
-			: base(userConnection) {
-		}
 
 	}
 

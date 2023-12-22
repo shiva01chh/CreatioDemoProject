@@ -33,7 +33,7 @@
 	#region Class: Activity_MarketingCampaign_TerrasoftSchema
 
 	/// <exclude/>
-	public class Activity_MarketingCampaign_TerrasoftSchema : Terrasoft.Configuration.Activity_Change_TerrasoftSchema
+	public class Activity_MarketingCampaign_TerrasoftSchema : Terrasoft.Configuration.Activity_Release_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -160,7 +160,7 @@
 	/// <summary>
 	/// Activity.
 	/// </summary>
-	public class Activity_MarketingCampaign_Terrasoft : Terrasoft.Configuration.Activity_Change_Terrasoft
+	public class Activity_MarketingCampaign_Terrasoft : Terrasoft.Configuration.Activity_Release_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -248,7 +248,7 @@
 	#region Class: Activity_MarketingCampaignEventsProcess
 
 	/// <exclude/>
-	public partial class Activity_MarketingCampaignEventsProcess<TEntity> : Terrasoft.Configuration.Activity_ChangeEventsProcess<TEntity> where TEntity : Activity_MarketingCampaign_Terrasoft
+	public partial class Activity_MarketingCampaignEventsProcess<TEntity> : Terrasoft.Configuration.Activity_ReleaseEventsProcess<TEntity> where TEntity : Activity_MarketingCampaign_Terrasoft
 	{
 
 		public Activity_MarketingCampaignEventsProcess(UserConnection userConnection)

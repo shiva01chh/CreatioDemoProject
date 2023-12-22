@@ -184,9 +184,9 @@
   "project": {
     "version": "8.1.0.6704",
     "restore": {
-      "projectUniqueName": "/home/shivangi/Shivangi/Shivangi's-workspace/creatio_october_traning/app/Terrasoft.Configuration/Terrasoft.Configuration.Dev.csproj",
-      "projectName": "Terrasoft.Configuration",
-      "projectPath": "/home/shivangi/Shivangi/Shivangi's-workspace/creatio_october_traning/app/Terrasoft.Configuration/Terrasoft.Configuration.Dev.csproj",
+      "projectUniqueName": "/home/shivangi/Shivangi/Shivangi's-workspace/creatio_october_traning/app/Terrasoft.Configuration/Terrasoft.Configuration.ODataEntities.csproj",
+      "projectName": "Terrasoft.Configuration.ODataEntities",
+      "projectPath": "/home/shivangi/Shivangi/Shivangi's-workspace/creatio_october_traning/app/Terrasoft.Configuration/Terrasoft.Configuration.ODataEntities.csproj",
       "packagesPath": "/root/.nuget/packages/",
       "outputPath": "/home/shivangi/Shivangi/Shivangi's-workspace/creatio_october_traning/app/Terrasoft.Configuration/obj/",
       "projectStyle": "PackageReference",

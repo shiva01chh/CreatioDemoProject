@@ -2,7 +2,7 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="Realty visit (FreedomUI) modal page" />
+			<Item Name="Caption" Value="Realty visit modal page" />
 			<Item Name="LocalizableStrings.addRecord_jnafqnd_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_p6o21to_caption.Value" Value="Add new" />
 		</Items>

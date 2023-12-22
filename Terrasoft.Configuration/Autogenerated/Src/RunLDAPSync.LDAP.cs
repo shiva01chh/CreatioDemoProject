@@ -689,7 +689,7 @@
 			};
 			parametrizedElement.Parameters.Add(noAccessMessageParameter);
 			var emailSubjectParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("76f68c83-cdb4-49fc-a992-f96a0438ac18"),
+				UId = new Guid("32933caf-13b4-49f8-9c14-f8b3590364e9"),
 				ContainerUId = new Guid("f8b19a6d-4d28-4716-96f1-8cafb4e7dd96"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -716,7 +716,7 @@
 			};
 			parametrizedElement.Parameters.Add(emailSubjectParameter);
 			var emailBodyParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("cc3652b3-a995-4b95-8d9c-91b49087ecb9"),
+				UId = new Guid("d45e8395-ff01-4a51-82e6-0faa5400ba5f"),
 				ContainerUId = new Guid("f8b19a6d-4d28-4716-96f1-8cafb4e7dd96"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -743,7 +743,7 @@
 			};
 			parametrizedElement.Parameters.Add(emailBodyParameter);
 			var recipientEmailsStringParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("95e96a46-3857-44a7-85d4-97f237a2c06e"),
+				UId = new Guid("21a1a349-79ad-4668-81a4-2dbd6cd582f2"),
 				ContainerUId = new Guid("f8b19a6d-4d28-4716-96f1-8cafb4e7dd96"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -770,7 +770,7 @@
 			};
 			parametrizedElement.Parameters.Add(recipientEmailsStringParameter);
 			var lDAPEmailMessageParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("36aea5d3-7622-41bc-ac86-bcca41536110"),
+				UId = new Guid("8c2277a3-3b9c-4c8a-949d-0329e8ad14ce"),
 				ContainerUId = new Guid("f8b19a6d-4d28-4716-96f1-8cafb4e7dd96"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -797,7 +797,7 @@
 			};
 			parametrizedElement.Parameters.Add(lDAPEmailMessageParameter);
 			var notAvailableFunctionalityParameter = new ProcessSchemaParameter(this) {
-				UId = new Guid("c696a6fb-3dd2-4d90-b47c-896f8445da81"),
+				UId = new Guid("67bee9e3-2da4-4398-8d5b-093d4c1ac44d"),
 				ContainerUId = new Guid("f8b19a6d-4d28-4716-96f1-8cafb4e7dd96"),
 				CreatedInOwnerSchemaUId = Guid.Empty,
 				CreatedInPackageId = Guid.Empty,
@@ -1639,7 +1639,7 @@
 					Owner = this,
 					Type = "ProcessSchemaToken",
 					Name = "Start1SyncLDAPSubProcessToken",
-					SchemaElementUId = new Guid("56825c12-cd55-433e-8a7c-4c578475c9cd"),
+					SchemaElementUId = new Guid("08037828-c44d-472c-b48d-216570bd7484"),
 					CreatedInSchemaUId = InternalSchemaUId,
 					ExecutedEventHandler = OnExecuted,
 				});
@@ -1740,11 +1740,11 @@
 			MetaPathParameterValues.Add("ecb5a9ef-fceb-486a-8f75-7b37b133bbc5", () => SyncLDAPSubProcess.ProcessEnded);
 			MetaPathParameterValues.Add("1624b549-a9c1-4272-b0fd-661736c639cb", () => SyncLDAPSubProcess.MessageLog);
 			MetaPathParameterValues.Add("1607e605-c0c2-42bc-b81f-655a0a8b0599", () => SyncLDAPSubProcess.NoAccessMessage);
-			MetaPathParameterValues.Add("76f68c83-cdb4-49fc-a992-f96a0438ac18", () => SyncLDAPSubProcess.EmailSubject);
-			MetaPathParameterValues.Add("cc3652b3-a995-4b95-8d9c-91b49087ecb9", () => SyncLDAPSubProcess.EmailBody);
-			MetaPathParameterValues.Add("95e96a46-3857-44a7-85d4-97f237a2c06e", () => SyncLDAPSubProcess.RecipientEmailsString);
-			MetaPathParameterValues.Add("36aea5d3-7622-41bc-ac86-bcca41536110", () => SyncLDAPSubProcess.LDAPEmailMessage);
-			MetaPathParameterValues.Add("c696a6fb-3dd2-4d90-b47c-896f8445da81", () => SyncLDAPSubProcess.NotAvailableFunctionality);
+			MetaPathParameterValues.Add("32933caf-13b4-49f8-9c14-f8b3590364e9", () => SyncLDAPSubProcess.EmailSubject);
+			MetaPathParameterValues.Add("d45e8395-ff01-4a51-82e6-0faa5400ba5f", () => SyncLDAPSubProcess.EmailBody);
+			MetaPathParameterValues.Add("21a1a349-79ad-4668-81a4-2dbd6cd582f2", () => SyncLDAPSubProcess.RecipientEmailsString);
+			MetaPathParameterValues.Add("8c2277a3-3b9c-4c8a-949d-0329e8ad14ce", () => SyncLDAPSubProcess.LDAPEmailMessage);
+			MetaPathParameterValues.Add("67bee9e3-2da4-4398-8d5b-093d4c1ac44d", () => SyncLDAPSubProcess.NotAvailableFunctionality);
 		}
 
 		protected override void ApplyPropertiesDataValues(DataReader reader) {

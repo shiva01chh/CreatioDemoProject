@@ -29,7 +29,7 @@
 	#region Class: FormSubmit_CrtEventInTouchPoint_TerrasoftSchema
 
 	/// <exclude/>
-	public class FormSubmit_CrtEventInTouchPoint_TerrasoftSchema : Terrasoft.Configuration.FormSubmit_CrtEngagementInBulkEmail_TerrasoftSchema
+	public class FormSubmit_CrtEventInTouchPoint_TerrasoftSchema : Terrasoft.Configuration.FormSubmit_CrtEngagementInCampaignBase_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -124,7 +124,7 @@
 	/// <summary>
 	/// Submitted form.
 	/// </summary>
-	public class FormSubmit_CrtEventInTouchPoint_Terrasoft : Terrasoft.Configuration.FormSubmit_CrtEngagementInBulkEmail_Terrasoft
+	public class FormSubmit_CrtEventInTouchPoint_Terrasoft : Terrasoft.Configuration.FormSubmit_CrtEngagementInCampaignBase_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -212,7 +212,7 @@
 	#region Class: FormSubmit_CrtEventInTouchPointEventsProcess
 
 	/// <exclude/>
-	public partial class FormSubmit_CrtEventInTouchPointEventsProcess<TEntity> : Terrasoft.Configuration.FormSubmit_CrtEngagementInBulkEmailEventsProcess<TEntity> where TEntity : FormSubmit_CrtEventInTouchPoint_Terrasoft
+	public partial class FormSubmit_CrtEventInTouchPointEventsProcess<TEntity> : Terrasoft.Configuration.FormSubmit_CrtEngagementInCampaignBaseEventsProcess<TEntity> where TEntity : FormSubmit_CrtEventInTouchPoint_Terrasoft
 	{
 
 		public FormSubmit_CrtEventInTouchPointEventsProcess(UserConnection userConnection)

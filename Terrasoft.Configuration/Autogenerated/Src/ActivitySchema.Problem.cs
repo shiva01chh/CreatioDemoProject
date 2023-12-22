@@ -35,7 +35,7 @@
 	#region Class: Activity_Problem_TerrasoftSchema
 
 	/// <exclude/>
-	public class Activity_Problem_TerrasoftSchema : Terrasoft.Configuration.Activity_Project_TerrasoftSchema
+	public class Activity_Problem_TerrasoftSchema : Terrasoft.Configuration.Activity_Opportunity_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -162,7 +162,7 @@
 	/// <summary>
 	/// Activity.
 	/// </summary>
-	public class Activity_Problem_Terrasoft : Terrasoft.Configuration.Activity_Project_Terrasoft
+	public class Activity_Problem_Terrasoft : Terrasoft.Configuration.Activity_Opportunity_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -250,7 +250,7 @@
 	#region Class: Activity_ProblemEventsProcess
 
 	/// <exclude/>
-	public partial class Activity_ProblemEventsProcess<TEntity> : Terrasoft.Configuration.Activity_ProjectEventsProcess<TEntity> where TEntity : Activity_Problem_Terrasoft
+	public partial class Activity_ProblemEventsProcess<TEntity> : Terrasoft.Configuration.Activity_OpportunityEventsProcess<TEntity> where TEntity : Activity_Problem_Terrasoft
 	{
 
 		public Activity_ProblemEventsProcess(UserConnection userConnection)

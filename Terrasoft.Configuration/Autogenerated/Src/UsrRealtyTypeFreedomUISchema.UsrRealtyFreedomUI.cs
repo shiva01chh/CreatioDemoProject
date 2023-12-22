@@ -108,7 +108,7 @@
 	#region Class: UsrRealtyTypeFreedomUI
 
 	/// <summary>
-	/// Realty type (FreedomUi).
+	/// Realty type.
 	/// </summary>
 	public class UsrRealtyTypeFreedomUI : Terrasoft.Configuration.BaseLookup
 	{
@@ -258,6 +258,11 @@
 	{
 
 		#region Methods: Public
+
+		public override void LocalMessageExecuting(EntityChangeType changeType) {
+			var lmHelper = new Terrasoft.Configuration.LocalMessageHelper(this.Entity, UserConnection, changeType);
+			lmHelper.CreateLocalMessage();
+		}
 
 		#endregion
 

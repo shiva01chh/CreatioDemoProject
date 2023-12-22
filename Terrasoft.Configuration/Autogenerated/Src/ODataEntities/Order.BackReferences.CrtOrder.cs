@@ -766,6 +766,18 @@
 			}
 		}
 
+		/// <summary>
+		/// Comment.
+		/// </summary>
+		public string UsrComment {
+			get {
+				return GetTypedColumnValue<string>("UsrComment");
+			}
+			set {
+				SetColumnValue("UsrComment", value);
+			}
+		}
+
 		#endregion
 
 	}

@@ -23,3 +23,11 @@ public interface IWorkplaceNavigationPanelProvider
 
 
 
+
+
+
+
+
+
+
+

@@ -26,23 +26,23 @@
 	using Terrasoft.UI.WebControls.Controls;
 	using Terrasoft.UI.WebControls.Utilities.Json.Converters;
 
-	#region Class: DocumentSchema
+	#region Class: Document_DocumentInProject_TerrasoftSchema
 
 	/// <exclude/>
-	public class DocumentSchema : Terrasoft.Configuration.Document_DocumentInOpportunity_TerrasoftSchema
+	public class Document_DocumentInProject_TerrasoftSchema : Terrasoft.Configuration.Document_Document_TerrasoftSchema
 	{
 
 		#region Constructors: Public
 
-		public DocumentSchema(EntitySchemaManager entitySchemaManager)
+		public Document_DocumentInProject_TerrasoftSchema(EntitySchemaManager entitySchemaManager)
 			: base(entitySchemaManager) {
 		}
 
-		public DocumentSchema(DocumentSchema source, bool isShallowClone)
+		public Document_DocumentInProject_TerrasoftSchema(Document_DocumentInProject_TerrasoftSchema source, bool isShallowClone)
 			: base(source, isShallowClone) {
 		}
 
-		public DocumentSchema(DocumentSchema source)
+		public Document_DocumentInProject_TerrasoftSchema(Document_DocumentInProject_TerrasoftSchema source)
 			: base(source) {
 		}
 
@@ -53,7 +53,7 @@
 		protected override void InitializeProperties() {
 			base.InitializeProperties();
 			RealUId = new Guid("42a66bd2-2130-44b9-8bc9-07fd4ee03ae0");
-			Name = "Document";
+			Name = "Document_DocumentInProject_Terrasoft";
 			ParentSchemaUId = new Guid("8b33b6b2-19f7-4222-9161-b4054b3fbb09");
 			ExtendParent = true;
 			CreatedInPackageId = new Guid("fe2bb0e4-061e-41b1-be85-5078c802043f");
@@ -93,7 +93,7 @@
 		#region Methods: Public
 
 		public override Entity CreateEntity(UserConnection userConnection) {
-			return new Document(userConnection) {Schema = this};
+			return new Document_DocumentInProject_Terrasoft(userConnection) {Schema = this};
 		}
 
 		public override EmbeddedProcess CreateEventsProcess(UserConnection userConnection) {
@@ -101,11 +101,11 @@
 		}
 
 		public override object Clone() {
-			return new DocumentSchema(this);
+			return new Document_DocumentInProject_TerrasoftSchema(this);
 		}
 
 		public override EntitySchema CloneShallow() {
-			return new DocumentSchema(this, true);
+			return new Document_DocumentInProject_TerrasoftSchema(this, true);
 		}
 
 		public override void GetParentRealUIds(Collection<Guid> realUIds) {
@@ -119,22 +119,22 @@
 
 	#endregion
 
-	#region Class: Document
+	#region Class: Document_DocumentInProject_Terrasoft
 
 	/// <summary>
 	/// Document.
 	/// </summary>
-	public class Document : Terrasoft.Configuration.Document_DocumentInOpportunity_Terrasoft
+	public class Document_DocumentInProject_Terrasoft : Terrasoft.Configuration.Document_Document_Terrasoft
 	{
 
 		#region Constructors: Public
 
-		public Document(UserConnection userConnection)
+		public Document_DocumentInProject_Terrasoft(UserConnection userConnection)
 			: base(userConnection) {
-			SchemaName = "Document";
+			SchemaName = "Document_DocumentInProject_Terrasoft";
 		}
 
-		public Document(Document source)
+		public Document_DocumentInProject_Terrasoft(Document_DocumentInProject_Terrasoft source)
 			: base(source) {
 		}
 
@@ -192,10 +192,10 @@
 		#region Methods: Protected
 
 		protected override void InitializeThrowEvents() {
-			Deleting += (s, e) => ThrowEvent("DocumentDeleting", e);
-			Inserted += (s, e) => ThrowEvent("DocumentInserted", e);
-			Saved += (s, e) => ThrowEvent("DocumentSaved", e);
-			Saving += (s, e) => ThrowEvent("DocumentSaving", e);
+			Deleting += (s, e) => ThrowEvent("Document_DocumentInProject_TerrasoftDeleting", e);
+			Inserted += (s, e) => ThrowEvent("Document_DocumentInProject_TerrasoftInserted", e);
+			Saved += (s, e) => ThrowEvent("Document_DocumentInProject_TerrasoftSaved", e);
+			Saving += (s, e) => ThrowEvent("Document_DocumentInProject_TerrasoftSaving", e);
 			base.InitializeThrowEvents();
 		}
 
@@ -204,7 +204,7 @@
 		#region Methods: Public
 
 		public override object Clone() {
-			return new Document(this);
+			return new Document_DocumentInProject_Terrasoft(this);
 		}
 
 		#endregion
@@ -216,7 +216,7 @@
 	#region Class: Document_DocumentInProjectEventsProcess
 
 	/// <exclude/>
-	public partial class Document_DocumentInProjectEventsProcess<TEntity> : Terrasoft.Configuration.Document_DocumentInOpportunityEventsProcess<TEntity> where TEntity : Document
+	public partial class Document_DocumentInProjectEventsProcess<TEntity> : Terrasoft.Configuration.Document_DocumentEventsProcess<TEntity> where TEntity : Document_DocumentInProject_Terrasoft
 	{
 
 		public Document_DocumentInProjectEventsProcess(UserConnection userConnection)
@@ -297,7 +297,7 @@
 	#region Class: Document_DocumentInProjectEventsProcess
 
 	/// <exclude/>
-	public class Document_DocumentInProjectEventsProcess : Document_DocumentInProjectEventsProcess<Document>
+	public class Document_DocumentInProjectEventsProcess : Document_DocumentInProjectEventsProcess<Document_DocumentInProject_Terrasoft>
 	{
 
 		public Document_DocumentInProjectEventsProcess(UserConnection userConnection)
@@ -316,21 +316,6 @@
 		#region Methods: Public
 
 		#endregion
-
-	}
-
-	#endregion
-
-
-	#region Class: DocumentEventsProcess
-
-	/// <exclude/>
-	public class DocumentEventsProcess : Document_DocumentInProjectEventsProcess
-	{
-
-		public DocumentEventsProcess(UserConnection userConnection)
-			: base(userConnection) {
-		}
 
 	}
 

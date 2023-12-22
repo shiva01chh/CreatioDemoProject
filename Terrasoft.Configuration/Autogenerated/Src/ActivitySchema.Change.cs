@@ -35,7 +35,7 @@
 	#region Class: Activity_Change_TerrasoftSchema
 
 	/// <exclude/>
-	public class Activity_Change_TerrasoftSchema : Terrasoft.Configuration.Activity_CoreContracts_TerrasoftSchema
+	public class Activity_Change_TerrasoftSchema : Terrasoft.Configuration.Activity_Order_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -162,7 +162,7 @@
 	/// <summary>
 	/// Activity.
 	/// </summary>
-	public class Activity_Change_Terrasoft : Terrasoft.Configuration.Activity_CoreContracts_Terrasoft
+	public class Activity_Change_Terrasoft : Terrasoft.Configuration.Activity_Order_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -250,7 +250,7 @@
 	#region Class: Activity_ChangeEventsProcess
 
 	/// <exclude/>
-	public partial class Activity_ChangeEventsProcess<TEntity> : Terrasoft.Configuration.Activity_CoreContractsEventsProcess<TEntity> where TEntity : Activity_Change_Terrasoft
+	public partial class Activity_ChangeEventsProcess<TEntity> : Terrasoft.Configuration.Activity_OrderEventsProcess<TEntity> where TEntity : Activity_Change_Terrasoft
 	{
 
 		public Activity_ChangeEventsProcess(UserConnection userConnection)

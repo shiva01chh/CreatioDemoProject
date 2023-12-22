@@ -1,4 +1,4 @@
-define("UsrRealtyFreedomUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_ARGS*/()/**SCHEMA_ARGS*/ {
+define("UsrRealtyFreedomUI_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_DEPS*/, function/**SCHEMA_ARGS*/(sdk)/**SCHEMA_ARGS*/ {
 	return {
 		viewConfigDiff: /**SCHEMA_VIEW_CONFIG_DIFF*/[
 			{
@@ -59,6 +59,63 @@ define("UsrRealtyFreedomUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functi
 			},
 			{
 				"operation": "insert",
+				"name": "Button_g5kw6mw",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(Button_g5kw6mw_caption)#",
+					"color": "primary",
+					"disabled": false,
+					"size": "medium",
+					"iconPosition": "left-icon",
+					"layoutConfig": {},
+					"visible": true,
+					"menuItems": [],
+					"clickMode": "menu",
+					"icon": "more-button-icon"
+				},
+				"parentName": "CardToggleContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "MenuItem_sfij86z",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(MenuItem_sfij86z_caption)#",
+					"visible": true,
+					"clicked": {
+						"request": "crt.RunBusinessProcessRequest",
+						"params": {
+							"processName": "UsrCalculateAverageRealtyPriceProcess",
+							"processRunType": "ForTheSelectedPage",
+							"recordIdProcessParameterName": "RealtyIdParameter"
+						}
+					},
+					"icon": "calculator-button-icon"
+				},
+				"parentName": "Button_g5kw6mw",
+				"propertyName": "menuItems",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "MenuItem_RunWebService",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(MenuItem_4gk92xk_caption)#",
+					"visible": true,
+					"clicked": {
+						"request": "usr.RunWebServiceButtonRequest"
+					},
+					"icon": "process-button-icon"
+				},
+				"parentName": "Button_g5kw6mw",
+				"propertyName": "menuItems",
+				"index": 1
+			},
+			{
+				"operation": "insert",
 				"name": "MyButton",
 				"values": {
 					"type": "crt.Button",
@@ -76,7 +133,7 @@ define("UsrRealtyFreedomUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functi
 				},
 				"parentName": "CardToggleContainer",
 				"propertyName": "items",
-				"index": 0
+				"index": 1
 			},
 			{
 				"operation": "insert",
@@ -391,7 +448,8 @@ define("UsrRealtyFreedomUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functi
 						"left": "none",
 						"right": "none"
 					},
-					"fitContent": true
+					"fitContent": true,
+					"visible": true
 				},
 				"parentName": "GeneralInfoTab",
 				"propertyName": "items",
@@ -566,6 +624,32 @@ define("UsrRealtyFreedomUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functi
 			},
 			{
 				"operation": "insert",
+				"name": "Button_etus3xa",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(Button_etus3xa_caption)#",
+					"color": "default",
+					"disabled": false,
+					"size": "medium",
+					"iconPosition": "only-icon",
+					"visible": true,
+					"icon": "document-button-icon",
+					"clicked": {
+						"request": "crt.RunBusinessProcessRequest",
+						"params": {
+							"processName": "UsrAddRealtyVisitsProcess",
+							"processRunType": "ForTheSelectedPage",
+							"recordIdProcessParameterName": "RealtyIdParameter"
+						}
+					},
+					"clickMode": "default"
+				},
+				"parentName": "FlexContainer_bxczsvk",
+				"propertyName": "items",
+				"index": 4
+			},
+			{
+				"operation": "insert",
 				"name": "GridContainer_q0j6g78",
 				"values": {
 					"type": "crt.GridContainer",
@@ -670,11 +754,29 @@ define("UsrRealtyFreedomUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functi
 					"NumberAttribute_pzzdnmc": {
 						"modelConfig": {
 							"path": "PDS.UsrPriceUSD"
+						},
+						"validators": {
+							"MySuperValidator": {
+								"type": "usr.DGValidator",
+								"params": {
+									"minValue": 30,
+									"message": "Price can not be less than 30.0"
+								}
+							}
 						}
 					},
 					"NumberAttribute_3a8o9v8": {
 						"modelConfig": {
 							"path": "PDS.UsrArea"
+						},
+						"validators": {
+							"MySuperValidator": {
+								"type": "usr.DGValidator",
+								"params": {
+									"minValue": 10,
+									"message": "Area can not be less than 10.0"
+								}
+							}
 						}
 					},
 					"LookupAttribute_qi4lbvx": {
@@ -835,6 +937,51 @@ define("UsrRealtyFreedomUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functi
 		]/**SCHEMA_MODEL_CONFIG_DIFF*/,
 		handlers: /**SCHEMA_HANDLERS*/[
 			{
+                request: "usr.RunWebServiceButtonRequest",
+                /* Implementation of the custom query handler. */
+                handler: async (request, next) => {
+                    this.console.log("Calling Run web service button works...");
+
+                    var typeObject = await request.$context.LookupAttribute_qi4lbvx;
+                    var typeId = "";
+                    if (typeObject) {
+                        typeId = typeObject.value;
+                    }
+                    // get id from type lookup type object
+
+                    var offerTypeObject = await request.$context.LookupAttribute_3k7eg1x;
+                    var offerTypeId = "";
+                    if (offerTypeObject) {
+                        offerTypeId = offerTypeObject.value;
+                    }
+                    // get id from type lookup offer type object
+
+                    /* Create an instance of the HTTP client from @creatio-devkit/common. */
+                    const httpClientService = new sdk.HttpClientService();
+
+                    /* Specify the URL to retrieve the current rate. Use the coindesk.com external service. */
+                    const baseUrl = Terrasoft.utils.uri.getConfigurationWebServiceBaseUrl();
+                    const transferName = "rest";
+                    const serviceName = "RealtyService";
+                    const methodName = "GetTotalAmountByTypeId";
+                    const endpoint = Terrasoft.combinePath(baseUrl, transferName, serviceName, methodName);
+                    
+                    //const endpoint = "http://localhost/D5_8.0.8.4758/0/rest/RealtyService/GetTotalAmountByTypeId";
+                    /* Send a POST HTTP request. The HTTP client converts the response body from JSON to a JS object automatically. */
+                    var params = {
+                        realtyTypeId: typeId,
+                        realtyOfferTypeId: offerTypeId,
+                        entityName: "UsrRealtyFreedomUI"
+                    };
+                    const response = await httpClientService.post(endpoint, params);
+                    
+                    this.console.log("response total price = " + response.body.GetTotalAmountByTypeIdResult);
+                    
+                    /* Call the next handler if it exists and return its result. */
+                    return next?.handle(request);
+                }
+            },
+			{
 				request: "usr.MyButtonRequest",
 				/* Implementation of the custom query handler. */
 				handler: async (request, next) => {
@@ -865,6 +1012,39 @@ define("UsrRealtyFreedomUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functi
 			
 		]/**SCHEMA_HANDLERS*/,
 		converters: /**SCHEMA_CONVERTERS*/{}/**SCHEMA_CONVERTERS*/,
-		validators: /**SCHEMA_VALIDATORS*/{}/**SCHEMA_VALIDATORS*/
+		validators: /**SCHEMA_VALIDATORS*/{
+			
+			/* The validator type must contain a vendor prefix.
+			Format the validator type in PascalCase. */
+			"usr.DGValidator": {
+				validator: function (config) {
+					return function (control) {
+						let value = control.value;
+						let minValue = config.minValue;
+						let valueIsCorrect = value >= minValue;
+						var result;
+						if (valueIsCorrect) {
+							result = null;
+						} else {
+							result = {
+								"usr.DGValidator": { 
+									message: config.message
+								}
+							};
+						}
+						return result;
+					};
+				},
+				params: [
+					{
+						name: "minValue"
+					},
+					{
+						name: "message"
+					}
+				],
+				async: false
+			}
+		}/**SCHEMA_VALIDATORS*/
 	};
 });

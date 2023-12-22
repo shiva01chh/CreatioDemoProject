@@ -30,7 +30,7 @@
 	#region Class: InvoiceSchema
 
 	/// <exclude/>
-	public class InvoiceSchema : Terrasoft.Configuration.Invoice_CrtOpportunityInvoice_TerrasoftSchema
+	public class InvoiceSchema : Terrasoft.Configuration.Invoice_Passport_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -125,7 +125,7 @@
 	/// <summary>
 	/// Invoice.
 	/// </summary>
-	public class Invoice : Terrasoft.Configuration.Invoice_CrtOpportunityInvoice_Terrasoft
+	public class Invoice : Terrasoft.Configuration.Invoice_Passport_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -213,7 +213,7 @@
 	#region Class: Invoice_InvoiceInProjectEventsProcess
 
 	/// <exclude/>
-	public partial class Invoice_InvoiceInProjectEventsProcess<TEntity> : Terrasoft.Configuration.Invoice_CrtOpportunityInvoiceEventsProcess<TEntity> where TEntity : Invoice
+	public partial class Invoice_InvoiceInProjectEventsProcess<TEntity> : Terrasoft.Configuration.Invoice_PassportEventsProcess<TEntity> where TEntity : Invoice
 	{
 
 		public Invoice_InvoiceInProjectEventsProcess(UserConnection userConnection)
@@ -313,24 +313,9 @@
 		#region Methods: Public
 
 		public override void OnSaved() {
-			var orderAmountHelper = GetOrderAmountHelper();
 			if (NeedFinRecalc) {
-				bool productAmountRecalculated = orderAmountHelper.UpdateInvoiceProductAmountOnCurrencyChange(Entity.PrimaryColumnValue);
-				NeedFinRecalc = !productAmountRecalculated;
-			}
-			base.OnSaved();
-			var changedColumnValues = ChangedColumnValues as List<EntityColumnValue>;
-			if (changedColumnValues == null) {
-				return;
-			}
-			bool orderPaymentAmountUpdated;
-			orderAmountHelper.UpdateSupplyPaymentElementOnInvoiceChanged(Entity.PrimaryColumnValue, changedColumnValues, out orderPaymentAmountUpdated);
-			var paymentStatusColumnValue = changedColumnValues.FirstOrDefault(changedColumn => changedColumn.Column.Name == "PaymentStatus");
-			if (paymentStatusColumnValue != null && (Guid)paymentStatusColumnValue.Value == PassportConstants.InvoicePaymentStatusCanceled) {
-				CleanInvoiceIdInSupplyPayment();
-			}
-			if (!orderPaymentAmountUpdated && changedColumnValues.ConvertAll(cv => cv.Column.Name).Intersect(new[] { "PrimaryPaymentAmount", "PaymentStatus" }).Any()) {
-				orderAmountHelper.UpdateOrderPaymentAmountOnInvoiceChanged(Entity.PrimaryColumnValue);
+				ProductEntryUtils utils = Core.Factories.ClassFactory.Get<ProductEntryUtils>(new Core.Factories.ConstructorArgument("userConnection", UserConnection));
+				utils.UpdateRecordProductAmounts(Entity);
 			}
 		}
 

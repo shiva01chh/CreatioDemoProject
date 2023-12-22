@@ -34,7 +34,7 @@
 	#region Class: ActivitySchema
 
 	/// <exclude/>
-	public class ActivitySchema : Terrasoft.Configuration.Activity_Release_TerrasoftSchema
+	public class ActivitySchema : Terrasoft.Configuration.Activity_MarketingCampaign_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -146,7 +146,7 @@
 	/// <summary>
 	/// Activity.
 	/// </summary>
-	public class Activity : Terrasoft.Configuration.Activity_Release_Terrasoft
+	public class Activity : Terrasoft.Configuration.Activity_MarketingCampaign_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -195,7 +195,7 @@
 	#region Class: Activity_SalesEnterpriseEventsProcess
 
 	/// <exclude/>
-	public partial class Activity_SalesEnterpriseEventsProcess<TEntity> : Terrasoft.Configuration.Activity_ReleaseEventsProcess<TEntity> where TEntity : Activity
+	public partial class Activity_SalesEnterpriseEventsProcess<TEntity> : Terrasoft.Configuration.Activity_MarketingCampaignEventsProcess<TEntity> where TEntity : Activity
 	{
 
 		public Activity_SalesEnterpriseEventsProcess(UserConnection userConnection)

@@ -1,6 +1,6 @@
 ﻿{
-	"ConfigurationAssemblyVersion": 27,
-	"ConfigurationHash": "9b7953810cc34cd8966d606427cbd74a",
+	"ConfigurationAssemblyVersion": 48,
+	"ConfigurationHash": "2e0d5278927242aa81c5bbd605db087a",
 	"IsStaticContentGenerated": true,
 	"SchemasPublishInfo": [
 		{
@@ -416,7 +416,7 @@
 		{
 			"ManagerName": "AddonSchemaManager",
 			"SchemaName": "UsrRealtyFreedomUI_FormPageBusinessRule",
-			"Hash": "8c64f1cc2b5a235e4292a06e162a5ac6cbf7e519cafb8564b925e9ee7bfcb5e5"
+			"Hash": "e2637a4ec6c11766cd467422f4c8decd2c449d45f13cc4c783a0c6132b47c5d1"
 		},
 		{
 			"ManagerName": "AddonSchemaManager",
@@ -611,7 +611,7 @@
 		{
 			"ManagerName": "ClientUnitSchemaManager",
 			"SchemaName": "Accounts_FormPage",
-			"Hash": "0274cf69a787e0d55058df6df1fa3d90"
+			"Hash": "db1f314f834bd1c2c366f1b9f0d09b12e3b0069eb40deee22b98e63dc9ada38b"
 		},
 		{
 			"ManagerName": "ClientUnitSchemaManager",
@@ -12391,7 +12391,7 @@
 		{
 			"ManagerName": "ClientUnitSchemaManager",
 			"SchemaName": "OrderPageV2",
-			"Hash": "9d46cfb69a9c10f79870656838919eab"
+			"Hash": "ec89eaa41956ce886848790137d9792df9ac2258b1c3112d123736916fa5b3f6"
 		},
 		{
 			"ManagerName": "ClientUnitSchemaManager",
@@ -12426,7 +12426,7 @@
 		{
 			"ManagerName": "ClientUnitSchemaManager",
 			"SchemaName": "OrderSectionV2",
-			"Hash": "a032aa67e2f0346f7ce217f498f4c051"
+			"Hash": "b678dcc9bea8f95c4c564416710c772d03c59f215db6c67c29bc03456980dc8e"
 		},
 		{
 			"ManagerName": "ClientUnitSchemaManager",
@@ -17465,23 +17465,43 @@
 		},
 		{
 			"ManagerName": "ClientUnitSchemaManager",
+			"SchemaName": "UsrAveragePricePage",
+			"Hash": "ff18c1fc4d2e8e387e2628eabd794c1d0f7e79057d42b5e5b0b6c0608bc7c765"
+		},
+		{
+			"ManagerName": "ClientUnitSchemaManager",
+			"SchemaName": "UsrOrderVisaPageV2",
+			"Hash": "038af0ea7564204ea162afcb7845f23be346ad137fe2f948f8e8bd6460fad6c7"
+		},
+		{
+			"ManagerName": "ClientUnitSchemaManager",
+			"SchemaName": "UsrRealtyClassic1Page",
+			"Hash": "49d6f744907eecc5fcc1addbadcda1109db2be7107d474b54afe9f0b0d5f6659"
+		},
+		{
+			"ManagerName": "ClientUnitSchemaManager",
+			"SchemaName": "UsrRealtyClassicSectionGrid",
+			"Hash": "59591b1c25dd9dfc58463f10fa5b66e6be58a431fc4ad444c09e1cd72646a746"
+		},
+		{
+			"ManagerName": "ClientUnitSchemaManager",
 			"SchemaName": "UsrRealtyFreedomUI_Detail",
 			"Hash": "6763a1388ec3120c30786ccdcfabda7e218afcba40e845f02b3698b2c96453f3"
 		},
 		{
 			"ManagerName": "ClientUnitSchemaManager",
 			"SchemaName": "UsrRealtyFreedomUI_FormPage",
-			"Hash": "dc46ec8bcf3837be48bf3fb15f6753ddd73f7e751e8accb52f3f7d37bf369db4"
+			"Hash": "418c17ad40ab09844670460bf38a12cb33ff799d243b34a784d86cd56c3c557d"
 		},
 		{
 			"ManagerName": "ClientUnitSchemaManager",
 			"SchemaName": "UsrRealtyFreedomUI_ListPage",
-			"Hash": "8ad568b3276e8397b16022941b9185cb344fea719f4f08f36313ea3a88ca0a95"
+			"Hash": "8c728df51608b6f755173ea054c4e6928d56d8a329325792bb960ed5703f2858"
 		},
 		{
 			"ManagerName": "ClientUnitSchemaManager",
 			"SchemaName": "UsrRealtyVisitPage",
-			"Hash": "983bed66f324b22a04e28a5fc83054c434290a5a7921b550137b495165039e53"
+			"Hash": "d85934f067086260977f88008dc59b205547496314acdb6f7163159ba23acb5c"
 		},
 		{
 			"ManagerName": "ClientUnitSchemaManager",
@@ -18086,7 +18106,7 @@
 		{
 			"ManagerName": "EntitySchemaManager",
 			"SchemaName": "Account",
-			"Hash": "b06f640ceeed9d04f9cbf61a42076dea"
+			"Hash": "83fb44a348670cfec9680862636e7e455ce60356397abe94b3b339d7b7931e68"
 		},
 		{
 			"ManagerName": "EntitySchemaManager",
@@ -21676,7 +21696,7 @@
 		{
 			"ManagerName": "EntitySchemaManager",
 			"SchemaName": "Order",
-			"Hash": "f0ea1994ec85283e148aea40dfa71b10"
+			"Hash": "20d2ce607398ee62238f6113bfaea87ced674e25a46149144b1e937770033609"
 		},
 		{
 			"ManagerName": "EntitySchemaManager",
@@ -24310,13 +24330,53 @@
 		},
 		{
 			"ManagerName": "EntitySchemaManager",
+			"SchemaName": "UsrGoldRate",
+			"Hash": "16616e83a1396a4ce4e6e437286c6592f7d678205883f5b4385d5080844088e0"
+		},
+		{
+			"ManagerName": "EntitySchemaManager",
+			"SchemaName": "UsrRealtyClassic",
+			"Hash": "35a7dfc4c0ff5f872f5ab1db567b25745db43f0c635945a30c96206e504b91c1"
+		},
+		{
+			"ManagerName": "EntitySchemaManager",
+			"SchemaName": "UsrRealtyClassicFile",
+			"Hash": "75a6e459764ef21f7fa0cd773efe4fd8e41ee02329c3d1d90aca19a755c1c90c"
+		},
+		{
+			"ManagerName": "EntitySchemaManager",
+			"SchemaName": "UsrRealtyClassicFolder",
+			"Hash": "29ec67538c04529ad6370a4e49af4c798ac6aaa207319f9420a541b18352e5b1"
+		},
+		{
+			"ManagerName": "EntitySchemaManager",
+			"SchemaName": "UsrRealtyClassicInFolder",
+			"Hash": "b9e4425264ca0946fedcccaab55592d30bd10c63e18194cfc5c6609dfbd4790e"
+		},
+		{
+			"ManagerName": "EntitySchemaManager",
+			"SchemaName": "UsrRealtyClassicInTag",
+			"Hash": "c074028dc6a06fc2501e250bd9cd4d63eb1a513feee7fd6fde79aa5e61380d4e"
+		},
+		{
+			"ManagerName": "EntitySchemaManager",
+			"SchemaName": "UsrRealtyClassicTag",
+			"Hash": "68b09869cc96d6d5ce78b38ea931338a39abd43d7548c2e1238a8e67b3145ecb"
+		},
+		{
+			"ManagerName": "EntitySchemaManager",
 			"SchemaName": "UsrRealtyFreedomUI",
-			"Hash": "ef511e9ff572e5ea03f0c2a6e2c3707cbe00aa33f689f73ac7067d244f2cb584"
+			"Hash": "ffe34e6f6e2ccd8b00b1713cde98d47dd7b52318bc4fc3ccc9e2a5aa8c3efa87"
+		},
+		{
+			"ManagerName": "EntitySchemaManager",
+			"SchemaName": "UsrRealtyOfferTypeClassic",
+			"Hash": "8d65e1becaee1bdece20db80a33033d2f44b43df6c67f0c07d0c0c83e63dbb45"
 		},
 		{
 			"ManagerName": "EntitySchemaManager",
 			"SchemaName": "UsrRealtyOfferTypeFreedomUI",
-			"Hash": "122b370ea80f26b47b99a227e0b664683e79e5aab8a8a2801bf5ebdfb40fd842"
+			"Hash": "1860f708c5900c908e915191736279aff1e54aad2cd24fc6c22692f70c0cb16f"
 		},
 		{
 			"ManagerName": "EntitySchemaManager",
@@ -24326,12 +24386,12 @@
 		{
 			"ManagerName": "EntitySchemaManager",
 			"SchemaName": "UsrRealtyTypeFreedomUI",
-			"Hash": "acddc27180927668d72204406fe58dbce631e011b4e49dba796077911b199910"
+			"Hash": "7f14f787ad6294248f705808b5df4a460f2b242b6985bff04403c33002e0a68f"
 		},
 		{
 			"ManagerName": "EntitySchemaManager",
 			"SchemaName": "UsrRealtyVisitFreedomUI",
-			"Hash": "b6c7cd26a1be311e6ac9cd48d5484dddd81e371e258fc2ba55f3760e4dd5ff3a"
+			"Hash": "a163d6cb815a9594aaeadf5a7a4dcf43d41f13c358eed190e02f1f51e968d9fa"
 		},
 		{
 			"ManagerName": "EntitySchemaManager",
@@ -26455,6 +26515,26 @@
 		},
 		{
 			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "UsrAddRealtyVisitsProcess",
+			"Hash": "21017a5493b9251b8247bf96a078384ce14b2ea87e5fffac2fdcc1398dfcc86f"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "UsrCalculateAverageRealtyPriceProcess",
+			"Hash": "a2e7d5fe52f205f5e28dd3c9f99dc0c8e920d56faba8a75171811f76d56edda1"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "UsrGetGoldRatesMainProcess",
+			"Hash": "b80451ed1ce55ccbae9c7218ce46d5f514d644ec1173840dabe3b355188e2d65"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "UsrProcess_8008668",
+			"Hash": "3a2e553ff8c8932b352971dfe979f743bbfa969b4c3ea9d9ea9cd1fa107e38e2"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
 			"SchemaName": "UsrTestProcess",
 			"Hash": "12db54a8677b0d156e8ca77442addc8fc9eaf471eeaa709f97db69a28eff1648"
 		},
@@ -26872,6 +26952,11 @@
 			"ManagerName": "ServiceSchemaManager",
 			"SchemaName": "CreatioMarketplaceApi",
 			"Hash": "e383887e26d00f63356d1a880ca972d1"
+		},
+		{
+			"ManagerName": "ServiceSchemaManager",
+			"SchemaName": "UsrGoldService",
+			"Hash": "0111e3335fd9fbd7fe34740487304a06aadaf001f71aa35f837bbebd13dc0fe7"
 		},
 		{
 			"ManagerName": "SourceCodeSchemaManager",
@@ -37962,6 +38047,16 @@
 			"ManagerName": "SourceCodeSchemaManager",
 			"SchemaName": "UserReportGenerationTask",
 			"Hash": "c7fc0db5316b2ea3aad43fc5bbae595e"
+		},
+		{
+			"ManagerName": "SourceCodeSchemaManager",
+			"SchemaName": "UsrRealtyFreedomUIEvents",
+			"Hash": "06a8fc30562a97d264d091503d76e39e349b3f52073c5198eac03764391961e4"
+		},
+		{
+			"ManagerName": "SourceCodeSchemaManager",
+			"SchemaName": "UsrRealtyService",
+			"Hash": "b05e7da2e5435fb6b8f44f177c3b2d4ae2e30d4c3af06f442ec19262dd860994"
 		},
 		{
 			"ManagerName": "SourceCodeSchemaManager",

@@ -117,3 +117,11 @@ namespace Terrasoft.Configuration.TermCalculationService
 
 
 
+
+
+
+
+
+
+
+

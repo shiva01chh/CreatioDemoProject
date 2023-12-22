@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ro-RO">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.ChangeInvoice.Value" Value="O factura a fost generata pentru plata. Vreti sa modificati data facturii?" />
+			<Item Name="LocalizableStrings.ChangeQueueItemDateButtonCaption.Value" Value="Amana pana la" />
+			<Item Name="LocalizableStrings.CreateContract.Value" Value="Contract nou in baza comenzii" />
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Caption" Value="Factura noua bazata pe aceasta comanda" />
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Value" Value="Factura noua bazata pe aceasta comanda" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Caption" Value="CreateInvoiceFromOrderProcessNotSet" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Value" Value="SysSetting CreateInvoiceFromOrderProcess does not contain any process value." />
+			<Item Name="LocalizableStrings.ESNTabCaption.Value" Value="Feed" />
+			<Item Name="LocalizableStrings.FileNotesTabCaption.Value" Value="Atasamente si note" />
+			<Item Name="LocalizableStrings.LeadTabCaption.Value" Value="Factori conducatori" />
+			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="Conectați produsele comandate la contract?" />
+			<Item Name="LocalizableStrings.MultipleQueueItemsFoundError.Value" Value="Mai mult decat un element in coada conexat procesului. Id Proces: {0}" />
+			<Item Name="LocalizableStrings.OpportunityCaption.Value" Value="Oportunitate" />
+			<Item Name="LocalizableStrings.OpportunityTip.Value" Value="An opportunity for which the order was created. The lookups are filtered by the contact and account specified in the order" />
+			<Item Name="LocalizableStrings.OrderPassportTabCaption.Value" Value="Order details" />
+			<Item Name="LocalizableStrings.PostponeQueueItemButtonCaption.Value" Value="Refa coada" />
+			<Item Name="LocalizableStrings.PostponeQueueItemError.Value" Value="Nu a fost posibila repunerea in coada a item-ului. Mesaj de eroare: {0}" />
+			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="Toate" />
+			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="Selectati" />
+			<Item Name="LocalizableStrings.QueueItemIsEmptyError.Value" Value="Pagina nu este conectata la elementul in coada pe ecranul agentului. Actiune anulata." />
+			<Item Name="LocalizableStrings.QueueItemPostponeFailedMessage.Value" Value="Nu a fost posibila re-punerea in coada a item-ului" />
+			<Item Name="LocalizableStrings.QueueItemPostponeSucceedMessage.Value" Value="Re-punere in coada cu succes" />
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="Follow feed" />
+			<Item Name="LocalizableStrings.SubscribedInformationDialog.Value" Value="In acest moment urmati alimentarea: {0}" />
+			<Item Name="LocalizableStrings.TimelineTabCaption.Value" Value="Timeline" />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="Renuntati la urmarirea alimentarii" />
+			<Item Name="LocalizableStrings.UnsubscribedInformationDialog.Value" Value="Ati renuntat la urmarirea alimentarii: {0}" />
+		</Items>
+	</Group>
+</Resources>

@@ -43,3 +43,10 @@
 2023-12-14 16:43:56,679 [1] INFO  SetupOmnichannelMessagingJobs - OmnichannelMessagingAppEventListener: OmnichannelMessaging Jobs were ran
 2023-12-14 16:43:56,679 [1] INFO  CreateNotifiers - OmnichannelMessagingAppEventListener: Notifiers were created
 2023-12-14 16:43:56,690 [1] INFO  BindInterfaces - OmnichannelMessagingAppEventListener: Interfaces were bound
+2023-12-14 19:38:53,707 [1] INFO  OnAppStart - OmnichannelMessagingAppEventListener: OnAppStart executed
+2023-12-14 19:38:53,707 [1] INFO  ClearOperatorsCache - OmnichannelMessagingAppEventListener: Operator cache was cleared
+2023-12-14 19:38:53,711 [1] INFO  StartTelegramChannel - OmnichannelMessagingAppEventListener: TelegramClientFactory was initialized
+2023-12-14 19:38:53,724 [1] INFO  StartTelegramChannel - OmnichannelMessagingAppEventListener: TelegramChannelsJob was ran
+2023-12-14 19:38:53,737 [1] INFO  SetupOmnichannelMessagingJobs - OmnichannelMessagingAppEventListener: OmnichannelMessaging Jobs were ran
+2023-12-14 19:38:53,738 [1] INFO  CreateNotifiers - OmnichannelMessagingAppEventListener: Notifiers were created
+2023-12-14 19:38:53,742 [1] INFO  BindInterfaces - OmnichannelMessagingAppEventListener: Interfaces were bound

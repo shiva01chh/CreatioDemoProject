@@ -2,7 +2,7 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="Realty (Freedom UI) form page" />
+			<Item Name="Caption" Value="Realty form page" />
 			<Item Name="LocalizableStrings.addRecord_isdmeep_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_ndmknu6_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_npb62bh_caption.Value" Value="Add new" />
@@ -10,15 +10,20 @@
 			<Item Name="LocalizableStrings.addRecord_pqppsgc_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_v500915_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.Button_1g5z8v7_caption.Value" Value="PUSH ME!" />
+			<Item Name="LocalizableStrings.Button_etus3xa_caption.Value" Value="Button" />
+			<Item Name="LocalizableStrings.Button_g5kw6mw_caption.Value" Value="Action" />
 			<Item Name="LocalizableStrings.ComboBox_0cc7yq5_ariaLabel.Value" Value="Dropdown" />
 			<Item Name="LocalizableStrings.ComboBox_0cc7yq5_label.Value" Value="Type" />
-			<Item Name="LocalizableStrings.ExpansionPanel_ygxl6ru_title.Value" Value="Realty visit (FreedomUI)" />
+			<Item Name="LocalizableStrings.ExpansionPanel_ygxl6ru_title.Value" Value="Realty visit" />
 			<Item Name="LocalizableStrings.GridDetailAddBtn_0c3heqk_caption.Value" Value="New" />
 			<Item Name="LocalizableStrings.GridDetailExportDataBtn_9zvnd63_caption.Value" Value="Export to Excel" />
 			<Item Name="LocalizableStrings.GridDetailImportDataBtn_0997176_caption.Value" Value="Data import" />
 			<Item Name="LocalizableStrings.GridDetailRefreshBtn_gdn6rtn_caption.Value" Value="Refresh" />
 			<Item Name="LocalizableStrings.GridDetailSearchFilter_75nhzjk_placeholder.Value" Value="Search" />
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_6c8nw7h_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.LocStrCode.Value" Value="some value" />
+			<Item Name="LocalizableStrings.MenuItem_4gk92xk_caption.Value" Value="Run web service" />
+			<Item Name="LocalizableStrings.MenuItem_sfij86z_caption.Value" Value="Calculate average price" />
 			<Item Name="LocalizableStrings.NumberInput_j5d1iid_label.Value" Value="Number" />
 		</Items>
 	</Group>

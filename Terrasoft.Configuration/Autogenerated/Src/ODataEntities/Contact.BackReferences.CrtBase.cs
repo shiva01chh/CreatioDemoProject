@@ -175,12 +175,12 @@
 			set;
 		}
 
-		public IEnumerable<Product> ProductCollectionByOwner {
+		public IEnumerable<Activity> ActivityCollectionByOrganizer {
 			get;
 			set;
 		}
 
-		public IEnumerable<Activity> ActivityCollectionByOrganizer {
+		public IEnumerable<Product> ProductCollectionByOwner {
 			get;
 			set;
 		}
@@ -435,6 +435,11 @@
 			set;
 		}
 
+		public IEnumerable<UsrRealtyClassic> UsrRealtyClassicCollectionByUsrManager {
+			get;
+			set;
+		}
+
 		public IEnumerable<Event> EventCollectionByOwner {
 			get;
 			set;
@@ -500,12 +505,12 @@
 			set;
 		}
 
-		public IEnumerable<MktgActivity> MktgActivityCollectionByOwner {
+		public IEnumerable<DayOff> DayOffCollectionByContact {
 			get;
 			set;
 		}
 
-		public IEnumerable<DayOff> DayOffCollectionByContact {
+		public IEnumerable<MktgActivity> MktgActivityCollectionByOwner {
 			get;
 			set;
 		}
@@ -670,12 +675,12 @@
 			set;
 		}
 
-		public IEnumerable<VwBulkEmailTarget> VwBulkEmailTargetCollectionByContact {
+		public IEnumerable<WSysAccount> WSysAccountCollectionByContact {
 			get;
 			set;
 		}
 
-		public IEnumerable<WSysAccount> WSysAccountCollectionByContact {
+		public IEnumerable<VwBulkEmailTarget> VwBulkEmailTargetCollectionByContact {
 			get;
 			set;
 		}
@@ -700,12 +705,12 @@
 			set;
 		}
 
-		public IEnumerable<VwModuleHistory> VwModuleHistoryCollectionByContact {
+		public IEnumerable<ReleaseFile> ReleaseFileCollectionByLockedBy {
 			get;
 			set;
 		}
 
-		public IEnumerable<ReleaseFile> ReleaseFileCollectionByLockedBy {
+		public IEnumerable<VwModuleHistory> VwModuleHistoryCollectionByContact {
 			get;
 			set;
 		}
@@ -740,12 +745,12 @@
 			set;
 		}
 
-		public IEnumerable<VwMandrillRecipientV2> VwMandrillRecipientV2CollectionByContact {
+		public IEnumerable<SamlResponse> SamlResponseCollectionByContact {
 			get;
 			set;
 		}
 
-		public IEnumerable<SamlResponse> SamlResponseCollectionByContact {
+		public IEnumerable<VwMandrillRecipientV2> VwMandrillRecipientV2CollectionByContact {
 			get;
 			set;
 		}
@@ -910,12 +915,12 @@
 			set;
 		}
 
-		public IEnumerable<VwOpportInStageForAnalysis> VwOpportInStageForAnalysisCollectionByOwner {
+		public IEnumerable<CallFile> CallFileCollectionByLockedBy {
 			get;
 			set;
 		}
 
-		public IEnumerable<CallFile> CallFileCollectionByLockedBy {
+		public IEnumerable<VwOpportInStageForAnalysis> VwOpportInStageForAnalysisCollectionByOwner {
 			get;
 			set;
 		}
@@ -1116,6 +1121,11 @@
 		}
 
 		public IEnumerable<ProjectResourceElement> ProjectResourceElementCollectionByContact {
+			get;
+			set;
+		}
+
+		public IEnumerable<UsrRealtyClassicFile> UsrRealtyClassicFileCollectionByLockedBy {
 			get;
 			set;
 		}

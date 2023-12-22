@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="sv-SE">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.ChangeInvoice.Value" Value="En faktura har genererats för betalningen. Vill du ändra fakturadatan?" />
+			<Item Name="LocalizableStrings.ChangeQueueItemDateButtonCaption.Value" Value="Senarelägg till" />
+			<Item Name="LocalizableStrings.CreateContract.Value" Value="Nytt kontrakt baserad på Beställning" />
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Caption" Value="Ny faktura baserad på denna beställning" />
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Value" Value="Ny faktura baserad på denna beställning" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Caption" Value="CreateInvoiceFromOrderProcessNotSet" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Value" Value="SysSetting CreateInvoiceFromOrderProcess does not contain any process value." />
+			<Item Name="LocalizableStrings.ESNTabCaption.Value" Value="Flöde" />
+			<Item Name="LocalizableStrings.FileNotesTabCaption.Value" Value="Bilagor och anteckningar" />
+			<Item Name="LocalizableStrings.LeadTabCaption.Value" Value="Leads" />
+			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="Connect the ordered products to contract?" />
+			<Item Name="LocalizableStrings.MultipleQueueItemsFoundError.Value" Value="Mer än ett köelement kopplat till processen. Process-ID: {0}" />
+			<Item Name="LocalizableStrings.OpportunityCaption.Value" Value="Affärsmöjlighet" />
+			<Item Name="LocalizableStrings.OpportunityTip.Value" Value="En affärsaffärsmöjlighet för vilken Beställningn har skapats. Uppslag är filtrerade av kontakt och konto specificerade i Beställning" />
+			<Item Name="LocalizableStrings.OrderPassportTabCaption.Value" Value="Beställningdetaljer" />
+			<Item Name="LocalizableStrings.PostponeQueueItemButtonCaption.Value" Value="Ställ i kö igen" />
+			<Item Name="LocalizableStrings.PostponeQueueItemError.Value" Value="Kan inte ställa artikel i kö igen. Felmeddelande: {0}" />
+			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="Alla" />
+			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="Välj" />
+			<Item Name="LocalizableStrings.QueueItemIsEmptyError.Value" Value="Sidan är inte kopplad till agentens skrivbordsköelement. Åtgärd avbruten." />
+			<Item Name="LocalizableStrings.QueueItemPostponeFailedMessage.Value" Value="Kan inte ställa artikel i kö igen" />
+			<Item Name="LocalizableStrings.QueueItemPostponeSucceedMessage.Value" Value="Ställdes i kö igen" />
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="Följ inlägg" />
+			<Item Name="LocalizableStrings.SubscribedInformationDialog.Value" Value="Du följer nu inlägg: {0}" />
+			<Item Name="LocalizableStrings.TimelineTabCaption.Value" Value="Tidslinje" />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="Sluta följa inlägg" />
+			<Item Name="LocalizableStrings.UnsubscribedInformationDialog.Value" Value="Du har slutat följa inlägg: {0}" />
+		</Items>
+	</Group>
+</Resources>

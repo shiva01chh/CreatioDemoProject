@@ -26,23 +26,23 @@
 	using Terrasoft.UI.WebControls.Controls;
 	using Terrasoft.UI.WebControls.Utilities.Json.Converters;
 
-	#region Class: Document_DocumentInOpportunity_TerrasoftSchema
+	#region Class: DocumentSchema
 
 	/// <exclude/>
-	public class Document_DocumentInOpportunity_TerrasoftSchema : Terrasoft.Configuration.Document_Document_TerrasoftSchema
+	public class DocumentSchema : Terrasoft.Configuration.Document_DocumentInProject_TerrasoftSchema
 	{
 
 		#region Constructors: Public
 
-		public Document_DocumentInOpportunity_TerrasoftSchema(EntitySchemaManager entitySchemaManager)
+		public DocumentSchema(EntitySchemaManager entitySchemaManager)
 			: base(entitySchemaManager) {
 		}
 
-		public Document_DocumentInOpportunity_TerrasoftSchema(Document_DocumentInOpportunity_TerrasoftSchema source, bool isShallowClone)
+		public DocumentSchema(DocumentSchema source, bool isShallowClone)
 			: base(source, isShallowClone) {
 		}
 
-		public Document_DocumentInOpportunity_TerrasoftSchema(Document_DocumentInOpportunity_TerrasoftSchema source)
+		public DocumentSchema(DocumentSchema source)
 			: base(source) {
 		}
 
@@ -53,7 +53,7 @@
 		protected override void InitializeProperties() {
 			base.InitializeProperties();
 			RealUId = new Guid("2ab1b8dd-d9b4-4393-9994-00f5a9233a91");
-			Name = "Document_DocumentInOpportunity_Terrasoft";
+			Name = "Document";
 			ParentSchemaUId = new Guid("8b33b6b2-19f7-4222-9161-b4054b3fbb09");
 			ExtendParent = true;
 			CreatedInPackageId = new Guid("6609fecb-0611-4043-b793-9364d39c2783");
@@ -93,7 +93,7 @@
 		#region Methods: Public
 
 		public override Entity CreateEntity(UserConnection userConnection) {
-			return new Document_DocumentInOpportunity_Terrasoft(userConnection) {Schema = this};
+			return new Document(userConnection) {Schema = this};
 		}
 
 		public override EmbeddedProcess CreateEventsProcess(UserConnection userConnection) {
@@ -101,11 +101,11 @@
 		}
 
 		public override object Clone() {
-			return new Document_DocumentInOpportunity_TerrasoftSchema(this);
+			return new DocumentSchema(this);
 		}
 
 		public override EntitySchema CloneShallow() {
-			return new Document_DocumentInOpportunity_TerrasoftSchema(this, true);
+			return new DocumentSchema(this, true);
 		}
 
 		public override void GetParentRealUIds(Collection<Guid> realUIds) {
@@ -119,22 +119,22 @@
 
 	#endregion
 
-	#region Class: Document_DocumentInOpportunity_Terrasoft
+	#region Class: Document
 
 	/// <summary>
 	/// Document.
 	/// </summary>
-	public class Document_DocumentInOpportunity_Terrasoft : Terrasoft.Configuration.Document_Document_Terrasoft
+	public class Document : Terrasoft.Configuration.Document_DocumentInProject_Terrasoft
 	{
 
 		#region Constructors: Public
 
-		public Document_DocumentInOpportunity_Terrasoft(UserConnection userConnection)
+		public Document(UserConnection userConnection)
 			: base(userConnection) {
-			SchemaName = "Document_DocumentInOpportunity_Terrasoft";
+			SchemaName = "Document";
 		}
 
-		public Document_DocumentInOpportunity_Terrasoft(Document_DocumentInOpportunity_Terrasoft source)
+		public Document(Document source)
 			: base(source) {
 		}
 
@@ -200,7 +200,7 @@
 		#region Methods: Public
 
 		public override object Clone() {
-			return new Document_DocumentInOpportunity_Terrasoft(this);
+			return new Document(this);
 		}
 
 		#endregion
@@ -212,7 +212,7 @@
 	#region Class: Document_DocumentInOpportunityEventsProcess
 
 	/// <exclude/>
-	public partial class Document_DocumentInOpportunityEventsProcess<TEntity> : Terrasoft.Configuration.Document_DocumentEventsProcess<TEntity> where TEntity : Document_DocumentInOpportunity_Terrasoft
+	public partial class Document_DocumentInOpportunityEventsProcess<TEntity> : Terrasoft.Configuration.Document_DocumentInProjectEventsProcess<TEntity> where TEntity : Document
 	{
 
 		public Document_DocumentInOpportunityEventsProcess(UserConnection userConnection)
@@ -293,7 +293,7 @@
 	#region Class: Document_DocumentInOpportunityEventsProcess
 
 	/// <exclude/>
-	public class Document_DocumentInOpportunityEventsProcess : Document_DocumentInOpportunityEventsProcess<Document_DocumentInOpportunity_Terrasoft>
+	public class Document_DocumentInOpportunityEventsProcess : Document_DocumentInOpportunityEventsProcess<Document>
 	{
 
 		public Document_DocumentInOpportunityEventsProcess(UserConnection userConnection)
@@ -312,6 +312,21 @@
 		#region Methods: Public
 
 		#endregion
+
+	}
+
+	#endregion
+
+
+	#region Class: DocumentEventsProcess
+
+	/// <exclude/>
+	public class DocumentEventsProcess : Document_DocumentInOpportunityEventsProcess
+	{
+
+		public DocumentEventsProcess(UserConnection userConnection)
+			: base(userConnection) {
+		}
 
 	}
 

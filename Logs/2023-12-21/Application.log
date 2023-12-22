@@ -1,0 +1,3 @@
+2023-12-21 11:39:09,170 [.NET ThreadPool Worker] INFO Supervisor Terrasoft.Core.LicManager GetUserLicensesRedistributions - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2023-12-21 15:09:54,424 [.NET ThreadPool Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2023-12-21 18:10:07,787 [.NET ThreadPool Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647

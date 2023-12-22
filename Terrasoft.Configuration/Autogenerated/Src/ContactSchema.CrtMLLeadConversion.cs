@@ -32,7 +32,7 @@
 	#region Class: Contact_CrtMLLeadConversion_TerrasoftSchema
 
 	/// <exclude/>
-	public class Contact_CrtMLLeadConversion_TerrasoftSchema : Terrasoft.Configuration.Contact_CrtCustomer360App_TerrasoftSchema
+	public class Contact_CrtMLLeadConversion_TerrasoftSchema : Terrasoft.Configuration.Contact_CrtTouchPointInC360_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -126,7 +126,7 @@
 	/// <summary>
 	/// Contact.
 	/// </summary>
-	public class Contact_CrtMLLeadConversion_Terrasoft : Terrasoft.Configuration.Contact_CrtCustomer360App_Terrasoft
+	public class Contact_CrtMLLeadConversion_Terrasoft : Terrasoft.Configuration.Contact_CrtTouchPointInC360_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -191,7 +191,7 @@
 	#region Class: Contact_CrtMLLeadConversionEventsProcess
 
 	/// <exclude/>
-	public partial class Contact_CrtMLLeadConversionEventsProcess<TEntity> : Terrasoft.Configuration.Contact_CrtCustomer360AppEventsProcess<TEntity> where TEntity : Contact_CrtMLLeadConversion_Terrasoft
+	public partial class Contact_CrtMLLeadConversionEventsProcess<TEntity> : Terrasoft.Configuration.Contact_CrtTouchPointInC360EventsProcess<TEntity> where TEntity : Contact_CrtMLLeadConversion_Terrasoft
 	{
 
 		public Contact_CrtMLLeadConversionEventsProcess(UserConnection userConnection)

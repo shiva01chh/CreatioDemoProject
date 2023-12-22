@@ -133,7 +133,11 @@
 				IsIndexed = true,
 				CreatedInSchemaUId = new Guid("08eba176-3fe4-437d-9aef-027416ba50c0"),
 				ModifiedInSchemaUId = new Guid("08eba176-3fe4-437d-9aef-027416ba50c0"),
-				CreatedInPackageId = new Guid("312277fe-48cb-483e-a2cc-4c788b7ed430")
+				CreatedInPackageId = new Guid("312277fe-48cb-483e-a2cc-4c788b7ed430"),
+				DefValue = new EntitySchemaColumnDef() {
+					Source = EntitySchemaColumnDefSource.SystemValue,
+					ValueSource = SystemValueManager.GetInstanceByName(@"CurrentUserContact")
+				}
 			};
 		}
 
@@ -157,7 +161,11 @@
 				CreatedInSchemaUId = new Guid("08eba176-3fe4-437d-9aef-027416ba50c0"),
 				ModifiedInSchemaUId = new Guid("08eba176-3fe4-437d-9aef-027416ba50c0"),
 				CreatedInPackageId = new Guid("312277fe-48cb-483e-a2cc-4c788b7ed430"),
-				IsSimpleLookup = true
+				IsSimpleLookup = true,
+				DefValue = new EntitySchemaColumnDef() {
+					Source = EntitySchemaColumnDefSource.Const,
+					ValueSource = @"5776442c-8e0b-4836-b5c3-8815c9401968"
+				}
 			};
 		}
 
@@ -170,7 +178,11 @@
 				CreatedInSchemaUId = new Guid("08eba176-3fe4-437d-9aef-027416ba50c0"),
 				ModifiedInSchemaUId = new Guid("08eba176-3fe4-437d-9aef-027416ba50c0"),
 				CreatedInPackageId = new Guid("312277fe-48cb-483e-a2cc-4c788b7ed430"),
-				IsSimpleLookup = true
+				IsSimpleLookup = true,
+				DefValue = new EntitySchemaColumnDef() {
+					Source = EntitySchemaColumnDefSource.Const,
+					ValueSource = @"c4e3ad84-8780-4da8-916d-1ba61d6bf3cd"
+				}
 			};
 		}
 
@@ -249,7 +261,7 @@
 	#region Class: UsrRealtyFreedomUI
 
 	/// <summary>
-	/// Realty (Freedom UI).
+	/// Realty.
 	/// </summary>
 	public class UsrRealtyFreedomUI : Terrasoft.Configuration.BaseEntity
 	{

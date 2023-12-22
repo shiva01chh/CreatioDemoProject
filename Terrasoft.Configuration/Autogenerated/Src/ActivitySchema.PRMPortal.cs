@@ -34,7 +34,7 @@
 	#region Class: Activity_PRMPortal_TerrasoftSchema
 
 	/// <exclude/>
-	public class Activity_PRMPortal_TerrasoftSchema : Terrasoft.Configuration.Activity_MarketingCampaign_TerrasoftSchema
+	public class Activity_PRMPortal_TerrasoftSchema : Terrasoft.Configuration.Activity_Change_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -146,7 +146,7 @@
 	/// <summary>
 	/// Activity.
 	/// </summary>
-	public class Activity_PRMPortal_Terrasoft : Terrasoft.Configuration.Activity_MarketingCampaign_Terrasoft
+	public class Activity_PRMPortal_Terrasoft : Terrasoft.Configuration.Activity_Change_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -195,7 +195,7 @@
 	#region Class: Activity_PRMPortalEventsProcess
 
 	/// <exclude/>
-	public partial class Activity_PRMPortalEventsProcess<TEntity> : Terrasoft.Configuration.Activity_MarketingCampaignEventsProcess<TEntity> where TEntity : Activity_PRMPortal_Terrasoft
+	public partial class Activity_PRMPortalEventsProcess<TEntity> : Terrasoft.Configuration.Activity_ChangeEventsProcess<TEntity> where TEntity : Activity_PRMPortal_Terrasoft
 	{
 
 		public Activity_PRMPortalEventsProcess(UserConnection userConnection)

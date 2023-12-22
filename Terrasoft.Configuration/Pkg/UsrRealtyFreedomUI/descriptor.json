@@ -12,6 +12,11 @@
         "PackageVersion": "7.8.0",
         "Name": "CrtCore",
         "Type": 1
+      },
+      {
+        "UId": "a69aa55b-9b04-78f4-faba-334cd4dba8d5",
+        "Name": "GuidedDev",
+        "Type": 1
       }
     ]
   }

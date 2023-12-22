@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "165ba979-0f40-49fc-983a-715393fdd70b",
+    "Name": "OrderSectionV2",
+    "ModifiedOnUtc": "\/Date(1702883928000)\/",
+    "Parent": {
+      "UId": "2a36e6fb-63c1-4b9a-beea-c1b3f8fe9250",
+      "Name": "OrderSectionV2"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Section schema: \"Orders\""
+  }
+}

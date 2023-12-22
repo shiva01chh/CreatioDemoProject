@@ -28,23 +28,23 @@
 	using Terrasoft.UI.WebControls.Utilities.Json.Converters;
 	using Terrasoft.Web.Common;
 
-	#region Class: VwSysAdminUnitSchema
+	#region Class: VwSysAdminUnit_LDAP_TerrasoftSchema
 
 	/// <exclude/>
-	public class VwSysAdminUnitSchema : Terrasoft.Configuration.VwSysAdminUnit_WebitelCollaborations_TerrasoftSchema
+	public class VwSysAdminUnit_LDAP_TerrasoftSchema : Terrasoft.Configuration.VwSysAdminUnit_Translation_TerrasoftSchema
 	{
 
 		#region Constructors: Public
 
-		public VwSysAdminUnitSchema(EntitySchemaManager entitySchemaManager)
+		public VwSysAdminUnit_LDAP_TerrasoftSchema(EntitySchemaManager entitySchemaManager)
 			: base(entitySchemaManager) {
 		}
 
-		public VwSysAdminUnitSchema(VwSysAdminUnitSchema source, bool isShallowClone)
+		public VwSysAdminUnit_LDAP_TerrasoftSchema(VwSysAdminUnit_LDAP_TerrasoftSchema source, bool isShallowClone)
 			: base(source, isShallowClone) {
 		}
 
-		public VwSysAdminUnitSchema(VwSysAdminUnitSchema source)
+		public VwSysAdminUnit_LDAP_TerrasoftSchema(VwSysAdminUnit_LDAP_TerrasoftSchema source)
 			: base(source) {
 		}
 
@@ -55,7 +55,7 @@
 		protected override void InitializeProperties() {
 			base.InitializeProperties();
 			RealUId = new Guid("666ef293-9b46-486b-8e1d-05603efdc45d");
-			Name = "VwSysAdminUnit";
+			Name = "VwSysAdminUnit_LDAP_Terrasoft";
 			ParentSchemaUId = new Guid("d5d01fcd-6d8c-4b29-9e58-cca3ffe62364");
 			ExtendParent = true;
 			CreatedInPackageId = new Guid("7ac00ac8-4704-4c6a-999a-db94daccf6cd");
@@ -101,7 +101,7 @@
 		#region Methods: Public
 
 		public override Entity CreateEntity(UserConnection userConnection) {
-			return new VwSysAdminUnit(userConnection) {Schema = this};
+			return new VwSysAdminUnit_LDAP_Terrasoft(userConnection) {Schema = this};
 		}
 
 		public override EmbeddedProcess CreateEventsProcess(UserConnection userConnection) {
@@ -109,11 +109,11 @@
 		}
 
 		public override object Clone() {
-			return new VwSysAdminUnitSchema(this);
+			return new VwSysAdminUnit_LDAP_TerrasoftSchema(this);
 		}
 
 		public override EntitySchema CloneShallow() {
-			return new VwSysAdminUnitSchema(this, true);
+			return new VwSysAdminUnit_LDAP_TerrasoftSchema(this, true);
 		}
 
 		public override void GetParentRealUIds(Collection<Guid> realUIds) {
@@ -127,22 +127,22 @@
 
 	#endregion
 
-	#region Class: VwSysAdminUnit
+	#region Class: VwSysAdminUnit_LDAP_Terrasoft
 
 	/// <summary>
 	/// Users/roles (view).
 	/// </summary>
-	public class VwSysAdminUnit : Terrasoft.Configuration.VwSysAdminUnit_WebitelCollaborations_Terrasoft
+	public class VwSysAdminUnit_LDAP_Terrasoft : Terrasoft.Configuration.VwSysAdminUnit_Translation_Terrasoft
 	{
 
 		#region Constructors: Public
 
-		public VwSysAdminUnit(UserConnection userConnection)
+		public VwSysAdminUnit_LDAP_Terrasoft(UserConnection userConnection)
 			: base(userConnection) {
-			SchemaName = "VwSysAdminUnit";
+			SchemaName = "VwSysAdminUnit_LDAP_Terrasoft";
 		}
 
-		public VwSysAdminUnit(VwSysAdminUnit source)
+		public VwSysAdminUnit_LDAP_Terrasoft(VwSysAdminUnit_LDAP_Terrasoft source)
 			: base(source) {
 		}
 
@@ -200,7 +200,7 @@
 		#region Methods: Protected
 
 		protected override void InitializeThrowEvents() {
-			Validating += (s, e) => ThrowEvent("VwSysAdminUnitValidating", e);
+			Validating += (s, e) => ThrowEvent("VwSysAdminUnit_LDAP_TerrasoftValidating", e);
 			base.InitializeThrowEvents();
 		}
 
@@ -209,7 +209,7 @@
 		#region Methods: Public
 
 		public override object Clone() {
-			return new VwSysAdminUnit(this);
+			return new VwSysAdminUnit_LDAP_Terrasoft(this);
 		}
 
 		#endregion
@@ -221,7 +221,7 @@
 	#region Class: VwSysAdminUnit_LDAPEventsProcess
 
 	/// <exclude/>
-	public partial class VwSysAdminUnit_LDAPEventsProcess<TEntity> : Terrasoft.Configuration.VwSysAdminUnit_WebitelCollaborationsEventsProcess<TEntity> where TEntity : VwSysAdminUnit
+	public partial class VwSysAdminUnit_LDAPEventsProcess<TEntity> : Terrasoft.Configuration.VwSysAdminUnit_TranslationEventsProcess<TEntity> where TEntity : VwSysAdminUnit_LDAP_Terrasoft
 	{
 
 		public VwSysAdminUnit_LDAPEventsProcess(UserConnection userConnection)
@@ -302,7 +302,7 @@
 	#region Class: VwSysAdminUnit_LDAPEventsProcess
 
 	/// <exclude/>
-	public class VwSysAdminUnit_LDAPEventsProcess : VwSysAdminUnit_LDAPEventsProcess<VwSysAdminUnit>
+	public class VwSysAdminUnit_LDAPEventsProcess : VwSysAdminUnit_LDAPEventsProcess<VwSysAdminUnit_LDAP_Terrasoft>
 	{
 
 		public VwSysAdminUnit_LDAPEventsProcess(UserConnection userConnection)
@@ -324,21 +324,6 @@
 		}
 
 		#endregion
-
-	}
-
-	#endregion
-
-
-	#region Class: VwSysAdminUnitEventsProcess
-
-	/// <exclude/>
-	public class VwSysAdminUnitEventsProcess : VwSysAdminUnit_LDAPEventsProcess
-	{
-
-		public VwSysAdminUnitEventsProcess(UserConnection userConnection)
-			: base(userConnection) {
-		}
 
 	}
 

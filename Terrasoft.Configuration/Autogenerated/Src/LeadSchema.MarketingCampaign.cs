@@ -31,7 +31,7 @@
 	#region Class: Lead_MarketingCampaign_TerrasoftSchema
 
 	/// <exclude/>
-	public class Lead_MarketingCampaign_TerrasoftSchema : Terrasoft.Configuration.Lead_PRMBase_TerrasoftSchema
+	public class Lead_MarketingCampaign_TerrasoftSchema : Terrasoft.Configuration.Lead_PRMPortal_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -173,7 +173,7 @@
 	/// <summary>
 	/// Lead.
 	/// </summary>
-	public class Lead_MarketingCampaign_Terrasoft : Terrasoft.Configuration.Lead_PRMBase_Terrasoft
+	public class Lead_MarketingCampaign_Terrasoft : Terrasoft.Configuration.Lead_PRMPortal_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -296,7 +296,7 @@
 	#region Class: Lead_MarketingCampaignEventsProcess
 
 	/// <exclude/>
-	public partial class Lead_MarketingCampaignEventsProcess<TEntity> : Terrasoft.Configuration.Lead_PRMBaseEventsProcess<TEntity> where TEntity : Lead_MarketingCampaign_Terrasoft
+	public partial class Lead_MarketingCampaignEventsProcess<TEntity> : Terrasoft.Configuration.Lead_PRMPortalEventsProcess<TEntity> where TEntity : Lead_MarketingCampaign_Terrasoft
 	{
 
 		public Lead_MarketingCampaignEventsProcess(UserConnection userConnection)

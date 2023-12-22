@@ -1,0 +1,44 @@
+2023-12-20 13:14:05,776 Generating schema sources count [2]: [GuidedDev.UsrRealtyClassic1Page, UsrRealtyFreedomUI.UsrRealtyFreedomUI_FormPage]
+2023-12-20 13:14:07,896 Generated schema sources count [2]
+2023-12-20 15:48:21,924 InstallStart: SchemaDBStructure
+2023-12-20 15:48:22,331 InstallFinish: SchemaDBStructure
+2023-12-20 16:03:24,560 Generating schema sources count [3]: [UsrRealtyFreedomUI.UsrRealtyFreedomUI_FormPage, UsrRealtyFreedomUI.UsrRealtyVisitPage, UsrRealtyFreedomUI.UsrRealtyFreedomUI_ListPage]
+2023-12-20 16:03:27,480 Generated schema sources count [3]
+2023-12-20 16:03:50,394 Operation [Rebuild] started
+2023-12-20 16:08:59,492 Operation [Rebuild] started
+2023-12-20 16:11:18,321 Operation [Rebuild] took 138 s 829 ms
+2023-12-20 16:12:30,526 Generating schema sources count [0]: []
+2023-12-20 16:12:30,526 Generated schema sources count [0]
+2023-12-20 16:34:37,961 InstallError: Custom.UsrCampaign1 (444f10a6-fc6b-4c71-8f11-9da1cceb8a0c)
+System.ArgumentNullException: Value cannot be null. (Parameter 'type')
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at Terrasoft.Core.Campaign.FlowElementCollection.CreateItemInstance(String typeName)
+   at Terrasoft.Core.Process.BaseProcessSchemaFactoryMetaItemCollection`1.CreateItem(DataReader reader)
+   at Terrasoft.Core.Process.BaseProcessSchemaFactoryMetaItemCollection`1.ReadMetaData(DataReader reader)
+   at Terrasoft.Core.Campaign.CampaignSchema.ApplyMetaDataValue(DataReader reader)
+   at Terrasoft.Core.MetaItem.ReadMetaData(DataReader reader)
+   at Terrasoft.Core.MetaDataSerializer.Deserialize(Func`1 getReader, Boolean useRuntimeSchema)+MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at Terrasoft.Core.SchemaManager`1.DeserializeSchemaManagerItem(Stream metaData, UserConnection userConnection)
+   at Terrasoft.Core.SchemaManager`1.DeriveSchemaManagerItem(UserConnection userConnection, EntityCollection orderedSchemas)
+   at Terrasoft.Core.Process.BaseProcessSchemaManager`1.DeriveSchemaManagerItem(UserConnection userConnection, EntityCollection schemas)
+   at Terrasoft.Core.SchemaManager`1.GetItemFromMetaData(Guid schemaUId, UserConnection userConnection, Boolean usePackageHierarchy, Guid sysPackageId, Nullable`1 workspaceId, Nullable`1 excludeSchemaUId, Boolean ignoreUserProperties, Boolean reinitializeLocalizableValues)
+   at Terrasoft.Core.Process.BaseProcessSchemaManager`1.GetItemFromMetaData(Guid schemaUId, UserConnection userConnection, Boolean usePackageHierarchy, Guid sysPackageId, Nullable`1 workspaceId, Nullable`1 excludeSchemaUId)
+   at Terrasoft.Core.SchemaManager`1.GetItemFromMetaData(Guid schemaUId, UserConnection userConnection, Nullable`1 workspaceId)
+   at Terrasoft.Core.SchemaManager`1.Terrasoft.Core.ISchemaManager.GetItemFromMetaData(Guid sysSchemaUId, UserConnection userConnection)
+   at Terrasoft.Core.Packages.PackageInstallUtilities.InstallSchemaAssociatedData(Guid schemaId, SchemaDescriptor schemaDescriptor, Boolean continueIfError)
+2023-12-20 16:39:36,862 Operation [Rebuild] started
+2023-12-20 16:42:27,290 Operation [Rebuild] took 170 s 427 ms
+2023-12-20 18:10:03,864 Operation [Rebuild] started
+2023-12-20 18:12:34,979 Operation [Rebuild] took 151 s 115 ms
+2023-12-20 18:33:05,908 Operation [Build] started
+2023-12-20 18:55:23,052 InstallStart: SchemaDBStructure
+2023-12-20 18:55:23,427 InstallFinish: SchemaDBStructure
+2023-12-20 19:25:38,421 InstallStart: SchemaDBStructure
+2023-12-20 19:25:39,204 InstallFinish: SchemaDBStructure
+2023-12-20 19:43:59,927 Operation [Build] started
+2023-12-20 19:46:36,932 Operation [Build] took 157 s 4 ms
+2023-12-20 19:49:31,859 Generating schema sources count [0]: []
+2023-12-20 19:49:31,859 Generated schema sources count [0]
+2023-12-20 20:03:18,062 Generating schema sources count [0]: []
+2023-12-20 20:03:18,062 Generated schema sources count [0]

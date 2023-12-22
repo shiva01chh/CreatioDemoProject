@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="cs-CZ">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.ChangeInvoice.Value" Value="Nová faktura byla vygenerována na základě objednávky. Chcete fakturu upravit?" />
+			<Item Name="LocalizableStrings.ChangeQueueItemDateButtonCaption.Value" Value="Odložit do" />
+			<Item Name="LocalizableStrings.CreateContract.Value" Value="Nová smlouva na základě objednávky" />
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Caption" Value="Nová faktura dle objednávky" />
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Value" Value="Nová faktura dle objednávky" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Caption" Value="CreateInvoiceFromOrderProcessNotSet" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Value" Value="SysSetting CreateInvoiceFromOrderProcess does not contain any process value." />
+			<Item Name="LocalizableStrings.ESNTabCaption.Value" Value="Sociální síť" />
+			<Item Name="LocalizableStrings.FileNotesTabCaption.Value" Value="Přílohy a poznámky" />
+			<Item Name="LocalizableStrings.LeadTabCaption.Value" Value="Leady" />
+			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="Připojit objednané produkty ke smlouvě?" />
+			<Item Name="LocalizableStrings.MultipleQueueItemsFoundError.Value" Value="Více prvku ve frontě bylo propojeno na proces. Id procesu: {0}" />
+			<Item Name="LocalizableStrings.OpportunityCaption.Value" Value="Příležitost" />
+			<Item Name="LocalizableStrings.OpportunityTip.Value" Value="Příležitost, pro kterou byla objednávka vytvořena. Vyhledávání jsou filtrována podle kontaktu a účtu uvedeného v objednávce" />
+			<Item Name="LocalizableStrings.OrderPassportTabCaption.Value" Value="Podrobnosti k objednávce" />
+			<Item Name="LocalizableStrings.PostponeQueueItemButtonCaption.Value" Value="Znovu zařadit do fronty" />
+			<Item Name="LocalizableStrings.PostponeQueueItemError.Value" Value="Nelze znovu zařadit do fronty. Chybová zpráva: {0}" />
+			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="Vše" />
+			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="Zvolit" />
+			<Item Name="LocalizableStrings.QueueItemIsEmptyError.Value" Value="Stránka není napojená na prvek ve frontě agentského desktopu. Akce byla zrušena." />
+			<Item Name="LocalizableStrings.QueueItemPostponeFailedMessage.Value" Value="Nelze znovu zařadit do fronty" />
+			<Item Name="LocalizableStrings.QueueItemPostponeSucceedMessage.Value" Value="Znovu zařazen do fronty úspěšně" />
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="Sledovat kanál" />
+			<Item Name="LocalizableStrings.SubscribedInformationDialog.Value" Value="Nyní sledujete kanál: {0}" />
+			<Item Name="LocalizableStrings.TimelineTabCaption.Value" Value="Časová osa" />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="Přestat sledovat" />
+			<Item Name="LocalizableStrings.UnsubscribedInformationDialog.Value" Value="Přestali jste sledovat tento kanál: {0}" />
+		</Items>
+	</Group>
+</Resources>

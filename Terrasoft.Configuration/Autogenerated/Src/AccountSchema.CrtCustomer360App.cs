@@ -87,7 +87,7 @@
 			CreatedInPackageId = new Guid("c3352ad7-734f-4d78-b5df-7bf53f0975cc");
 			IsDBView = false;
 			UseDenyRecordRights = false;
-			ShowInAdvancedMode = false;
+			ShowInAdvancedMode = true;
 			UseLiveEditing = false;
 			UseRecordDeactivation = false;
 		}

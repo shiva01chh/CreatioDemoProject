@@ -33,7 +33,7 @@
 	#region Class: Activity_CMDB_TerrasoftSchema
 
 	/// <exclude/>
-	public class Activity_CMDB_TerrasoftSchema : Terrasoft.Configuration.Activity_Portal_TerrasoftSchema
+	public class Activity_CMDB_TerrasoftSchema : Terrasoft.Configuration.Activity_CrtOpportunity_TerrasoftSchema
 	{
 
 		#region Constructors: Public
@@ -160,7 +160,7 @@
 	/// <summary>
 	/// Activity.
 	/// </summary>
-	public class Activity_CMDB_Terrasoft : Terrasoft.Configuration.Activity_Portal_Terrasoft
+	public class Activity_CMDB_Terrasoft : Terrasoft.Configuration.Activity_CrtOpportunity_Terrasoft
 	{
 
 		#region Constructors: Public
@@ -248,7 +248,7 @@
 	#region Class: Activity_CMDBEventsProcess
 
 	/// <exclude/>
-	public partial class Activity_CMDBEventsProcess<TEntity> : Terrasoft.Configuration.Activity_PortalEventsProcess<TEntity> where TEntity : Activity_CMDB_Terrasoft
+	public partial class Activity_CMDBEventsProcess<TEntity> : Terrasoft.Configuration.Activity_CrtOpportunityEventsProcess<TEntity> where TEntity : Activity_CMDB_Terrasoft
 	{
 
 		public Activity_CMDBEventsProcess(UserConnection userConnection)

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "d3b292b0-344f-4353-aaaf-1a652b47019c",
+    "Name": "UsrApp_mazftrh",
+    "Type": 1,
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/UsrApp_mazftrh.csproj",
+    "DependsOn": []
+  }
+}

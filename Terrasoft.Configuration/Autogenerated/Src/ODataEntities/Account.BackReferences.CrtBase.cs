@@ -1233,6 +1233,18 @@
 			}
 		}
 
+		/// <summary>
+		/// Websiite code.
+		/// </summary>
+		public int UsrWebsiteCode {
+			get {
+				return GetTypedColumnValue<int>("UsrWebsiteCode");
+			}
+			set {
+				SetColumnValue("UsrWebsiteCode", value);
+			}
+		}
+
 		#endregion
 
 	}

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="uk-UA">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.ChangeInvoice.Value" Value="З оплати виставлено рахунок. Ви хочете змінити дані рахунку?" />
+			<Item Name="LocalizableStrings.ChangeQueueItemDateButtonCaption.Value" Value="Запланувати на дату" />
+			<Item Name="LocalizableStrings.CreateContract.Value" Value="Створити договір на підставі замовлення" />
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Caption" Value="Створити рахунок на підставі замовлення" />
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Value" Value="Створити рахунок на підставі замовлення" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Caption" Value="CreateInvoiceFromOrderProcessNotSet" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Value" Value="Не вдалося знайти процес з системного налаштування CreateInvoiceFromOrderProcess." />
+			<Item Name="LocalizableStrings.ESNTabCaption.Value" Value="Стрічка" />
+			<Item Name="LocalizableStrings.FileNotesTabCaption.Value" Value="Файли та примітки" />
+			<Item Name="LocalizableStrings.LeadTabCaption.Value" Value="Ліди" />
+			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="Зв'язати продукти в замовленні з договором?" />
+			<Item Name="LocalizableStrings.MultipleQueueItemsFoundError.Value" Value="Знайдено більше одного елементу черги пов'язаних з процесом. Ідентифікатор процесу: {0}" />
+			<Item Name="LocalizableStrings.OpportunityCaption.Value" Value="Продаж" />
+			<Item Name="LocalizableStrings.OpportunityTip.Value" Value="Продаж, в рамках якого створено замовлення. Значення в полі відфільтровано по контрагенту і контакту, зазначеним у замовленні" />
+			<Item Name="LocalizableStrings.OrderPassportTabCaption.Value" Value="Паспорт замовлення" />
+			<Item Name="LocalizableStrings.PostponeQueueItemButtonCaption.Value" Value="Повернути в чергу" />
+			<Item Name="LocalizableStrings.PostponeQueueItemError.Value" Value="Помилка повернення елемента в чергу. Повідомлення про помилку: {0}" />
+			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="Усе" />
+			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="Вибрати" />
+			<Item Name="LocalizableStrings.QueueItemIsEmptyError.Value" Value="Сторінку не пов'язана з елементом черги єдиного вікна. Дія скасована." />
+			<Item Name="LocalizableStrings.QueueItemPostponeFailedMessage.Value" Value="Помилка при поверненні елемента в чергу" />
+			<Item Name="LocalizableStrings.QueueItemPostponeSucceedMessage.Value" Value="Елемент успішно повернений в чергу" />
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="Підписатися на оновлення стрічки" />
+			<Item Name="LocalizableStrings.SubscribedInformationDialog.Value" Value="Ви підписані на оновлення стрічки: {0}" />
+			<Item Name="LocalizableStrings.TimelineTabCaption.Value" Value="Хронологія" />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="Відписатися від оновлень стрічки" />
+			<Item Name="LocalizableStrings.UnsubscribedInformationDialog.Value" Value="Ви відписані від оновлень стрічки: {0}" />
+		</Items>
+	</Group>
+</Resources>

@@ -230,6 +230,11 @@
 			set;
 		}
 
+		public IEnumerable<UsrRealtyClassicTag> UsrRealtyClassicTagCollectionByType {
+			get;
+			set;
+		}
+
 		public IEnumerable<WebServiceV2Tag> WebServiceV2TagCollectionByType {
 			get;
 			set;

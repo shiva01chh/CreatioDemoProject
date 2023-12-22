@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.BankingDetailsAddButton_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.BankingDetailsDataButton_caption.Value" Value="Импорт данных" />
+			<Item Name="LocalizableStrings.BankingDetailsExportDataButton_caption.Value" Value="Экспорт в Excel" />
+			<Item Name="LocalizableStrings.BankingDetailsRefreshButton_caption.Value" Value="Обновить" />
+			<Item Name="LocalizableStrings.BankingDetailsSearchFilter_placeholder.Value" Value="Поиск" />
+			<Item Name="LocalizableStrings.BankingDetailsSettingsButton_caption.Value" Value="Действия" />
+			<Item Name="LocalizableStrings.BillingInfoExpansionPanel_title.Value" Value="Платежные реквизиты" />
+			<Item Name="LocalizableStrings.CasesAddButton_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.CasesExpansionPanel_title.Value" Value="Обращения" />
+			<Item Name="LocalizableStrings.CasesExportDataButton_caption.Value" Value="Экспорт в Excel" />
+			<Item Name="LocalizableStrings.CasesImportDataButton_caption.Value" Value="Импорт данных" />
+			<Item Name="LocalizableStrings.CasesRefreshButton_caption.Value" Value="Обновить" />
+			<Item Name="LocalizableStrings.CasesSearchFilter_placeholder.Value" Value="Поиск" />
+			<Item Name="LocalizableStrings.CasesSettingsButton_caption.Value" Value="Действия" />
+			<Item Name="LocalizableStrings.DocumentAddButton_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.DocumentExpansionPanel_title.Value" Value="Документы" />
+			<Item Name="LocalizableStrings.DocumentExportDataButton_caption.Value" Value="Экспорт в Excel" />
+			<Item Name="LocalizableStrings.DocumentmportDataButton_caption.Value" Value="Импорт данных" />
+			<Item Name="LocalizableStrings.DocumentRefreshButton_caption.Value" Value="Обновить" />
+			<Item Name="LocalizableStrings.DocumentSearchFilter_placeholder.Value" Value="Поиск" />
+			<Item Name="LocalizableStrings.DocumentSettingsButton_caption.Value" Value="Действия" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_ssiwb80_caption.Value" Value="Экспорт в Excel" />
+			<Item Name="LocalizableStrings.LeadAddButton_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.LeadConversionScore_tooltip.Value" Value="Рейтинг показывает вероятность создания Лида по Контрагенту. Это значение рассчитывается с помощью модели машинного обучения" />
+			<Item Name="LocalizableStrings.LeadExpansionPanel_title.Value" Value="MQL/SQL" />
+			<Item Name="LocalizableStrings.LeadExportDataButton_caption.Value" Value="Экспорт в Excel" />
+			<Item Name="LocalizableStrings.LeadImportDataButton_caption.Value" Value="Импорт данных" />
+			<Item Name="LocalizableStrings.LeadRefreshButton_caption.Value" Value="Обновить" />
+			<Item Name="LocalizableStrings.LeadSearchFilter_placeholder.Value" Value="Поиск" />
+			<Item Name="LocalizableStrings.LeadSettingsButton_caption.Value" Value="Действия" />
+			<Item Name="LocalizableStrings.OpportunityAddButton_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.OpportunityExpansionPanel_title.Value" Value="Продажи" />
+			<Item Name="LocalizableStrings.OpportunityExportDataButton_caption.Value" Value="Экспорт в Excel" />
+			<Item Name="LocalizableStrings.OpportunityImportDataButton_caption.Value" Value="Импорт данных" />
+			<Item Name="LocalizableStrings.OpportunityRefreshButton_caption.Value" Value="Обновить" />
+			<Item Name="LocalizableStrings.OpportunitySearchFilter_placeholder.Value" Value="Поиск" />
+			<Item Name="LocalizableStrings.OpportunitySettingsButton_caption.Value" Value="Действия" />
+			<Item Name="LocalizableStrings.RecommendedProductExpansionPanel_title.Value" Value="Рекомендованные продукты" />
+			<Item Name="LocalizableStrings.RecommendedProductExportDataButton_caption.Value" Value="Экспорт в Excel" />
+			<Item Name="LocalizableStrings.RecommendedProductRefreshButton_caption.Value" Value="Обновить" />
+			<Item Name="LocalizableStrings.RecommendedProductSearchFilter_placeholder.Value" Value="Поиск" />
+			<Item Name="LocalizableStrings.RecommendedProductSettingsButton_caption.Value" Value="Действия" />
+			<Item Name="LocalizableStrings.SalesTab_caption.Value" Value="Продажи" />
+			<Item Name="LocalizableStrings.ServiceAgreementsExpansionPanel_title.Value" Value="Сервисные договоры" />
+			<Item Name="LocalizableStrings.ServiceAgreementsExportDataButton_caption.Value" Value="Экспорт в Excel" />
+			<Item Name="LocalizableStrings.ServiceAgreementsImportDataButton_caption.Value" Value="Импорт данных" />
+			<Item Name="LocalizableStrings.ServiceAgreementsList_1cf40713.Value" Value="Заголовок" />
+			<Item Name="LocalizableStrings.ServiceAgreementsList_41b15d43.Value" Value="Номер" />
+			<Item Name="LocalizableStrings.ServiceAgreementsList_480040bd.Value" Value="Состояние" />
+			<Item Name="LocalizableStrings.ServiceAgreementsList_df16588b.Value" Value="Ответственный" />
+			<Item Name="LocalizableStrings.ServiceAgreementsListDS_ServicePact.Value" Value="Сервисный договор" />
+			<Item Name="LocalizableStrings.ServiceAgreementsRefreshButton_caption.Value" Value="Обновить" />
+			<Item Name="LocalizableStrings.ServiceAgreementsSearchFilter_placeholder.Value" Value="Поиск" />
+			<Item Name="LocalizableStrings.ServiceAgreementsSettingsButton_caption.Value" Value="Действия" />
+			<Item Name="LocalizableStrings.ServiceTab_caption.Value" Value="Сервис" />
+		</Items>
+	</Group>
+</Resources>

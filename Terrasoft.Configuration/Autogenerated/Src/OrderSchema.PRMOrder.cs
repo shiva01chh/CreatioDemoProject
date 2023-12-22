@@ -28,23 +28,23 @@
 	using Terrasoft.UI.WebControls.Controls;
 	using Terrasoft.UI.WebControls.Utilities.Json.Converters;
 
-	#region Class: OrderSchema
+	#region Class: Order_PRMOrder_TerrasoftSchema
 
 	/// <exclude/>
-	public class OrderSchema : Terrasoft.Configuration.Order_CrtOCMInLeadOppMgmt_TerrasoftSchema
+	public class Order_PRMOrder_TerrasoftSchema : Terrasoft.Configuration.Order_CrtOCMInLeadOppMgmt_TerrasoftSchema
 	{
 
 		#region Constructors: Public
 
-		public OrderSchema(EntitySchemaManager entitySchemaManager)
+		public Order_PRMOrder_TerrasoftSchema(EntitySchemaManager entitySchemaManager)
 			: base(entitySchemaManager) {
 		}
 
-		public OrderSchema(OrderSchema source, bool isShallowClone)
+		public Order_PRMOrder_TerrasoftSchema(Order_PRMOrder_TerrasoftSchema source, bool isShallowClone)
 			: base(source, isShallowClone) {
 		}
 
-		public OrderSchema(OrderSchema source)
+		public Order_PRMOrder_TerrasoftSchema(Order_PRMOrder_TerrasoftSchema source)
 			: base(source) {
 		}
 
@@ -55,7 +55,7 @@
 		protected override void InitializeProperties() {
 			base.InitializeProperties();
 			RealUId = new Guid("c1f6301f-aced-4265-bb12-97c4e4fa1693");
-			Name = "Order";
+			Name = "Order_PRMOrder_Terrasoft";
 			ParentSchemaUId = new Guid("80294582-06b5-4faa-a85f-3323e5536b71");
 			ExtendParent = true;
 			CreatedInPackageId = new Guid("a0538e5b-8885-491e-bb6b-658d0c2fee8a");
@@ -101,7 +101,7 @@
 		#region Methods: Public
 
 		public override Entity CreateEntity(UserConnection userConnection) {
-			return new Order(userConnection) {Schema = this};
+			return new Order_PRMOrder_Terrasoft(userConnection) {Schema = this};
 		}
 
 		public override EmbeddedProcess CreateEventsProcess(UserConnection userConnection) {
@@ -109,11 +109,11 @@
 		}
 
 		public override object Clone() {
-			return new OrderSchema(this);
+			return new Order_PRMOrder_TerrasoftSchema(this);
 		}
 
 		public override EntitySchema CloneShallow() {
-			return new OrderSchema(this, true);
+			return new Order_PRMOrder_TerrasoftSchema(this, true);
 		}
 
 		public override void GetParentRealUIds(Collection<Guid> realUIds) {
@@ -127,22 +127,22 @@
 
 	#endregion
 
-	#region Class: Order
+	#region Class: Order_PRMOrder_Terrasoft
 
 	/// <summary>
 	/// Order.
 	/// </summary>
-	public class Order : Terrasoft.Configuration.Order_CrtOCMInLeadOppMgmt_Terrasoft
+	public class Order_PRMOrder_Terrasoft : Terrasoft.Configuration.Order_CrtOCMInLeadOppMgmt_Terrasoft
 	{
 
 		#region Constructors: Public
 
-		public Order(UserConnection userConnection)
+		public Order_PRMOrder_Terrasoft(UserConnection userConnection)
 			: base(userConnection) {
-			SchemaName = "Order";
+			SchemaName = "Order_PRMOrder_Terrasoft";
 		}
 
-		public Order(Order source)
+		public Order_PRMOrder_Terrasoft(Order_PRMOrder_Terrasoft source)
 			: base(source) {
 		}
 
@@ -169,7 +169,7 @@
 		#region Methods: Public
 
 		public override object Clone() {
-			return new Order(this);
+			return new Order_PRMOrder_Terrasoft(this);
 		}
 
 		#endregion
@@ -181,7 +181,7 @@
 	#region Class: Order_PRMOrderEventsProcess
 
 	/// <exclude/>
-	public partial class Order_PRMOrderEventsProcess<TEntity> : Terrasoft.Configuration.Order_CrtOCMInLeadOppMgmtEventsProcess<TEntity> where TEntity : Order
+	public partial class Order_PRMOrderEventsProcess<TEntity> : Terrasoft.Configuration.Order_CrtOCMInLeadOppMgmtEventsProcess<TEntity> where TEntity : Order_PRMOrder_Terrasoft
 	{
 
 		public Order_PRMOrderEventsProcess(UserConnection userConnection)
@@ -262,7 +262,7 @@
 	#region Class: Order_PRMOrderEventsProcess
 
 	/// <exclude/>
-	public class Order_PRMOrderEventsProcess : Order_PRMOrderEventsProcess<Order>
+	public class Order_PRMOrderEventsProcess : Order_PRMOrderEventsProcess<Order_PRMOrder_Terrasoft>
 	{
 
 		public Order_PRMOrderEventsProcess(UserConnection userConnection)
@@ -289,21 +289,6 @@
 		}
 
 		#endregion
-
-	}
-
-	#endregion
-
-
-	#region Class: OrderEventsProcess
-
-	/// <exclude/>
-	public class OrderEventsProcess : Order_PRMOrderEventsProcess
-	{
-
-		public OrderEventsProcess(UserConnection userConnection)
-			: base(userConnection) {
-		}
 
 	}
 
